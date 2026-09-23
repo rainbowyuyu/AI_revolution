@@ -1,0 +1,25 @@
+{
+  "name": "rainbow-vision-choice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "check": "tsc --noEmit",
+    "render": "node scripts/render_current.mjs full",
+    "stills": "node scripts/render_current.mjs stills",
+    "render:intro": "node scripts/render_current.mjs intro"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.526",
+    "@remotion/media": "4.0.526",
+    "@remotion/transitions": "4.0.526",
+    "remotion": "4.0.526",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.7",
+    "@types/node": "22.10.2"
+  }
+}

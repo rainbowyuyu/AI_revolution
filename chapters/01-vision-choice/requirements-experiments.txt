@@ -1,0 +1,9 @@
+# Python 3.12. Install the appropriate PyTorch CUDA build separately as documented.
+torch==2.11.0
+numpy==2.5.3
+Pillow>=11,<13
+pyarrow>=21,<25
+gymnasium==1.2.3
+open_spiel==2.0.2
+absl-py>=2,<3
+ml-collections>=1,<2

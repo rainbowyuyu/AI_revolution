@@ -1,0 +1,365 @@
+{
+  "fps": 30,
+  "duration": 6420,
+  "title": "AI 进化史",
+  "subtitle": "从认出一只猫，到走进物理世界",
+  "scenes": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 960,
+      "title": "从看见，到改变世界",
+      "en": "THE MAKING OF INTELLIGENCE",
+      "voice": [
+        "如果一句话，能让机器人完成一个动作；一个想法，能变成可以探索的世界。背后的智能，究竟怎样发生？",
+        "我准备制作一个完整的系列，分成六个章节。从看见与创造，到语言和空间，再到推理与行动。",
+        "每一章，我们都会把关键技术拆开，看清原理，再亲手验证。"
+      ],
+      "episodes": [],
+      "voiceOffsets": [
+        0.45,
+        10.8,
+        24
+      ]
+    },
+    {
+      "id": "vision",
+      "start": 960,
+      "end": 1470,
+      "title": "看见与选择",
+      "en": "PERCEPTION → DECISION",
+      "voice": [
+        "故事，从机器学会看见开始。卷积神经网络，怎样从像素中发现形状、辨认物体？",
+        "再到深度强化学习。以阿尔法围棋为线索，看神经网络如何结合搜索，在一次次尝试中学会选择。"
+      ],
+      "episodes": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "generation",
+      "start": 1470,
+      "end": 1980,
+      "title": "从识别到创造",
+      "en": "FROM NOISE TO POSSIBILITY",
+      "voice": [
+        "能看懂已有的东西之后，我们会追问：机器，怎样创造？",
+        "从生成对抗网络，到扩散模型。一个依靠对抗与反馈，一个逐步去除噪声。",
+        "我们会用动画解释原理，再用实验验证。"
+      ],
+      "episodes": [
+        2,
+        7
+      ],
+      "voiceOffsets": [
+        0.45,
+        5.45,
+        12.5
+      ],
+      "ttsSeed": 1781
+    },
+    {
+      "id": "language",
+      "start": 1980,
+      "end": 2730,
+      "title": "语言连接万物",
+      "en": "LANGUAGE · VISION · SOUND",
+      "voice": [
+        "而语言，让这些能力开始相遇。我们会从注意力机制，走进大语言模型，理解为什么上下文能够改变回答。",
+        "接着，看图文对齐如何连接图像与文字，指令微调和人类反馈怎样塑造助手。",
+        "最后走向多模态：让文字、图像、声音和视频，进入同一场协作。"
+      ],
+      "episodes": [
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "space",
+      "start": 2730,
+      "end": 3390,
+      "title": "走进三维世界",
+      "en": "SPACE BECOMES NAVIGABLE",
+      "voice": [
+        "我们生活的世界，是立体的。神经辐射场，可以从多张照片中学习，并渲染新的视角。",
+        "三维高斯，用另一种表示加速重建与渲染。再加入时间，四维高斯让我们绕着正在发生的动作观察。"
+      ],
+      "episodes": [
+        6,
+        11,
+        16
+      ],
+      "ttsSeed": 941
+    },
+    {
+      "id": "reasoning",
+      "start": 3390,
+      "end": 3990,
+      "title": "从回答到完成",
+      "en": "REASON · ACT · VERIFY",
+      "voice": [
+        "有了感知与语言，还要让答案经得起检查。我们会研究，推理模型如何利用更多计算处理复杂问题。",
+        "再把模型接上工具：检索资料，运行代码，检查结果。通过可以复现的任务，看智能体如何完成工作。"
+      ],
+      "episodes": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "physical",
+      "start": 3990,
+      "end": 4800,
+      "title": "预测，然后行动",
+      "en": "PREDICT THE WORLD. ACT IN IT.",
+      "voice": [
+        "最后，所有线索汇向物理世界。世界模型，尝试预测接下来会发生什么，也能构建可交互的环境。",
+        "扩散策略，把生成的对象变成动作轨迹。视觉语言动作模型，则把看见、听懂和动手连接起来。",
+        "从研究演示到真实机器人，我们会一起拆解具身智能的能力，也认真检验它的边界。"
+      ],
+      "episodes": [
+        17,
+        12,
+        13,
+        18
+      ]
+    },
+    {
+      "id": "ending",
+      "start": 4800,
+      "end": 5250,
+      "title": "AI 进化史",
+      "en": "SIX CHAPTERS. ONE JOURNEY.",
+      "voice": [
+        "这不是一份术语清单，而是一条能力逐渐连接的旅程。",
+        "六个章节，用直观动画、关键论文和亲手实验，一起拆解智能如何发生。"
+      ],
+      "episodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "literature",
+      "start": 5250,
+      "end": 6420,
+      "title": "文献室",
+      "en": "THE PAPERS BEHIND THE JOURNEY",
+      "voice": [
+        "这段旅程，来自一篇篇真实的研究。回到原始论文，看清智能如何发生。",
+        "从视觉、生成，到语言、空间与行动。让每一次阅读，都成为下一次实验的起点。"
+      ],
+      "episodes": [],
+      "voiceOffsets": [
+        0.7,
+        22.0
+      ],
+      "ttsSeed": 9201
+    }
+  ],
+  "episodes": [
+    {
+      "id": 1,
+      "name": "CNN",
+      "zh": "视觉特征",
+      "year": "2012",
+      "group": 0
+    },
+    {
+      "id": 2,
+      "name": "GAN",
+      "zh": "对抗生成",
+      "year": "2014",
+      "group": 1
+    },
+    {
+      "id": 3,
+      "name": "Deep RL",
+      "zh": "强化学习",
+      "year": "2015–16",
+      "group": 0
+    },
+    {
+      "id": 4,
+      "name": "Transformer",
+      "zh": "注意力机制",
+      "year": "2017",
+      "group": 2
+    },
+    {
+      "id": 5,
+      "name": "LLM",
+      "zh": "大语言模型",
+      "year": "2020",
+      "group": 2
+    },
+    {
+      "id": 6,
+      "name": "NeRF",
+      "zh": "神经辐射场",
+      "year": "2020",
+      "group": 3
+    },
+    {
+      "id": 7,
+      "name": "Diffusion",
+      "zh": "扩散模型",
+      "year": "2020",
+      "group": 1
+    },
+    {
+      "id": 8,
+      "name": "CLIP",
+      "zh": "图文对齐",
+      "year": "2021",
+      "group": 2
+    },
+    {
+      "id": 9,
+      "name": "RLHF",
+      "zh": "指令与反馈",
+      "year": "2022",
+      "group": 2
+    },
+    {
+      "id": 10,
+      "name": "Multimodal",
+      "zh": "多模态",
+      "year": "2023–",
+      "group": 2
+    },
+    {
+      "id": 11,
+      "name": "3DGS",
+      "zh": "三维高斯",
+      "year": "2023",
+      "group": 3
+    },
+    {
+      "id": 12,
+      "name": "Diffusion Policy",
+      "zh": "生成动作",
+      "year": "2023",
+      "group": 5
+    },
+    {
+      "id": 13,
+      "name": "VLA",
+      "zh": "视觉语言动作",
+      "year": "2023–",
+      "group": 5
+    },
+    {
+      "id": 14,
+      "name": "Reasoning",
+      "zh": "推理计算",
+      "year": "2024–",
+      "group": 4
+    },
+    {
+      "id": 15,
+      "name": "Agent",
+      "zh": "工具与行动",
+      "year": "2024–",
+      "group": 4
+    },
+    {
+      "id": 16,
+      "name": "4DGS",
+      "zh": "动态空间",
+      "year": "2024",
+      "group": 3
+    },
+    {
+      "id": 17,
+      "name": "World Models",
+      "zh": "世界模型",
+      "year": "2025–",
+      "group": 5
+    },
+    {
+      "id": 18,
+      "name": "Physical AI",
+      "zh": "具身智能",
+      "year": "2025–",
+      "group": 5
+    }
+  ],
+  "chapters": [
+    {
+      "id": "vision",
+      "title": "看见与选择",
+      "episodes": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "generation",
+      "title": "从识别到创造",
+      "episodes": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "language",
+      "title": "语言连接万物",
+      "episodes": [
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "space",
+      "title": "走进三维世界",
+      "episodes": [
+        6,
+        11,
+        16
+      ]
+    },
+    {
+      "id": "reasoning",
+      "title": "从回答到完成",
+      "episodes": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "physical",
+      "title": "预测，然后行动",
+      "episodes": [
+        17,
+        12,
+        13,
+        18
+      ]
+    }
+  ],
+  "seriesFormat": "six chapters; literature room appended after the trailer as a cited reading map"
+}

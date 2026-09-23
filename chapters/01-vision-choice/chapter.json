@@ -1,0 +1,17 @@
+{
+  "id": "01",
+  "path": "chapters/01-vision-choice",
+  "title": "看见与选择",
+  "status": "preview-ready",
+  "version": "V9 分类引言修正版",
+  "composition": "ChapterV9-1080",
+  "fps": 30,
+  "frames": 60544,
+  "topics": [
+    "CNN",
+    "DQN",
+    "MCTS",
+    "AlphaGo",
+    "AlphaGo Zero"
+  ]
+}

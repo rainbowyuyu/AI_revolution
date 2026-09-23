@@ -1,0 +1,387 @@
+[
+  {
+    "start": 0.45,
+    "end": 1.31,
+    "text": "如果一句话",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 1.47,
+    "end": 4.2299999999999995,
+    "text": "能让机器人完成一个动作；一个想法",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 4.67,
+    "end": 7.49,
+    "text": "能变成可以探索的世界。背后的智能",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 7.61,
+    "end": 8.649999999999999,
+    "text": "究竟怎样发生？",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 10.8,
+    "end": 14.1,
+    "text": "我准备制作一个完整的系列，分成六个章节",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 14.3,
+    "end": 16.92,
+    "text": "从看见与创造，到语言和空间",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 17.080000000000002,
+    "end": 18.360000000000003,
+    "text": "再到推理与行动",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 24.0,
+    "end": 26.44,
+    "text": "每一章，我们都会把关键技术拆开",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 0.9565217391304348
+  },
+  {
+    "start": 26.58,
+    "end": 28.6,
+    "text": "看清原理，再亲手验证",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 0.9565217391304348
+  },
+  {
+    "start": 32.45,
+    "end": 36.39000000000001,
+    "text": "故事，从机器学会看见开始。卷积神经网络",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 36.57,
+    "end": 39.370000000000005,
+    "text": "怎样从像素中发现形状、辨认物体？",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 39.97408333333334,
+    "end": 43.49408333333334,
+    "text": "再到深度强化学习。以阿尔法围棋为线索",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 43.59408333333334,
+    "end": 45.57408333333334,
+    "text": "看神经网络如何结合搜索",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 45.77408333333334,
+    "end": 48.17408333333334,
+    "text": "在一次次尝试中学会选择",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 49.45,
+    "end": 53.010000000000005,
+    "text": "能看懂已有的东西之后，我们会追问：机器",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 53.09,
+    "end": 53.93000000000001,
+    "text": "怎样创造？",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 54.45,
+    "end": 57.13,
+    "text": "从生成对抗网络，到扩散模型",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 57.39,
+    "end": 60.53000000000001,
+    "text": "一个依靠对抗与反馈，一个逐步去除噪声",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 61.5,
+    "end": 64.58,
+    "text": "我们会用动画解释原理，再用实验验证",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 66.45,
+    "end": 69.11,
+    "text": "而语言，让这些能力开始相遇",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 69.27,
+    "end": 72.21,
+    "text": "我们会从注意力机制，走进大语言模型",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 72.49000000000001,
+    "end": 74.83,
+    "text": "理解为什么上下文能够改变回答",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 75.41,
+    "end": 78.88999999999999,
+    "text": "接着，看图文对齐如何连接图像与文字",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 79.17,
+    "end": 81.82999999999998,
+    "text": "指令微调和人类反馈怎样塑造助手",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 82.27,
+    "end": 85.24999999999999,
+    "text": "最后走向多模态：让文字、图像、",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 85.49,
+    "end": 87.96999999999998,
+    "text": "声音和视频，进入同一场协作",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 91.45,
+    "end": 95.31,
+    "text": "我们生活的世界，是立体的。神经辐射场",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 95.55,
+    "end": 99.07,
+    "text": "可以从多张照片中学习，并渲染新的视角",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 99.71000000000001,
+    "end": 103.77,
+    "text": "三维高斯，用另一种表示加速重建与渲染",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 103.97000000000001,
+    "end": 104.89,
+    "text": "再加入时间",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 105.21000000000001,
+    "end": 108.45,
+    "text": "四维高斯让我们绕着正在发生的动作观察",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 113.45,
+    "end": 116.85,
+    "text": "有了感知与语言，还要让答案经得起检查",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 117.11,
+    "end": 118.03,
+    "text": "我们会研究",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 118.23,
+    "end": 121.31,
+    "text": "推理模型如何利用更多计算处理复杂问题",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 122.15,
+    "end": 125.81,
+    "text": "再把模型接上工具：检索资料，运行代码",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 125.99000000000001,
+    "end": 128.49,
+    "text": "检查结果。通过可以复现的任务",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 128.61,
+    "end": 130.43,
+    "text": "看智能体如何完成工作",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 133.45,
+    "end": 137.0,
+    "text": "最后，所有线索汇向物理世界。世界模型",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 0.9736842105263158
+  },
+  {
+    "start": 137.0,
+    "end": 139.24999999999997,
+    "text": "尝试预测接下来会发生什么",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 0.9736842105263158
+  },
+  {
+    "start": 139.48999999999998,
+    "end": 141.36999999999998,
+    "text": "也能构建可交互的环境",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 0.9736842105263158
+  },
+  {
+    "start": 141.98999999999998,
+    "end": 145.39,
+    "text": "扩散策略，把生成的对象变成动作轨迹",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 145.64999999999998,
+    "end": 148.34999999999997,
+    "text": "视觉语言动作模型，则把看见、",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 148.52999999999997,
+    "end": 150.42999999999998,
+    "text": "听懂和动手连接起来",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 151.04999999999998,
+    "end": 153.18999999999997,
+    "text": "从研究演示到真实机器人",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 153.45,
+    "end": 155.92999999999998,
+    "text": "我们会一起拆解具身智能的能力",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 156.08999999999997,
+    "end": 157.64999999999998,
+    "text": "也认真检验它的边界",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 160.45,
+    "end": 161.86999999999998,
+    "text": "这不是一份术语清单",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 162.13,
+    "end": 164.18999999999997,
+    "text": "而是一条能力逐渐连接的旅程",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 164.63,
+    "end": 166.86999999999998,
+    "text": "六个章节，用直观动画、",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 167.09,
+    "end": 169.04999999999998,
+    "text": "关键论文和亲手实验",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 169.26999999999998,
+    "end": 170.95,
+    "text": "一起拆解智能如何发生",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 175.7,
+    "end": 178.33999999999997,
+    "text": "这段旅程，来自一篇篇真实的研究",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 178.56,
+    "end": 181.26,
+    "text": "回到原始论文，看清智能如何发生",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 197.0,
+    "end": 200.94,
+    "text": "从视觉、生成，到语言、空间与行动",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  },
+  {
+    "start": 200.98,
+    "end": 204.1,
+    "text": "让每一次阅读，都成为下一次实验的起点",
+    "alignment": "whisper-word-matched",
+    "matchRatio": 1.0
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "videos": [
+    "bridge-01.mp4",
+    "bridge-02-take2.mp4",
+    "bridge-02.mp4",
+    "bridge-03-take2.mp4",
+    "bridge-03.mp4",
+    "bridge-04.mp4",
+    "bridge-05.mp4",
+    "bridge-06.mp4",
+    "bridge-07.mp4",
+    "bridge-08-take2.mp4",
+    "bridge-08.mp4",
+    "bridge-09-take2.mp4",
+    "bridge-09.mp4",
+    "bridge-10.mp4",
+    "hero-archive.mp4",
+    "hero-control.mp4",
+    "hero-search.mp4",
+    "hero-vision.mp4",
+    "math-backup.mp4",
+    "math-bellman.mp4",
+    "math-convolution.mp4",
+    "math-gradient.mp4"
+  ],
+  "audio": true,
+  "manim": [
+    "math-backup",
+    "math-bellman",
+    "math-convolution",
+    "math-gradient"
+  ]
+}

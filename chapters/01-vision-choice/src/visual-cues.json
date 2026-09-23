@@ -1,0 +1,3116 @@
+{
+  "0": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "给一台机器",
+      "matched": true
+    },
+    {
+      "frame": 91,
+      "value": 0.05,
+      "phrase": "认出相册",
+      "matched": true
+    },
+    {
+      "frame": 131,
+      "value": 0.34,
+      "phrase": "扶稳小车",
+      "matched": false
+    },
+    {
+      "frame": 185,
+      "value": 0.68,
+      "phrase": "陪你下棋",
+      "matched": true
+    },
+    {
+      "frame": 344,
+      "value": 0.8,
+      "phrase": "卷积神经网络",
+      "matched": true
+    },
+    {
+      "frame": 631,
+      "value": 1,
+      "phrase": "相遇",
+      "matched": true
+    },
+    {
+      "frame": 674,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "1": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "难题藏在",
+      "matched": true
+    },
+    {
+      "frame": 68,
+      "value": 0.07,
+      "phrase": "猫换个姿势",
+      "matched": true
+    },
+    {
+      "frame": 140,
+      "value": 0.35,
+      "phrase": "杆还没倒",
+      "matched": false
+    },
+    {
+      "frame": 208,
+      "value": 0.7,
+      "phrase": "棋还没落",
+      "matched": false
+    },
+    {
+      "frame": 419,
+      "value": 1,
+      "phrase": "回答",
+      "matched": true
+    },
+    {
+      "frame": 454,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "2": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "我是rainbow鱼",
+      "matched": true
+    },
+    {
+      "frame": 114,
+      "value": 0.5,
+      "phrase": "第一章",
+      "matched": true
+    },
+    {
+      "frame": 190,
+      "value": 0.9,
+      "phrase": "整理相册",
+      "matched": true
+    },
+    {
+      "frame": 227,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 260,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "3": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "目标很具体",
+      "matched": true
+    },
+    {
+      "frame": 57,
+      "value": 0.08,
+      "phrase": "输入一张",
+      "matched": true
+    },
+    {
+      "frame": 148,
+      "value": 0.32,
+      "phrase": "数据有十类",
+      "matched": true
+    },
+    {
+      "frame": 282,
+      "value": 0.66,
+      "phrase": "新照片",
+      "matched": true
+    },
+    {
+      "frame": 456,
+      "value": 1,
+      "phrase": "收到了什么",
+      "matched": true
+    },
+    {
+      "frame": 513,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "4": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "把这张猫放大",
+      "matched": true
+    },
+    {
+      "frame": 225,
+      "value": 0.2,
+      "phrase": "红、绿、蓝",
+      "matched": true
+    },
+    {
+      "frame": 379,
+      "value": 0.55,
+      "phrase": "分开",
+      "matched": true
+    },
+    {
+      "frame": 479,
+      "value": 0.82,
+      "phrase": "网络收到的",
+      "matched": true
+    },
+    {
+      "frame": 717,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 748,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "5": [
+    {
+      "frame": 0,
+      "value": 0.02,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.02,
+      "phrase": "如果把所有数字",
+      "matched": true
+    },
+    {
+      "frame": 203,
+      "value": 0.28,
+      "phrase": "一条边缘",
+      "matched": true
+    },
+    {
+      "frame": 390,
+      "value": 0.55,
+      "phrase": "同样的耳朵",
+      "matched": true
+    },
+    {
+      "frame": 511,
+      "value": 0.77,
+      "phrase": "卷积的主意",
+      "matched": true
+    },
+    {
+      "frame": 821,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 854,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "6": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "现在让窗口",
+      "matched": true
+    },
+    {
+      "frame": 298,
+      "value": 0.04,
+      "phrase": "得到一个响应值",
+      "matched": true
+    },
+    {
+      "frame": 397,
+      "value": 0.13,
+      "phrase": "继续向右",
+      "matched": true
+    },
+    {
+      "frame": 485,
+      "value": 0.4,
+      "phrase": "逐渐显出",
+      "matched": true
+    },
+    {
+      "frame": 821,
+      "value": 1,
+      "phrase": "局部线索显出来",
+      "matched": true
+    },
+    {
+      "frame": 878,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "7": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "我们停在",
+      "matched": true
+    },
+    {
+      "frame": 205,
+      "value": 0.0,
+      "phrase": "红绿蓝",
+      "matched": true
+    },
+    {
+      "frame": 328,
+      "value": 0.05,
+      "phrase": "红色通道",
+      "matched": true
+    },
+    {
+      "frame": 365,
+      "value": 0.48,
+      "phrase": "绿色",
+      "matched": true
+    },
+    {
+      "frame": 382,
+      "value": 0.95,
+      "phrase": "蓝色",
+      "matched": true
+    },
+    {
+      "frame": 463,
+      "value": 1,
+      "phrase": "最后合并",
+      "matched": true
+    },
+    {
+      "frame": 787,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "8": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "为什么值得",
+      "matched": true
+    },
+    {
+      "frame": 202,
+      "value": 0.1,
+      "phrase": "左上角",
+      "matched": true
+    },
+    {
+      "frame": 260,
+      "value": 0.45,
+      "phrase": "右下角",
+      "matched": true
+    },
+    {
+      "frame": 464,
+      "value": 0.8,
+      "phrase": "走过图片",
+      "matched": true
+    },
+    {
+      "frame": 773,
+      "value": 1,
+      "phrase": "最终预测",
+      "matched": true
+    },
+    {
+      "frame": 823,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "9": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "到这里",
+      "matched": true
+    },
+    {
+      "frame": 465,
+      "value": 0.2,
+      "phrase": "六张图",
+      "matched": true
+    },
+    {
+      "frame": 614,
+      "value": 0.38,
+      "phrase": "分工不同",
+      "matched": true
+    },
+    {
+      "frame": 851,
+      "value": 0.5,
+      "phrase": "最后的判断",
+      "matched": true
+    },
+    {
+      "frame": 895,
+      "value": 0.5,
+      "phrase": "tail"
+    }
+  ],
+  "10": [
+    {
+      "frame": 0,
+      "value": 0.5,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.5,
+      "phrase": "为什么需要六张",
+      "matched": true
+    },
+    {
+      "frame": 298,
+      "value": 0.62,
+      "phrase": "观察一件",
+      "matched": true
+    },
+    {
+      "frame": 569,
+      "value": 0.81,
+      "phrase": "各自的一张图",
+      "matched": true
+    },
+    {
+      "frame": 808,
+      "value": 1,
+      "phrase": "一个答案",
+      "matched": true
+    },
+    {
+      "frame": 856,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "11": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "一小块响应",
+      "matched": true
+    },
+    {
+      "frame": 224,
+      "value": 0.2,
+      "phrase": "经过第一层",
+      "matched": true
+    },
+    {
+      "frame": 368,
+      "value": 0.7,
+      "phrase": "下采样和第二层",
+      "matched": true
+    },
+    {
+      "frame": 797,
+      "value": 1,
+      "phrase": "测试结果",
+      "matched": true
+    },
+    {
+      "frame": 843,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "12": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "组合之前",
+      "matched": true
+    },
+    {
+      "frame": 108,
+      "value": 0.1,
+      "phrase": "负响应变成零",
+      "matched": false
+    },
+    {
+      "frame": 323,
+      "value": 0.55,
+      "phrase": "右边",
+      "matched": true
+    },
+    {
+      "frame": 723,
+      "value": 0.85,
+      "phrase": "复杂的关系",
+      "matched": true
+    },
+    {
+      "frame": 821,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 861,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "13": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "接下来",
+      "matched": true
+    },
+    {
+      "frame": 157,
+      "value": 0.15,
+      "phrase": "二乘二",
+      "matched": false
+    },
+    {
+      "frame": 358,
+      "value": 0.5,
+      "phrase": "最大值进入",
+      "matched": true
+    },
+    {
+      "frame": 427,
+      "value": 0.8,
+      "phrase": "窗口走完",
+      "matched": true
+    },
+    {
+      "frame": 766,
+      "value": 1,
+      "phrase": "不是无损缩放",
+      "matched": true
+    },
+    {
+      "frame": 892,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "14": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "现在把整条",
+      "matched": true
+    },
+    {
+      "frame": 157,
+      "value": 0.25,
+      "phrase": "六张二十八",
+      "matched": false
+    },
+    {
+      "frame": 230,
+      "value": 0.5,
+      "phrase": "缩成十四",
+      "matched": true
+    },
+    {
+      "frame": 284,
+      "value": 0.75,
+      "phrase": "第二次卷积",
+      "matched": true
+    },
+    {
+      "frame": 377,
+      "value": 1,
+      "phrase": "第二次池化",
+      "matched": true
+    },
+    {
+      "frame": 854,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "15": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "最后十个分数",
+      "matched": true
+    },
+    {
+      "frame": 98,
+      "value": 0.2,
+      "phrase": "十根概率柱",
+      "matched": false
+    },
+    {
+      "frame": 172,
+      "value": 0.45,
+      "phrase": "猫这一根",
+      "matched": true
+    },
+    {
+      "frame": 553,
+      "value": 0.8,
+      "phrase": "真正的答案",
+      "matched": true
+    },
+    {
+      "frame": 766,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 804,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "16": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "怎样把猜得不好变成一",
+      "matched": true
+    },
+    {
+      "frame": 112,
+      "value": 0.12582781456953643,
+      "phrase": "这张图片的标签是猫，",
+      "matched": true
+    },
+    {
+      "frame": 263,
+      "value": 0.2980132450331126,
+      "phrase": "交叉熵在这个例子里，",
+      "matched": true
+    },
+    {
+      "frame": 391,
+      "value": 0.46357615894039733,
+      "phrase": "猫的概率越小，惩罚越",
+      "matched": true
+    },
+    {
+      "frame": 463,
+      "value": 0.543046357615894,
+      "phrase": "左边的图片、柱状图和",
+      "matched": true
+    },
+    {
+      "frame": 595,
+      "value": 0.695364238410596,
+      "phrase": "训练希望降低这项损失",
+      "matched": true
+    },
+    {
+      "frame": 808,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 847,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "17": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "损失有了",
+      "matched": true
+    },
+    {
+      "frame": 93,
+      "value": 0.15,
+      "phrase": "反向传播",
+      "matched": true
+    },
+    {
+      "frame": 259,
+      "value": 0.35,
+      "phrase": "梯度",
+      "matched": false
+    },
+    {
+      "frame": 355,
+      "value": 0.75,
+      "phrase": "迈一小步",
+      "matched": false
+    },
+    {
+      "frame": 485,
+      "value": 0.95,
+      "phrase": "更新后权重",
+      "matched": true
+    },
+    {
+      "frame": 880,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 908,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "18": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "不过，学生练过的题不",
+      "matched": true
+    },
+    {
+      "frame": 124,
+      "value": 0.12337662337662338,
+      "phrase": "我们把五万张训练图固",
+      "matched": true
+    },
+    {
+      "frame": 357,
+      "value": 0.38311688311688313,
+      "phrase": "训练图负责改参数，验",
+      "matched": true
+    },
+    {
+      "frame": 562,
+      "value": 0.6103896103896104,
+      "phrase": "如果看着测试成绩反复",
+      "matched": true
+    },
+    {
+      "frame": 718,
+      "value": 0.7922077922077922,
+      "phrase": "三份数据各司其职，才",
+      "matched": true
+    },
+    {
+      "frame": 892,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 934,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "19": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 44,
+      "value": 0,
+      "phrase": "落到代码",
+      "matched": true
+    },
+    {
+      "frame": 113,
+      "value": 0.01,
+      "phrase": "前向预测",
+      "matched": true
+    },
+    {
+      "frame": 149,
+      "value": 0.25,
+      "phrase": "算损失",
+      "matched": true
+    },
+    {
+      "frame": 180,
+      "value": 0.5,
+      "phrase": "清除旧梯度",
+      "matched": true
+    },
+    {
+      "frame": 217,
+      "value": 0.75,
+      "phrase": "反向传播",
+      "matched": true
+    },
+    {
+      "frame": 251,
+      "value": 0.96,
+      "phrase": "更新参数",
+      "matched": true
+    },
+    {
+      "frame": 889,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 916,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "20": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "真正训练时，我们让四",
+      "matched": true
+    },
+    {
+      "frame": 175,
+      "value": 0.1794871794871795,
+      "phrase": "曲线往前生长，每个点",
+      "matched": true
+    },
+    {
+      "frame": 281,
+      "value": 0.3141025641025641,
+      "phrase": "训练损失下降，说明练",
+      "matched": true
+    },
+    {
+      "frame": 523,
+      "value": 0.5833333333333334,
+      "phrase": "如果训练继续变好，验",
+      "matched": true
+    },
+    {
+      "frame": 668,
+      "value": 0.7371794871794872,
+      "phrase": "我们按验证损失选择模",
+      "matched": true
+    },
+    {
+      "frame": 866,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 898,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "21": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 36,
+      "value": 0.0,
+      "phrase": "最后打开那一万张测试",
+      "matched": true
+    },
+    {
+      "frame": 107,
+      "value": 0.0736196319018405,
+      "phrase": "三次训练只换随机种子",
+      "matched": true
+    },
+    {
+      "frame": 367,
+      "value": 0.36809815950920244,
+      "phrase": "也就是大约十张里答对",
+      "matched": true
+    },
+    {
+      "frame": 523,
+      "value": 0.5398773006134969,
+      "phrase": "这个结果不漂亮，却很",
+      "matched": true
+    },
+    {
+      "frame": 742,
+      "value": 0.7852760736196319,
+      "phrase": "先把真实起点量出来，",
+      "matched": true
+    },
+    {
+      "frame": 926,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 963,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "22": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "错误集中在哪里？",
+      "matched": true
+    },
+    {
+      "frame": 65,
+      "value": 0.0547945205479452,
+      "phrase": "左边这张混淆矩阵，行",
+      "matched": true
+    },
+    {
+      "frame": 215,
+      "value": 0.21232876712328766,
+      "phrase": "对角线代表答对，偏到",
+      "matched": true
+    },
+    {
+      "frame": 313,
+      "value": 0.3287671232876712,
+      "phrase": "让金色标记沿着行移动",
+      "matched": true
+    },
+    {
+      "frame": 439,
+      "value": 0.4931506849315068,
+      "phrase": "猫可能被分到狗，也可",
+      "matched": true
+    },
+    {
+      "frame": 542,
+      "value": 0.6232876712328768,
+      "phrase": "每格都是一万张测试图",
+      "matched": true
+    },
+    {
+      "frame": 628,
+      "value": 0.7397260273972602,
+      "phrase": "平均分告诉我们总体水",
+      "matched": true
+    },
+    {
+      "frame": 801,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 837,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "23": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "同一个模型",
+      "matched": true
+    },
+    {
+      "frame": 142,
+      "value": 0,
+      "phrase": "第一张猫",
+      "matched": true
+    },
+    {
+      "frame": 266,
+      "value": 0.25,
+      "phrase": "第二张猫",
+      "matched": true
+    },
+    {
+      "frame": 417,
+      "value": 0.5,
+      "phrase": "第三张",
+      "matched": true
+    },
+    {
+      "frame": 624,
+      "value": 0.75,
+      "phrase": "第四张",
+      "matched": true
+    },
+    {
+      "frame": 855,
+      "value": 1,
+      "phrase": "最后这一张",
+      "matched": true
+    },
+    {
+      "frame": 1174,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "24": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "还能追问",
+      "matched": true
+    },
+    {
+      "frame": 191,
+      "value": 0.28,
+      "phrase": "同一张猫",
+      "matched": true
+    },
+    {
+      "frame": 249,
+      "value": 0.54,
+      "phrase": "盖成中性灰",
+      "matched": true
+    },
+    {
+      "frame": 322,
+      "value": 0.7,
+      "phrase": "再次运行",
+      "matched": true
+    },
+    {
+      "frame": 837,
+      "value": 1,
+      "phrase": "看图理由",
+      "matched": true
+    },
+    {
+      "frame": 894,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "25": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "第一份工作走通了：图",
+      "matched": true
+    },
+    {
+      "frame": 290,
+      "value": 0.2903225806451613,
+      "phrase": "卷积网络的研究并不止",
+      "matched": true
+    },
+    {
+      "frame": 379,
+      "value": 0.3935483870967742,
+      "phrase": "看二零一二年 Ale",
+      "matched": true
+    },
+    {
+      "frame": 695,
+      "value": 0.7677419354838709,
+      "phrase": "我们的小实验适合拆开",
+      "matched": true
+    },
+    {
+      "frame": 872,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 990,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "26": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 124,
+      "value": 0,
+      "phrase": "现在收到第二份",
+      "matched": true
+    },
+    {
+      "frame": 364,
+      "value": 0.1,
+      "phrase": "此刻该往哪边推",
+      "matched": true
+    },
+    {
+      "frame": 416,
+      "value": 0.2,
+      "phrase": "杆往右倾",
+      "matched": false
+    },
+    {
+      "frame": 466,
+      "value": 0.33,
+      "phrase": "往右追",
+      "matched": true
+    },
+    {
+      "frame": 867,
+      "value": 1,
+      "phrase": "强化学习的原因",
+      "matched": true
+    },
+    {
+      "frame": 930,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "27": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "先把任务",
+      "matched": true
+    },
+    {
+      "frame": 172,
+      "value": 0.1,
+      "phrase": "四个数",
+      "matched": true
+    },
+    {
+      "frame": 353,
+      "value": 0.45,
+      "phrase": "右边四个指针",
+      "matched": true
+    },
+    {
+      "frame": 838,
+      "value": 1,
+      "phrase": "后面保持平衡",
+      "matched": true
+    },
+    {
+      "frame": 909,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "28": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "一次互动是这样发生的",
+      "matched": true
+    },
+    {
+      "frame": 72,
+      "value": 0.07692307692307693,
+      "phrase": "环境先给出状态，程序",
+      "matched": true
+    },
+    {
+      "frame": 263,
+      "value": 0.3006993006993007,
+      "phrase": "新的状态再进入下一次",
+      "matched": true
+    },
+    {
+      "frame": 343,
+      "value": 0.3916083916083916,
+      "phrase": "这个循环和图片分类最",
+      "matched": true
+    },
+    {
+      "frame": 520,
+      "value": 0.6223776223776224,
+      "phrase": "往右推之后，下一帧的",
+      "matched": false
+    },
+    {
+      "frame": 637,
+      "value": 0.7622377622377622,
+      "phrase": "于是程序要为自己的行",
+      "matched": true
+    },
+    {
+      "frame": 806,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 846,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "29": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "怎样告诉它什么叫做得",
+      "matched": true
+    },
+    {
+      "frame": 85,
+      "value": 0.0821917808219178,
+      "phrase": "规则很直接：每持续一",
+      "matched": true
+    },
+    {
+      "frame": 181,
+      "value": 0.2191780821917808,
+      "phrase": "杆倾斜过大，或者小车",
+      "matched": false
+    },
+    {
+      "frame": 350,
+      "value": 0.410958904109589,
+      "phrase": "看奖励随着实际步骤一",
+      "matched": true
+    },
+    {
+      "frame": 507,
+      "value": 0.589041095890411,
+      "phrase": "我们没有直接奖励动作",
+      "matched": true
+    },
+    {
+      "frame": 644,
+      "value": 0.7808219178082192,
+      "phrase": "奖励定义了学习的方向",
+      "matched": true
+    },
+    {
+      "frame": 802,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 843,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "30": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "可只看刚拿到的一分，",
+      "matched": true
+    },
+    {
+      "frame": 123,
+      "value": 0.13725490196078433,
+      "phrase": "一个动作十步后就倒，",
+      "matched": true
+    },
+    {
+      "frame": 284,
+      "value": 0.3333333333333333,
+      "phrase": "我们因此把后面的奖励",
+      "matched": true
+    },
+    {
+      "frame": 429,
+      "value": 0.5163398692810458,
+      "phrase": "柱子越往后越短，表示",
+      "matched": true
+    },
+    {
+      "frame": 556,
+      "value": 0.6535947712418301,
+      "phrase": "累计回报就把保持平衡",
+      "matched": true
+    },
+    {
+      "frame": 685,
+      "value": 0.8169934640522876,
+      "phrase": "它不是知道真实未来，",
+      "matched": true
+    },
+    {
+      "frame": 807,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 847,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "31": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "这时请网络",
+      "matched": true
+    },
+    {
+      "frame": 248,
+      "value": 0.13,
+      "phrase": "两个数",
+      "matched": true
+    },
+    {
+      "frame": 420,
+      "value": 0.4,
+      "phrase": "伸缩",
+      "matched": false
+    },
+    {
+      "frame": 772,
+      "value": 0.98,
+      "phrase": "第一天起",
+      "matched": true
+    },
+    {
+      "frame": 833,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 873,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "32": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "所以训练时会保留探索",
+      "matched": true
+    },
+    {
+      "frame": 84,
+      "value": 0.07333333333333333,
+      "phrase": "有时按当前估计行动，",
+      "matched": true
+    },
+    {
+      "frame": 194,
+      "value": 0.20666666666666667,
+      "phrase": "起初随机机会较多，随",
+      "matched": true
+    },
+    {
+      "frame": 381,
+      "value": 0.42,
+      "phrase": "它像学骑车时试着改变",
+      "matched": true
+    },
+    {
+      "frame": 575,
+      "value": 0.64,
+      "phrase": "探索用来收集新经历，",
+      "matched": true
+    },
+    {
+      "frame": 704,
+      "value": 0.8,
+      "phrase": "等到独立评估，我们关",
+      "matched": true
+    },
+    {
+      "frame": 863,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 891,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "33": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "经历收集到了",
+      "matched": true
+    },
+    {
+      "frame": 232,
+      "value": 0.18,
+      "phrase": "奖励",
+      "matched": true
+    },
+    {
+      "frame": 367,
+      "value": 0.43,
+      "phrase": "下一状态两个",
+      "matched": true
+    },
+    {
+      "frame": 479,
+      "value": 0.77,
+      "phrase": "加回来",
+      "matched": true
+    },
+    {
+      "frame": 651,
+      "value": 0.9,
+      "phrase": "自举",
+      "matched": false
+    },
+    {
+      "frame": 907,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 934,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "34": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "这里必须分清两种结束",
+      "matched": true
+    },
+    {
+      "frame": 83,
+      "value": 0.07432432432432433,
+      "phrase": "第一种，杆确实倒了，",
+      "matched": true
+    },
+    {
+      "frame": 266,
+      "value": 0.28378378378378377,
+      "phrase": "第二种，只是记录到五",
+      "matched": true
+    },
+    {
+      "frame": 540,
+      "value": 0.5945945945945946,
+      "phrase": "左边两条轨迹分别走向",
+      "matched": true
+    },
+    {
+      "frame": 624,
+      "value": 0.7027027027027027,
+      "phrase": "终止和时间截断看着都",
+      "matched": true
+    },
+    {
+      "frame": 867,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 901,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "35": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "还有一个训练难题：相",
+      "matched": true
+    },
+    {
+      "frame": 104,
+      "value": 0.1038961038961039,
+      "phrase": "杆向右倾的下一刻，往",
+      "matched": false
+    },
+    {
+      "frame": 340,
+      "value": 0.37662337662337664,
+      "phrase": "经验回放把已经发生的",
+      "matched": true
+    },
+    {
+      "frame": 574,
+      "value": 0.6363636363636364,
+      "phrase": "画面把真实轨迹拆成记",
+      "matched": true
+    },
+    {
+      "frame": 704,
+      "value": 0.7792207792207793,
+      "phrase": "它没有增加新经历，只",
+      "matched": true
+    },
+    {
+      "frame": 881,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 918,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "36": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "第二个难题，是学习目",
+      "matched": true
+    },
+    {
+      "frame": 132,
+      "value": 0.12418300653594772,
+      "phrase": "今天觉得下一状态值很",
+      "matched": true
+    },
+    {
+      "frame": 295,
+      "value": 0.3202614379084967,
+      "phrase": "我们留一份变化更慢的",
+      "matched": true
+    },
+    {
+      "frame": 419,
+      "value": 0.477124183006536,
+      "phrase": "当前网络每更新一次，",
+      "matched": true
+    },
+    {
+      "frame": 587,
+      "value": 0.6535947712418301,
+      "phrase": "青色与金色之间的距离",
+      "matched": true
+    },
+    {
+      "frame": 715,
+      "value": 0.803921568627451,
+      "phrase": "目标网络也不是真理，",
+      "matched": true
+    },
+    {
+      "frame": 860,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 897,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "37": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 45,
+      "value": 0,
+      "phrase": "装回代码",
+      "matched": true
+    },
+    {
+      "frame": 89,
+      "value": 0.03,
+      "phrase": "实际动作",
+      "matched": true
+    },
+    {
+      "frame": 130,
+      "value": 0.25,
+      "phrase": "计算奖励",
+      "matched": true
+    },
+    {
+      "frame": 190,
+      "value": 0.75,
+      "phrase": "比较差距",
+      "matched": true
+    },
+    {
+      "frame": 220,
+      "value": 0.88,
+      "phrase": "反向传播",
+      "matched": true
+    },
+    {
+      "frame": 259,
+      "value": 0.97,
+      "phrase": "更新参数",
+      "matched": true
+    },
+    {
+      "frame": 1106,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 1131,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "38": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "办法准备好了，先量量",
+      "matched": true
+    },
+    {
+      "frame": 118,
+      "value": 0.1310344827586207,
+      "phrase": "随机策略每步抛一次硬",
+      "matched": true
+    },
+    {
+      "frame": 314,
+      "value": 0.3724137931034483,
+      "phrase": "但一局不足以评价，我",
+      "matched": false
+    },
+    {
+      "frame": 491,
+      "value": 0.593103448275862,
+      "phrase": "后面训练过的选手也要",
+      "matched": true
+    },
+    {
+      "frame": 593,
+      "value": 0.7310344827586207,
+      "phrase": "这样比较的就是能否持",
+      "matched": true
+    },
+    {
+      "frame": 787,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 819,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "39": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "让三个随机种子的网络",
+      "matched": true
+    },
+    {
+      "frame": 109,
+      "value": 0.11805555555555555,
+      "phrase": "曲线生长时，细线保留",
+      "matched": true
+    },
+    {
+      "frame": 280,
+      "value": 0.3402777777777778,
+      "phrase": "进步并不总是直线上升",
+      "matched": true
+    },
+    {
+      "frame": 429,
+      "value": 0.5208333333333334,
+      "phrase": "有时上一局撑得很久，",
+      "matched": true
+    },
+    {
+      "frame": 526,
+      "value": 0.6388888888888888,
+      "phrase": "我们不给某一个落后的",
+      "matched": true
+    },
+    {
+      "frame": 665,
+      "value": 0.8402777777777778,
+      "phrase": "等练习结束，再把三份",
+      "matched": true
+    },
+    {
+      "frame": 770,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 811,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "40": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "现在把练习五十回合、",
+      "matched": true
+    },
+    {
+      "frame": 178,
+      "value": 0.2,
+      "phrase": "杆并没有逐渐变成一根",
+      "matched": false
+    },
+    {
+      "frame": 323,
+      "value": 0.37333333333333335,
+      "phrase": "跟着杆顶的轨迹看，偏",
+      "matched": true
+    },
+    {
+      "frame": 482,
+      "value": 0.54,
+      "phrase": "好的控制是把变化接住",
+      "matched": true
+    },
+    {
+      "frame": 624,
+      "value": 0.7066666666666667,
+      "phrase": "每段回放都来自实际状",
+      "matched": true
+    },
+    {
+      "frame": 850,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 890,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "41": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "独立评估的结果来了。",
+      "matched": true
+    },
+    {
+      "frame": 72,
+      "value": 0.06289308176100629,
+      "phrase": "三个模型各跑一百回合",
+      "matched": true
+    },
+    {
+      "frame": 266,
+      "value": 0.29559748427672955,
+      "phrase": "五百是环境的记录上限",
+      "matched": false
+    },
+    {
+      "frame": 386,
+      "value": 0.4276729559748428,
+      "phrase": "两组在这些起点下都到",
+      "matched": true
+    },
+    {
+      "frame": 536,
+      "value": 0.5974842767295597,
+      "phrase": "下方每个格子对应一局",
+      "matched": true
+    },
+    {
+      "frame": 646,
+      "value": 0.7169811320754716,
+      "phrase": "与随机策略相比，这个",
+      "matched": true
+    },
+    {
+      "frame": 865,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 903,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "42": [
+    {
+      "frame": 0,
+      "value": 0.8,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.8,
+      "phrase": "把其中一次失败",
+      "matched": true
+    },
+    {
+      "frame": 152,
+      "value": 0.86,
+      "phrase": "前面能接住",
+      "matched": true
+    },
+    {
+      "frame": 217,
+      "value": 0.97,
+      "phrase": "第二百八十步",
+      "matched": true
+    },
+    {
+      "frame": 248,
+      "value": 1,
+      "phrase": "还是倒下了",
+      "matched": true
+    },
+    {
+      "frame": 897,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "43": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "为什么这条路线叫深度",
+      "matched": true
+    },
+    {
+      "frame": 111,
+      "value": 0.09090909090909091,
+      "phrase": "深度网络负责表示动作",
+      "matched": true
+    },
+    {
+      "frame": 287,
+      "value": 0.2727272727272727,
+      "phrase": "在原始 DQN 研究",
+      "matched": true
+    },
+    {
+      "frame": 470,
+      "value": 0.48484848484848486,
+      "phrase": "看论文的信息流，像素",
+      "matched": true
+    },
+    {
+      "frame": 607,
+      "value": 0.6363636363636364,
+      "phrase": "我们的平衡杆省掉了图",
+      "matched": true
+    },
+    {
+      "frame": 728,
+      "value": 0.7757575757575758,
+      "phrase": "两者的任务规模不同，",
+      "matched": true
+    },
+    {
+      "frame": 901,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 1016,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "44": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 124,
+      "value": 0,
+      "phrase": "最后一份工作",
+      "matched": true
+    },
+    {
+      "frame": 272,
+      "value": 0.12,
+      "phrase": "青色在第一列",
+      "matched": false
+    },
+    {
+      "frame": 387,
+      "value": 0.3,
+      "phrase": "别处进攻",
+      "matched": true
+    },
+    {
+      "frame": 414,
+      "value": 0.65,
+      "phrase": "青色再往第一列",
+      "matched": false
+    },
+    {
+      "frame": 478,
+      "value": 0.85,
+      "phrase": "就赢了",
+      "matched": true
+    },
+    {
+      "frame": 908,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 942,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "45": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "先让棋盘",
+      "matched": true
+    },
+    {
+      "frame": 136,
+      "value": 0.13,
+      "phrase": "最低空位",
+      "matched": true
+    },
+    {
+      "frame": 256,
+      "value": 1,
+      "phrase": "列满了不能再选",
+      "matched": true
+    },
+    {
+      "frame": 849,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "46": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 43,
+      "value": 0,
+      "phrase": "真实棋盘",
+      "matched": true
+    },
+    {
+      "frame": 200,
+      "value": 0.15,
+      "phrase": "七根分支",
+      "matched": true
+    },
+    {
+      "frame": 318,
+      "value": 0.35,
+      "phrase": "选择一条分支",
+      "matched": true
+    },
+    {
+      "frame": 614,
+      "value": 0.8,
+      "phrase": "全部展开",
+      "matched": true
+    },
+    {
+      "frame": 829,
+      "value": 1,
+      "phrase": "分支上",
+      "matched": true
+    },
+    {
+      "frame": 876,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "47": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "一次蒙特卡洛",
+      "matched": true
+    },
+    {
+      "frame": 143,
+      "value": 0.1,
+      "phrase": "选择一条路",
+      "matched": true
+    },
+    {
+      "frame": 190,
+      "value": 0.27,
+      "phrase": "扩展的位置",
+      "matched": true
+    },
+    {
+      "frame": 241,
+      "value": 0.36,
+      "phrase": "继续模拟",
+      "matched": true
+    },
+    {
+      "frame": 277,
+      "value": 0.7,
+      "phrase": "得到胜负",
+      "matched": true
+    },
+    {
+      "frame": 329,
+      "value": 0.9,
+      "phrase": "回传结果",
+      "matched": true
+    },
+    {
+      "frame": 796,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 825,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "48": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "下一次",
+      "matched": true
+    },
+    {
+      "frame": 87,
+      "value": 0.15,
+      "phrase": "平均回报最高",
+      "matched": true
+    },
+    {
+      "frame": 487,
+      "value": 0.55,
+      "phrase": "探索项",
+      "matched": true
+    },
+    {
+      "frame": 622,
+      "value": 0.85,
+      "phrase": "真实记录改变",
+      "matched": true
+    },
+    {
+      "frame": 848,
+      "value": 1,
+      "phrase": "方法",
+      "matched": true
+    },
+    {
+      "frame": 894,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "49": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "走到陌生",
+      "matched": true
+    },
+    {
+      "frame": 106,
+      "value": 0.1,
+      "phrase": "继续模拟",
+      "matched": true
+    },
+    {
+      "frame": 251,
+      "value": 0.85,
+      "phrase": "直到某一方",
+      "matched": true
+    },
+    {
+      "frame": 274,
+      "value": 1,
+      "phrase": "连成四子",
+      "matched": true
+    },
+    {
+      "frame": 812,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "50": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "模拟结束",
+      "matched": true
+    },
+    {
+      "frame": 61,
+      "value": 0.12,
+      "phrase": "沿着经过",
+      "matched": true
+    },
+    {
+      "frame": 156,
+      "value": 0.3,
+      "phrase": "访问次数加一",
+      "matched": true
+    },
+    {
+      "frame": 214,
+      "value": 0.5,
+      "phrase": "按对应玩家更新",
+      "matched": true
+    },
+    {
+      "frame": 514,
+      "value": 0.95,
+      "phrase": "回传后的计数",
+      "matched": true
+    },
+    {
+      "frame": 803,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 835,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "51": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "计算多一些，成绩会怎",
+      "matched": true
+    },
+    {
+      "frame": 95,
+      "value": 0.06936416184971098,
+      "phrase": "我们比较每步六十四、",
+      "matched": true
+    },
+    {
+      "frame": 318,
+      "value": 0.3179190751445087,
+      "phrase": "胜平负分别是 59胜",
+      "matched": false
+    },
+    {
+      "frame": 544,
+      "value": 0.49710982658959535,
+      "phrase": "这组实验里低预算已经",
+      "matched": true
+    },
+    {
+      "frame": 713,
+      "value": 0.6647398843930635,
+      "phrase": "随机对手相当弱，所以",
+      "matched": true
+    },
+    {
+      "frame": 960,
+      "value": 0.9132947976878613,
+      "phrase": "我们量到的是特定对手",
+      "matched": true
+    },
+    {
+      "frame": 1016,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 1042,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "52": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "回到开头",
+      "matched": true
+    },
+    {
+      "frame": 91,
+      "value": 0.1,
+      "phrase": "选择第一列",
+      "matched": true
+    },
+    {
+      "frame": 131,
+      "value": 0.4,
+      "phrase": "堵住青色",
+      "matched": true
+    },
+    {
+      "frame": 215,
+      "value": 0.52,
+      "phrase": "其他任意一列",
+      "matched": true
+    },
+    {
+      "frame": 274,
+      "value": 0.68,
+      "phrase": "立刻",
+      "matched": true
+    },
+    {
+      "frame": 302,
+      "value": 0.95,
+      "phrase": "连成四子",
+      "matched": true
+    },
+    {
+      "frame": 806,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 920,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "53": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 163,
+      "value": 0,
+      "phrase": "会提取信息",
+      "matched": true
+    },
+    {
+      "frame": 261,
+      "value": 0.16,
+      "phrase": "围棋",
+      "matched": true
+    },
+    {
+      "frame": 483,
+      "value": 0.4,
+      "phrase": "AlphaGo",
+      "matched": true
+    },
+    {
+      "frame": 874,
+      "value": 0.88,
+      "phrase": "入口",
+      "matched": true
+    },
+    {
+      "frame": 933,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 960,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "54": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "第一种帮助",
+      "matched": true
+    },
+    {
+      "frame": 122,
+      "value": 0.1,
+      "phrase": "策略网络",
+      "matched": true
+    },
+    {
+      "frame": 171,
+      "value": 0.3,
+      "phrase": "输出",
+      "matched": true
+    },
+    {
+      "frame": 274,
+      "value": 0.65,
+      "phrase": "热区",
+      "matched": true
+    },
+    {
+      "frame": 740,
+      "value": 1,
+      "phrase": "试算",
+      "matched": false
+    },
+    {
+      "frame": 836,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "55": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "第二种帮助",
+      "matched": true
+    },
+    {
+      "frame": 184,
+      "value": 0.3,
+      "phrase": "整个局面",
+      "matched": true
+    },
+    {
+      "frame": 340,
+      "value": 0.5,
+      "phrase": "两种不同输出",
+      "matched": true
+    },
+    {
+      "frame": 469,
+      "value": 0.7,
+      "phrase": "终局",
+      "matched": true
+    },
+    {
+      "frame": 808,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 837,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "56": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 43,
+      "value": 0,
+      "phrase": "放回搜索",
+      "matched": true
+    },
+    {
+      "frame": 116,
+      "value": 0.1,
+      "phrase": "策略给候选",
+      "matched": true
+    },
+    {
+      "frame": 164,
+      "value": 0.4,
+      "phrase": "价值和模拟",
+      "matched": true
+    },
+    {
+      "frame": 262,
+      "value": 0.77,
+      "phrase": "回传到根部",
+      "matched": true
+    },
+    {
+      "frame": 856,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 894,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "57": [
+    {
+      "frame": 0,
+      "value": 0.1,
+      "phrase": "lead"
+    },
+    {
+      "frame": 61,
+      "value": 0.1,
+      "phrase": "真实结构图",
+      "matched": true
+    },
+    {
+      "frame": 175,
+      "value": 0.5,
+      "phrase": "监督学习策略",
+      "matched": true
+    },
+    {
+      "frame": 277,
+      "value": 0.65,
+      "phrase": "强化学习改进",
+      "matched": true
+    },
+    {
+      "frame": 334,
+      "value": 0.8,
+      "phrase": "训练价值评估",
+      "matched": true
+    },
+    {
+      "frame": 815,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 844,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "58": [
+    {
+      "frame": 0,
+      "value": 0.05,
+      "phrase": "lead"
+    },
+    {
+      "frame": 43,
+      "value": 0.05,
+      "phrase": "AlphaGo Zero",
+      "matched": true
+    },
+    {
+      "frame": 134,
+      "value": 0.12,
+      "phrase": "同时给出策略",
+      "matched": true
+    },
+    {
+      "frame": 196,
+      "value": 0.36,
+      "phrase": "搜索得到",
+      "matched": true
+    },
+    {
+      "frame": 280,
+      "value": 0.55,
+      "phrase": "自我对弈",
+      "matched": true
+    },
+    {
+      "frame": 362,
+      "value": 0.8,
+      "phrase": "更新网络",
+      "matched": true
+    },
+    {
+      "frame": 482,
+      "value": 0.98,
+      "phrase": "循环继续",
+      "matched": true
+    },
+    {
+      "frame": 845,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 885,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "59": [
+    {
+      "frame": 0,
+      "value": 0.05,
+      "phrase": "lead"
+    },
+    {
+      "frame": 111,
+      "value": 0.05,
+      "phrase": "DQN",
+      "matched": true
+    },
+    {
+      "frame": 287,
+      "value": 0.42,
+      "phrase": "MCTS",
+      "matched": true
+    },
+    {
+      "frame": 419,
+      "value": 0.81,
+      "phrase": "AlphaGo",
+      "matched": true
+    },
+    {
+      "frame": 806,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 837,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "60": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "以后看到一个强大的智",
+      "matched": true
+    },
+    {
+      "frame": 166,
+      "value": 0.2013888888888889,
+      "phrase": "输入是什么，动作有哪",
+      "matched": true
+    },
+    {
+      "frame": 439,
+      "value": 0.5208333333333334,
+      "phrase": "这些问题正对应我们刚",
+      "matched": true
+    },
+    {
+      "frame": 530,
+      "value": 0.6388888888888888,
+      "phrase": "同样叫会下棋，随机对",
+      "matched": true
+    },
+    {
+      "frame": 710,
+      "value": 0.8472222222222222,
+      "phrase": "读懂条件，成绩才有意",
+      "matched": true
+    },
+    {
+      "frame": 822,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 852,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "61": [
+    {
+      "frame": 0,
+      "value": 0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0,
+      "phrase": "三份工作",
+      "matched": true
+    },
+    {
+      "frame": 102,
+      "value": 0.12,
+      "phrase": "整理相册",
+      "matched": true
+    },
+    {
+      "frame": 262,
+      "value": 0.44,
+      "phrase": "扶稳杆",
+      "matched": false
+    },
+    {
+      "frame": 419,
+      "value": 0.8,
+      "phrase": "下好眼前",
+      "matched": true
+    },
+    {
+      "frame": 838,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 866,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "62": [
+    {
+      "frame": 0,
+      "value": 0.08,
+      "phrase": "lead"
+    },
+    {
+      "frame": 150,
+      "value": 0.08,
+      "phrase": "图片分类器",
+      "matched": true
+    },
+    {
+      "frame": 268,
+      "value": 0.4,
+      "phrase": "再训练平衡杆",
+      "matched": true
+    },
+    {
+      "frame": 424,
+      "value": 0.78,
+      "phrase": "四子棋搜索",
+      "matched": true
+    },
+    {
+      "frame": 805,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 844,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "63": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 15,
+      "value": 0.0,
+      "phrase": "今天我们让机器学着辨",
+      "matched": true
+    },
+    {
+      "frame": 135,
+      "value": 0.1487603305785124,
+      "phrase": "还有一份工作没有交给",
+      "matched": true
+    },
+    {
+      "frame": 317,
+      "value": 0.4380165289256198,
+      "phrase": "一张新图片、一段新声",
+      "matched": true
+    },
+    {
+      "frame": 451,
+      "value": 0.6363636363636364,
+      "phrase": "下一章就从这件事出发",
+      "matched": true
+    },
+    {
+      "frame": 629,
+      "value": 0.9008264462809917,
+      "phrase": "我们沿着问题继续往前",
+      "matched": true
+    },
+    {
+      "frame": 670,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 785,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "64": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 125,
+      "value": 0.0,
+      "phrase": "沿着图片分类这条线继",
+      "matched": true
+    },
+    {
+      "frame": 298,
+      "value": 0.272,
+      "phrase": "作者把卷积、下采样和",
+      "matched": true
+    },
+    {
+      "frame": 461,
+      "value": 0.496,
+      "phrase": "页面中的信息流和刚才",
+      "matched": true
+    },
+    {
+      "frame": 560,
+      "value": 0.648,
+      "phrase": "读它时，把注意力放在",
+      "matched": true
+    },
+    {
+      "frame": 788,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 827,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "65": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 33,
+      "value": 0.0,
+      "phrase": "二零一二年的 Ale",
+      "matched": false
+    },
+    {
+      "frame": 178,
+      "value": 0.2773109243697479,
+      "phrase": "对照真实网络图，可以",
+      "matched": true
+    },
+    {
+      "frame": 410,
+      "value": 0.6386554621848739,
+      "phrase": "它是理解视觉学习发展",
+      "matched": true
+    },
+    {
+      "frame": 620,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 660,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "66": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 32,
+      "value": 0.0,
+      "phrase": "二零一五年的 DQN",
+      "matched": false
+    },
+    {
+      "frame": 176,
+      "value": 0.23728813559322035,
+      "phrase": "我们在平衡杆里拆开的",
+      "matched": true
+    },
+    {
+      "frame": 388,
+      "value": 0.576271186440678,
+      "phrase": "再配合 PyTorc",
+      "matched": true
+    },
+    {
+      "frame": 629,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 657,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "67": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 28,
+      "value": 0.0,
+      "phrase": "二零一六年的 Alp",
+      "matched": false
+    },
+    {
+      "frame": 219,
+      "value": 0.3252032520325203,
+      "phrase": "聚焦这张实际结构图，",
+      "matched": true
+    },
+    {
+      "frame": 355,
+      "value": 0.5203252032520326,
+      "phrase": "人类棋谱、强化学习、",
+      "matched": true
+    },
+    {
+      "frame": 521,
+      "value": 0.7479674796747967,
+      "phrase": "把这些位置分清，比把",
+      "matched": true
+    },
+    {
+      "frame": 656,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 696,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ],
+  "68": [
+    {
+      "frame": 0,
+      "value": 0.0,
+      "phrase": "lead"
+    },
+    {
+      "frame": 25,
+      "value": 0.0,
+      "phrase": "二零一七年的 Alp",
+      "matched": false
+    },
+    {
+      "frame": 184,
+      "value": 0.3106060606060606,
+      "phrase": "两篇论文一起看，能清",
+      "matched": true
+    },
+    {
+      "frame": 309,
+      "value": 0.48484848484848486,
+      "phrase": "完整论文链接、仓库固",
+      "matched": true
+    },
+    {
+      "frame": 502,
+      "value": 0.7272727272727273,
+      "phrase": "挑一个你最想知道答案",
+      "matched": true
+    },
+    {
+      "frame": 678,
+      "value": 1,
+      "phrase": "spoken-end",
+      "matched": false
+    },
+    {
+      "frame": 710,
+      "value": 1,
+      "phrase": "tail"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "lenet",
+    "page": 7,
+    "focus": [
+      30,
+      35,
+      580,
+      210
+    ],
+    "short": "LeNet",
+    "title": "Gradient-Based Learning Applied to Document Recognition",
+    "authors": "Yann LeCun 等",
+    "venue": "Proceedings of the IEEE · 1998",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "image": "papers/lenet.png",
+    "sha256": "948f557fd56bcd276ca7b74feaab1b18108319c13f9818083bebd3bfe2fd7bf4",
+    "verification": "Original PDF page and final figure crop visually inspected on 2026-09-22"
+  },
+  {
+    "id": "alexnet",
+    "page": 5,
+    "focus": [
+      102,
+      75,
+      509,
+      272
+    ],
+    "short": "AlexNet",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "authors": "Alex Krizhevsky 等",
+    "venue": "NeurIPS · 2012",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "image": "papers/alexnet.png",
+    "sha256": "90137160c57217953d5f61857e64ca58e85f06e1b13b4f475c918b1b582b9771",
+    "verification": "Original PDF page and final figure crop visually inspected on 2026-09-22"
+  },
+  {
+    "id": "dqn-nature",
+    "page": 2,
+    "focus": [
+      100,
+      50,
+      490,
+      274
+    ],
+    "short": "DQN",
+    "title": "Human-level control through deep reinforcement learning",
+    "authors": "Volodymyr Mnih 等",
+    "venue": "Nature · 2015",
+    "pageWidth": 595.218994140625,
+    "pageHeight": 782.3049926757812,
+    "image": "papers/dqn-nature.png",
+    "sha256": "3ae04e292f2882483ad539e24cd532743165afce51d45df4e31bd1e3ed9753bb",
+    "verification": "Original PDF page and final figure crop visually inspected on 2026-09-22"
+  },
+  {
+    "id": "alphago",
+    "page": 2,
+    "focus": [
+      30,
+      38,
+      565,
+      260
+    ],
+    "short": "AlphaGo",
+    "title": "Mastering the game of Go with deep neural networks and tree search",
+    "authors": "David Silver 等",
+    "venue": "Nature · 2016",
+    "pageWidth": 595.2760009765625,
+    "pageHeight": 782.3619995117188,
+    "image": "papers/alphago.png",
+    "sha256": "9c9184385a3d37b4f4e9d9715270986c43172747b1d08f29093128c1ef878b60",
+    "verification": "Original PDF page and final figure crop visually inspected on 2026-09-22"
+  },
+  {
+    "id": "alphago-zero",
+    "page": 4,
+    "focus": [
+      138,
+      138,
+      475,
+      434
+    ],
+    "short": "AlphaGo Zero",
+    "title": "Mastering the game of Go without human knowledge",
+    "authors": "David Silver 等",
+    "venue": "Nature · 2017",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "image": "papers/alphago-zero.png",
+    "sha256": "a23add75aa06054c5a008befff55fb23af5da70a88c99004e0ff863eadf60ca1",
+    "verification": "Original PDF page and final figure crop visually inspected on 2026-09-22"
+  }
+]

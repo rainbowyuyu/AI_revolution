@@ -1,0 +1,38 @@
+# Local tools and build products
+node_modules/
+.venv*/
+__pycache__/
+*.py[cod]
+.idea/
+.DS_Store
+Thumbs.db
+output/
+media/
+runs/
+*.log
+*.tmp
+*.parts
+# Local secrets and voice references
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+clone-reference*
+# Rehydrate using assets/manifest.json; never commit bulk media
+**/public/audio/**/*.wav
+**/public/audio/*.wav
+**/public/papers/
+**/public/fonts/*.woff*
+**/public/fonts/*.ttf
+**/public/fonts/*.otf
+**/research/pdfs/
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.flac
+*.parquet
+*.tar.gz
+*.zip
+# Model checkpoints in chapter 01 are deliberately tracked (< 2 MiB total).

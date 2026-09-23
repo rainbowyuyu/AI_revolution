@@ -1,0 +1,14 @@
+{
+  "id": "02",
+  "path": "chapters/02-generation",
+  "title": "从识别到创造",
+  "status": "planned",
+  "topics": [
+    "GAN",
+    "Diffusion"
+  ],
+  "goal": "把一团噪声逐步变成可以辨认的图像，理解模型为什么能创造新内容。",
+  "experimentsStatus": "not-started",
+  "results": null,
+  "preview": null
+}

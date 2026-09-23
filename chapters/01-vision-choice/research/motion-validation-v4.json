@@ -1,0 +1,126 @@
+{
+  "scope": "Ten short final-timeline excerpts; teaching crop only. Measures brightness jumps and decoding, not human playback quality.",
+  "thresholdMeanLumaJump": 8,
+  "results": [
+    {
+      "index": 7,
+      "phrase": "最后合并",
+      "start": 4799,
+      "end": 4918,
+      "at": 4844,
+      "file": "output/v4-motion/beat-07.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.037799835205078125,
+      "medianMeanPixelChange": 0.05567900091409683,
+      "maxMeanPixelChange": 0.5211606025695801
+    },
+    {
+      "index": 11,
+      "phrase": "下采样和第二层",
+      "start": 8065,
+      "end": 8184,
+      "at": 8110,
+      "file": "output/v4-motion/beat-11.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.01116180419921875,
+      "medianMeanPixelChange": 0.012272633612155914,
+      "maxMeanPixelChange": 0.031030384823679924
+    },
+    {
+      "index": 13,
+      "phrase": "最大值进入",
+      "start": 9759,
+      "end": 9878,
+      "at": 9804,
+      "file": "output/v4-motion/beat-13.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.0113677978515625,
+      "medianMeanPixelChange": 0.0071827201172709465,
+      "maxMeanPixelChange": 0.03575857728719711
+    },
+    {
+      "index": 23,
+      "phrase": "第二张猫",
+      "start": 18520,
+      "end": 18639,
+      "at": 18565,
+      "file": "output/v4-motion/beat-23.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.3118553161621094,
+      "medianMeanPixelChange": 0.005684167146682739,
+      "maxMeanPixelChange": 2.3440470695495605
+    },
+    {
+      "index": 24,
+      "phrase": "盖成中性灰",
+      "start": 19677,
+      "end": 19796,
+      "at": 19722,
+      "file": "output/v4-motion/beat-24.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.029529571533203125,
+      "medianMeanPixelChange": 0.012556841596961021,
+      "maxMeanPixelChange": 0.16889727115631104
+    },
+    {
+      "index": 37,
+      "phrase": "更新参数",
+      "start": 31360,
+      "end": 31479,
+      "at": 31405,
+      "file": "output/v4-motion/beat-37.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.032733917236328125,
+      "medianMeanPixelChange": 0.007105208933353424,
+      "maxMeanPixelChange": 0.18266846239566803
+    },
+    {
+      "index": 42,
+      "phrase": "还是倒下了",
+      "start": 35903,
+      "end": 36022,
+      "at": 35948,
+      "file": "output/v4-motion/beat-42.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.08293724060058594,
+      "medianMeanPixelChange": 0.0036430342588573694,
+      "maxMeanPixelChange": 0.7659931778907776
+    },
+    {
+      "index": 47,
+      "phrase": "回传结果",
+      "start": 40564,
+      "end": 40683,
+      "at": 40609,
+      "file": "output/v4-motion/beat-47.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.19597434997558594,
+      "medianMeanPixelChange": 0.007208557333797216,
+      "maxMeanPixelChange": 0.4959435760974884
+    },
+    {
+      "index": 50,
+      "phrase": "回传后的计数",
+      "start": 43280,
+      "end": 43399,
+      "at": 43325,
+      "file": "output/v4-motion/beat-50.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.00415802001953125,
+      "medianMeanPixelChange": 0.0037463828921318054,
+      "maxMeanPixelChange": 0.013357792049646378
+    },
+    {
+      "index": 52,
+      "phrase": "连成四子",
+      "start": 44945,
+      "end": 45064,
+      "at": 44990,
+      "file": "output/v4-motion/beat-52.mp4",
+      "decodedFrames": 120,
+      "maxMeanLumaJump": 0.24180984497070312,
+      "medianMeanPixelChange": 0.006614303216338158,
+      "maxMeanPixelChange": 0.3628307282924652
+    }
+  ]
+}

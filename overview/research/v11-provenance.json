@@ -1,0 +1,34 @@
+{
+  "version": "V11",
+  "original": "AI进化史_V10_预览1080p.mp4",
+  "openingMedia": {
+    "file": "public\\media\\v11-overview.mp4",
+    "reusedFrom": "ai_evolution_ch01_vision_choice/public/media/v6-overview-3.mp4",
+    "sha256": "34145a83606bae55d21d31dfa5121945ce8a1b3ebc529f4106bff9038434331f",
+    "originalJobs": [
+      {
+        "localJobId": "ch01-v6-overview-video-3",
+        "model": "wan2.6-i2v",
+        "status": "SUCCEEDED",
+        "usage": {
+          "duration": 15,
+          "input_video_duration": 0,
+          "output_video_duration": 15,
+          "video_count": 1,
+          "SR": 1080
+        }
+      }
+    ],
+    "type": "existing generated concept footage",
+    "newPaidGeneration": false,
+    "retiming": "First 5.2 seconds retimed 2.5x duration with intra-shot optical-flow interpolation to 30 fps; followed by existing v4-world and v4-robot generated clips at narration anchors.",
+    "additionalFiles": [
+      "public/media/v4-world.mp4",
+      "public/media/v4-robot.mp4"
+    ]
+  },
+  "transition": "Same-shot motion retiming, 26/32-frame matched-color dissolves for world/robot, then procedural six-chapter map. Not a new first/last-frame API generation.",
+  "newPaidCostCny": 0,
+  "papers": "research/v11-papers.json",
+  "audio": "public/audio/v11/voice.json"
+}

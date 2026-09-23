@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.srt text eol=lf
+*.pt binary
+*.npz binary
+*.png binary
+
+# Preserve pinned upstream bytes and font licenses.
+chapters/01-vision-choice/research/upstream/** -text
+**/public/fonts/*.txt -text

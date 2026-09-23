@@ -1,0 +1,14 @@
+{
+  "description": "rainbow鱼科技纪录片起始参数；按主体与内容调整，不是每镜硬性规格",
+  "canvas": {"width": 1920, "height": 1080, "fps": 30},
+  "color": {"background": "#050b11", "volumeLight": "#16313a", "title": "#f8efdb", "secondary": "#b6ccd0", "gold": "#d9bb8e", "cyan": "#91cdd1"},
+  "font": {"title": "Noto Serif SC", "body": "Noto Sans SC", "latinPaperTitle": "Georgia", "titleWeight": 600},
+  "fontSize": {"opening": 76, "chapter": 76, "closing": 150, "technicalLabel": 52, "explanation": 34, "caption": 46, "source": 26, "signature": 29},
+  "safeArea": {"horizontal": 110, "top": 92, "captionBottom": 85, "sourceY": 867, "optionalLetterbox": 48},
+  "signature": {"name": "rainbow鱼", "iconHeight": 46, "gap": 12, "titleGap": 18, "sharedParentAnimation": true},
+  "teachingBrand": {"position": "top-right", "right": 90, "top": 70, "iconHeight": 48, "fontSize": 31, "fontWeight": 600, "gap": 10, "hideWhenMainLogoVisible": true},
+  "teachingText": {"explanation": 38, "secondaryLabel": 30, "code": 32, "weight": 550, "captionMaxLines": 2, "measureFinalPixelSize": true},
+  "motion": {"readingBezier": [0.45, 0, 0.55, 1], "titleEnterFrames": 58, "titleSettleFrames": 100, "titleExitFrames": 48, "titleTranslationPx": 8, "titleStartScale": 1.008},
+  "paper": {"stage": {"x": 78, "y": 162, "width": 1050, "height": 780}, "metadata": {"x": 1160, "y": 300, "width": 610}, "initialPageHeight": 640, "focusMaxWidth": 810, "focusMaxHeight": 510, "featherPdfPoints": 24},
+  "audio": {"sampleRate": 48000, "integratedLufs": -14, "maxEncodedTruePeakDbtp": -1, "chapterTransitionSfx": false}
+}

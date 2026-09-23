@@ -1,0 +1,4 @@
+interface:
+  display_name: "rainbow鱼 · 电影感科技视频"
+  short_description: "制作电影感科技预告与完整教学，强调具体任务、真实实验、逐句音画同步和自然口播"
+  default_prompt: "使用 $rainbow-cinematic-video，按 rainbow鱼风格制作或优化视频。先核实当前工程和修改范围，以具体任务串联真实实验与机制，逐句对齐旁白和动态画面，检查发音、字幕、品牌、论文和接缝，交付可播放的 1080p 预览及实际核验记录。"

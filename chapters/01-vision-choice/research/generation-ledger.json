@@ -1,0 +1,390 @@
+{
+  "currency": "CNY",
+  "ceiling": 600,
+  "jobs": {
+    "ch01-image-control": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-22T17:41:40.547656",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\scene-control.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-image-vision": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-22T17:41:40.556661",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\scene-vision.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-image-search": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-22T17:42:03.538814",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\scene-search.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-image-archive": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-22T17:42:36.521028",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\scene-archive.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-hero-vision": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-22T17:45:25.407266",
+      "model": "wan2.6-i2v",
+      "taskId": "c1d2df0e-b4a2-434b-be17-33bd77879ad9",
+      "file": "public\\media\\hero-vision.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "ch01-hero-control": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-22T17:45:25.527877",
+      "model": "wan2.6-i2v",
+      "taskId": "06428ed6-b690-4735-a293-2009a03f5ab8",
+      "file": "public\\media\\hero-control.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "ch01-hero-search": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-22T17:47:42.185484",
+      "model": "wan2.6-i2v",
+      "taskId": "9c0bf651-5e89-40a4-b6c1-551e03e92271",
+      "file": "public\\media\\hero-search.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "ch01-hero-archive": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-22T17:48:15.715216",
+      "model": "wan2.6-i2v",
+      "taskId": "1a7fa43d-309b-4dcb-a656-4454e70e0169",
+      "file": "public\\media\\hero-archive.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "ch01-image-control-empty-v2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-22T18:07:52.070714",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\scene-control.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-hero-control-empty-v2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-22T18:08:17.156558",
+      "model": "wan2.6-i2v",
+      "taskId": "212768ce-92d5-4371-b2e0-19a9ec5eb690",
+      "file": "public\\media\\hero-control.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-01": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:22:51.974196",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "75d58cb5-a5e5-47c8-a428-282a4c5aaaa2",
+      "file": "public\\media\\bridge-01.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-02": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:22:51.993196",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "73828ab1-d9da-433b-bf62-be8d09c4edba",
+      "file": "public\\media\\bridge-02.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-03": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:23:31.300609",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "fdd2f8a3-4243-4043-abf9-095f5cd21f76",
+      "file": "public\\media\\bridge-03.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-04": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:24:20.787428",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "61ab81c5-d94f-4859-9f09-0f5295d9ab8b",
+      "file": "public\\media\\bridge-04.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-05": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:24:53.064109",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "fc2d0e58-89c0-4209-a500-e3ceea7ee87e",
+      "file": "public\\media\\bridge-05.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-06": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:25:24.204244",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "8f37610a-6a96-422b-a1ac-f4926e51aee5",
+      "file": "public\\media\\bridge-06.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-07": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:25:44.484085",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "508d9e99-8857-4e91-8c5b-e0f94381c57f",
+      "file": "public\\media\\bridge-07.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-08": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:26:17.044391",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "a7e60503-478f-4ccc-9991-c4fa41ddfbdd",
+      "file": "public\\media\\bridge-08.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-09": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:27:03.906067",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "77217a75-957d-4803-b392-0899b07256b7",
+      "file": "public\\media\\bridge-09.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-10": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:27:37.260609",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "fead3e3a-12b0-4c0c-98f2-e1c6ae2c7b39",
+      "file": "public\\media\\bridge-10.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-02-take2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:29:35.951255",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "eaa7e222-d4dd-4009-885a-b7047f8fab75",
+      "file": "public\\media\\bridge-02-take2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-03-take2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:29:35.969257",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "da7e4c84-9734-44bc-9de1-32e0e977e0f3",
+      "file": "public\\media\\bridge-03-take2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-08-take2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:30:30.715651",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "fd2161e6-aa06-4be1-b1f6-70bf08648c73",
+      "file": "public\\media\\bridge-08-take2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-09-take2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T18:31:03.274092",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "1391d332-82a1-4605-a935-3d6414e2d4a3",
+      "file": "public\\media\\bridge-09-take2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "ch01-v6-overview-keyframe-1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T01:03:23.330593",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v6-overview-keyframe.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-v6-overview-video-1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 15,
+      "created": "2026-09-23T01:04:42.647272",
+      "model": "wan2.6-i2v",
+      "taskId": "71c3bdf1-31db-4c0d-97a5-a15e7b7e56a4",
+      "file": "public\\media\\v6-overview.mp4",
+      "usage": {
+        "duration": 15,
+        "input_video_duration": 0,
+        "output_video_duration": 15,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "ch01-v6-overview-keyframe-2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T01:10:25.639538",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v6-overview-keyframe-2.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-v6-overview-keyframe-3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T01:11:52.877829",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v6-overview-keyframe-3.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "ch01-v6-overview-video-3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 15,
+      "created": "2026-09-23T01:13:02.256036",
+      "model": "wan2.6-i2v",
+      "taskId": "1d382142-e468-4498-9141-17d7f73252ff",
+      "file": "public\\media\\v6-overview-3.mp4",
+      "usage": {
+        "duration": 15,
+        "input_video_duration": 0,
+        "output_video_duration": 15,
+        "video_count": 1,
+        "SR": 1080
+      }
+    }
+  },
+  "exportNote": "Sanitized production ledger. reservedCny is a reservation, not a settled invoice. Temporary provider URLs and transport details omitted."
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "id": "v11-intro-0",
+    "text": "我想用一组可视化视频，把人工智能的历史拆开讲清楚。",
+    "start": 0.45,
+    "end": 4.87,
+    "file": "audio/v11/intro-0.wav",
+    "seed": 11201,
+    "raw": "intro-0-eb6bfb5a1163-raw.wav"
+  },
+  {
+    "id": "v11-intro-1",
+    "text": "它是怎么发展起来的？到底是什么？我们又能用它做什么？",
+    "start": 5.21,
+    "end": 9.43,
+    "file": "audio/v11/intro-1.wav",
+    "seed": 11202,
+    "raw": "intro-1-c253679f0023-raw.wav"
+  },
+  {
+    "id": "v11-intro-2",
+    "text": "从认出一只猫，到生成一个世界，再到让机器人采取行动。",
+    "start": 9.77,
+    "end": 14.61,
+    "file": "audio/v11/intro-2.wav",
+    "seed": 11203,
+    "raw": "intro-2-5f95399dde09-raw.wav"
+  },
+  {
+    "id": "v11-intro-3",
+    "text": "这个系列分成六章。先看机器怎样看见与选择，怎样创造内容，再看语言如何连接图像和声音。",
+    "start": 14.95,
+    "end": 22.89,
+    "file": "audio/v11/intro-3.wav",
+    "seed": 11204,
+    "raw": "intro-3-0fb6b5db44b8-raw.wav"
+  },
+  {
+    "id": "v11-intro-4",
+    "text": "接着，从照片走进三维空间，从回答问题走向推理和使用工具，最后预测世界、采取行动。",
+    "start": 23.23,
+    "end": 31.07,
+    "file": "audio/v11/intro-4.wav",
+    "seed": 11205,
+    "raw": "intro-4-b5ae869c3852-raw.wav"
+  },
+  {
+    "id": "vision-0",
+    "text": "故事，从机器学会看见开始。卷积神经网络，怎样从像素中发现形状、辨认物体？",
+    "start": 33.35,
+    "end": 40.534083333333335,
+    "file": "audio/vision-0.wav",
+    "tempo": 1.005
+  },
+  {
+    "id": "vision-1",
+    "text": "再到深度强化学习。以阿尔法围棋为线索，看神经网络如何结合搜索，在一次次尝试中学会选择。",
+    "start": 40.87408333333334,
+    "end": 49.35170833333334,
+    "file": "audio/vision-1.wav",
+    "tempo": 1.005
+  },
+  {
+    "id": "generation-0",
+    "text": "能看懂已有的东西之后，我们会追问：机器，怎样创造？",
+    "start": 50.35,
+    "end": 54.99,
+    "file": "audio/generation-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "generation-1",
+    "text": "从生成对抗网络，到扩散模型。一个依靠对抗与反馈，一个逐步去除噪声。",
+    "start": 55.35,
+    "end": 61.63,
+    "file": "audio/generation-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "generation-2",
+    "text": "我们会用动画解释原理，再用实验验证。",
+    "start": 62.4,
+    "end": 65.72,
+    "file": "audio/generation-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "language-0",
+    "text": "而语言，让这些能力开始相遇。我们会从注意力机制，走进大语言模型，理解为什么上下文能够改变回答。",
+    "start": 67.35000000000001,
+    "end": 75.97000000000001,
+    "file": "audio/language-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "language-1",
+    "text": "接着，看图文对齐如何连接图像与文字，指令微调和人类反馈怎样塑造助手。",
+    "start": 76.31,
+    "end": 82.83,
+    "file": "audio/language-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "language-2",
+    "text": "最后走向多模态：让文字、图像、声音和视频，进入同一场协作。",
+    "start": 83.17,
+    "end": 89.17,
+    "file": "audio/language-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "space-0",
+    "text": "我们生活的世界，是立体的。神经辐射场，可以从多张照片中学习，并渲染新的视角。",
+    "start": 92.35000000000001,
+    "end": 100.27000000000001,
+    "file": "audio/space-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "space-1",
+    "text": "三维高斯，用另一种表示加速重建与渲染。再加入时间，四维高斯让我们绕着正在发生的动作观察。",
+    "start": 100.61000000000001,
+    "end": 109.63000000000001,
+    "file": "audio/space-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "reasoning-0",
+    "text": "有了感知与语言，还要让答案经得起检查。我们会研究，推理模型如何利用更多计算处理复杂问题。",
+    "start": 114.35000000000001,
+    "end": 122.71000000000001,
+    "file": "audio/reasoning-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "reasoning-1",
+    "text": "再把模型接上工具：检索资料，运行代码，检查结果。通过可以复现的任务，看智能体如何完成工作。",
+    "start": 123.05000000000001,
+    "end": 131.81004166666668,
+    "file": "audio/reasoning-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "physical-0",
+    "text": "最后，所有线索汇向物理世界。世界模型，尝试预测接下来会发生什么，也能构建可交互的环境。",
+    "start": 134.35,
+    "end": 142.54999999999998,
+    "file": "audio/physical-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "physical-1",
+    "text": "扩散策略，把生成的对象变成动作轨迹。视觉语言动作模型，则把看见、听懂和动手连接起来。",
+    "start": 142.89,
+    "end": 151.60999999999999,
+    "file": "audio/physical-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "physical-2",
+    "text": "从研究演示到真实机器人，我们会一起拆解具身智能的能力，也认真检验它的边界。",
+    "start": 151.95,
+    "end": 158.86999999999998,
+    "file": "audio/physical-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "ending-0",
+    "text": "这不是一份术语清单，而是一条能力逐渐连接的旅程。",
+    "start": 161.35,
+    "end": 165.19,
+    "file": "audio/ending-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "ending-1",
+    "text": "六个章节，用直观动画、关键论文和亲手实验，一起拆解智能如何发生。",
+    "start": 165.53,
+    "end": 172.19,
+    "file": "audio/ending-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "literature-0",
+    "text": "这段旅程，来自一篇篇真实的研究。回到原始论文，看清智能如何发生。",
+    "start": 176.55,
+    "end": 182.20999999999998,
+    "file": "audio/literature-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "literature-1",
+    "text": "从视觉、生成，到语言、空间与行动。让每一次阅读，都成为下一次实验的起点。",
+    "start": 182.95000000000002,
+    "end": 190.31000000000006,
+    "file": "audio/literature-1.wav",
+    "tempo": 1
+  }
+]

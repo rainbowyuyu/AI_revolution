@@ -1,0 +1,18 @@
+{
+  "id": "03",
+  "path": "chapters/03-language-multimodal",
+  "title": "语言连接万物",
+  "status": "planned",
+  "topics": [
+    "Transformer",
+    "LLM",
+    "CLIP",
+    "SFT",
+    "RLHF",
+    "Multimodal"
+  ],
+  "goal": "让模型根据一句话找到对应图片，再理解语言与其他模态如何建立联系。",
+  "experimentsStatus": "not-started",
+  "results": null,
+  "preview": null
+}

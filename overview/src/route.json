@@ -1,0 +1,107 @@
+[
+  {
+    "name": "v4-cut-vision",
+    "fallback": "vision",
+    "from": 900,
+    "duration": 210,
+    "source": "教学重构 · CNN 视觉特征"
+  },
+  {
+    "name": "v4-link-01",
+    "fallback": "go",
+    "from": 1110,
+    "duration": 150,
+    "source": "原理示意 · 视觉特征 → 决策"
+  },
+  {
+    "name": "v4-cut-go",
+    "fallback": "go",
+    "from": 1260,
+    "duration": 135,
+    "source": "研究参考：DeepMind · AlphaGo｜原理示意"
+  },
+  {
+    "name": "v5-go-terrain-smooth",
+    "fallback": "generation",
+    "from": 1395,
+    "duration": 150,
+    "source": "原理示意 · 决策 → 生成"
+  },
+  {
+    "name": "v4-cut-generation",
+    "fallback": "generation",
+    "from": 1545,
+    "duration": 300,
+    "source": "研究参考：GAN / DDPM｜原理示意"
+  },
+  {
+    "name": "v4-link-03",
+    "fallback": "language",
+    "from": 1845,
+    "duration": 150,
+    "source": "原理示意 · 生成 → 语言"
+  },
+  {
+    "name": "v4-cut-language",
+    "fallback": "language",
+    "from": 1995,
+    "duration": 660,
+    "source": "研究参考：Transformer / CLIP / InstructGPT｜原理示意"
+  },
+  {
+    "name": "v4-link-04",
+    "fallback": "space",
+    "from": 2655,
+    "duration": 150,
+    "source": "原理示意 · 多模态 → 空间"
+  },
+  {
+    "name": "v4-cut-space",
+    "fallback": "space",
+    "from": 2805,
+    "duration": 510,
+    "source": "研究参考：NeRF / 3DGS / 4DGS｜教学重构"
+  },
+  {
+    "name": "v4-link-05",
+    "fallback": "reasoning",
+    "from": 3315,
+    "duration": 150,
+    "source": "原理示意 · 空间 → 可验证的计算"
+  },
+  {
+    "name": "v4-cut-reasoning",
+    "fallback": "reasoning",
+    "from": 3465,
+    "duration": 450,
+    "source": "实验来源：本地 Python 实际运行｜环境为教学重构"
+  },
+  {
+    "name": "v4-link-06",
+    "fallback": "world",
+    "from": 3915,
+    "duration": 150,
+    "source": "视觉参考：Google DeepMind · Genie 3｜教学重构"
+  },
+  {
+    "name": "v4-cut-world",
+    "fallback": "world",
+    "from": 4065,
+    "duration": 270,
+    "source": "视觉参考：Google DeepMind · Genie 3｜教学重构"
+  },
+  {
+    "name": "v4-link-07",
+    "fallback": "robot",
+    "from": 4335,
+    "duration": 150,
+    "source": "视觉参考：Google DeepMind · Genie / Gemini Robotics｜教学重构"
+  },
+  {
+    "name": "v4-cut-robot",
+    "fallback": "robot",
+    "from": 4485,
+    "duration": 315,
+    "source": "视觉参考：Google DeepMind · Gemini Robotics｜教学重构"
+  }
+]

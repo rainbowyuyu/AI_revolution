@@ -1,0 +1,14 @@
+{
+  "title": "AI 进化史",
+  "repository": "AI_revolution",
+  "author": "rainbow鱼",
+  "overview": {"path": "overview", "version": "V11", "composition": "TrailerV11-1080", "fps": 30, "frames": 5787},
+  "chapters": [
+    {"id": "01", "path": "chapters/01-vision-choice", "title": "看见与选择", "status": "preview-ready", "version": "V9 分类引言修正版", "composition": "ChapterV9-1080", "fps": 30, "frames": 60544, "topics": ["CNN", "DQN", "MCTS", "AlphaGo", "AlphaGo Zero"]},
+    {"id": "02", "path": "chapters/02-generation", "title": "从识别到创造", "status": "planned", "topics": ["GAN", "Diffusion"]},
+    {"id": "03", "path": "chapters/03-language-multimodal", "title": "语言连接万物", "status": "planned", "topics": ["Transformer", "LLM", "CLIP", "SFT", "RLHF", "Multimodal"]},
+    {"id": "04", "path": "chapters/04-space-time", "title": "走进三维世界", "status": "planned", "topics": ["NeRF", "3DGS", "4DGS"]},
+    {"id": "05", "path": "chapters/05-reasoning-agents", "title": "从回答到完成", "status": "planned", "topics": ["Reasoning", "Agent", "Tools"]},
+    {"id": "06", "path": "chapters/06-world-action", "title": "预测，然后行动", "status": "planned", "topics": ["World Models", "Diffusion Policy", "VLA", "Physical AI"]}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checkpointUnchanged": true,
+  "cnnSamples": 5,
+  "convolutionProductsChecked": 375,
+  "poolingAndShapes": "passed",
+  "realSGDUpdate": "passed",
+  "searchIterations": 1024,
+  "backupAndContinuity": "passed",
+  "originalOpenSpielParity": "1024 iterations; exact equality of depth-3 tree with unmodified pinned OpenSpiel, all rollout moves legal",
+  "dqnTargetRows": 499,
+  "actualReplaySteps": 2584,
+  "replayEndpoints": "actual post-action states verified",
+  "voiceBeats": 69,
+  "voiceClips": 159,
+  "captions": 589,
+  "voiceTransitionOverlap": 0,
+  "criticalStageChecks": 10,
+  "timelineFrames": 58598,
+  "introSeconds": 63.36666666666667
+}

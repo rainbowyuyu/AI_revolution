@@ -1,0 +1,15 @@
+{
+  "id": "05",
+  "path": "chapters/05-reasoning-agents",
+  "title": "从回答到完成",
+  "status": "planned",
+  "topics": [
+    "Reasoning",
+    "Agent",
+    "Tools"
+  ],
+  "goal": "让系统完成一个可验证的小任务：找资料、执行代码、检查产物。",
+  "experimentsStatus": "not-started",
+  "results": null,
+  "preview": null
+}

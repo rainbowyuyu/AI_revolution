@@ -1,0 +1,10 @@
+import React from 'react';
+import {Composition} from 'remotion';
+import {Film,FilmProps} from './Film';
+import {FontGate} from './FontGate';
+import {FilmV11} from './FilmV11';
+import v11 from './timeline-v11.json';
+import timeline from './timeline.json';
+const LoadedFilm=(props:FilmProps)=><FontGate><Film {...props}/></FontGate>;
+const LoadedV11=(props:{audio?:boolean})=><FontGate><FilmV11 {...props}/></FontGate>;
+export const Root=()=> <><Composition id="TrailerV11-1080" component={LoadedV11} width={1920} height={1080} fps={30} durationInFrames={v11.duration} defaultProps={{audio:true}}/><Composition id="Trailer1080" component={LoadedFilm} width={1920} height={1080} fps={30} durationInFrames={timeline.duration} defaultProps={{clean:false,audio:true}}/><Composition id="Trailer4K" component={LoadedFilm} width={3840} height={2160} fps={30} durationInFrames={timeline.duration} defaultProps={{clean:false,audio:true}}/><Composition id="Clean" component={LoadedFilm} width={1920} height={1080} fps={30} durationInFrames={timeline.duration} defaultProps={{clean:true,audio:false}}/></>;

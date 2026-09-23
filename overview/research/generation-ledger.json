@@ -1,0 +1,812 @@
+{
+  "currency": "CNY",
+  "ceiling": 300,
+  "jobs": {
+    "image-cat-v1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:46:05.372473",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\cat.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "image-go-v1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:46:05.374268",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\go.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "image-world-v1": {
+      "status": "FAILED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:46:16.048570",
+      "model": "qwen-image-2.0-pro-2026-06-22"
+    },
+    "image-language-v1": {
+      "status": "FAILED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:46:16.960259",
+      "model": "qwen-image-2.0-pro-2026-06-22"
+    },
+    "image-room-v1": {
+      "status": "FAILED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:46:17.256219",
+      "model": "qwen-image-2.0-pro-2026-06-22"
+    },
+    "image-robot-v1": {
+      "status": "FAILED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:46:17.839245",
+      "model": "qwen-image-2.0-pro-2026-06-22"
+    },
+    "image-world-v2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:47:10.008000",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\world.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "image-language-v2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:47:10.009849",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\language.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "image-room-v2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:47:21.012334",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\room.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "image-robot-v2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T19:47:53.893525",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\robot.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "hero-go-v1": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:49:26.801436",
+      "model": "wan2.6-i2v"
+    },
+    "hero-cat-v1": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:49:26.808963",
+      "model": "wan2.6-i2v"
+    },
+    "hero-world-v1": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:49:27.706727",
+      "model": "wan2.6-i2v"
+    },
+    "hero-language-v1": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:50:00.975659",
+      "model": "wan2.6-i2v"
+    },
+    "hero-room-v1": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:50:34.111650",
+      "model": "wan2.6-i2v"
+    },
+    "hero-robot-v1": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:51:06.782052",
+      "model": "wan2.6-i2v"
+    },
+    "hero-go-v2": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:55:45.210608",
+      "model": "wan2.6-i2v"
+    },
+    "hero-cat-v2": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:55:45.522009",
+      "model": "wan2.6-i2v"
+    },
+    "hero-world-v2": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:55:48.068135",
+      "model": "wan2.6-i2v"
+    },
+    "hero-language-v2": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:56:21.187581",
+      "model": "wan2.6-i2v"
+    },
+    "hero-room-v2": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:56:54.579747",
+      "model": "wan2.6-i2v"
+    },
+    "hero-robot-v2": {
+      "status": "FAILED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:57:27.215234",
+      "model": "wan2.6-i2v"
+    },
+    "hero-cat-v3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T19:58:59.038970",
+      "model": "wan2.6-i2v",
+      "taskId": "555dca17-3502-432d-815c-f1af8f9effc6",
+      "file": "public\\media\\cat.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "hero-go-v3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:00:02.947580",
+      "model": "wan2.6-i2v",
+      "taskId": "c7aed85b-9c52-4bb1-8ae1-a6e6f6938493",
+      "file": "public\\media\\go.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "hero-world-v3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:00:03.172663",
+      "model": "wan2.6-i2v",
+      "taskId": "5723e87a-f2cc-4134-8b22-0b50cb095872",
+      "file": "public\\media\\world.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "hero-language-v3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:00:55.735378",
+      "model": "wan2.6-i2v",
+      "taskId": "d8349d32-8458-4596-926a-8817ecd2fd6d",
+      "file": "public\\media\\language.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "hero-room-v3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:01:46.640558",
+      "model": "wan2.6-i2v",
+      "taskId": "be9d0745-5571-45d6-bc4f-7ff9724bfc62",
+      "file": "public\\media\\room.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "image-case-world-v1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T20:02:25.130064",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\case-world.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "image-case-robot-v1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T20:02:25.132704",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\case-robot.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "hero-robot-v3": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:02:32.126520",
+      "model": "wan2.6-i2v",
+      "taskId": "d8f529d7-3d30-4143-8864-a6923cba3b24",
+      "file": "public\\media\\robot.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-02": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:03:59.971683",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "36a315c7-8347-42e6-9e4f-a549fbed98fd",
+      "file": "public\\media\\bridge-02.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-01": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:04:00.542217",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "1fd0e25b-6db1-4863-b49a-b9a5fd708187",
+      "file": "public\\media\\bridge-01.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "hero-case-robot-v1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:04:30.061933",
+      "model": "wan2.6-i2v",
+      "taskId": "88766e29-dc8f-4a49-8069-4fd9fa6c5358",
+      "file": "public\\media\\case-robot.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "hero-case-world-v1": {
+      "status": "SUCCEEDED",
+      "reservedCny": 5,
+      "created": "2026-09-21T20:04:30.423210",
+      "model": "wan2.6-i2v",
+      "taskId": "5c6d4881-eeba-41de-9e9c-cb0433cedda5",
+      "file": "public\\media\\case-world.mp4",
+      "usage": {
+        "duration": 5,
+        "input_video_duration": 0,
+        "output_video_duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-03": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:04:56.075138",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "d3232be6-2fcf-4ab7-a810-b1a17fef4e52",
+      "file": "public\\media\\bridge-03.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-04": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:05:31.043723",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "3cc264a4-ecdc-41eb-8b5d-c7141473dd85",
+      "file": "public\\media\\bridge-04.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-05": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:06:06.374218",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "f91c3ffd-5271-48d1-bb28-720ccb627285",
+      "file": "public\\media\\bridge-05.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-06": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:06:49.761992",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "2f42a49e-fe3e-488e-9af8-16f31c373384",
+      "file": "public\\media\\bridge-06.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "bridge-02-v2": {
+      "status": "FAILED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:12:49.993748",
+      "model": "wan2.2-kf2v-flash"
+    },
+    "bridge-01-v2": {
+      "status": "FAILED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:12:50.352611",
+      "model": "wan2.2-kf2v-flash"
+    },
+    "bridge-03-v2": {
+      "status": "FAILED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:12:53.014963",
+      "model": "wan2.2-kf2v-flash"
+    },
+    "bridge-04-v2": {
+      "status": "FAILED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:13:28.320874",
+      "model": "wan2.2-kf2v-flash"
+    },
+    "bridge-05-v2": {
+      "status": "FAILED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T20:14:01.266814",
+      "model": "wan2.2-kf2v-flash"
+    },
+    "v4-redraw-robot": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:21:05.857752",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-robot.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-redraw-vision": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:21:52.861590",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-vision.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-redraw-go": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:22:12.838124",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-go.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-redraw-generation": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:22:45.182016",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-generation.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-redraw-language": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:23:18.563058",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-language.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-redraw-space": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:23:51.507486",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-space.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-redraw-reasoning": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:24:24.708893",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-reasoning.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-hero-robot": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:24:35.680405",
+      "model": "wan2.6-i2v",
+      "taskId": "386c3660-5816-44bc-a37c-66c9db737d73",
+      "file": "public\\media\\v4-robot.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-hero-vision": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:24:35.865410",
+      "model": "wan2.6-i2v",
+      "taskId": "fbb4b9fa-945d-4e2b-95ef-06cfbb5cc1d3",
+      "file": "public\\media\\v4-vision.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-hero-go": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:25:59.694144",
+      "model": "wan2.6-i2v",
+      "taskId": "ed8c10e2-eb58-4fad-9b6c-0cc2d9ce221b",
+      "file": "public\\media\\v4-go.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-hero-generation": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:26:37.144004",
+      "model": "wan2.6-i2v",
+      "taskId": "b286684e-11d0-489d-86ed-d193b5121c54",
+      "file": "public\\media\\v4-generation.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-hero-language": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:27:39.899364",
+      "model": "wan2.6-i2v",
+      "taskId": "88cb9391-edda-4d73-b9b9-7253e044a33a",
+      "file": "public\\media\\v4-language.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-hero-space": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:28:18.899261",
+      "model": "wan2.6-i2v",
+      "taskId": "2495260d-fcf0-4dc3-b1f6-2738f2f0e4b7",
+      "file": "public\\media\\v4-space.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-hero-reasoning": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:29:24.799907",
+      "model": "wan2.6-i2v",
+      "taskId": "3a946e81-0efa-4ba0-86ff-2b3439dd47c9",
+      "file": "public\\media\\v4-reasoning.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-redraw-world": {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-21T23:32:40.600023",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "file": "public\\media\\v4-world.png",
+      "usage": {
+        "height": 936,
+        "image_count": 1,
+        "width": 1664
+      }
+    },
+    "v4-hero-world": {
+      "status": "SUCCEEDED",
+      "reservedCny": 10,
+      "created": "2026-09-21T23:33:06.555005",
+      "model": "wan2.6-i2v",
+      "taskId": "fcffac49-78b6-4049-913f-a48b0ea47c8d",
+      "file": "public\\media\\v4-world.mp4",
+      "usage": {
+        "duration": 10,
+        "input_video_duration": 0,
+        "output_video_duration": 10,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-02": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:42:19.900864",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "d636f81e-7735-4707-ac35-92bfa5e9e93e",
+      "file": "public\\media\\v4-link-02.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-01": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:42:20.095960",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "e1268946-13de-4e86-8a1d-f6e462e701af",
+      "file": "public\\media\\v4-link-01.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-03": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:43:18.581300",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "f2c2dc86-94cf-4d36-8317-a83d88db2f50",
+      "file": "public\\media\\v4-link-03.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-04": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:43:52.663522",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "f6d85472-a637-4d69-82c2-b381e53904d0",
+      "file": "public\\media\\v4-link-04.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-05": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:45:17.585585",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "b4518daf-43ad-4a35-88d3-d7054f6af6ac",
+      "file": "public\\media\\v4-link-05.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-06": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:45:21.279994",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "024adeae-6aab-44f3-a405-423766fe4a3d",
+      "file": "public\\media\\v4-link-06.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-07": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:46:17.531279",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "ed6020bf-6528-4e15-8cad-3bc61ea0fc32",
+      "file": "public\\media\\v4-link-07.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-03-r2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:46:46.978669",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "674d6be8-3c35-4350-9039-3351fe87dd56",
+      "file": "public\\media\\v4-link-03-r2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-02-r2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:46:47.119140",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "209260cd-ac87-45a7-8b7a-7d7363f4ae2d",
+      "file": "public\\media\\v4-link-02-r2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-06-r2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:49:20.923404",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "6eb025ed-8fdd-488f-97fb-a9af09c6e7d9",
+      "file": "public\\media\\v4-link-06-r2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-05-r2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:49:20.977772",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "f206e1bb-8a83-4694-a92c-a2d6dcb1c760",
+      "file": "public\\media\\v4-link-05-r2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v4-link-07-r2": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-21T23:50:19.063708",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "b7a8e468-994a-48d7-9ef1-f7eaac84f246",
+      "file": "public\\media\\v4-link-07-r2.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    },
+    "v5-go-terrain": {
+      "status": "SUCCEEDED",
+      "reservedCny": 2.4,
+      "created": "2026-09-22T00:53:02.552827",
+      "model": "wan2.2-kf2v-flash",
+      "taskId": "d8718996-312b-4b97-a852-2fb817c2d27a",
+      "file": "public\\media\\v5-go-terrain.mp4",
+      "usage": {
+        "duration": 5,
+        "video_count": 1,
+        "SR": 1080
+      }
+    }
+  },
+  "exportNote": "Sanitized production ledger. reservedCny is a reservation, not a settled invoice. Temporary provider URLs and transport details omitted."
+}

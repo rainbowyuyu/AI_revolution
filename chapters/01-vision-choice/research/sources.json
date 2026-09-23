@@ -1,0 +1,104 @@
+{
+  "commits": {
+    "pytorch/tutorials": "65e2e1a1c1520a6ccb1adc7fb2a55ce78ccdc598",
+    "google-deepmind/open_spiel": "48401890ee9857e611678302371378175a8e4c6b"
+  },
+  "sources": [
+    {
+      "id": "cnn-tutorial",
+      "url": "https://raw.githubusercontent.com/pytorch/tutorials/65e2e1a1c1520a6ccb1adc7fb2a55ce78ccdc598/beginner_source/blitz/cifar10_tutorial.py",
+      "file": "research\\upstream\\cifar10_tutorial.py",
+      "sha256": "ccd6fe44e98f97b354fe153f4e22531b73ff565ff93cbce2ff351d704dd61222",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "dqn-tutorial",
+      "url": "https://raw.githubusercontent.com/pytorch/tutorials/65e2e1a1c1520a6ccb1adc7fb2a55ce78ccdc598/intermediate_source/reinforcement_q_learning.py",
+      "file": "research\\upstream\\reinforcement_q_learning.py",
+      "sha256": "d0513808527578cf77596c79a3b0df234e0994fbff9b583726d1831c76e4ccb8",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "pytorch-license",
+      "url": "https://raw.githubusercontent.com/pytorch/tutorials/65e2e1a1c1520a6ccb1adc7fb2a55ce78ccdc598/LICENSE",
+      "file": "research\\upstream\\pytorch-LICENSE",
+      "sha256": "5703fcbe2d5dfcc48d486d26e4b9d2e48255c24602e1bd0270b60b8978116f86",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "mcts",
+      "url": "https://raw.githubusercontent.com/google-deepmind/open_spiel/48401890ee9857e611678302371378175a8e4c6b/open_spiel/python/algorithms/mcts.py",
+      "file": "research\\upstream\\mcts.py",
+      "sha256": "f9e7c1bc8d6b737aa30647bfcff31cc78a0982cd752db3135bc6a019cda14dd4",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "connect-four",
+      "url": "https://raw.githubusercontent.com/google-deepmind/open_spiel/48401890ee9857e611678302371378175a8e4c6b/open_spiel/games/connect_four/connect_four.cc",
+      "file": "research\\upstream\\connect_four.cc",
+      "sha256": "979ebe791b35f9a61a269c4280f1cbf14c0a6685088a5f7cd31acd68ecf07f9e",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "spiel-license",
+      "url": "https://raw.githubusercontent.com/google-deepmind/open_spiel/48401890ee9857e611678302371378175a8e4c6b/LICENSE",
+      "file": "research\\upstream\\spiel-LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "lenet",
+      "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf",
+      "status": "verified-download",
+      "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+      "file": "research/pdfs/lenet.pdf",
+      "sha256": "948f557fd56bcd276ca7b74feaab1b18108319c13f9818083bebd3bfe2fd7bf4"
+    },
+    {
+      "id": "dqn",
+      "url": "https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf",
+      "file": "research\\pdfs\\dqn.pdf",
+      "sha256": "c32f68a00596829045405bb66bebb4fa1ca7a32390226fc80206428d0d66a898",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "alphago",
+      "url": "https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf",
+      "file": "research\\pdfs\\alphago.pdf",
+      "sha256": "9c9184385a3d37b4f4e9d9715270986c43172747b1d08f29093128c1ef878b60",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "alphago-zero",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf",
+      "file": "research\\pdfs\\alphago-zero.pdf",
+      "sha256": "a23add75aa06054c5a008befff55fb23af5da70a88c99004e0ff863eadf60ca1",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    },
+    {
+      "id": "dqn-nature",
+      "url": "https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf",
+      "file": "research/pdfs/dqn-nature.pdf",
+      "sha256": "3ae04e292f2882483ad539e24cd532743165afce51d45df4e31bd1e3ed9753bb",
+      "status": "verified-download"
+    },
+    {
+      "id": "alexnet",
+      "url": "https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+      "file": "research/pdfs/alexnet.pdf",
+      "sha256": "90137160c57217953d5f61857e64ca58e85f06e1b13b4f475c918b1b582b9771",
+      "officialDownloadSha256": "90137160c57217953d5f61857e64ca58e85f06e1b13b4f475c918b1b582b9771",
+      "retrieved": "2026-09-22",
+      "status": "verified-download"
+    }
+  ]
+}

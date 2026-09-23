@@ -1,0 +1,178 @@
+[
+  {
+    "id": "opening-0",
+    "text": "如果一句话，能让机器人完成一个动作；一个想法，能变成可以探索的世界。背后的智能，究竟怎样发生？",
+    "start": 0.45,
+    "end": 8.969999999999999,
+    "file": "audio/opening-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "opening-1",
+    "text": "我准备制作一个完整的系列，分成六个章节。从看见与创造，到语言和空间，再到推理与行动。",
+    "start": 10.8,
+    "end": 18.700000000000003,
+    "file": "audio/opening-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "opening-2",
+    "text": "每一章，我们都会把关键技术拆开，看清原理，再亲手验证。",
+    "start": 24.0,
+    "end": 28.6,
+    "file": "audio/opening-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "vision-0",
+    "text": "故事，从机器学会看见开始。卷积神经网络，怎样从像素中发现形状、辨认物体？",
+    "start": 32.45,
+    "end": 39.634083333333336,
+    "file": "audio/vision-0.wav",
+    "tempo": 1.005
+  },
+  {
+    "id": "vision-1",
+    "text": "再到深度强化学习。以阿尔法围棋为线索，看神经网络如何结合搜索，在一次次尝试中学会选择。",
+    "start": 39.97408333333334,
+    "end": 48.45170833333334,
+    "file": "audio/vision-1.wav",
+    "tempo": 1.005
+  },
+  {
+    "id": "generation-0",
+    "text": "能看懂已有的东西之后，我们会追问：机器，怎样创造？",
+    "start": 49.45,
+    "end": 54.09,
+    "file": "audio/generation-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "generation-1",
+    "text": "从生成对抗网络，到扩散模型。一个依靠对抗与反馈，一个逐步去除噪声。",
+    "start": 54.45,
+    "end": 60.730000000000004,
+    "file": "audio/generation-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "generation-2",
+    "text": "我们会用动画解释原理，再用实验验证。",
+    "start": 61.5,
+    "end": 64.82,
+    "file": "audio/generation-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "language-0",
+    "text": "而语言，让这些能力开始相遇。我们会从注意力机制，走进大语言模型，理解为什么上下文能够改变回答。",
+    "start": 66.45,
+    "end": 75.07000000000001,
+    "file": "audio/language-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "language-1",
+    "text": "接着，看图文对齐如何连接图像与文字，指令微调和人类反馈怎样塑造助手。",
+    "start": 75.41,
+    "end": 81.92999999999999,
+    "file": "audio/language-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "language-2",
+    "text": "最后走向多模态：让文字、图像、声音和视频，进入同一场协作。",
+    "start": 82.27,
+    "end": 88.27,
+    "file": "audio/language-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "space-0",
+    "text": "我们生活的世界，是立体的。神经辐射场，可以从多张照片中学习，并渲染新的视角。",
+    "start": 91.45,
+    "end": 99.37,
+    "file": "audio/space-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "space-1",
+    "text": "三维高斯，用另一种表示加速重建与渲染。再加入时间，四维高斯让我们绕着正在发生的动作观察。",
+    "start": 99.71000000000001,
+    "end": 108.73,
+    "file": "audio/space-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "reasoning-0",
+    "text": "有了感知与语言，还要让答案经得起检查。我们会研究，推理模型如何利用更多计算处理复杂问题。",
+    "start": 113.45,
+    "end": 121.81,
+    "file": "audio/reasoning-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "reasoning-1",
+    "text": "再把模型接上工具：检索资料，运行代码，检查结果。通过可以复现的任务，看智能体如何完成工作。",
+    "start": 122.15,
+    "end": 130.91004166666667,
+    "file": "audio/reasoning-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "physical-0",
+    "text": "最后，所有线索汇向物理世界。世界模型，尝试预测接下来会发生什么，也能构建可交互的环境。",
+    "start": 133.45,
+    "end": 141.64999999999998,
+    "file": "audio/physical-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "physical-1",
+    "text": "扩散策略，把生成的对象变成动作轨迹。视觉语言动作模型，则把看见、听懂和动手连接起来。",
+    "start": 141.98999999999998,
+    "end": 150.70999999999998,
+    "file": "audio/physical-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "physical-2",
+    "text": "从研究演示到真实机器人，我们会一起拆解具身智能的能力，也认真检验它的边界。",
+    "start": 151.04999999999998,
+    "end": 157.96999999999997,
+    "file": "audio/physical-2.wav",
+    "tempo": 1
+  },
+  {
+    "id": "ending-0",
+    "text": "这不是一份术语清单，而是一条能力逐渐连接的旅程。",
+    "start": 160.45,
+    "end": 164.29,
+    "file": "audio/ending-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "ending-1",
+    "text": "六个章节，用直观动画、关键论文和亲手实验，一起拆解智能如何发生。",
+    "start": 164.63,
+    "end": 171.29,
+    "file": "audio/ending-1.wav",
+    "tempo": 1
+  },
+  {
+    "id": "literature-0",
+    "text": "这段旅程，来自一篇篇真实的研究。回到原始论文，看清智能如何发生。",
+    "start": 175.7,
+    "end": 181.35999999999999,
+    "file": "audio/literature-0.wav",
+    "tempo": 1
+  },
+  {
+    "id": "literature-1",
+    "text": "从视觉、生成，到语言、空间与行动。让每一次阅读，都成为下一次实验的起点。",
+    "start": 197.0,
+    "end": 204.36,
+    "file": "audio/literature-1.wav",
+    "tempo": 1
+  }
+]

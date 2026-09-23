@@ -1,0 +1,485 @@
+[
+  {
+    "id": "beat-000",
+    "section": "看见与选择",
+    "visual": "hook",
+    "title": "三份工作，三种技术",
+    "index": 0
+  },
+  {
+    "id": "beat-001",
+    "section": "看见与选择",
+    "visual": "hook",
+    "title": "困难藏在变化与后果里",
+    "index": 1
+  },
+  {
+    "id": "beat-002",
+    "section": "看见与选择",
+    "visual": "overview",
+    "title": "看见与选择",
+    "index": 2
+  },
+  {
+    "id": "beat-003",
+    "section": "看见与选择",
+    "visual": "overview",
+    "title": "任务一：认出没见过的图片",
+    "index": 3
+  },
+  {
+    "id": "beat-004",
+    "section": "目标一 · 图片分类",
+    "visual": "pixels",
+    "title": "把图片变成可计算的输入",
+    "index": 4
+  },
+  {
+    "id": "beat-005",
+    "section": "目标一 · 图片分类",
+    "visual": "pixels",
+    "title": "为什么用一个小窗口？",
+    "index": 5
+  },
+  {
+    "id": "beat-006",
+    "section": "目标一 · 图片分类",
+    "visual": "convolution",
+    "title": "让局部线索显出来",
+    "index": 6
+  },
+  {
+    "id": "beat-007",
+    "section": "目标一 · 图片分类",
+    "visual": "convolution",
+    "title": "一个真实响应，怎样算出？",
+    "index": 7
+  },
+  {
+    "id": "beat-008",
+    "section": "目标一 · 图片分类",
+    "visual": "convolution",
+    "title": "同一套权重，走遍图片",
+    "index": 8
+  },
+  {
+    "id": "beat-009",
+    "section": "目标一 · 图片分类",
+    "visual": "features",
+    "title": "权重从哪里来？",
+    "index": 9
+  },
+  {
+    "id": "beat-010",
+    "section": "目标一 · 图片分类",
+    "visual": "features",
+    "title": "六组权重，六种响应",
+    "index": 10
+  },
+  {
+    "id": "beat-011",
+    "section": "目标一 · 图片分类",
+    "visual": "network",
+    "title": "把局部线索组合起来",
+    "index": 11
+  },
+  {
+    "id": "beat-012",
+    "section": "目标一 · 图片分类",
+    "visual": "relu",
+    "title": "加一道非线性的拐点",
+    "index": 12
+  },
+  {
+    "id": "beat-013",
+    "section": "目标一 · 图片分类",
+    "visual": "pool",
+    "title": "保留强响应，缩小空间",
+    "index": 13
+  },
+  {
+    "id": "beat-014",
+    "section": "目标一 · 图片分类",
+    "visual": "network",
+    "title": "从图片到十个分数",
+    "index": 14
+  },
+  {
+    "id": "beat-015",
+    "section": "目标一 · 图片分类",
+    "visual": "probability",
+    "title": "把分数变成类别概率",
+    "index": 15
+  },
+  {
+    "id": "beat-016",
+    "section": "目标一 · 图片分类",
+    "visual": "loss",
+    "title": "猜错之后，怎样给出反馈？",
+    "index": 16
+  },
+  {
+    "id": "beat-017",
+    "section": "目标一 · 图片分类",
+    "visual": "gradient",
+    "title": "沿着梯度，调整一小步",
+    "index": 17
+  },
+  {
+    "id": "beat-018",
+    "section": "目标一 · 图片分类",
+    "visual": "split",
+    "title": "练习题与考试题分开",
+    "index": 18
+  },
+  {
+    "id": "beat-019",
+    "section": "目标一 · 图片分类",
+    "visual": "code",
+    "title": "五行代码，一次真实更新",
+    "index": 19
+  },
+  {
+    "id": "beat-020",
+    "section": "目标一 · 图片分类",
+    "visual": "cnnchart",
+    "title": "训练有效吗？看验证曲线",
+    "index": 20
+  },
+  {
+    "id": "beat-021",
+    "section": "目标一 · 图片分类",
+    "visual": "cnnresults",
+    "title": "打开测试集，报告真实成绩",
+    "index": 21
+  },
+  {
+    "id": "beat-022",
+    "section": "目标一 · 图片分类",
+    "visual": "confusion",
+    "title": "错在哪里？展开错误地图",
+    "index": 22
+  },
+  {
+    "id": "beat-023",
+    "section": "目标一 · 图片分类",
+    "visual": "samples",
+    "title": "从照片看见模型的犹豫",
+    "index": 23
+  },
+  {
+    "id": "beat-024",
+    "section": "目标一 · 图片分类",
+    "visual": "occlusion",
+    "title": "遮住一块，概率怎样变？",
+    "index": 24
+  },
+  {
+    "id": "beat-025",
+    "section": "目标一 · 图片分类",
+    "visual": "paper",
+    "title": "把小实验放回研究背景",
+    "index": 25
+  },
+  {
+    "id": "beat-026",
+    "section": "目标二 · 保持平衡",
+    "visual": "cartpole",
+    "title": "任务二：让杆尽量不倒",
+    "index": 26
+  },
+  {
+    "id": "beat-027",
+    "section": "目标二 · 保持平衡",
+    "visual": "state",
+    "title": "四个状态，两个动作",
+    "index": 27
+  },
+  {
+    "id": "beat-028",
+    "section": "目标二 · 保持平衡",
+    "visual": "loop",
+    "title": "行动改变下一次观察",
+    "index": 28
+  },
+  {
+    "id": "beat-029",
+    "section": "目标二 · 保持平衡",
+    "visual": "reward",
+    "title": "用奖励定义成功",
+    "index": 29
+  },
+  {
+    "id": "beat-030",
+    "section": "目标二 · 保持平衡",
+    "visual": "return",
+    "title": "眼前一分，和未来很多分",
+    "index": 30
+  },
+  {
+    "id": "beat-031",
+    "section": "目标二 · 保持平衡",
+    "visual": "qvalues",
+    "title": "Q 值：估计动作的长期结果",
+    "index": 31
+  },
+  {
+    "id": "beat-032",
+    "section": "目标二 · 保持平衡",
+    "visual": "exploration",
+    "title": "试一试，还是相信已有经验？",
+    "index": 32
+  },
+  {
+    "id": "beat-033",
+    "section": "目标二 · 保持平衡",
+    "visual": "bellman",
+    "title": "用一次真实经历，构造目标",
+    "index": 33
+  },
+  {
+    "id": "beat-034",
+    "section": "目标二 · 保持平衡",
+    "visual": "terminal",
+    "title": "真的失败，还是时间到了？",
+    "index": 34
+  },
+  {
+    "id": "beat-035",
+    "section": "目标二 · 保持平衡",
+    "visual": "replay",
+    "title": "把经历保存，再分散复习",
+    "index": 35
+  },
+  {
+    "id": "beat-036",
+    "section": "目标二 · 保持平衡",
+    "visual": "target",
+    "title": "让学习目标，变化慢一点",
+    "index": 36
+  },
+  {
+    "id": "beat-037",
+    "section": "目标二 · 保持平衡",
+    "visual": "code",
+    "title": "让代码接上实际的变化",
+    "index": 37
+  },
+  {
+    "id": "beat-038",
+    "section": "目标二 · 保持平衡",
+    "visual": "cartcompare",
+    "title": "先测一位完全靠蒙的选手",
+    "index": 38
+  },
+  {
+    "id": "beat-039",
+    "section": "目标二 · 保持平衡",
+    "visual": "dqnchart",
+    "title": "六百回合，不删掉波动",
+    "index": 39
+  },
+  {
+    "id": "beat-040",
+    "section": "目标二 · 保持平衡",
+    "visual": "cartcompare",
+    "title": "控制不是静止，是不断接住偏差",
+    "index": 40
+  },
+  {
+    "id": "beat-041",
+    "section": "目标二 · 保持平衡",
+    "visual": "dqnresults",
+    "title": "统一考试，再谈是否学会",
+    "index": 41
+  },
+  {
+    "id": "beat-042",
+    "section": "目标二 · 保持平衡",
+    "visual": "limits",
+    "title": "一场失败，揭示能力的边界",
+    "index": 42
+  },
+  {
+    "id": "beat-043",
+    "section": "目标二 · 保持平衡",
+    "visual": "paper",
+    "title": "从状态数值，回到游戏画面",
+    "index": 43
+  },
+  {
+    "id": "beat-044",
+    "section": "目标三 · 比较落子后果",
+    "visual": "connect",
+    "title": "任务三：落子之前，比较后果",
+    "index": 44
+  },
+  {
+    "id": "beat-045",
+    "section": "目标三 · 比较落子后果",
+    "visual": "connect",
+    "title": "先有正确规则，再谈好选择",
+    "index": 45
+  },
+  {
+    "id": "beat-046",
+    "section": "目标三 · 比较落子后果",
+    "visual": "tree",
+    "title": "一条分支，就是一次试下",
+    "index": 46
+  },
+  {
+    "id": "beat-047",
+    "section": "目标三 · 比较落子后果",
+    "visual": "mcts",
+    "title": "一次搜索，怎样走完？",
+    "index": 47
+  },
+  {
+    "id": "beat-048",
+    "section": "目标三 · 比较落子后果",
+    "visual": "selection",
+    "title": "把计算花在哪条分支上？",
+    "index": 48
+  },
+  {
+    "id": "beat-049",
+    "section": "目标三 · 比较落子后果",
+    "visual": "rollout",
+    "title": "把模拟真正下到结局",
+    "index": 49
+  },
+  {
+    "id": "beat-050",
+    "section": "目标三 · 比较落子后果",
+    "visual": "backup",
+    "title": "一次胜负，怎样改变统计？",
+    "index": 50
+  },
+  {
+    "id": "beat-051",
+    "section": "目标三 · 比较落子后果",
+    "visual": "searchresults",
+    "title": "搜索更多，结果与代价如何？",
+    "index": 51
+  },
+  {
+    "id": "beat-052",
+    "section": "目标三 · 比较落子后果",
+    "visual": "connect",
+    "title": "回到棋盘：为什么必须防守？",
+    "index": 52
+  },
+  {
+    "id": "beat-053",
+    "section": "把学习与搜索结合",
+    "visual": "goboard",
+    "title": "围棋更大，需要怎样的帮助？",
+    "index": 53
+  },
+  {
+    "id": "beat-054",
+    "section": "把学习与搜索结合",
+    "visual": "policy",
+    "title": "策略网络：推荐值得看的落点",
+    "index": 54
+  },
+  {
+    "id": "beat-055",
+    "section": "把学习与搜索结合",
+    "visual": "value",
+    "title": "价值网络：估计局面有多有利",
+    "index": 55
+  },
+  {
+    "id": "beat-056",
+    "section": "把学习与搜索结合",
+    "visual": "alphaflow",
+    "title": "学习与搜索，在一次决策中配合",
+    "index": 56
+  },
+  {
+    "id": "beat-057",
+    "section": "把学习与搜索结合",
+    "visual": "paper",
+    "title": "2016：这些网络怎样学出来？",
+    "index": 57
+  },
+  {
+    "id": "beat-058",
+    "section": "把学习与搜索结合",
+    "visual": "alphazero",
+    "title": "2017：自我对弈的训练循环",
+    "index": 58
+  },
+  {
+    "id": "beat-059",
+    "section": "把学习与搜索结合",
+    "visual": "compare",
+    "title": "同样叫选择，方法并不相同",
+    "index": 59
+  },
+  {
+    "id": "beat-060",
+    "section": "把学习与搜索结合",
+    "visual": "limits",
+    "title": "先读懂任务条件，再读成绩",
+    "index": 60
+  },
+  {
+    "id": "beat-061",
+    "section": "回到问题",
+    "visual": "overview",
+    "title": "把三个问题，收回三个答案",
+    "index": 61
+  },
+  {
+    "id": "beat-062",
+    "section": "回到问题",
+    "visual": "overview",
+    "title": "从一个可复现的小实验开始",
+    "index": 62
+  },
+  {
+    "id": "beat-063",
+    "section": "回到问题",
+    "visual": "next",
+    "title": "下一份工作：创造新的内容",
+    "index": 63
+  },
+  {
+    "id": "beat-064",
+    "section": "沿着原始研究继续阅读",
+    "visual": "paper",
+    "title": "LeNet · 从局部到类别",
+    "index": 64
+  },
+  {
+    "id": "beat-065",
+    "section": "沿着原始研究继续阅读",
+    "visual": "paper",
+    "title": "AlexNet · 规模带来的变化",
+    "index": 65
+  },
+  {
+    "id": "beat-066",
+    "section": "沿着原始研究继续阅读",
+    "visual": "paper",
+    "title": "DQN · 从画面到动作价值",
+    "index": 66
+  },
+  {
+    "id": "beat-067",
+    "section": "沿着原始研究继续阅读",
+    "visual": "paper",
+    "title": "AlphaGo · 学习与搜索",
+    "index": 67
+  },
+  {
+    "id": "beat-068",
+    "section": "沿着原始研究继续阅读",
+    "visual": "paper",
+    "title": "AlphaGo Zero · 自我对弈循环",
+    "index": 68
+  }
+]

@@ -1,0 +1,12 @@
+import React from 'react';
+import {Img,interpolate,Easing,staticFile} from 'remotion';
+import papers from '../papers.json';
+import {speechProgress} from '../speechMotion';
+const cl={extrapolateLeft:'clamp' as const,extrapolateRight:'clamp' as const,easing:Easing.bezier(.45,0,.55,1)};
+export function Paper({index,f,duration}:{index:number;f:number;duration:number}){
+ const which:Record<number,number>={25:1,43:2,57:3,64:0,65:1,66:2,67:3,68:4};const p=papers[which[index]??0];
+ const focus=interpolate(speechProgress(index,f),[.1,.7],[0,1],cl);const drift=interpolate(f,[Math.min(duration*.55,360),duration-65],[0,1],cl);const exit=interpolate(f,[duration-65,duration],[0,1],cl);
+ const [x0,y0,x1,y1]=p.focus,w=p.pageWidth,h=p.pageHeight;const scale=((630/h)*(1-focus)+Math.min(850/(x1-x0),480/(y1-y0))*focus)*(1+drift*.025);const cx=w/2*(1-focus)+(x0+x1)/2*focus,cy=h/2*(1-focus)+(y0+y1)/2*focus;
+ const mask=`linear-gradient(90deg,transparent ${x0-24}px,black ${x0-5}px,black ${x1+5}px,transparent ${x1+24}px),linear-gradient(180deg,transparent ${y0-24}px,black ${y0-5}px,black ${y1+5}px,transparent ${y1+24}px)`;
+ return <div style={{position:'absolute',inset:0,opacity:1-exit}}><div style={{position:'absolute',left:60,top:260,width:1080,height:650,perspective:2200,overflow:'hidden',maskImage:'linear-gradient(180deg,transparent,black 8%,black 91%,transparent)'}}><div style={{position:'absolute',left:530,top:320,transform:`translateZ(${-exit*80}px) rotateY(${-8+focus*6+drift*.6}deg) rotateZ(${-1.3+focus}deg)`,filter:`blur(${exit*1.4}px)`}}><div style={{position:'relative',width:w,height:h,transformOrigin:'0 0',transform:`scale(${scale}) translate(${-cx}px,${-cy}px)`,boxShadow:'0 22px 65px #0007'}}><Img src={staticFile(p.image)} style={{width:w,height:h,display:'block',filter:`blur(${focus*1.2}px)`}}/><Img src={staticFile(p.image)} style={{position:'absolute',inset:0,width:w,height:h,maskImage:mask,maskComposite:'intersect'}}/></div></div></div><div style={{position:'absolute',left:1210,top:355,width:530}}><div style={{fontFamily:'NotoSerifSC',fontSize:70,fontWeight:600,color:'#f3e8d2',lineHeight:1.2}}>{p.short}</div><div style={{fontFamily:'Georgia',fontSize:29,lineHeight:1.4,marginTop:25,color:'#d4dcd4'}}>{p.title}</div><div style={{height:1,width:100,background:'linear-gradient(90deg,#dec28e,transparent)',margin:'30px 0'}}/><div style={{fontSize:28,fontWeight:550,color:'#adc2c5'}}>{p.authors}</div><div style={{fontFamily:'Georgia',fontSize:25,marginTop:20,color:'#dec28e'}}>{p.venue}</div></div></div>;
+}

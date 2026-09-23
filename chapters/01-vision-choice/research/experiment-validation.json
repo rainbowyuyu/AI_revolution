@@ -1,0 +1,18 @@
+{
+  "17": {
+    "checkpointEpoch": 20,
+    "maxProbabilityErrorReloaded": 5.364418029785156e-07
+  },
+  "42": {
+    "checkpointEpoch": 19,
+    "maxProbabilityErrorReloaded": 6.556510925292969e-07
+  },
+  "2026": {
+    "checkpointEpoch": 20,
+    "maxProbabilityErrorReloaded": 6.854534149169922e-07
+  },
+  "legalCompleteGames": 180,
+  "splitDisjoint": true,
+  "dqnEvaluationEpisodesReproduced": 300,
+  "dqnReplaysChecked": 14
+}

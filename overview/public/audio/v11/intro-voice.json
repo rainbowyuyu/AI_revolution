@@ -1,0 +1,47 @@
+[
+  {
+    "id": "v11-intro-0",
+    "text": "我想用一组可视化视频，把人工智能的历史拆开讲清楚。",
+    "start": 0.45,
+    "end": 4.87,
+    "file": "audio/v11/intro-0.wav",
+    "seed": 11201,
+    "raw": "intro-0-eb6bfb5a1163-raw.wav"
+  },
+  {
+    "id": "v11-intro-1",
+    "text": "它是怎么发展起来的？到底是什么？我们又能用它做什么？",
+    "start": 5.21,
+    "end": 9.43,
+    "file": "audio/v11/intro-1.wav",
+    "seed": 11202,
+    "raw": "intro-1-c253679f0023-raw.wav"
+  },
+  {
+    "id": "v11-intro-2",
+    "text": "从认出一只猫，到生成一个世界，再到让机器人采取行动。",
+    "start": 9.77,
+    "end": 14.61,
+    "file": "audio/v11/intro-2.wav",
+    "seed": 11203,
+    "raw": "intro-2-5f95399dde09-raw.wav"
+  },
+  {
+    "id": "v11-intro-3",
+    "text": "这个系列分成六章。先看机器怎样看见与选择，怎样创造内容，再看语言如何连接图像和声音。",
+    "start": 14.95,
+    "end": 22.89,
+    "file": "audio/v11/intro-3.wav",
+    "seed": 11204,
+    "raw": "intro-3-0fb6b5db44b8-raw.wav"
+  },
+  {
+    "id": "v11-intro-4",
+    "text": "接着，从照片走进三维空间，从回答问题走向推理和使用工具，最后预测世界、采取行动。",
+    "start": 23.23,
+    "end": 31.07,
+    "file": "audio/v11/intro-4.wav",
+    "seed": 11205,
+    "raw": "intro-4-b5ae869c3852-raw.wav"
+  }
+]

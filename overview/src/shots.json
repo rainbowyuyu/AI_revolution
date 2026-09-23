@@ -1,0 +1,102 @@
+[
+  {
+    "name": "styled-official-robot",
+    "from": 0,
+    "duration": 170,
+    "trim": 0,
+    "source": "Google DeepMind · Gemini Robotics 2",
+    "full": true
+  },
+  {
+    "name": "styled-official-genie",
+    "from": 140,
+    "duration": 165,
+    "trim": 0,
+    "source": "Google DeepMind · Genie 3",
+    "full": true
+  },
+  {
+    "name": "cat",
+    "from": 630,
+    "duration": 150,
+    "trim": 0,
+    "source": ""
+  },
+  {
+    "name": "go",
+    "from": 935,
+    "duration": 150,
+    "trim": 0,
+    "source": ""
+  },
+  {
+    "name": "world",
+    "from": 1440,
+    "duration": 150,
+    "trim": 0,
+    "source": ""
+  },
+  {
+    "name": "language",
+    "from": 2170,
+    "duration": 150,
+    "trim": 0,
+    "source": ""
+  },
+  {
+    "name": "styled-official-nerf",
+    "from": 2400,
+    "duration": 116,
+    "trim": 0,
+    "source": "Mildenhall 等 · NeRF"
+  },
+  {
+    "name": "styled-official-3dgs",
+    "from": 2565,
+    "duration": 230,
+    "trim": 0,
+    "source": "Kerbl 等 · 3D Gaussian Splatting"
+  },
+  {
+    "name": "styled-official-4dgs",
+    "from": 2795,
+    "duration": 225,
+    "trim": 150,
+    "source": "Wu 等 · 4D Gaussian Splatting"
+  },
+  {
+    "name": "styled-official-cosmos",
+    "from": 3635,
+    "duration": 185,
+    "trim": 0,
+    "source": "NVIDIA · Cosmos"
+  },
+  {
+    "name": "styled-official-genie",
+    "from": 3790,
+    "duration": 135,
+    "trim": 300,
+    "source": "Google DeepMind · Genie 3"
+  },
+  {
+    "name": "styled-official-policy",
+    "from": 3895,
+    "duration": 150,
+    "trim": 30,
+    "source": "Chi 等 · Diffusion Policy"
+  },
+  {
+    "name": "styled-official-vla",
+    "from": 4015,
+    "duration": 138,
+    "trim": 0,
+    "source": "Kim 等 · OpenVLA"
+  },
+  {
+    "name": "styled-official-robot",
+    "from": 4123,
+    "duration": 265,
+    "trim": 25,
+    "source": "Google DeepMind · Gemini Robotics 2"
+  }
+]
