@@ -1,0 +1,15 @@
+{
+  "status": "SUCCEEDED",
+  "reservedCny": 0.5,
+  "created": "2026-09-23T19:47:58.420546",
+  "model": "qwen-image-2.0-pro-2026-06-22",
+  "purpose": "publication cover",
+  "file": "../publication_2026-09-23/artwork/chapter01-portrait-take3.png",
+  "requestId": "31b830f9-e942-9558-81f3-ed04ecaaaa76",
+  "usage": {
+    "height": 2048,
+    "image_count": 1,
+    "width": 1152
+  },
+  "sha256": "2269ea95ee5ab28054a0f97bf9935dabfe95df29d014c203b22975fd8f2715e2"
+}

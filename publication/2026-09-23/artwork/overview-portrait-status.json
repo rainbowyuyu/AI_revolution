@@ -1,0 +1,15 @@
+{
+  "status": "SUCCEEDED",
+  "reservedCny": 0.5,
+  "created": "2026-09-23T19:38:13.623148",
+  "model": "qwen-image-2.0-pro-2026-06-22",
+  "purpose": "publication cover",
+  "file": "../publication_2026-09-23/artwork/overview-portrait.png",
+  "requestId": "620f2214-4d69-92ca-95c1-a809e8577596",
+  "usage": {
+    "height": 2048,
+    "image_count": 1,
+    "width": 1152
+  },
+  "sha256": "d83d362dc94d2117b79692766888244b96cce8585ec2d46fff814f6fd65b78c8"
+}

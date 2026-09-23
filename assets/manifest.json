@@ -1614,24 +1614,6 @@
     },
     {
       "project": "chapters/01-vision-choice",
-      "path": "chapters/01-vision-choice/public/audio/master.wav",
-      "sourceProject": "ai_evolution_ch01_vision_choice",
-      "sourcePath": "public/audio/master.wav",
-      "bytes": 562540902,
-      "sha256": "2411052f48d35c1d7f34d97fc5653d49c3e19553d8f7305611f5914a507527b2",
-      "kind": "audio"
-    },
-    {
-      "project": "chapters/01-vision-choice",
-      "path": "chapters/01-vision-choice/public/audio/narration.wav",
-      "sourceProject": "ai_evolution_ch01_vision_choice",
-      "sourcePath": "public/audio/narration.wav",
-      "bytes": 281270444,
-      "sha256": "ab9457bd6f3daf2257c2b8ae75038de8b2c8057d20113e36fcd270c012bbc4e3",
-      "kind": "audio"
-    },
-    {
-      "project": "chapters/01-vision-choice",
       "path": "chapters/01-vision-choice/public/fonts/NotoSansSC.ttf",
       "sourceProject": "ai_evolution_ch01_vision_choice",
       "sourcePath": "public/fonts/NotoSansSC.ttf",
@@ -2160,24 +2142,6 @@
       "bytes": 897452,
       "sha256": "60874888937b2cdc44d08c036ee28c0a189d274e49566907ca9e0761a95417a8",
       "kind": "papers"
-    },
-    {
-      "project": "chapters/01-vision-choice",
-      "path": "chapters/01-vision-choice/public/audio/v5/master.wav",
-      "sourceProject": "ai_evolution_ch01_vision_choice",
-      "sourcePath": "public/audio/v5/master.wav",
-      "bytes": 559958444,
-      "sha256": "0fcc306f14d933c07d25b47afa9e13f3956d650cf5781f78e531485bac1c3ff5",
-      "kind": "audio"
-    },
-    {
-      "project": "chapters/01-vision-choice",
-      "path": "chapters/01-vision-choice/public/audio/v7/master.wav",
-      "sourceProject": "ai_evolution_ch01_vision_choice",
-      "sourcePath": "public/audio/v7/master.wav",
-      "bytes": 573244902,
-      "sha256": "f2538daf5866024862949ae392db2b464bb9ed3e25c60b3b2ca9d69c160ee97f",
-      "kind": "audio"
     },
     {
       "project": "chapters/01-vision-choice",

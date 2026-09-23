@@ -1,0 +1,23 @@
+{
+  "model": "qwen-image-2.0-pro-2026-06-22",
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "A premium cinematic photographic background, vertical 9:16. Absolutely no writing, no letters, no numbers, no typography, no signs, no logos. The upper 35 percent is empty dark midnight blue atmosphere, very low contrast and no objects. A photorealistic cream colored British shorthair cat is the dominant subject centered in the middle and lower portion, large inquisitive amber eyes looking directly toward camera, exquisite fur, elegant cyan rim lighting and warm champagne highlights. The cat face occupies the middle 40 to 78 percent of the image height. Along its rightmost silhouette a small number of finely ordered translucent cyan and gold voxels reveal how a digital image is sampled. Three faint unframed transparent sheets recede diagonally behind the right side of the head into shallow depth of field; each contains only a sparse curved outline of the same cat silhouette, showing stages of visual abstraction. Sheets must not look like a screen or picture frame. No other objects, no devices, no instruments. Single spatial environment, restrained sophisticated science documentary photography, rich dark blues, soft atmospheric contrast, no neon. Bottom 15 percent gently fades to midnight blue. Natural clean striking composition. No text anywhere."
+          }
+        ]
+      }
+    ]
+  },
+  "parameters": {
+    "size": "1152*2048",
+    "n": 1,
+    "prompt_extend": false,
+    "watermark": false,
+    "seed": 923014,
+    "negative_prompt": "文字，英文，数字，水印，logo，界面，HUD，边框，拼贴，杂乱，低质量，过曝，畸形猫爪，畸形手指，多余肢体"
+  }
+}

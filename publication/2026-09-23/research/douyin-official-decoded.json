@@ -1,0 +1,638 @@
+[
+  {
+    "type": "algorithmSeries",
+    "title": "算法科普系列",
+    "data": {
+      "attribute": {
+        "title": "算法科普系列",
+        "intro_title": "算法专家全景解析推荐算法",
+        "intro_desc": "我们联合算法专家，推出推荐算法的系统化科普视频。通过这个系列的视频，你能全面了解推荐系统运作的整体逻辑和核心环节。",
+        "intro_image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/581788154407219"
+      },
+      "sectionList": [
+        {
+          "title": "视频推荐流背后的隐形机器",
+          "desc": "从一次视频推荐出发，了解推荐系统如何根据停留、点赞、划走等行为理解用户需求，并从海量内容中完成个性化匹配。\n",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/90051788154558375",
+          "id": 1,
+          "order": 1,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/推荐算法+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1787630338868_1",
+              "time_seconds": 0,
+              "desc": "社会和行业背景",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1787630355172_2",
+              "time_seconds": 90,
+              "desc": "技术背景--不断迭代的推荐系统",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1787647022388_3",
+              "time_seconds": 205,
+              "desc": "推荐系统的本质",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1787647030834_4",
+              "time_seconds": 375,
+              "desc": "推荐系统的各个环节",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "算法如何把用户和内容变成数据",
+          "desc": "视频和用户行为如何被算法理解？本集拆解画面、声音与浏览偏好如何转化为“数字标签”和“兴趣特征”，打下精准匹配的基础。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/529461788154562771",
+          "id": 2,
+          "order": 2,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/特征工程+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1787647113985_1",
+              "time_seconds": 0,
+              "desc": "视频或者行为是如何变成数据的",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1787647127223_2",
+              "time_seconds": 120,
+              "desc": "内容特征如何构建",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1787647135476_3",
+              "time_seconds": 228,
+              "desc": "不同类内容特征如何融合",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1787647144190_4",
+              "time_seconds": 357,
+              "desc": "用戶特征的分类和应用",
+              "order": 4
+            },
+            {
+              "id": "knowledge_1787647153481_5",
+              "time_seconds": 495,
+              "desc": "上下文特征的引入",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "title": "在海量内容里打捞你的兴趣",
+          "desc": "面对每天上亿条新内容，系统如何在极短时间内挑出几千条候选视频？看召回机制如何撒下热门、兴趣等“大网”，快速完成海选。\n",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/181788154573837",
+          "id": 3,
+          "order": 3,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/召回+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788154597390_1",
+              "time_seconds": 0,
+              "desc": "海选的艺术",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788154599135_2",
+              "time_seconds": 68,
+              "desc": "召回的位置与使命",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788154614294_3",
+              "time_seconds": 155,
+              "desc": "系统化的召回方法论",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788154644122_4",
+              "time_seconds": 510,
+              "desc": "向量是怎么“学会”的",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "推荐系统如何兼顾速度与精度",
+          "desc": "召回的成千上万条候选视频无法全部精细计算，了解粗排如何用十几毫秒快速筛选，在速度与精准度之间找到平衡。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/6961788154702079",
+          "id": 4,
+          "order": 4,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/粗排+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788154704717_1",
+              "time_seconds": 0,
+              "desc": "推荐系统中粗排的位置与作用",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788154706104_2",
+              "time_seconds": 90,
+              "desc": "LTR 模型--预测精排如何排序",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788154723658_3",
+              "time_seconds": 220,
+              "desc": "粗排的进化史",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788154734377_4",
+              "time_seconds": 415,
+              "desc": "拜师学艺：知识蒸馏",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "推荐结果最终如何产生",
+          "desc": "为什么连续观看同类视频后，系统会适时“换换口味”？看精排与重排如何权衡多个指标，同时为推荐保留多样性和新鲜感。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/5431788263713788",
+          "id": 5,
+          "order": 5,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/精排+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788263724549_1",
+              "time_seconds": 0,
+              "desc": "精排的任务",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788263729845_2",
+              "time_seconds": 130,
+              "desc": "经典模型",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788263739550_3",
+              "time_seconds": 248,
+              "desc": "重排的任务",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788263748842_4",
+              "time_seconds": 355,
+              "desc": "DPP算法（行列式点过程）",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "推荐系统的价值罗盘",
+          "desc": "推荐算法不只追求点击率。了解多目标推荐如何综合观看、点赞、收藏、分享等不同反馈，在多个推荐目标间寻找平衡。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/0281788333160536",
+          "id": 6,
+          "order": 6,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/多目标+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788333176147_1",
+              "time_seconds": 0,
+              "desc": "多目标的意义",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788333177518_2",
+              "time_seconds": 77,
+              "desc": "改变内容生态",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788333189142_3",
+              "time_seconds": 255,
+              "desc": "多任务学习",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788333221231_4",
+              "time_seconds": 480,
+              "desc": "多任务融合",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "推荐系统如何面对陌生用户和新内容",
+          "desc": "新用户没有浏览记录，新视频也没有历史数据，系统如何推荐？看算法如何主动“探索”潜在偏好，在一次次试探中拓展兴趣。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/5921788333359247",
+          "id": 7,
+          "order": 7,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/冷启动+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788333373972_1",
+              "time_seconds": 0,
+              "desc": "冷启动是什么",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788333379807_2",
+              "time_seconds": 55,
+              "desc": "第一阶段--非个性化推荐",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788333393118_3",
+              "time_seconds": 131,
+              "desc": "第二阶段--探索与利用",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788333409920_4",
+              "time_seconds": 362,
+              "desc": "第三阶段--举一反三",
+              "order": 4
+            },
+            {
+              "id": "knowledge_1788333425115_5",
+              "time_seconds": 486,
+              "desc": "总结",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "title": "大模型如何为下一代推荐系统赋能",
+          "desc": "大模型让推荐系统变得更“懂”内容：从画面声音到反讽、黑色幽默等复杂表达，进一步理解视频背后的语义和真实需求。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/4391788333454174",
+          "id": 8,
+          "order": 8,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/前沿技术+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788333461221_1",
+              "time_seconds": 0,
+              "desc": "为什么推荐系统需要大模型？",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788333469095_2",
+              "time_seconds": 119,
+              "desc": "推荐系统终于看得懂视频了",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788333481119_3",
+              "time_seconds": 218,
+              "desc": "推荐方式的变化",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788333489802_4",
+              "time_seconds": 321,
+              "desc": "未来的推荐系统",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "如何在多元价值评估体系中寻找平衡",
+          "desc": "推荐算法每天都在更新，哪个版本更好？走进算法的“模拟考场”和 A/B 测试，看真实用户反馈如何检验每一次优化。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/0211788416187727",
+          "id": 9,
+          "order": 9,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/评估体系+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788416201710_1",
+              "time_seconds": 0,
+              "desc": "推荐算法评估",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788416207333_2",
+              "time_seconds": 58,
+              "desc": "离线评估和仿真",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788416218280_3",
+              "time_seconds": 199,
+              "desc": "A/B实验",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788416227949_4",
+              "time_seconds": 244,
+              "desc": "价值评估",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "title": "平台如何守住内容安全边界",
+          "desc": "算法如何避免推崇低俗或引发对立？看人机协同治理如何为这台聪明的机器装上“刹车”和“方向盘”，守住推荐边界。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/63181788416253742",
+          "id": 10,
+          "order": 10,
+          "status": 1,
+          "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/1101eh7nuvapfnuhog/平台治理+水印.mp4",
+          "knowledge_points": [
+            {
+              "id": "knowledge_1788416262319_1",
+              "time_seconds": 0,
+              "desc": "治理的必要性",
+              "order": 1
+            },
+            {
+              "id": "knowledge_1788416267749_2",
+              "time_seconds": 43,
+              "desc": "推荐算法与内容安全算法的区别",
+              "order": 2
+            },
+            {
+              "id": "knowledge_1788416277411_3",
+              "time_seconds": 109,
+              "desc": "治理系统怎么运行",
+              "order": 3
+            },
+            {
+              "id": "knowledge_1788416286098_4",
+              "time_seconds": 220,
+              "desc": "推荐与治理的协同",
+              "order": 4
+            },
+            {
+              "id": "knowledge_1788416295691_5",
+              "time_seconds": 264,
+              "desc": "治理的难点与挑战",
+              "order": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "algorithmMore",
+    "title": "更多科普内容",
+    "data": {
+      "attribute": {
+        "title": "更多科普内容",
+        "categories": [
+          {
+            "id": "algorithm_mechanism",
+            "name": "算法机制解析",
+            "order": 1,
+            "status": 1
+          },
+          {
+            "id": "algorithm_intro",
+            "name": "算法多目标体系",
+            "order": 2,
+            "status": 1
+          },
+          {
+            "id": "algorithm_thinking",
+            "name": "算法思维成长",
+            "order": 3,
+            "status": 1
+          }
+        ]
+      },
+      "sectionList": [
+        {
+          "title": "推荐算法，只是猜你看完会喜欢吗？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/9471788159910029",
+          "id": 1,
+          "video_id": "7592472797398519067",
+          "category_id": "algorithm_intro",
+          "order": 1,
+          "status": 1,
+          "author": {
+            "name": "漫士沉思录",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_43e728f77157568f82591f1bcccd895e.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "推荐算法的多目标平衡",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/8491788159932709",
+          "id": 2,
+          "video_id": "7587264405319077172",
+          "category_id": "algorithm_intro",
+          "order": 2,
+          "status": 1,
+          "author": {
+            "name": "飞天闪客",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_o03uy6gbfAEJCCBuAD9n4LC60EANFAAvatAIEe.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "新作品真的没流量吗？平台是怎么设计的？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/61771788160091135",
+          "id": 4,
+          "video_id": "7555731544501964075",
+          "category_id": "algorithm_intro",
+          "order": 3,
+          "status": 1,
+          "author": {
+            "name": "玄感X",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/douyin-user-image-file_f780973e4160a5f07b8d7e86fba0ceaf.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "抖音多目标系统帮你看懂数字生活",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/11831788160028939",
+          "id": 3,
+          "video_id": "7559159079097224489",
+          "category_id": "algorithm_intro",
+          "order": 4,
+          "status": 1,
+          "author": {
+            "name": "老阳的奇妙电波",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_8e3574ce8739eea8265018ccbff81958.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "数学读心术：短视频怎么推荐到你心巴上？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/03951788165433600",
+          "id": 7,
+          "video_id": "7529947150554238234",
+          "category_id": "algorithm_mechanism",
+          "order": 5,
+          "status": 1,
+          "author": {
+            "name": "漫士沉思录",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_43e728f77157568f82591f1bcccd895e.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "15分钟搞懂 推荐算法怎么知道你爱看什么？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/48171788160142042",
+          "id": 5,
+          "video_id": "7561371006808493364",
+          "category_id": "algorithm_mechanism",
+          "order": 6,
+          "status": 1,
+          "author": {
+            "name": "林粒粒呀",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_808fba85f6d8efa0844e13ca67da791a.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "一条视频是如何被推荐的",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/3491788160270745",
+          "id": 8,
+          "video_id": "7616206354134338825",
+          "category_id": "algorithm_mechanism",
+          "order": 7,
+          "status": 1,
+          "author": {
+            "name": "图灵宇宙",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_7130846afbe70e46e45c63b349e897e9.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "你管这破玩意叫推荐算法？有点东西！",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/6545361788160184610",
+          "id": 6,
+          "video_id": "7550609463560916258",
+          "category_id": "algorithm_mechanism",
+          "order": 8,
+          "status": 1,
+          "author": {
+            "name": "飞天闪客",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_o03uy6gbfAEJCCBuAD9n4LC60EANFAAvatAIEe.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "推荐算法的基本原理",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/361788160528270",
+          "id": 9,
+          "video_id": "7435335013316578598",
+          "category_id": "algorithm_mechanism",
+          "order": 9,
+          "status": 1,
+          "author": {
+            "name": "派蒙科普",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-c9aec8xkvj_810621ff64bc42fa8a7f41f8daa3d9b8.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "算法如何拯救你，我的干货长视频？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/14291788160566275",
+          "id": 10,
+          "video_id": "7587274721255820570",
+          "category_id": "algorithm_mechanism",
+          "order": 10,
+          "status": 1,
+          "author": {
+            "name": "玄感X",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/douyin-user-image-file_f780973e4160a5f07b8d7e86fba0ceaf.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "推荐算法发展史：它是怎么一步步“懂你”的？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/47631788160614462",
+          "id": 11,
+          "video_id": "7555759065901698304",
+          "category_id": "algorithm_thinking",
+          "order": 11,
+          "status": 1,
+          "author": {
+            "name": "让水烧开",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_23c89fa0c4c63f9a44a73ee266b66335.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "学了千条路，回头走老路？把知识内化成能力的：认知熔炉系统 #认知#算法背后的秘密 #是算法也是电子搭子 #抖音算法它开窍了 #抖音算法也是被我拿捏住了 - 抖音",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/67311788160647436",
+          "id": 12,
+          "video_id": "7561405918458481920",
+          "category_id": "algorithm_thinking",
+          "order": 12,
+          "status": 1,
+          "author": {
+            "name": "缪斯Musae",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_ok8BvCFOoED2GzAAKEAAfREKNdIY77fBEAof8E.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": " 如何借“学习型算法”塑造赫布定律，为你推开知识的大门？",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/46161788160698308",
+          "id": 13,
+          "video_id": "7555757349965761827",
+          "category_id": "algorithm_thinking",
+          "order": 13,
+          "status": 1,
+          "author": {
+            "name": "爱观察的汤姆",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/douyin-user-image-file_adfce76d975cea8fad0d25102d4bd62b.jpeg?from=4010531038"
+          }
+        },
+        {
+          "title": "抖音最恐怖的功能，竟然藏在这个小开关里",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/4661788160723693",
+          "id": 14,
+          "video_id": "7555385506654113060",
+          "category_id": "algorithm_thinking",
+          "order": 14,
+          "status": 1,
+          "author": {
+            "name": "李大可爱玩",
+            "avatar": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_d67954ba8e6a4057a1da7e5a1bd9977c.jpeg?from=4010531038"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "algorithmActivity",
+    "title": "精彩活动",
+    "data": {
+      "attribute": {
+        "title": "精彩活动"
+      },
+      "sectionList": [
+        {
+          "title": "新春算法科普活动",
+          "desc": "用更轻松的方式了解推荐算法，发现算法与日常生活的更多联系。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/9591788162975190",
+          "id": 3,
+          "jump_url": "https://trust.douyin.com/article/5411770782085474?enter_from=channel_page&channel=transparency",
+          "order": 1,
+          "status": 1,
+          "jump_type": "link"
+        },
+        {
+          "title": "算法青年说｜人拿捏算法 or 算法拿捏人",
+          "desc": "刷视频时，究竟是我们在影响算法，还是算法在影响我们？青年辩手从真实使用体验出发，聊聊人与推荐算法之间的互动与选择。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/52741788166376822",
+          "id": 1,
+          "jump_url": "https://www.douyin.com/video/7592472797398519067",
+          "order": 2,
+          "status": 1,
+          "jump_type": "link"
+        },
+        {
+          "title": "算法青年说｜宽广 or 狭窄",
+          "desc": "推荐算法让我们看到更广阔的世界，还是让兴趣越来越集中？青年辩手围绕推荐的多样性展开讨论，聊聊算法如何影响我们看到的内容。",
+          "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/file/221788166382565",
+          "id": 2,
+          "jump_url": "https://www.douyin.com/video/7592472797398519067",
+          "order": 3,
+          "status": 1,
+          "jump_type": "link"
+        }
+      ]
+    }
+  }
+]

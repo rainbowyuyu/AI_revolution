@@ -137,3 +137,8 @@ CNN 是十分类，片中猫狗案例并非另训二分类器。DQN 输入是四
 本次导入范围与检查结果见 [整理记录](docs/IMPORT_REPORT.md)。
 
 首次上传可使用 `pwsh -File tools/publish_github.ps1`；支持现有 GitHub CLI 或系统 Git Credential Manager 登录，默认创建当前登录账号下的私有 `AI_revolution`。如需公开，完成第三方素材与隐私检查后使用 `-Public`。脚本不会覆盖已存在的同名仓库。
+
+## 发布封面与维护记录
+
+- [总览与第一章的封面、标题和平台研究](publication/2026-09-23/README.md)：两部视频各有横版、9:16 与 3:4 封面，以及可编辑排版和生成参数。
+- [2026-09-23 清理记录](docs/maintenance/清理记录-2026-09-23.md)：原视频工程释放约 19.40 GiB，最新成片及当前重渲染所需素材保留；外部素材清单已移除退役音轨。

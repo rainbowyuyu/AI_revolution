@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-23",
+  "provider": "Alibaba Bailian / Beijing",
+  "model": "qwen-image-2.0-pro-2026-06-22",
+  "officialUnitPriceCny": 0.5,
+  "priceSource": "https://help.aliyun.com/zh/model-studio/model-pricing",
+  "successfulImages": 5,
+  "selectedBackgrounds": [
+    "overview-landscape.png",
+    "overview-portrait.png",
+    "chapter01-landscape.png",
+    "chapter01-portrait-take3.png"
+  ],
+  "reservedCny": 3.0,
+  "estimatedSuccessfulImageCostCny": 2.5,
+  "billingNote": "Reservation includes a rate-limited request; estimates are not a provider settlement invoice. No new videos generated.",
+  "attempts": [
+    {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T19:38:36.525217",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "purpose": "publication cover",
+      "file": "../publication_2026-09-23/artwork/chapter01-landscape.png",
+      "requestId": "81bdcc2b-cffb-9e04-bb46-a81068050763",
+      "usage": {
+        "height": 1152,
+        "image_count": 1,
+        "width": 2048
+      },
+      "sha256": "54d0f5876ed84cb0e2c73b6958ddc881cf3edf18382fe269d70b3397e1a0b2b2",
+      "asset": "chapter01-landscape.png",
+      "selected": true
+    },
+    {
+      "status": "FAILED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T19:38:56.337875",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "purpose": "publication cover",
+      "file": "../publication_2026-09-23/artwork/chapter01-portrait.png",
+      "httpStatus": 429,
+      "errorCode": "Throttling.RateQuota",
+      "requestId": "0c64ba26-c40a-9dec-9fbb-6c43f5cd47b0",
+      "asset": "chapter01-portrait.png",
+      "selected": false
+    },
+    {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T19:40:16.800107",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "purpose": "publication cover",
+      "file": "../publication_2026-09-23/artwork/chapter01-portrait-take2.png",
+      "requestId": "571e9265-a2a3-9a4c-9daf-9244a08ad883",
+      "usage": {
+        "height": 2048,
+        "image_count": 1,
+        "width": 1152
+      },
+      "sha256": "700ee582e74da5f99b1d5f39ad4a0bcaee306a6d25ff2944db9d03a6a497f98f",
+      "asset": "chapter01-portrait-take2.png",
+      "selected": false,
+      "rejectionReason": "Unrequested generated lettering in blank title area; replaced with a newly generated text-free scene"
+    },
+    {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T19:47:58.420546",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "purpose": "publication cover",
+      "file": "../publication_2026-09-23/artwork/chapter01-portrait-take3.png",
+      "requestId": "31b830f9-e942-9558-81f3-ed04ecaaaa76",
+      "usage": {
+        "height": 2048,
+        "image_count": 1,
+        "width": 1152
+      },
+      "sha256": "2269ea95ee5ab28054a0f97bf9935dabfe95df29d014c203b22975fd8f2715e2",
+      "asset": "chapter01-portrait-take3.png",
+      "selected": true
+    },
+    {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T19:37:51.972654",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "purpose": "publication cover",
+      "file": "../publication_2026-09-23/artwork/overview-landscape.png",
+      "requestId": "9ca51ce5-93dc-9850-bf7e-a1afaddab9be",
+      "usage": {
+        "height": 1152,
+        "image_count": 1,
+        "width": 2048
+      },
+      "sha256": "30ccdf0d430878ef35000d017ed5dbb407cfe15a265bfe6b971455845710920f",
+      "asset": "overview-landscape.png",
+      "selected": true
+    },
+    {
+      "status": "SUCCEEDED",
+      "reservedCny": 0.5,
+      "created": "2026-09-23T19:38:13.623148",
+      "model": "qwen-image-2.0-pro-2026-06-22",
+      "purpose": "publication cover",
+      "file": "../publication_2026-09-23/artwork/overview-portrait.png",
+      "requestId": "620f2214-4d69-92ca-95c1-a809e8577596",
+      "usage": {
+        "height": 2048,
+        "image_count": 1,
+        "width": 1152
+      },
+      "sha256": "d83d362dc94d2117b79692766888244b96cce8585ec2d46fff814f6fd65b78c8",
+      "asset": "overview-portrait.png",
+      "selected": true
+    }
+  ],
+  "finalImages": [
+    {
+      "file": "covers/总览_横版16x9_1920x1080.jpg",
+      "bytes": 511266,
+      "sha256": "bcf58cf4ba731a1fa9fd3675f7d4abf2dded7170657c823083feb55518e06a44"
+    },
+    {
+      "file": "covers/总览_横版16x9_1920x1080.png",
+      "bytes": 2428136,
+      "sha256": "360af95018a009db13c41f5cb4a2c96b70fe3259c7f63830f0c38ec2c5037c8a"
+    },
+    {
+      "file": "covers/总览_竖版3x4_1080x1440.jpg",
+      "bytes": 459224,
+      "sha256": "8fc4a9f3b0fd7593e738fc15a06d38c5a9dea5a29375cf3af93b7f0af065f0d8"
+    },
+    {
+      "file": "covers/总览_竖版3x4_1080x1440.png",
+      "bytes": 1940856,
+      "sha256": "c6b848dd3973c8de695ea2bb022a2ba5612074cac22e02df2d2c13b214381f9c"
+    },
+    {
+      "file": "covers/总览_竖版9x16_1080x1920.jpg",
+      "bytes": 601183,
+      "sha256": "99d0cc566fd32c0de42dc907674e37e6994587b7b1999af2be85cab59ecf4b99"
+    },
+    {
+      "file": "covers/总览_竖版9x16_1080x1920.png",
+      "bytes": 2606441,
+      "sha256": "a14b3f252a541284a6f7dc338c259710a34526e44cff69a54bba177d9f856590"
+    },
+    {
+      "file": "covers/第一章_横版16x9_1920x1080.jpg",
+      "bytes": 609984,
+      "sha256": "f741b8aa6f40f5bf27bd55971ac8d7933fae7832a22d49fdb2618958df10b8f8"
+    },
+    {
+      "file": "covers/第一章_横版16x9_1920x1080.png",
+      "bytes": 2560055,
+      "sha256": "b698a3d2e3a9767f5881876d78edb55d43ccd780328baf57f0e761cd4845f40a"
+    },
+    {
+      "file": "covers/第一章_竖版3x4_1080x1440.jpg",
+      "bytes": 430752,
+      "sha256": "394eff1e8d3f364c6849ced3ade504ed6d006de8f8bdd104759240451199ff2e"
+    },
+    {
+      "file": "covers/第一章_竖版3x4_1080x1440.png",
+      "bytes": 1837782,
+      "sha256": "425ad1beb5d6825fd389701397738912ab99c706217e1fc814d320402ceb0a4f"
+    },
+    {
+      "file": "covers/第一章_竖版9x16_1080x1920.jpg",
+      "bytes": 518009,
+      "sha256": "2e83fe5bf16238526bc1faafa23990ce1f6d4859df9d9e65bb3a39ae9c0eae9c"
+    },
+    {
+      "file": "covers/第一章_竖版9x16_1080x1920.png",
+      "bytes": 2307231,
+      "sha256": "00ef90b0fafdc72d5d5ee9f47e59be75f62046e0103fbd7eb96ad9ad73317b5c"
+    }
+  ]
+}

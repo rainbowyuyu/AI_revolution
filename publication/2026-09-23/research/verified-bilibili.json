@@ -1,0 +1,112 @@
+[
+  {
+    "url": "https://www.bilibili.com/video/BV1bx411M7Zx/",
+    "title": "【官方双语】深度学习之神经网络的结构 Part 1 ver 2.0",
+    "owner": "3Blue1Brown",
+    "stats": {
+      "aid": 15532370,
+      "view": 958562,
+      "danmaku": 2218,
+      "reply": 750,
+      "favorite": 42981,
+      "coin": 21022,
+      "share": 23142,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 23599,
+      "dislike": 0,
+      "evaluation": "",
+      "vt": 0
+    },
+    "cover": "http://i2.hdslb.com/bfs/archive/3fddf427ddef5a78105deb60180727a7ad47c4d8.jpg",
+    "description": "更多信息请看下方评论\n\n翻译：FPS罗兹  校对：ZSC  时间轴：白日梦 后期：sum$ver\nBut what *is* a Neural Network? | Deep learning, Part 1\nhttps://youtu.be/aircAruvnKk\n\nVer. 2.0 添加了屏幕文本以及一些注释，并修正了原片14:46处偏置矩阵的下标错误。"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV13z421U7cs/",
+    "title": "【官方双语】GPT是什么？直观解释Transformer | 深度学习第5章",
+    "owner": "3Blue1Brown",
+    "stats": {
+      "aid": 1353986541,
+      "view": 798345,
+      "danmaku": 1541,
+      "reply": 869,
+      "favorite": 34815,
+      "coin": 17829,
+      "share": 13175,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 28191,
+      "dislike": 0,
+      "evaluation": "",
+      "vt": 0
+    },
+    "cover": "http://i0.hdslb.com/bfs/archive/f2b59e2ba81081f22640102d542b01a8bb0c41f0.jpg",
+    "description": "解析GPT-3等大语言模型背后的机制和原理。GPT是什么？深度学习的范式是什么？如何在词和向量之间切换？想继续深入了解注意力机制，有哪些需要扫盲的基础知识？德国 - 日本 + 寿司 = ？\nhttps://www.youtube.com/watch?v=wjZofJX0v4M\n\n翻译: 贰鼠 校对: 蛋卷   ksyx  ZSC 时间轴: 贰鼠 \n\n笔记本: https://3b1b.co/store \n感谢观众的支持: https://3b1b.co/support \n一键三联与分享，也是最大的支持！\n\n0:00 - 预测，采样，重复：预训练/生成式/Transformer模型\n3:03 - Transformer 的内部结构\n6:36 - 本期总述\n7:20 - 深度学习的大框架\n12:27 - GPT的第一层：词嵌入为向量(embedding)\n18:25 - 嵌入空间不仅代表词，还能包含上下文信息\n20:22 - GPT的最后一层：向量解码为词(Unembedding)\n22:2"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV1TZ421j7Ke/",
+    "title": "【官方双语】直观解释注意力机制，Transformer的核心 | 【深度学习第6章】",
+    "owner": "3Blue1Brown",
+    "stats": {
+      "aid": 1154246338,
+      "view": 918856,
+      "danmaku": 1304,
+      "reply": 819,
+      "favorite": 45646,
+      "coin": 18665,
+      "share": 9890,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 28814,
+      "dislike": 0,
+      "evaluation": "",
+      "vt": 0
+    },
+    "cover": "http://i1.hdslb.com/bfs/archive/407cdaf692b36679f8820713f574c62ca293279b.jpg",
+    "description": "“塔”是什么？“Harry”是谁？怎么想象“一个毛茸茸的蓝色生物漫步于葱郁的森林”？怎样用12288个数字表示出一个细微复杂具体的含义？\n\n大语言模型中的注意力机制并没有那么神秘。本视频重点介绍什么是多头/自/交叉注意力。\n\n0:00 - 前情提要：词嵌入\n1:39 - 注意力是什么? Mole是什么？Tower又是什么?\n4:29 - 注意力模式：“一个毛茸茸的蓝色生物漫步于葱郁的森林”，名词与形容词，查询与键\n11:08 - 掩码：看前不看后\n12:42 - 上下文窗口大小\n13:10 - 值矩阵：“蓝色”如何修饰“生物”？\n15:44 - 参数有多少\n18:21 - 交叉注意力\n19:19 - 多头\n22:16 - 输出矩阵\n23:19 - 加深网络\n24:54 - 结语\n\nYouTube: eMlx5fFNoYc\n----\n其他资源：\nAndrej Karpathy，从零开始手搓 GPT：YouTube: kCc8FmEb1nY\nvcubingx 新开的系列视频：从底层开始理解语"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV1rs411k7ru/",
+    "title": "【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览",
+    "owner": "3Blue1Brown",
+    "stats": {
+      "aid": 5977466,
+      "view": 524564,
+      "danmaku": 635,
+      "reply": 343,
+      "favorite": 27626,
+      "coin": 9860,
+      "share": 11619,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 15256,
+      "dislike": 0,
+      "evaluation": "",
+      "vt": 0
+    },
+    "cover": "http://i2.hdslb.com/bfs/archive/3f1e6dd57d9b1cc7cba832d5336e9636db0802ff.jpg",
+    "description": "线性代数的本质（Essense of Linear Algebra）系列\n作者：@3Blue1Brown ( https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw )\n视频源地址：https://www.youtube.com/watch?v=kjBOesZCoqc\n\n听译、时间轴、压制：@Solara570\n\n00 - “线性代数的本质”系列的简介"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV1Xhb6zsExC/",
+    "title": "【通俗易懂】5分钟带你简单理解卷积神经网络CNN，AI领域的关键底层算法入门，带你玩转AI大模型，小白也能轻松看懂！",
+    "owner": "Agent开发-",
+    "stats": {
+      "aid": 115026069297115,
+      "view": 128720,
+      "danmaku": 239,
+      "reply": 495,
+      "favorite": 3271,
+      "coin": 901,
+      "share": 749,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 2381,
+      "dislike": 0,
+      "evaluation": "",
+      "vt": 0
+    },
+    "cover": "http://i0.hdslb.com/bfs/archive/6fcf8ac86f30491f95313e0cb5cf7a42678691a6.jpg",
+    "description": "你是不是也这样：\n看一篇论文，满屏“卷积层”“特征图”“池化”，\n听人讲CNN，张口“提取特征”“空间不变性”，\n但脑子里还是懵的——卷积神经网络，到底是个什么东西？\n它为什么能识图、辨猫、看医疗影像？\n真的就只是“模仿人脑”这么玄乎吗？\n别急，这期视频，我们不堆公式，不画复杂结构图，\n用生活比喻 + 动画图解 + 一句话说清本质，带你从零理解\n无论你是学生、转行者，还是AI爱好者，\n只要你想真正搞懂CNN是怎么看懂图片的，这个视频，就是为你写的。"
+  }
+]

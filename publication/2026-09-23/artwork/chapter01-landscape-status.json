@@ -1,0 +1,15 @@
+{
+  "status": "SUCCEEDED",
+  "reservedCny": 0.5,
+  "created": "2026-09-23T19:38:36.525217",
+  "model": "qwen-image-2.0-pro-2026-06-22",
+  "purpose": "publication cover",
+  "file": "../publication_2026-09-23/artwork/chapter01-landscape.png",
+  "requestId": "81bdcc2b-cffb-9e04-bb46-a81068050763",
+  "usage": {
+    "height": 1152,
+    "image_count": 1,
+    "width": 2048
+  },
+  "sha256": "54d0f5876ed84cb0e2c73b6958ddc881cf3edf18382fe269d70b3397e1a0b2b2"
+}

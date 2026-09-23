@@ -1,0 +1,11 @@
+{
+  "status": "FAILED",
+  "reservedCny": 0.5,
+  "created": "2026-09-23T19:38:56.337875",
+  "model": "qwen-image-2.0-pro-2026-06-22",
+  "purpose": "publication cover",
+  "file": "../publication_2026-09-23/artwork/chapter01-portrait.png",
+  "httpStatus": 429,
+  "errorCode": "Throttling.RateQuota",
+  "requestId": "0c64ba26-c40a-9dec-9fbb-6c43f5cd47b0"
+}

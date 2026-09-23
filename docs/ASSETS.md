@@ -41,3 +41,7 @@ python tools/assets.py status --verify
 5. 删除缓存前检查当前 composition 的引用、声音依赖和清单。Git 不能恢复被忽略且没有备份的大型文件。
 
 云盘、对象存储或 GitHub Release 可以用于自己有权分发的媒体包，但当前仓库没有自动上传媒体，也没有承诺第三方论文和演示可任意再分发。
+
+## 2026-09-23 清理后的状态
+
+外部资产清单当前为 1,200 项；4 项第一章旧 master/narration 已退役，记录在 `docs/maintenance/retired-assets-2026-09-23.json`。V9 使用的 `audio/v8/master.wav` 和单句声音保留。恢复工具默认不再要求这些退役音轨；旧 composition 可能需要恢复其旧声音后才能导出。
