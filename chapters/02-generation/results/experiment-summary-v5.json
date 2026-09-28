@@ -1,0 +1,126 @@
+{
+  "gan": [
+    {
+      "seed": 12,
+      "metrics": {
+        "near_mode_fraction": 0.4619140625,
+        "mode_counts": [
+          116,
+          156,
+          132,
+          109,
+          107,
+          103,
+          116,
+          107
+        ],
+        "covered_modes": 8,
+        "coverage_rule": ">=10 of 2048 samples within radius .36 of a mode",
+        "mean_nearest_distance": 0.40104636549949646
+      },
+      "elapsed_seconds": 69.85
+    },
+    {
+      "seed": 25,
+      "metrics": {
+        "near_mode_fraction": 0.41015625,
+        "mode_counts": [
+          90,
+          130,
+          114,
+          116,
+          104,
+          122,
+          79,
+          85
+        ],
+        "covered_modes": 8,
+        "coverage_rule": ">=10 of 2048 samples within radius .36 of a mode",
+        "mean_nearest_distance": 0.42444977164268494
+      },
+      "elapsed_seconds": 62.33
+    },
+    {
+      "seed": 2003,
+      "metrics": {
+        "near_mode_fraction": 0.4462890625,
+        "mode_counts": [
+          108,
+          116,
+          99,
+          172,
+          98,
+          80,
+          99,
+          142
+        ],
+        "covered_modes": 8,
+        "coverage_rule": ">=10 of 2048 samples within radius .36 of a mode",
+        "mean_nearest_distance": 0.40598437190055847
+      },
+      "elapsed_seconds": 59.54
+    }
+  ],
+  "ddpm": [
+    {
+      "seed": 12,
+      "metrics": {
+        "near_mode_fraction": 0.94091796875,
+        "mode_counts": [
+          278,
+          252,
+          207,
+          230,
+          255,
+          231,
+          260,
+          214
+        ],
+        "covered_modes": 8,
+        "coverage_rule": ">=10 of 2048 samples within radius .36 of a mode",
+        "mean_nearest_distance": 0.1690778136253357
+      },
+      "elapsed_seconds": 29.91
+    },
+    {
+      "seed": 25,
+      "metrics": {
+        "near_mode_fraction": 0.9462890625,
+        "mode_counts": [
+          247,
+          240,
+          244,
+          256,
+          214,
+          258,
+          262,
+          217
+        ],
+        "covered_modes": 8,
+        "coverage_rule": ">=10 of 2048 samples within radius .36 of a mode",
+        "mean_nearest_distance": 0.1631448119878769
+      },
+      "elapsed_seconds": 27.05
+    },
+    {
+      "seed": 2003,
+      "metrics": {
+        "near_mode_fraction": 0.93505859375,
+        "mode_counts": [
+          214,
+          204,
+          260,
+          261,
+          236,
+          259,
+          264,
+          217
+        ],
+        "covered_modes": 8,
+        "coverage_rule": ">=10 of 2048 samples within radius .36 of a mode",
+        "mean_nearest_distance": 0.1711365133523941
+      },
+      "elapsed_seconds": 25.91
+    }
+  ]
+}

@@ -1,6 +1,8 @@
-# 第一章：真实实验复现
+# 第一、二章：真实实验复现
 
 本页命令从仓库根目录执行。随仓库保存的是已完成运行的证据；重新训练是单独操作。硬件、浮点实现和库版本会影响数值与耗时，尤其不能承诺每次强化学习训练都得到相同成绩。
+
+第一章保留下面的 CIFAR-10、CartPole 与四子棋复现流程。第二章的二维 GAN/DDPM、MNIST、CPU/CUDA 短运行和完整参数见[第二章实验复现](../chapters/02-generation/docs/实验复现.md)，本页末尾提供快速入口。视频素材恢复见[素材说明](ASSETS.md)，实验运行与整片渲染是两套流程。
 
 ## 环境
 
@@ -75,3 +77,33 @@ python tools/check_evidence.py
 - 原文件与许可证：`chapters/01-vision-choice/research/upstream/`
 - 论文与下载摘要：`chapters/01-vision-choice/research/sources.json`
 - 对原教程的改动：增加固定划分、多种子训练、独立评估、checkpoint/轨迹/可视化证据导出；MCTS 配置随机基线与不同搜索预算。版权和许可证仍按上游要求保留。
+
+## 第二章：从识别到创造
+
+当前配套视频为 V18：`Chapter02-V18-1080`，1920×1080、30 fps、54,724 帧。实验结果来自已经完成的二维 V5 运行和 MNIST 运行，视频版本号不表示每一版都重新训练过模型。
+
+| 实验 | 实际训练配置 | 保存结果 |
+|---|---|---|
+| 二维八峰 GAN/DDPM | 种子 12、25、2003；各 6,000 步；评估 2,048 点 | `chapters/02-generation/results/distributions-v5.json` |
+| MNIST GAN/DDPM | 种子 42；各 3,000 步；DDPM 200 个采样时间步 | `chapters/02-generation/results/digits.json`、`results/digits/` |
+
+第二章最小依赖见 `chapters/02-generation/requirements-experiments.txt`。建议使用独立 Python 3.12 环境，选择适合机器的 PyTorch CPU/CUDA wheel；不需要第一章的 OpenSpiel、Gymnasium 或制作机的 TTS 环境。
+
+```powershell
+python -m pip install -r chapters/02-generation/requirements-experiments.txt
+python chapters/02-generation/experiments/check_evidence.py
+python chapters/02-generation/experiments/train_distributions_v5.py --smoke --device cpu --run-dir runs/ch02-dist-smoke
+python chapters/02-generation/experiments/train_digits.py --smoke --device cpu --run-dir runs/ch02-digits-smoke
+```
+
+两个训练入口均支持 `--device cuda`，并要求全新或空运行目录。二维短运行各训练 10 步；数字短运行使用真实 MNIST 子集、各训练 2 步。首次数字运行下载并校验官方训练图像文件，完整数据不会进入 Git。短运行结果只验证执行流程。
+
+无参数的证据检查只需 Python 标准库：核对 63 项历史文件的哈希、两份原始源码哈希、六组二维统计、训练记录与摘要。深度检查需要实验依赖：
+
+```powershell
+python chapters/02-generation/experiments/check_evidence.py --deep --device cuda --report runs/ch02-check-cuda.json
+```
+
+深度检查重载八个权重，重新生成六组二维样本和 32 张 MNIST DDPM 图像；二维路径固定用 CPU，数字路径可选 CPU/CUDA。CUDA 路径还比对历史数字终图；CPU 随机流不同，只核验推理与有限数值。本次整理报告见[第二章验证记录](../chapters/02-generation/results/verification-2026-09-29.json)。数字验证 MSE 仍引用原始记录，不是此次重新计算的结果。
+
+完整训练命令、模型架构、数据划分和数值边界见[第二章实验复现](../chapters/02-generation/docs/实验复现.md)，结论见[第二章实验结果](../chapters/02-generation/docs/实验结果.md)。原始源码位于 `experiments/original/`，仅用于追溯原结果；日常执行使用外层便携入口。点分布和数字模型用于机制教学，踏雪角色创作另有[独立说明](../chapters/02-generation/docs/图像生成与角色示例.md)。

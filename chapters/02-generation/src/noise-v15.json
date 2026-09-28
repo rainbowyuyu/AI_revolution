@@ -1,0 +1,248 @@
+[
+  {
+    "file": "character/v15/noise-00.jpg",
+    "t": 0,
+    "signal": 1.0,
+    "noise": 0.0
+  },
+  {
+    "file": "character/v15/noise-01.jpg",
+    "t": 5,
+    "signal": 0.9978206565435972,
+    "noise": 0.06598437220209523
+  },
+  {
+    "file": "character/v15/noise-02.jpg",
+    "t": 10,
+    "signal": 0.9925751941565398,
+    "noise": 0.12163257764722074
+  },
+  {
+    "file": "character/v15/noise-03.jpg",
+    "t": 15,
+    "signal": 0.9842589020919817,
+    "noise": 0.17673260495077514
+  },
+  {
+    "file": "character/v15/noise-04.jpg",
+    "t": 20,
+    "signal": 0.9729456356406587,
+    "noise": 0.2310341751511984
+  },
+  {
+    "file": "character/v15/noise-05.jpg",
+    "t": 25,
+    "signal": 0.9587367244108315,
+    "noise": 0.2842954330726918
+  },
+  {
+    "file": "character/v15/noise-06.jpg",
+    "t": 30,
+    "signal": 0.9417594606289822,
+    "noise": 0.33628725565475803
+  },
+  {
+    "file": "character/v15/noise-07.jpg",
+    "t": 35,
+    "signal": 0.9221651977588652,
+    "noise": 0.3867962616706024
+  },
+  {
+    "file": "character/v15/noise-08.jpg",
+    "t": 40,
+    "signal": 0.9001270992121702,
+    "noise": 0.4356273697368934
+  },
+  {
+    "file": "character/v15/noise-09.jpg",
+    "t": 45,
+    "signal": 0.8758375840797842,
+    "noise": 0.48260597417902623
+  },
+  {
+    "file": "character/v15/noise-10.jpg",
+    "t": 50,
+    "signal": 0.8495055227094134,
+    "noise": 0.5275797256208833
+  },
+  {
+    "file": "character/v15/noise-11.jpg",
+    "t": 55,
+    "signal": 0.8213532394453665,
+    "noise": 0.5704198945098272
+  },
+  {
+    "file": "character/v15/noise-12.jpg",
+    "t": 60,
+    "signal": 0.7916133828276888,
+    "noise": 0.611022300843515
+  },
+  {
+    "file": "character/v15/noise-13.jpg",
+    "t": 65,
+    "signal": 0.7605257249672537,
+    "noise": 0.6493078019422168
+  },
+  {
+    "file": "character/v15/noise-14.jpg",
+    "t": 70,
+    "signal": 0.7283339516671237,
+    "noise": 0.6852223397182493
+  },
+  {
+    "file": "character/v15/noise-15.jpg",
+    "t": 75,
+    "signal": 0.6952825031932729,
+    "noise": 0.7187365586592187
+  },
+  {
+    "file": "character/v15/noise-16.jpg",
+    "t": 80,
+    "signal": 0.6616135225003258,
+    "noise": 0.7498450152162851
+  },
+  {
+    "file": "character/v15/noise-17.jpg",
+    "t": 85,
+    "signal": 0.627563963322468,
+    "noise": 0.778565008165019
+  },
+  {
+    "file": "character/v15/noise-18.jpg",
+    "t": 90,
+    "signal": 0.5933629050140264,
+    "noise": 0.8049350675385658
+  },
+  {
+    "file": "character/v15/noise-19.jpg",
+    "t": 95,
+    "signal": 0.559229114565091,
+    "noise": 0.8290131467128518
+  },
+  {
+    "file": "character/v15/noise-20.jpg",
+    "t": 100,
+    "signal": 0.5253688890427398,
+    "noise": 0.8508745679746206
+  },
+  {
+    "file": "character/v15/noise-21.jpg",
+    "t": 104,
+    "signal": 0.49860720488743604,
+    "noise": 0.8668280424826704
+  },
+  {
+    "file": "character/v15/noise-22.jpg",
+    "t": 109,
+    "signal": 0.4657125668548957,
+    "noise": 0.8849360457532648
+  },
+  {
+    "file": "character/v15/noise-23.jpg",
+    "t": 114,
+    "signal": 0.433588271241367,
+    "noise": 0.9011110980572389
+  },
+  {
+    "file": "character/v15/noise-24.jpg",
+    "t": 119,
+    "signal": 0.4023791312596166,
+    "noise": 0.915473120701398
+  },
+  {
+    "file": "character/v15/noise-25.jpg",
+    "t": 124,
+    "signal": 0.37221160856950675,
+    "noise": 0.9281478968602473
+  },
+  {
+    "file": "character/v15/noise-26.jpg",
+    "t": 129,
+    "signal": 0.3431935403048195,
+    "noise": 0.9392647091704469
+  },
+  {
+    "file": "character/v15/noise-27.jpg",
+    "t": 134,
+    "signal": 0.31541417023639495,
+    "noise": 0.9489541091191325
+  },
+  {
+    "file": "character/v15/noise-28.jpg",
+    "t": 139,
+    "signal": 0.2889444618173168,
+    "noise": 0.9573458612147969
+  },
+  {
+    "file": "character/v15/noise-29.jpg",
+    "t": 144,
+    "signal": 0.2638376664337788,
+    "noise": 0.9645670975991136
+  },
+  {
+    "file": "character/v15/noise-30.jpg",
+    "t": 149,
+    "signal": 0.2401301167377757,
+    "noise": 0.9707407105069316
+  },
+  {
+    "file": "character/v15/noise-31.jpg",
+    "t": 154,
+    "signal": 0.21784221248746943,
+    "noise": 0.9759840011283814
+  },
+  {
+    "file": "character/v15/noise-32.jpg",
+    "t": 159,
+    "signal": 0.19697956485848767,
+    "noise": 0.9804075943341937
+  },
+  {
+    "file": "character/v15/noise-33.jpg",
+    "t": 164,
+    "signal": 0.17753426467567354,
+    "noise": 0.9841146197806777
+  },
+  {
+    "file": "character/v15/noise-34.jpg",
+    "t": 169,
+    "signal": 0.15948624038534856,
+    "noise": 0.9872001515031017
+  },
+  {
+    "file": "character/v15/noise-35.jpg",
+    "t": 174,
+    "signal": 0.14280467275692965,
+    "noise": 0.9897508905976221
+  },
+  {
+    "file": "character/v15/noise-36.jpg",
+    "t": 179,
+    "signal": 0.12744943516692514,
+    "noise": 0.9918450692903765
+  },
+  {
+    "file": "character/v15/noise-37.jpg",
+    "t": 184,
+    "signal": 0.11337253076322772,
+    "noise": 0.9935525498273058
+  },
+  {
+    "file": "character/v15/noise-38.jpg",
+    "t": 189,
+    "signal": 0.10051950071153415,
+    "noise": 0.9949350883232051
+  },
+  {
+    "file": "character/v15/noise-39.jpg",
+    "t": 194,
+    "signal": 0.0888307809647124,
+    "noise": 0.99604673201271
+  },
+  {
+    "file": "character/v15/noise-40.jpg",
+    "t": 199,
+    "signal": 0.07824298844812122,
+    "noise": 0.9969343181768331
+  }
+]

@@ -23,6 +23,24 @@ def main():
  series=json.loads((ROOT/'series.json').read_text(encoding='utf8'))
  for p in [series['overview'],*series['chapters']]:
   if not (ROOT/p['path']/'README.md').exists():errors.append(p['path']+': missing chapter README')
+ ch02=ROOT/'chapters/02-generation'
+ registered=next(c for c in series['chapters'] if c['id']=='02')
+ meta=json.loads((ch02/'chapter.json').read_text(encoding='utf8'))
+ timeline=json.loads((ch02/'supplements/timeline.json').read_text(encoding='utf8'))
+ for key in ('status','version','composition','fps','frames'):
+  if meta.get(key)!=registered.get(key):errors.append('Chapter 02 registry mismatch: '+key)
+ if meta.get('fps')!=timeline['fps'] or meta.get('frames')!=timeline['durationFrames']:errors.append('Chapter 02 timeline metadata mismatch')
+ for rel in meta.get('materials',{}).values():
+  if not (ch02/rel).resolve().is_relative_to(ch02) or not (ch02/rel).is_file():errors.append('Chapter 02 material path invalid: '+rel)
+ end=0
+ for scene in timeline['scenes']:
+  if scene['startFrame']!=end or scene['durationFrames']<=0:errors.append('Chapter 02 timeline gap or overlap')
+  end=scene['startFrame']+scene['durationFrames']
+ if end!=meta['frames']:errors.append('Chapter 02 timeline does not cover declared duration')
+ public=(ch02/'public').resolve()
+ for asset in json.loads((ch02/'assets/video-manifest.json').read_text(encoding='utf8'))['assets']:
+  if not (public/asset['path']).resolve().is_relative_to(public):errors.append('Chapter 02 asset escapes public directory')
+  if not re.fullmatch(r'[0-9a-f]{64}',asset['sha256']) or asset['bytes']<=0:errors.append('Chapter 02 asset metadata invalid')
  chapter=ROOT/'chapters/01-vision-choice'
  cnn=json.loads((chapter/'public/experiments/cnn.json').read_text(encoding='utf8'))
  for s in cnn['samples']:
@@ -33,6 +51,6 @@ def main():
   if len(r['games'])!=60 or r['wins']+r['draws']+r['losses']!=60:errors.append('Search result count mismatch')
  for m in json.loads((ROOT/'assets/manifest.json').read_text(encoding='utf8'))['assets']:
   if not (ROOT/m['path']).resolve().is_relative_to(ROOT):errors.append('Asset path escapes repository')
- print(json.dumps(dict(files=count,errors=errors,checks=['JSON/Python syntax','credential patterns (values suppressed)','chapter registry','CNN distributions','MCTS game counts','asset path bounds']),ensure_ascii=False,indent=2))
+ print(json.dumps(dict(files=count,errors=errors,checks=['JSON/Python syntax','credential patterns (values suppressed)','chapter registry','CNN distributions','MCTS game counts','asset path bounds','Chapter 02 registry/materials/timeline']),ensure_ascii=False,indent=2))
  if errors:raise SystemExit(1)
 if __name__=='__main__':main()

@@ -1,0 +1,90 @@
+{
+  "checked_at_utc": "2026-09-28T17:01:03.484150+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "light": {
+    "archived_files_hashed": 63,
+    "distribution_runs_recounted": 6,
+    "historical_code_hashes_matched": 2,
+    "digits_seed": 42
+  },
+  "deep": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.3",
+    "distribution_checkpoint_samples": [
+      {
+        "model": "gan",
+        "seed": 12,
+        "max_sample_abs_error": 5.125999450683594e-06
+      },
+      {
+        "model": "gan",
+        "seed": 25,
+        "max_sample_abs_error": 5.125999450683594e-06
+      },
+      {
+        "model": "gan",
+        "seed": 2003,
+        "max_sample_abs_error": 5.125999450683594e-06
+      },
+      {
+        "model": "ddpm",
+        "seed": 12,
+        "max_sample_abs_error": 5.0067901611328125e-06
+      },
+      {
+        "model": "ddpm",
+        "seed": 25,
+        "max_sample_abs_error": 5.125999450683594e-06
+      },
+      {
+        "model": "ddpm",
+        "seed": 2003,
+        "max_sample_abs_error": 5.125999450683594e-06
+      }
+    ],
+    "mnist_device": "cuda",
+    "mnist_ddpm_samples": 32,
+    "mnist_ddpm_reverse_steps": 200,
+    "mnist_grid_compared_to_archived_cuda": true,
+    "mnist_grid_max_pixel_error": 0,
+    "checkpoints_loaded_with_weights_only": 8,
+    "note": "Historical MNIST validation MSE is retained; it is not recomputed by this check."
+  },
+  "status": "passed",
+  "portable_smoke_checks": [
+    {
+      "experiment": "distributions",
+      "device": "cpu",
+      "steps_per_model": 10,
+      "status": "passed",
+      "portable_code_sha256": "fea2f93a562287d82f869a02e7bab1aa7a3a7800315fa4f9e01147665f90b48f",
+      "output_result_sha256": "94af8a3f20cd1769ac17ee4f606edfa96e5d59c046e9f1960c756ddeea63c0ab"
+    },
+    {
+      "experiment": "distributions",
+      "device": "cuda",
+      "steps_per_model": 10,
+      "status": "passed",
+      "portable_code_sha256": "fea2f93a562287d82f869a02e7bab1aa7a3a7800315fa4f9e01147665f90b48f",
+      "output_result_sha256": "51ad82c184165fd9985580db14310cc356c6839dd6db8aa5cad4b7f6e510c859"
+    },
+    {
+      "experiment": "digits",
+      "device": "cpu",
+      "steps_per_model": 2,
+      "status": "passed",
+      "portable_code_sha256": "49f95e49cc8755ba3409923e039ed53a4850f811d5cb50603ac3f0a7e401901e",
+      "output_result_sha256": "cd7074542da3b7fefff2754a04c1b9d2a23f28669fa11f468a44cc3aedcd2d8e"
+    },
+    {
+      "experiment": "digits",
+      "device": "cuda",
+      "steps_per_model": 2,
+      "status": "passed",
+      "portable_code_sha256": "49f95e49cc8755ba3409923e039ed53a4850f811d5cb50603ac3f0a7e401901e",
+      "output_result_sha256": "cfdf315965b067abcfa61aa55b990c29248fed86a90d65675b8b33c95c7744af"
+    }
+  ],
+  "existing_run_directory_protection": "Verified: an existing nonempty distribution run directory was rejected before training"
+}

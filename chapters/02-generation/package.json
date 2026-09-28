@@ -1,0 +1,26 @@
+{
+  "name": "rainbow-generation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "assets:prepare": "python scripts/prepare_assets.py",
+    "assets:check": "python scripts/prepare_assets.py --check-external",
+    "studio": "remotion studio src/index-v18.tsx",
+    "render": "remotion render src/index-v18.tsx Chapter02-V18-1080 output/chapter02-v18.mp4 --codec=h264",
+    "still": "remotion still src/index-v18.tsx Chapter02-V18-1080 output/chapter02-v18.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.526",
+    "@remotion/media": "4.0.526",
+    "@remotion/transitions": "4.0.526",
+    "remotion": "4.0.526",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.7",
+    "@types/node": "22.10.2"
+  }
+}

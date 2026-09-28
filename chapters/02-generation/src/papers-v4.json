@@ -1,0 +1,346 @@
+[
+  {
+    "id": "gan",
+    "title": "Generative Adversarial Nets",
+    "authors": "Goodfellow et al.",
+    "year": 2014,
+    "url": "https://arxiv.org/pdf/1406.2661",
+    "arxiv": "1406.2661",
+    "file": "research\\pdfs\\gan.pdf",
+    "sha256": "ff5819e3a7b713c3bd3107b7de3d51fe0a347aa5d8444f0efdcf2345ef0a8b63",
+    "pages": 9,
+    "page": 3,
+    "image": "papers/v4/gan-page.png",
+    "accessed": "2026-09-25",
+    "status": "downloaded-original-page",
+    "license": "Author/publisher rights retained; educational citation, no open reuse claim",
+    "focus": [
+      102,
+      333,
+      513,
+      603
+    ],
+    "focusImage": "papers/v4/gan-focus.png",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "focusText": "x\nz\nX\nZ\nX\nZ\n...\nX\nZ\n(a)\n(b)\n(c)\n(d)\nFigure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution\n(D, blue, dashed line) so that it discriminates between samples from the data generating distribution (black,\ndotted line) px from those of the generative distribution pg (G) (green, solid line). The lower horizontal line is\nthe domain from which z is sampled, in this case uniformly. The horizontal line ",
+    "verifiedText": "x z ... (a) (b) (c) (d) Figure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution (D, blue, dashed line) so that it discriminates between samples from the data generating distribution (black, dotted line) px from those of the generative distribution pg (G) (green, solid line). The lower horizontal line is the domain from which z is sampled, in this case uniformly. The horizontal line above is part of the domain of x. The upward arrows show how the mapping x = G(z) imposes the non-uniform distribution pg on transformed samples. G contracts in regions of high density and expands in regions of low density of pg. (a) Consider an adversarial pair near convergence: pg is similar to pdata and D is a partially accurate classiﬁer. (b) In the inner loop of the algorithm D is trained to discriminate samples from data, converging to D∗(x) = pdata(x) pdata(x)+pg(x). (c) After an update to G, gradient of D has guided G(z) to ﬂow to regions that are more likely to be classiﬁed as data. (d) After several steps of training, if G and D have enough capacity, they will reach a point at which both cannot improve because pg = pdata. The discriminator is unable to differentiate between the two distributions, i.e. D(x) = 1 2.",
+    "venue": "NeurIPS 2014",
+    "cameraFocus": [
+      103,
+      333,
+      512,
+      486
+    ],
+    "focusRasterRect": [
+      82.0,
+      312.90909090909093,
+      533.0909090909091,
+      623.0909090909091
+    ],
+    "label": "GAN",
+    "figure": "Figure 1",
+    "focusRasterScale": 5.5,
+    "focusRasterSize": [
+      2481,
+      1706
+    ],
+    "displayScaleMax": 2.3960880195599024,
+    "nativePixelsPer1080Pixel": 2.295408163265306,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  },
+  {
+    "id": "dcgan",
+    "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+    "authors": "Radford et al.",
+    "year": 2016,
+    "url": "https://arxiv.org/pdf/1511.06434",
+    "arxiv": "1511.06434",
+    "file": "research\\pdfs\\dcgan.pdf",
+    "sha256": "01f7475f7cdad32c05aeaee6de61031702e7325097c82889d1c3537848642f11",
+    "pages": 16,
+    "page": 4,
+    "image": "papers/v4/dcgan-page.png",
+    "accessed": "2026-09-25",
+    "status": "downloaded-original-page",
+    "license": "Author/publisher rights retained; educational citation, no open reuse claim",
+    "focus": [
+      103,
+      82,
+      513,
+      316
+    ],
+    "focusImage": "papers/v4/dcgan-focus.png",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "focusText": "Figure 1: DCGAN generator used for LSUN scene modeling. A 100 dimensional uniform distribu-\ntion Z is projected to a small spatial extent convolutional representation with many feature maps.\nA series of four fractionally-strided convolutions (in some recent papers, these are wrongly called\ndeconvolutions) then convert this high level representation into a 64 × 64 pixel image. Notably, no",
+    "verifiedText": "Figure 1: DCGAN generator used for LSUN scene modeling. A 100 dimensional uniform distribu- tion Z is projected to a small spatial extent convolutional representation with many feature maps. A series of four fractionally-strided convolutions (in some recent papers, these are wrongly called deconvolutions) then convert this high level representation into a 64 × 64 pixel image. Notably, no fully connected or pooling layers are used.",
+    "venue": "ICLR 2016",
+    "cameraFocus": [
+      103,
+      82,
+      513,
+      268
+    ],
+    "focusRasterRect": [
+      82.9090909090909,
+      62.0,
+      533.0909090909091,
+      336.0
+    ],
+    "label": "DCGAN",
+    "figure": "Figure 1",
+    "focusRasterScale": 5.5,
+    "focusRasterSize": [
+      2476,
+      1507
+    ],
+    "displayScaleMax": 2.3902439024390243,
+    "nativePixelsPer1080Pixel": 2.3010204081632653,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  },
+  {
+    "id": "diffusion2015",
+    "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+    "authors": "Sohl-Dickstein et al.",
+    "year": 2015,
+    "url": "https://arxiv.org/pdf/1503.03585",
+    "arxiv": "1503.03585",
+    "file": "research\\pdfs\\diffusion2015.pdf",
+    "sha256": "17a29449579ceb4fb906f2f3d5643eb22cea54e5975017ff8788ddf73d8b44ad",
+    "pages": 18,
+    "page": 3,
+    "image": "papers/v4/diffusion2015-page.png",
+    "accessed": "2026-09-25",
+    "status": "downloaded-original-page",
+    "license": "Author/publisher rights retained; educational citation, no open reuse claim",
+    "focus": [
+      48,
+      62,
+      549,
+      423
+    ],
+    "focusImage": "papers/v4/diffusion2015-focus.png",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "focusText": "t = 0\nt = T\n2\nt = T\nq\n�\nx(0···T )�\n2\n0\n2\n2\n0\n2\n2\n0\n2\n2\n0\n2\n2\n0\n2\n2\n0\n2\np\n�\nx(0···T )�\n2\n0\n2\n2\n0\n2\n2\n0\n2\n2\n0\n2\n2\n0\n2\n2\n0\n2\nfµ\n�\nx(t), t\n�\n−x(t)\nFigure 1. The proposed modeling framework trained on 2-d swiss roll data. The top row shows time slices from the forward trajectory\nq\n�\nx(0···T )�\n. The data distribution (left) undergoes Gaussian diffusion, which gradually transforms it into an identity-covariance Gaus-\nsian (right). The middle row shows ",
+    "verifiedText": "t = 0 t = T 2 t = T q x(0···T )\u0001 2 0 2 2 0 2 2 0 2 2 0 2 2 0 2 2 0 2 p x(0···T )\u0001 2 0 2 2 0 2 2 0 2 2 0 2 2 0 2 2 0 2 fµ x(t), t \u0001 −x(t) Figure 1. The proposed modeling framework trained on 2-d swiss roll data. The top row shows time slices from the forward trajectory q \u0010 x(0···T )\u0011 . The data distribution (left) undergoes Gaussian diffusion, which gradually transforms it into an identity-covariance Gaus- sian (right). The middle row shows the corresponding time slices from the trained reverse trajectory p \u0010 x(0···T )\u0011 . An identity-covariance Gaussian (right) undergoes a Gaussian diffusion process with learned mean and covariance functions, and is gradually transformed back into the data distribution (left). The bottom row shows the drift term, fµ \u0010 x(t), t \u0011 −x(t), for the same reverse diffusion process.",
+    "venue": "ICML 2015",
+    "cameraFocus": [
+      104,
+      62,
+      486,
+      348
+    ],
+    "focusRasterRect": [
+      28.0,
+      42.0,
+      569.0,
+      443.0
+    ],
+    "label": "扩散建模",
+    "figure": "Figure 1",
+    "focusRasterScale": 4.0,
+    "focusRasterSize": [
+      2164,
+      1604
+    ],
+    "displayScaleMax": 1.6853146853146854,
+    "nativePixelsPer1080Pixel": 2.3734439834024896,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  },
+  {
+    "id": "ddpm",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "authors": "Ho et al.",
+    "year": 2020,
+    "url": "https://arxiv.org/pdf/2006.11239",
+    "arxiv": "2006.11239",
+    "file": "research\\pdfs\\ddpm.pdf",
+    "sha256": "aee5e07a802e8dfd2a386374c94fd61d1d056cb7e1e0fec4f28e8120ff5d8505",
+    "pages": 25,
+    "page": 4,
+    "image": "papers/v4/ddpm-page.png",
+    "accessed": "2026-09-25",
+    "status": "downloaded-original-page",
+    "license": "Author/publisher rights retained; educational citation, no open reuse claim",
+    "focus": [
+      102,
+      81,
+      508,
+      177
+    ],
+    "focusImage": "papers/v4/ddpm-focus.png",
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "focusText": "Algorithm 1 Training\n1: repeat\n2:\nx0 ∼q(x0)\n3:\nt ∼Uniform({1, . . . , T})\n4:\nϵ ∼N(0, I)\n5:\nTake gradient descent step on\n∇θ\n��ϵ −ϵθ(√¯αtx0 + √1 −¯αtϵ, t)\n��2\n6: until converged\nAlgorithm 2 Sampling\n1: xT ∼N(0, I)\n2: for t = T, . . . , 1 do\n3:\nz ∼N(0, I) if t > 1, else z = 0\n4:\nxt−1 =\n1\n√αt\n�\nxt −\n1−αt\n√1−¯αt ϵθ(xt, t)\n�\n+ σtz\n5: end for\n6: return x0\nEquation (10) reveals that µθ must predict\n1\n√αt\n�\nxt −\nβt\n√1−¯αt ϵ\n�\ngiven xt. Since xt is availa",
+    "verifiedText": "Algorithm 1 Training 1: repeat 2: x0 ∼q(x0) 3: t ∼Uniform({1, . . . , T}) 4: ϵ ∼N(0, I) 5: Take gradient descent step on ∇θ ϵ −ϵθ(√¯αtx0 + √1 −¯αtϵ, t) 2 6: until converged Algorithm 2 Sampling 1: xT ∼N(0, I) 2: for t = T, . . . , 1 do 3: z ∼N(0, I) if t > 1, else z = 0 4: xt−1 = 1 √αt \u0010 xt − 1−αt √1−¯αt ϵθ(xt, t) \u0011 + σtz 5: end for 6: return x0",
+    "venue": "NeurIPS 2020",
+    "cameraFocus": [
+      102,
+      81,
+      508,
+      177
+    ],
+    "focusRasterRect": [
+      82.0,
+      60.90909090909091,
+      528.0,
+      197.0909090909091
+    ],
+    "label": "DDPM",
+    "figure": "Algorithms 1–2",
+    "focusRasterScale": 5.5,
+    "focusRasterSize": [
+      2453,
+      749
+    ],
+    "displayScaleMax": 2.413793103448276,
+    "nativePixelsPer1080Pixel": 2.2785714285714285,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  },
+  {
+    "id": "ddim",
+    "title": "Denoising Diffusion Implicit Models",
+    "authors": "Song et al.",
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2010.02502",
+    "arxiv": "2010.02502",
+    "file": "research\\pdfs\\ddim.pdf",
+    "sha256": "07cb8796d7c100bf7c02bc575f16aab72c32630a8f85abd54ad45dc4f63e80fb",
+    "pages": 22,
+    "page": 7,
+    "image": "papers/v4/ddim-page.png",
+    "accessed": "2026-09-25",
+    "status": "downloaded-original-page",
+    "license": "Author/publisher rights retained; educational citation, no open reuse claim",
+    "focus": [
+      103,
+      77,
+      511,
+      328
+    ],
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "verifiedText": "Table 1: CIFAR10 and CelebA image generation measured in FID. η = 1.0 and ˆσ are cases of DDPM (although Ho et al. (2020) only considered T = 1000 steps, and S < T can be seen as simulating DDPMs trained with S steps), and η = 0.0 indicates DDIM. CIFAR10 (32 × 32) CelebA (64 × 64) S 10 20 50 100 1000 10 20 50 100 1000 η 0.0 13.36 6.84 4.67 4.16 4.04 17.33 13.73 9.17 6.53 3.51 0.2 14.04 7.11 4.77 4.25 4.09 17.66 14.11 9.51 6.79 3.64 0.5 16.66 8.35 5.25 4.46 4.29 19.86 16.06 11.01 8.09 4.28 1.0 41.07 18.36 8.01 5.78 4.73 33.12 26.03 18.48 13.93 5.98 ˆσ 367.43 133.37 32.72 9.99 3.17 299.71 183.83 71.71 45.20 3.26 0.0 0.2 0.5 1.0 dim( ) = 10 0.0 0.2 0.5 1.0 dim( ) = 100 0.0 0.2 0.5 1.0 dim( ) = 10 0.0 0.2 0.5 1.0 dim( ) = 100 Figure 3: CIFAR10 and CelebA samples with dim(τ) = 10 and dim(τ) = 100.",
+    "venue": "ICLR 2021",
+    "focusImage": "papers/v4/ddim-focus.png",
+    "cameraFocus": [
+      103,
+      77,
+      511,
+      328
+    ],
+    "focusRasterRect": [
+      82.88888888888889,
+      56.888888888888886,
+      531.1111111111111,
+      348.0
+    ],
+    "label": "DDIM",
+    "figure": "Table 1 · Figure 3",
+    "focusRasterScale": 4.5,
+    "focusRasterSize": [
+      2017,
+      1310
+    ],
+    "displayScaleMax": 1.9203187250996017,
+    "nativePixelsPer1080Pixel": 2.3433609958506225,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  },
+  {
+    "id": "ldm",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "authors": "Rombach et al.",
+    "year": 2022,
+    "url": "https://arxiv.org/pdf/2112.10752",
+    "arxiv": "2112.10752",
+    "file": "research\\pdfs\\ldm.pdf",
+    "sha256": "46ede043a8dc07ca1f0f445620523fe1ad8b2436bd83856a3835612a47e9f79e",
+    "pages": 45,
+    "page": 4,
+    "image": "papers/v4/ldm-page.png",
+    "accessed": "2026-09-25",
+    "status": "downloaded-original-page",
+    "license": "Author/publisher rights retained; educational citation, no open reuse claim",
+    "focus": [
+      303,
+      65,
+      551,
+      223
+    ],
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "verifiedText": "Semantic Map crossattention Latent Space Conditioning Text Diffusion Process denoising step switch skip connection Repres entations Pixel Space Images Denoising U-Net concat Figure 3. We condition LDMs either via concatenation or by a more general cross-attention mechanism. See Sec. 3.3",
+    "venue": "CVPR 2022",
+    "focusImage": "papers/v4/ldm-focus.png",
+    "cameraFocus": [
+      303,
+      65,
+      551,
+      223
+    ],
+    "focusRasterRect": [
+      283.0,
+      45.0,
+      571.0,
+      243.0
+    ],
+    "label": "LDM",
+    "figure": "Figure 3",
+    "focusRasterScale": 7.0,
+    "focusRasterSize": [
+      2016,
+      1386
+    ],
+    "displayScaleMax": 3.050632911392405,
+    "nativePixelsPer1080Pixel": 2.294605809128631,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  },
+  {
+    "id": "cfg",
+    "title": "Classifier-Free Diffusion Guidance",
+    "authors": "Ho and Salimans",
+    "year": 2022,
+    "url": "https://arxiv.org/pdf/2207.12598",
+    "file": "research\\pdfs\\cfg.pdf",
+    "sha256": "ccbdf2da65903ed579d35240165aba2d0e9ad6f015ade81af6e30823eb0a7f24",
+    "status": "downloaded-original",
+    "license": "Author rights retained; educational citation",
+    "page": 2,
+    "focus": [
+      103,
+      70,
+      512,
+      227
+    ],
+    "pageWidth": 612.0,
+    "pageHeight": 792.0,
+    "image": "papers/v4/cfg-page.png",
+    "verifiedText": "Figure 2: The effect of guidance on a mixture of three Gaussians, each mixture component represent- ing data conditioned on a class. The leftmost plot is the non-guided marginal density. Left to right are densities of mixtures of normalized guided conditionals with increasing guidance strength.",
+    "venue": "arXiv · 2022",
+    "focusImage": "papers/v4/cfg-focus.png",
+    "cameraFocus": [
+      103,
+      70,
+      512,
+      227
+    ],
+    "focusRasterRect": [
+      82.9090909090909,
+      50.0,
+      532.0,
+      247.0909090909091
+    ],
+    "label": "CFG",
+    "figure": "Figure 2",
+    "focusRasterScale": 5.5,
+    "focusRasterSize": [
+      2470,
+      1084
+    ],
+    "displayScaleMax": 2.3960880195599024,
+    "nativePixelsPer1080Pixel": 2.295408163265306,
+    "renderMethod": "PyMuPDF original PDF page and registered high-resolution crop"
+  }
+]

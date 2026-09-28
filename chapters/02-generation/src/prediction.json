@@ -1,0 +1,23 @@
+[
+  {
+    "t": 150,
+    "mse": 0.006399492733180523,
+    "sample_id": 55000,
+    "source": "held-out official-training-file validation split",
+    "seed": 927
+  },
+  {
+    "t": 75,
+    "mse": 0.018283674493432045,
+    "sample_id": 55000,
+    "source": "held-out official-training-file validation split",
+    "seed": 927
+  },
+  {
+    "t": 20,
+    "mse": 0.043890949338674545,
+    "sample_id": 55000,
+    "source": "held-out official-training-file validation split",
+    "seed": 927
+  }
+]

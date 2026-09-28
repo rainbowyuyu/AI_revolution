@@ -1,0 +1,5242 @@
+[
+  {
+    "text": "她叫踏雪",
+    "startMs": 550,
+    "endMs": 1430,
+    "timestampMs": 550,
+    "confidence": null,
+    "from": 16,
+    "to": 43,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "黑白长毛，棕色眼睛，鼻梁一道白纹",
+    "startMs": 2430,
+    "endMs": 5970,
+    "timestampMs": 2430,
+    "confidence": null,
+    "from": 73,
+    "to": 179,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "还有四只白爪",
+    "startMs": 6175,
+    "endMs": 7270,
+    "timestampMs": 6175,
+    "confidence": null,
+    "from": 185,
+    "to": 218,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "坐下也好，换个场景也好",
+    "startMs": 8150,
+    "endMs": 10410,
+    "timestampMs": 8150,
+    "confidence": null,
+    "from": 245,
+    "to": 312,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "电脑怎样让她仍然像踏雪？",
+    "startMs": 10635,
+    "endMs": 12630,
+    "timestampMs": 10635,
+    "confidence": null,
+    "from": 319,
+    "to": 379,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "上一章，我们问图片里是什么",
+    "startMs": 14270,
+    "endMs": 16390,
+    "timestampMs": 14270,
+    "confidence": null,
+    "from": 428,
+    "to": 492,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "这次，我们请电脑当画师：换环境、换动作",
+    "startMs": 17430,
+    "endMs": 21530,
+    "timestampMs": 17430,
+    "confidence": null,
+    "from": 523,
+    "to": 646,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "画的都得是踏雪",
+    "startMs": 21735,
+    "endMs": 22950,
+    "timestampMs": 21735,
+    "confidence": null,
+    "from": 652,
+    "to": 689,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "第二章，从识别到创造",
+    "startMs": 24350,
+    "endMs": 27030,
+    "timestampMs": 24350,
+    "confidence": null,
+    "from": 731,
+    "to": 811,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "我们试两条路：生成对抗网络",
+    "startMs": 27830,
+    "endMs": 30490,
+    "timestampMs": 27830,
+    "confidence": null,
+    "from": 835,
+    "to": 915,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "一边画、一边根据反馈改；扩散模型",
+    "startMs": 30595,
+    "endMs": 34050,
+    "timestampMs": 30595,
+    "confidence": null,
+    "from": 918,
+    "to": 1022,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "从一团噪声里，一步步画出有结构的内容",
+    "startMs": 34295,
+    "endMs": 37310,
+    "timestampMs": 34295,
+    "confidence": null,
+    "from": 1029,
+    "to": 1119,
+    "scene": "pearl-intro"
+  },
+  {
+    "text": "目标很具体：换场景，主角还要像踏雪",
+    "startMs": 39783,
+    "endMs": 43843,
+    "timestampMs": 39783,
+    "confidence": null,
+    "from": 1194,
+    "to": 1315,
+    "scene": "goal"
+  },
+  {
+    "text": "光线和角度会变，脸上的白纹和毛色要留下",
+    "startMs": 45343,
+    "endMs": 49143,
+    "timestampMs": 45343,
+    "confidence": null,
+    "from": 1360,
+    "to": 1474,
+    "scene": "goal"
+  },
+  {
+    "text": "先从最小的实验开始",
+    "startMs": 49783,
+    "endMs": 51388,
+    "timestampMs": 49783,
+    "confidence": null,
+    "from": 1493,
+    "to": 1542,
+    "scene": "goal"
+  },
+  {
+    "text": "看模型怎样从随机数长出结构",
+    "startMs": 51388,
+    "endMs": 54283,
+    "timestampMs": 51388,
+    "confidence": null,
+    "from": 1542,
+    "to": 1628,
+    "scene": "goal"
+  },
+  {
+    "text": "还有个更难的要求：一眼就能认出这是踏雪",
+    "startMs": 55983,
+    "endMs": 59423,
+    "timestampMs": 55983,
+    "confidence": null,
+    "from": 1679,
+    "to": 1783,
+    "scene": "goal"
+  },
+  {
+    "text": "假如白爪留下了，脸却换了",
+    "startMs": 60823,
+    "endMs": 63323,
+    "timestampMs": 60823,
+    "confidence": null,
+    "from": 1825,
+    "to": 1900,
+    "scene": "goal"
+  },
+  {
+    "text": "这张画就认错了主角",
+    "startMs": 63528,
+    "endMs": 65223,
+    "timestampMs": 63528,
+    "confidence": null,
+    "from": 1906,
+    "to": 1957,
+    "scene": "goal"
+  },
+  {
+    "text": "我们先学会生成合理的东西",
+    "startMs": 66783,
+    "endMs": 68963,
+    "timestampMs": 66783,
+    "confidence": null,
+    "from": 2003,
+    "to": 2069,
+    "scene": "goal"
+  },
+  {
+    "text": "再把指定的主角和场景加进去",
+    "startMs": 68988,
+    "endMs": 71503,
+    "timestampMs": 68988,
+    "confidence": null,
+    "from": 2070,
+    "to": 2145,
+    "scene": "goal"
+  },
+  {
+    "text": "先把任务缩小",
+    "startMs": 74250,
+    "endMs": 75450,
+    "timestampMs": 74250,
+    "confidence": null,
+    "from": 2228,
+    "to": 2263,
+    "scene": "experiments"
+  },
+  {
+    "text": "八个目标区域让我们看见生成点怎样移动",
+    "startMs": 77170,
+    "endMs": 80930,
+    "timestampMs": 77170,
+    "confidence": null,
+    "from": 2315,
+    "to": 2428,
+    "scene": "experiments"
+  },
+  {
+    "text": "再把同样的思路放回图像",
+    "startMs": 81115,
+    "endMs": 83130,
+    "timestampMs": 81115,
+    "confidence": null,
+    "from": 2433,
+    "to": 2494,
+    "scene": "experiments"
+  },
+  {
+    "text": "再把两个坐标换成一张小图",
+    "startMs": 84170,
+    "endMs": 86570,
+    "timestampMs": 84170,
+    "confidence": null,
+    "from": 2525,
+    "to": 2597,
+    "scene": "experiments"
+  },
+  {
+    "text": "让网络生成手写数字",
+    "startMs": 86935,
+    "endMs": 88610,
+    "timestampMs": 86935,
+    "confidence": null,
+    "from": 2608,
+    "to": 2658,
+    "scene": "experiments"
+  },
+  {
+    "text": "看着点和笔画慢慢变化，我们能直接检查：",
+    "startMs": 89330,
+    "endMs": 92730,
+    "timestampMs": 89330,
+    "confidence": null,
+    "from": 2680,
+    "to": 2782,
+    "scene": "experiments"
+  },
+  {
+    "text": "训练有没有用，哪里还画得不对",
+    "startMs": 92995,
+    "endMs": 95230,
+    "timestampMs": 92995,
+    "confidence": null,
+    "from": 2790,
+    "to": 2857,
+    "scene": "experiments"
+  },
+  {
+    "text": "最后回到踏雪，用参考图编辑和视频生成",
+    "startMs": 96170,
+    "endMs": 99970,
+    "timestampMs": 96170,
+    "confidence": null,
+    "from": 2885,
+    "to": 2999,
+    "scene": "experiments"
+  },
+  {
+    "text": "把身份、场景和连续动作接起来",
+    "startMs": 100275,
+    "endMs": 102950,
+    "timestampMs": 100275,
+    "confidence": null,
+    "from": 3008,
+    "to": 3089,
+    "scene": "experiments"
+  },
+  {
+    "text": "给踏雪换场景，我们会用训练好的大模型",
+    "startMs": 104130,
+    "endMs": 107590,
+    "timestampMs": 104130,
+    "confidence": null,
+    "from": 3124,
+    "to": 3228,
+    "scene": "experiments"
+  },
+  {
+    "text": "看看这些想法怎样用在实际创作中",
+    "startMs": 107735,
+    "endMs": 110510,
+    "timestampMs": 107735,
+    "confidence": null,
+    "from": 3232,
+    "to": 3315,
+    "scene": "experiments"
+  },
+  {
+    "text": "翻开狗狗相册，有站姿、坐姿",
+    "startMs": 113683,
+    "endMs": 117163,
+    "timestampMs": 113683,
+    "confidence": null,
+    "from": 3410,
+    "to": 3515,
+    "scene": "distribution"
+  },
+  {
+    "text": "还有耳朵放松的瞬间",
+    "startMs": 117348,
+    "endMs": 118863,
+    "timestampMs": 117348,
+    "confidence": null,
+    "from": 3520,
+    "to": 3566,
+    "scene": "distribution"
+  },
+  {
+    "text": "我们想让电脑画出新的姿势、新的角度",
+    "startMs": 119403,
+    "endMs": 122383,
+    "timestampMs": 119403,
+    "confidence": null,
+    "from": 3582,
+    "to": 3672,
+    "scene": "distribution"
+  },
+  {
+    "text": "还能换一种光线",
+    "startMs": 122488,
+    "endMs": 123643,
+    "timestampMs": 122488,
+    "confidence": null,
+    "from": 3675,
+    "to": 3709,
+    "scene": "distribution"
+  },
+  {
+    "text": "它得从这些例子里，学到各种画面共有的规律",
+    "startMs": 124403,
+    "endMs": 128083,
+    "timestampMs": 124403,
+    "confidence": null,
+    "from": 3732,
+    "to": 3843,
+    "scene": "distribution"
+  },
+  {
+    "text": "耳朵可以转，四条腿可以动",
+    "startMs": 128443,
+    "endMs": 130703,
+    "timestampMs": 128443,
+    "confidence": null,
+    "from": 3853,
+    "to": 3921,
+    "scene": "distribution"
+  },
+  {
+    "text": "骨骼和身体比例得合理",
+    "startMs": 131128,
+    "endMs": 132983,
+    "timestampMs": 131128,
+    "confidence": null,
+    "from": 3934,
+    "to": 3990,
+    "scene": "distribution"
+  },
+  {
+    "text": "许多合理结果合在一起",
+    "startMs": 134243,
+    "endMs": 136008,
+    "timestampMs": 134243,
+    "confidence": null,
+    "from": 4027,
+    "to": 4080,
+    "scene": "distribution"
+  },
+  {
+    "text": "就构成了我们要学习的数据分布",
+    "startMs": 136008,
+    "endMs": 138423,
+    "timestampMs": 136008,
+    "confidence": null,
+    "from": 4080,
+    "to": 4153,
+    "scene": "distribution"
+  },
+  {
+    "text": "现在，把相册里的复杂画面简化成八组小点",
+    "startMs": 138843,
+    "endMs": 142483,
+    "timestampMs": 138843,
+    "confidence": null,
+    "from": 4165,
+    "to": 4275,
+    "scene": "distribution"
+  },
+  {
+    "text": "规律就更容易看清了",
+    "startMs": 142808,
+    "endMs": 144363,
+    "timestampMs": 142808,
+    "confidence": null,
+    "from": 4284,
+    "to": 4331,
+    "scene": "distribution"
+  },
+  {
+    "text": "点要落在有效区域里，还不能只光顾其中一团",
+    "startMs": 145123,
+    "endMs": 148703,
+    "timestampMs": 145123,
+    "confidence": null,
+    "from": 4354,
+    "to": 4461,
+    "scene": "distribution"
+  },
+  {
+    "text": "落得准不准、种类全不全",
+    "startMs": 149563,
+    "endMs": 152083,
+    "timestampMs": 149563,
+    "confidence": null,
+    "from": 4487,
+    "to": 4563,
+    "scene": "distribution"
+  },
+  {
+    "text": "后面我们就按这两件事打分",
+    "startMs": 152388,
+    "endMs": 154083,
+    "timestampMs": 152388,
+    "confidence": null,
+    "from": 4572,
+    "to": 4623,
+    "scene": "distribution"
+  },
+  {
+    "text": "先做个最直接的尝试：每个像素随机涂一个颜色",
+    "startMs": 156883,
+    "endMs": 161223,
+    "timestampMs": 156883,
+    "confidence": null,
+    "from": 4707,
+    "to": 4837,
+    "scene": "randomness"
+  },
+  {
+    "text": "结果像电视没信号时的雪花",
+    "startMs": 161803,
+    "endMs": 164123,
+    "timestampMs": 161803,
+    "confidence": null,
+    "from": 4854,
+    "to": 4924,
+    "scene": "randomness"
+  },
+  {
+    "text": "颜色全靠碰运气，像素缺少联系",
+    "startMs": 165043,
+    "endMs": 167863,
+    "timestampMs": 165043,
+    "confidence": null,
+    "from": 4951,
+    "to": 5036,
+    "scene": "randomness"
+  },
+  {
+    "text": "完整的小狗拼不起来",
+    "startMs": 168028,
+    "endMs": 169603,
+    "timestampMs": 168028,
+    "confidence": null,
+    "from": 5041,
+    "to": 5088,
+    "scene": "randomness"
+  },
+  {
+    "text": "于是，让网络来负责排列这些数字：随机数进去",
+    "startMs": 171003,
+    "endMs": 175623,
+    "timestampMs": 171003,
+    "confidence": null,
+    "from": 5130,
+    "to": 5269,
+    "scene": "randomness"
+  },
+  {
+    "text": "有结构的点或者图像出来",
+    "startMs": 175768,
+    "endMs": 177683,
+    "timestampMs": 175768,
+    "confidence": null,
+    "from": 5273,
+    "to": 5331,
+    "scene": "randomness"
+  },
+  {
+    "text": "同一个网络，换一组随机数",
+    "startMs": 178163,
+    "endMs": 180783,
+    "timestampMs": 178163,
+    "confidence": null,
+    "from": 5345,
+    "to": 5424,
+    "scene": "randomness"
+  },
+  {
+    "text": "应该能产生另一种合理结果",
+    "startMs": 181008,
+    "endMs": 183003,
+    "timestampMs": 181008,
+    "confidence": null,
+    "from": 5430,
+    "to": 5490,
+    "scene": "randomness"
+  },
+  {
+    "text": "可以把随机数当成画作的起点；网络学到的参数",
+    "startMs": 183883,
+    "endMs": 187608,
+    "timestampMs": 183883,
+    "confidence": null,
+    "from": 5517,
+    "to": 5628,
+    "scene": "randomness"
+  },
+  {
+    "text": "决定它能沿着哪些方向画下去",
+    "startMs": 187608,
+    "endMs": 189803,
+    "timestampMs": 187608,
+    "confidence": null,
+    "from": 5628,
+    "to": 5694,
+    "scene": "randomness"
+  },
+  {
+    "text": "二零一四年，GAN 出现了",
+    "startMs": 192383,
+    "endMs": 194843,
+    "timestampMs": 192383,
+    "confidence": null,
+    "from": 5772,
+    "to": 5845,
+    "scene": "gan-history"
+  },
+  {
+    "text": "一个网络提出作品，另一个网络判断来源",
+    "startMs": 196023,
+    "endMs": 199223,
+    "timestampMs": 196023,
+    "confidence": null,
+    "from": 5881,
+    "to": 5977,
+    "scene": "gan-history"
+  },
+  {
+    "text": "判断结果沿着梯度，改写下一轮参数",
+    "startMs": 199488,
+    "endMs": 202723,
+    "timestampMs": 199488,
+    "confidence": null,
+    "from": 5985,
+    "to": 6082,
+    "scene": "gan-history"
+  },
+  {
+    "text": "一个网络负责生成",
+    "startMs": 204303,
+    "endMs": 205803,
+    "timestampMs": 204303,
+    "confidence": null,
+    "from": 6129,
+    "to": 6174,
+    "scene": "gan-history"
+  },
+  {
+    "text": "另一个负责分辨样本来自真实数据",
+    "startMs": 206008,
+    "endMs": 208763,
+    "timestampMs": 206008,
+    "confidence": null,
+    "from": 6180,
+    "to": 6263,
+    "scene": "gan-history"
+  },
+  {
+    "text": "还是来自生成器",
+    "startMs": 208908,
+    "endMs": 210063,
+    "timestampMs": 208908,
+    "confidence": null,
+    "from": 6267,
+    "to": 6302,
+    "scene": "gan-history"
+  },
+  {
+    "text": "这两个网络搭档，合起来就叫生成对抗网络",
+    "startMs": 211143,
+    "endMs": 214743,
+    "timestampMs": 211143,
+    "confidence": null,
+    "from": 6334,
+    "to": 6442,
+    "scene": "gan-history"
+  },
+  {
+    "text": "这个办法很像画师和检查者搭档：一个交作品",
+    "startMs": 215503,
+    "endMs": 219383,
+    "timestampMs": 215503,
+    "confidence": null,
+    "from": 6465,
+    "to": 6582,
+    "scene": "gan-history"
+  },
+  {
+    "text": "一个从真实样本里学习怎么检查",
+    "startMs": 219568,
+    "endMs": 221783,
+    "timestampMs": 219568,
+    "confidence": null,
+    "from": 6587,
+    "to": 6654,
+    "scene": "gan-history"
+  },
+  {
+    "text": "落实到电脑里，就是两个网络",
+    "startMs": 222263,
+    "endMs": 224668,
+    "timestampMs": 222263,
+    "confidence": null,
+    "from": 6668,
+    "to": 6740,
+    "scene": "gan-history"
+  },
+  {
+    "text": "轮流调整各自的参数",
+    "startMs": 224668,
+    "endMs": 226503,
+    "timestampMs": 224668,
+    "confidence": null,
+    "from": 6740,
+    "to": 6795,
+    "scene": "gan-history"
+  },
+  {
+    "text": "真正让作品变化的，是检查结果通过计算",
+    "startMs": 226943,
+    "endMs": 230343,
+    "timestampMs": 226943,
+    "confidence": null,
+    "from": 6808,
+    "to": 6910,
+    "scene": "gan-history"
+  },
+  {
+    "text": "变成了生成器的修改方向",
+    "startMs": 230508,
+    "endMs": 232523,
+    "timestampMs": 230508,
+    "confidence": null,
+    "from": 6915,
+    "to": 6976,
+    "scene": "gan-history"
+  },
+  {
+    "text": "先看生成器",
+    "startMs": 234983,
+    "endMs": 236323,
+    "timestampMs": 234983,
+    "confidence": null,
+    "from": 7050,
+    "to": 7090,
+    "scene": "generator"
+  },
+  {
+    "text": "它把随机向量映射成一个候选点",
+    "startMs": 237743,
+    "endMs": 240243,
+    "timestampMs": 237743,
+    "confidence": null,
+    "from": 7132,
+    "to": 7207,
+    "scene": "generator"
+  },
+  {
+    "text": "点的位置变了，画面里就可能换一组笔画",
+    "startMs": 242263,
+    "endMs": 245603,
+    "timestampMs": 242263,
+    "confidence": null,
+    "from": 7268,
+    "to": 7368,
+    "scene": "generator"
+  },
+  {
+    "text": "开始的时候，网络像个刚拿起画笔的新手",
+    "startMs": 246623,
+    "endMs": 249903,
+    "timestampMs": 246623,
+    "confidence": null,
+    "from": 7399,
+    "to": 7497,
+    "scene": "generator"
+  },
+  {
+    "text": "参数还没有学出规律",
+    "startMs": 250088,
+    "endMs": 251703,
+    "timestampMs": 250088,
+    "confidence": null,
+    "from": 7503,
+    "to": 7551,
+    "scene": "generator"
+  },
+  {
+    "text": "好处是，每一个输出都能追溯到参数",
+    "startMs": 252503,
+    "endMs": 255723,
+    "timestampMs": 252503,
+    "confidence": null,
+    "from": 7575,
+    "to": 7672,
+    "scene": "generator"
+  },
+  {
+    "text": "顺着计算过程往回找",
+    "startMs": 255928,
+    "endMs": 257603,
+    "timestampMs": 255928,
+    "confidence": null,
+    "from": 7678,
+    "to": 7728,
+    "scene": "generator"
+  },
+  {
+    "text": "就能知道该往哪个方向调整",
+    "startMs": 257748,
+    "endMs": 259723,
+    "timestampMs": 257748,
+    "confidence": null,
+    "from": 7732,
+    "to": 7792,
+    "scene": "generator"
+  },
+  {
+    "text": "这就像老师要指出哪里画偏了，光说一句不好看",
+    "startMs": 260463,
+    "endMs": 264283,
+    "timestampMs": 260463,
+    "confidence": null,
+    "from": 7814,
+    "to": 7929,
+    "scene": "generator"
+  },
+  {
+    "text": "学生很难改",
+    "startMs": 264508,
+    "endMs": 265503,
+    "timestampMs": 264508,
+    "confidence": null,
+    "from": 7935,
+    "to": 7965,
+    "scene": "generator"
+  },
+  {
+    "text": "网络也需要一个具体、能算出来的反馈",
+    "startMs": 266263,
+    "endMs": 269323,
+    "timestampMs": 266263,
+    "confidence": null,
+    "from": 7988,
+    "to": 8080,
+    "scene": "generator"
+  },
+  {
+    "text": "判别器就在这里接过作品",
+    "startMs": 269823,
+    "endMs": 272023,
+    "timestampMs": 269823,
+    "confidence": null,
+    "from": 8095,
+    "to": 8161,
+    "scene": "generator"
+  },
+  {
+    "text": "判别器把真实样本和生成样本放在一起",
+    "startMs": 274817,
+    "endMs": 277937,
+    "timestampMs": 274817,
+    "confidence": null,
+    "from": 8244,
+    "to": 8338,
+    "scene": "discriminator"
+  },
+  {
+    "text": "学习判断它们来自哪里",
+    "startMs": 278062,
+    "endMs": 279717,
+    "timestampMs": 278062,
+    "confidence": null,
+    "from": 8342,
+    "to": 8392,
+    "scene": "discriminator"
+  },
+  {
+    "text": "这个分数不是审美打分，而是当前参数下",
+    "startMs": 281097,
+    "endMs": 284677,
+    "timestampMs": 281097,
+    "confidence": null,
+    "from": 8433,
+    "to": 8540,
+    "scene": "discriminator"
+  },
+  {
+    "text": "对来源的概率判断",
+    "startMs": 284862,
+    "endMs": 286317,
+    "timestampMs": 284862,
+    "confidence": null,
+    "from": 8546,
+    "to": 8590,
+    "scene": "discriminator"
+  },
+  {
+    "text": "分数高，表示当前检查者觉得它更像真实样本",
+    "startMs": 287537,
+    "endMs": 291637,
+    "timestampMs": 287537,
+    "confidence": null,
+    "from": 8626,
+    "to": 8749,
+    "scene": "discriminator"
+  },
+  {
+    "text": "换一位还没学好的检查者，判断也会变",
+    "startMs": 291842,
+    "endMs": 294977,
+    "timestampMs": 291842,
+    "confidence": null,
+    "from": 8755,
+    "to": 8849,
+    "scene": "discriminator"
+  },
+  {
+    "text": "所以，读这个分数时",
+    "startMs": 295417,
+    "endMs": 297297,
+    "timestampMs": 295417,
+    "confidence": null,
+    "from": 8863,
+    "to": 8919,
+    "scene": "discriminator"
+  },
+  {
+    "text": "要连同判别器当前的训练状态一起看",
+    "startMs": 297562,
+    "endMs": 300557,
+    "timestampMs": 297562,
+    "confidence": null,
+    "from": 8927,
+    "to": 9017,
+    "scene": "discriminator"
+  },
+  {
+    "text": "当生成器还很弱时，区别往往很明显",
+    "startMs": 301377,
+    "endMs": 304817,
+    "timestampMs": 301377,
+    "confidence": null,
+    "from": 9041,
+    "to": 9145,
+    "scene": "discriminator"
+  },
+  {
+    "text": "随着生成结果改变，判别器也得继续学习",
+    "startMs": 305497,
+    "endMs": 309037,
+    "timestampMs": 305497,
+    "confidence": null,
+    "from": 9165,
+    "to": 9271,
+    "scene": "discriminator"
+  },
+  {
+    "text": "先练检查者",
+    "startMs": 311917,
+    "endMs": 313017,
+    "timestampMs": 311917,
+    "confidence": null,
+    "from": 9358,
+    "to": 9391,
+    "scene": "d-update"
+  },
+  {
+    "text": "真实样本的判断要往真这边走",
+    "startMs": 313797,
+    "endMs": 316217,
+    "timestampMs": 313797,
+    "confidence": null,
+    "from": 9414,
+    "to": 9487,
+    "scene": "d-update"
+  },
+  {
+    "text": "生成样本的判断要往假这边走",
+    "startMs": 316502,
+    "endMs": 318617,
+    "timestampMs": 316502,
+    "confidence": null,
+    "from": 9495,
+    "to": 9559,
+    "scene": "d-update"
+  },
+  {
+    "text": "两种错误合起来，推动判别器更新",
+    "startMs": 319117,
+    "endMs": 322597,
+    "timestampMs": 319117,
+    "confidence": null,
+    "from": 9574,
+    "to": 9678,
+    "scene": "d-update"
+  },
+  {
+    "text": "这一步只更新判别器",
+    "startMs": 323557,
+    "endMs": 325117,
+    "timestampMs": 323557,
+    "confidence": null,
+    "from": 9707,
+    "to": 9754,
+    "scene": "d-update"
+  },
+  {
+    "text": "生成器送来的样本先保留数值",
+    "startMs": 325997,
+    "endMs": 328777,
+    "timestampMs": 325997,
+    "confidence": null,
+    "from": 9780,
+    "to": 9863,
+    "scene": "d-update"
+  },
+  {
+    "text": "把返回生成器的梯度通道关上",
+    "startMs": 329142,
+    "endMs": 331637,
+    "timestampMs": 329142,
+    "confidence": null,
+    "from": 9874,
+    "to": 9949,
+    "scene": "d-update"
+  },
+  {
+    "text": "这一轮就只改检查者",
+    "startMs": 331902,
+    "endMs": 333557,
+    "timestampMs": 331902,
+    "confidence": null,
+    "from": 9957,
+    "to": 10007,
+    "scene": "d-update"
+  },
+  {
+    "text": "代码中的 detach，做的就是这件事：",
+    "startMs": 334357,
+    "endMs": 337397,
+    "timestampMs": 334357,
+    "confidence": null,
+    "from": 10031,
+    "to": 10122,
+    "scene": "d-update"
+  },
+  {
+    "text": "数值继续向前走，梯度暂时停在这里",
+    "startMs": 337722,
+    "endMs": 340737,
+    "timestampMs": 337722,
+    "confidence": null,
+    "from": 10132,
+    "to": 10222,
+    "scene": "d-update"
+  },
+  {
+    "text": "样本照样送过去",
+    "startMs": 341517,
+    "endMs": 342857,
+    "timestampMs": 341517,
+    "confidence": null,
+    "from": 10246,
+    "to": 10286,
+    "scene": "d-update"
+  },
+  {
+    "text": "这一轮的参数修改却只留在判别器",
+    "startMs": 343242,
+    "endMs": 346237,
+    "timestampMs": 343242,
+    "confidence": null,
+    "from": 10297,
+    "to": 10387,
+    "scene": "d-update"
+  },
+  {
+    "text": "然后，轮到生成器来练习",
+    "startMs": 349050,
+    "endMs": 351350,
+    "timestampMs": 349050,
+    "confidence": null,
+    "from": 10472,
+    "to": 10540,
+    "scene": "g-update"
+  },
+  {
+    "text": "这一次，判别器像一把暂时固定的尺子：",
+    "startMs": 351810,
+    "endMs": 355450,
+    "timestampMs": 351810,
+    "confidence": null,
+    "from": 10554,
+    "to": 10664,
+    "scene": "g-update"
+  },
+  {
+    "text": "它的参数不动",
+    "startMs": 355675,
+    "endMs": 356770,
+    "timestampMs": 355675,
+    "confidence": null,
+    "from": 10670,
+    "to": 10703,
+    "scene": "g-update"
+  },
+  {
+    "text": "生成器试着让自己的作品得到更高的判断分数",
+    "startMs": 356955,
+    "endMs": 360690,
+    "timestampMs": 356955,
+    "confidence": null,
+    "from": 10709,
+    "to": 10821,
+    "scene": "g-update"
+  },
+  {
+    "text": "这把尺子的位置固定下来，测量和计算照常进行",
+    "startMs": 361290,
+    "endMs": 365350,
+    "timestampMs": 361290,
+    "confidence": null,
+    "from": 10839,
+    "to": 10960,
+    "scene": "g-update"
+  },
+  {
+    "text": "梯度穿过判别器，回到生成器",
+    "startMs": 365890,
+    "endMs": 368670,
+    "timestampMs": 365890,
+    "confidence": null,
+    "from": 10977,
+    "to": 11060,
+    "scene": "g-update"
+  },
+  {
+    "text": "指出怎样调整输出",
+    "startMs": 368915,
+    "endMs": 370350,
+    "timestampMs": 368915,
+    "confidence": null,
+    "from": 11067,
+    "to": 11110,
+    "scene": "g-update"
+  },
+  {
+    "text": "能得到更接近真实样本的判断",
+    "startMs": 370575,
+    "endMs": 372730,
+    "timestampMs": 370575,
+    "confidence": null,
+    "from": 11117,
+    "to": 11182,
+    "scene": "g-update"
+  },
+  {
+    "text": "看反馈线，信号经过判别器，最后回到生成器",
+    "startMs": 373130,
+    "endMs": 377330,
+    "timestampMs": 373130,
+    "confidence": null,
+    "from": 11194,
+    "to": 11320,
+    "scene": "g-update"
+  },
+  {
+    "text": "两步轮流做，才构成一次完整的训练循环",
+    "startMs": 378130,
+    "endMs": 381730,
+    "timestampMs": 378130,
+    "confidence": null,
+    "from": 11344,
+    "to": 11452,
+    "scene": "g-update"
+  },
+  {
+    "text": "刚才两个动作，可以各写成一笔账",
+    "startMs": 384650,
+    "endMs": 387690,
+    "timestampMs": 384650,
+    "confidence": null,
+    "from": 11540,
+    "to": 11631,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "判别器这笔账记录分错来源的代价",
+    "startMs": 388715,
+    "endMs": 391690,
+    "timestampMs": 388715,
+    "confidence": null,
+    "from": 11661,
+    "to": 11751,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "生成器这笔账，鼓励自己的作品获得更高分数",
+    "startMs": 391995,
+    "endMs": 395450,
+    "timestampMs": 391995,
+    "confidence": null,
+    "from": 11760,
+    "to": 11864,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "生成器这里采用常见的非饱和目标",
+    "startMs": 396010,
+    "endMs": 399090,
+    "timestampMs": 396010,
+    "confidence": null,
+    "from": 11880,
+    "to": 11973,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "让自己的输出获得更高的判别分数",
+    "startMs": 399235,
+    "endMs": 401830,
+    "timestampMs": 399235,
+    "confidence": null,
+    "from": 11977,
+    "to": 12055,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "这样在训练早期，往往能得到更有用的梯度",
+    "startMs": 402610,
+    "endMs": 405990,
+    "timestampMs": 402610,
+    "confidence": null,
+    "from": 12078,
+    "to": 12180,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "读这两条曲线，像看双方不断变化的练习成绩",
+    "startMs": 406650,
+    "endMs": 410870,
+    "timestampMs": 406650,
+    "confidence": null,
+    "from": 12200,
+    "to": 12326,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "一方进步会改变另一方的难度",
+    "startMs": 411730,
+    "endMs": 414050,
+    "timestampMs": 411730,
+    "confidence": null,
+    "from": 12352,
+    "to": 12422,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "作品有没有变好",
+    "startMs": 414570,
+    "endMs": 416010,
+    "timestampMs": 414570,
+    "confidence": null,
+    "from": 12437,
+    "to": 12480,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "还要把真实生成的样本摆出来检查",
+    "startMs": 416195,
+    "endMs": 418870,
+    "timestampMs": 416195,
+    "confidence": null,
+    "from": 12486,
+    "to": 12566,
+    "scene": "gan-loss"
+  },
+  {
+    "text": "现在看训练",
+    "startMs": 421783,
+    "endMs": 422883,
+    "timestampMs": 421783,
+    "confidence": null,
+    "from": 12654,
+    "to": 12687,
+    "scene": "gan-run"
+  },
+  {
+    "text": "金色输出从零散位置，慢慢靠近八个目标区域",
+    "startMs": 423903,
+    "endMs": 428163,
+    "timestampMs": 423903,
+    "confidence": null,
+    "from": 12717,
+    "to": 12845,
+    "scene": "gan-run"
+  },
+  {
+    "text": "每次保存模型，我们都把同一组随机输入交进去",
+    "startMs": 429223,
+    "endMs": 433263,
+    "timestampMs": 429223,
+    "confidence": null,
+    "from": 12877,
+    "to": 12998,
+    "scene": "gan-run"
+  },
+  {
+    "text": "因此，同一个金色点换了位置",
+    "startMs": 433983,
+    "endMs": 436603,
+    "timestampMs": 433983,
+    "confidence": null,
+    "from": 13020,
+    "to": 13098,
+    "scene": "gan-run"
+  },
+  {
+    "text": "就表示网络参数的变化让这组输入得到了新的输出",
+    "startMs": 436708,
+    "endMs": 440523,
+    "timestampMs": 436708,
+    "confidence": null,
+    "from": 13101,
+    "to": 13216,
+    "scene": "gan-run"
+  },
+  {
+    "text": "模型得同时解决两件事：靠近有效区域",
+    "startMs": 441143,
+    "endMs": 444783,
+    "timestampMs": 441143,
+    "confidence": null,
+    "from": 13234,
+    "to": 13344,
+    "scene": "gan-run"
+  },
+  {
+    "text": "还要把不同区域都照顾到",
+    "startMs": 444948,
+    "endMs": 446663,
+    "timestampMs": 444948,
+    "confidence": null,
+    "from": 13348,
+    "to": 13400,
+    "scene": "gan-run"
+  },
+  {
+    "text": "变化要用结果说话",
+    "startMs": 449250,
+    "endMs": 450950,
+    "timestampMs": 449250,
+    "confidence": null,
+    "from": 13478,
+    "to": 13529,
+    "scene": "gan-results"
+  },
+  {
+    "text": "三组种子各生成两千零四十八个点",
+    "startMs": 452970,
+    "endMs": 456050,
+    "timestampMs": 452970,
+    "confidence": null,
+    "from": 13589,
+    "to": 13682,
+    "scene": "gan-results"
+  },
+  {
+    "text": "用区域计数看覆盖",
+    "startMs": 456355,
+    "endMs": 458070,
+    "timestampMs": 456355,
+    "confidence": null,
+    "from": 13691,
+    "to": 13742,
+    "scene": "gan-results"
+  },
+  {
+    "text": "先测有多少点落在目标附近",
+    "startMs": 458450,
+    "endMs": 461130,
+    "timestampMs": 458450,
+    "confidence": null,
+    "from": 13754,
+    "to": 13834,
+    "scene": "gan-results"
+  },
+  {
+    "text": "再数八个区域分别得到了多少样本",
+    "startMs": 461315,
+    "endMs": 463910,
+    "timestampMs": 461315,
+    "confidence": null,
+    "from": 13839,
+    "to": 13917,
+    "scene": "gan-results"
+  },
+  {
+    "text": "右边这些柱子，就是各个区域实际接收到的数量",
+    "startMs": 464650,
+    "endMs": 468530,
+    "timestampMs": 464650,
+    "confidence": null,
+    "from": 13940,
+    "to": 14056,
+    "scene": "gan-results"
+  },
+  {
+    "text": "三组种子的平均近邻比例",
+    "startMs": 469090,
+    "endMs": 471550,
+    "timestampMs": 469090,
+    "confidence": null,
+    "from": 14073,
+    "to": 14147,
+    "scene": "gan-results"
+  },
+  {
+    "text": "约为百分之四十三点九",
+    "startMs": 471715,
+    "endMs": 473450,
+    "timestampMs": 471715,
+    "confidence": null,
+    "from": 14151,
+    "to": 14204,
+    "scene": "gan-results"
+  },
+  {
+    "text": "八个区域都达到了覆盖门槛",
+    "startMs": 473695,
+    "endMs": 475730,
+    "timestampMs": 473695,
+    "confidence": null,
+    "from": 14211,
+    "to": 14272,
+    "scene": "gan-results"
+  },
+  {
+    "text": "也就是说，八个地方都去过了",
+    "startMs": 476330,
+    "endMs": 478810,
+    "timestampMs": 476330,
+    "confidence": null,
+    "from": 14290,
+    "to": 14364,
+    "scene": "gan-results"
+  },
+  {
+    "text": "但路上还散落着不少点",
+    "startMs": 478915,
+    "endMs": 480650,
+    "timestampMs": 478915,
+    "confidence": null,
+    "from": 14367,
+    "to": 14420,
+    "scene": "gan-results"
+  },
+  {
+    "text": "下一步要让它们落得更准",
+    "startMs": 480815,
+    "endMs": 482870,
+    "timestampMs": 480815,
+    "confidence": null,
+    "from": 14424,
+    "to": 14486,
+    "scene": "gan-results"
+  },
+  {
+    "text": "设想一家只会做一种菜的餐厅",
+    "startMs": 485650,
+    "endMs": 488150,
+    "timestampMs": 485650,
+    "confidence": null,
+    "from": 14570,
+    "to": 14645,
+    "scene": "collapse"
+  },
+  {
+    "text": "每一盘都能做得不错，可菜单写着八种菜",
+    "startMs": 488970,
+    "endMs": 492290,
+    "timestampMs": 488970,
+    "confidence": null,
+    "from": 14669,
+    "to": 14769,
+    "scene": "collapse"
+  },
+  {
+    "text": "端上来的却总是同一道",
+    "startMs": 492515,
+    "endMs": 494250,
+    "timestampMs": 492515,
+    "confidence": null,
+    "from": 14775,
+    "to": 14828,
+    "scene": "collapse"
+  },
+  {
+    "text": "生成器也可能掉进类似的陷阱",
+    "startMs": 494850,
+    "endMs": 497350,
+    "timestampMs": 494850,
+    "confidence": null,
+    "from": 14846,
+    "to": 14920,
+    "scene": "collapse"
+  },
+  {
+    "text": "单看每个样本，可能还不错；把整批摊开",
+    "startMs": 498170,
+    "endMs": 501495,
+    "timestampMs": 498170,
+    "confidence": null,
+    "from": 14945,
+    "to": 15045,
+    "scene": "collapse"
+  },
+  {
+    "text": "却几乎只有一种",
+    "startMs": 501495,
+    "endMs": 503050,
+    "timestampMs": 501495,
+    "confidence": null,
+    "from": 15045,
+    "to": 15092,
+    "scene": "collapse"
+  },
+  {
+    "text": "这类多样性丢失的问题，常被叫作模式坍塌",
+    "startMs": 503570,
+    "endMs": 507370,
+    "timestampMs": 503570,
+    "confidence": null,
+    "from": 15107,
+    "to": 15221,
+    "scene": "collapse"
+  },
+  {
+    "text": "这里把点集中到一团",
+    "startMs": 507850,
+    "endMs": 509630,
+    "timestampMs": 507850,
+    "confidence": null,
+    "from": 15236,
+    "to": 15289,
+    "scene": "collapse"
+  },
+  {
+    "text": "是专门演示模式坍塌会长什么样",
+    "startMs": 510055,
+    "endMs": 512390,
+    "timestampMs": 510055,
+    "confidence": null,
+    "from": 15302,
+    "to": 15372,
+    "scene": "collapse"
+  },
+  {
+    "text": "输入变来变去，输出却只守着少数几种样子",
+    "startMs": 513170,
+    "endMs": 516970,
+    "timestampMs": 513170,
+    "confidence": null,
+    "from": 15395,
+    "to": 15509,
+    "scene": "collapse"
+  },
+  {
+    "text": "多样性就在这里丢掉了",
+    "startMs": 517155,
+    "endMs": 518890,
+    "timestampMs": 517155,
+    "confidence": null,
+    "from": 15515,
+    "to": 15567,
+    "scene": "collapse"
+  },
+  {
+    "text": "区域计数，量出模式坍塌",
+    "startMs": 519690,
+    "endMs": 522230,
+    "timestampMs": 519690,
+    "confidence": null,
+    "from": 15591,
+    "to": 15667,
+    "scene": "collapse"
+  },
+  {
+    "text": "把输出从两个坐标扩展成七百八十四个像素",
+    "startMs": 525083,
+    "endMs": 528443,
+    "timestampMs": 525083,
+    "confidence": null,
+    "from": 15752,
+    "to": 15853,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "就能做一个小型图像实验",
+    "startMs": 528528,
+    "endMs": 530483,
+    "timestampMs": 528528,
+    "confidence": null,
+    "from": 15856,
+    "to": 15914,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "这里用的是二十八乘二十八的手写数字",
+    "startMs": 531043,
+    "endMs": 534083,
+    "timestampMs": 531043,
+    "confidence": null,
+    "from": 15931,
+    "to": 16022,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "左边是真实训练样本，右边是同一批随机输入",
+    "startMs": 534843,
+    "endMs": 538683,
+    "timestampMs": 534843,
+    "confidence": null,
+    "from": 16045,
+    "to": 16160,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "在不同训练阶段得到的结果",
+    "startMs": 538908,
+    "endMs": 540863,
+    "timestampMs": 538908,
+    "confidence": null,
+    "from": 16167,
+    "to": 16226,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "模糊的笔画、连在一起的形状，都保留着",
+    "startMs": 541203,
+    "endMs": 544363,
+    "timestampMs": 541203,
+    "confidence": null,
+    "from": 16236,
+    "to": 16331,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "它们比一张精挑细选的成功图",
+    "startMs": 545208,
+    "endMs": 547308,
+    "timestampMs": 545208,
+    "confidence": null,
+    "from": 16356,
+    "to": 16419,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "更能说明这个小网络到底学到了多少",
+    "startMs": 547308,
+    "endMs": 550443,
+    "timestampMs": 547308,
+    "confidence": null,
+    "from": 16419,
+    "to": 16513,
+    "scene": "gan-digits"
+  },
+  {
+    "text": "把代码和画面放在一起看",
+    "startMs": 553183,
+    "endMs": 555283,
+    "timestampMs": 553183,
+    "confidence": null,
+    "from": 16596,
+    "to": 16658,
+    "scene": "gan-code"
+  },
+  {
+    "text": "先生成一批候选",
+    "startMs": 556103,
+    "endMs": 557603,
+    "timestampMs": 556103,
+    "confidence": null,
+    "from": 16683,
+    "to": 16728,
+    "scene": "gan-code"
+  },
+  {
+    "text": "用真实与生成两种样本训练判别器",
+    "startMs": 557808,
+    "endMs": 560743,
+    "timestampMs": 557808,
+    "confidence": null,
+    "from": 16734,
+    "to": 16822,
+    "scene": "gan-code"
+  },
+  {
+    "text": "再重新生成候选，让梯度通过当前判别器",
+    "startMs": 561423,
+    "endMs": 565228,
+    "timestampMs": 561423,
+    "confidence": null,
+    "from": 16843,
+    "to": 16957,
+    "scene": "gan-code"
+  },
+  {
+    "text": "更新生成器",
+    "startMs": 565228,
+    "endMs": 566663,
+    "timestampMs": 565228,
+    "confidence": null,
+    "from": 16957,
+    "to": 17000,
+    "scene": "gan-code"
+  },
+  {
+    "text": "右边会跟着训练脚本保存的模型",
+    "startMs": 567143,
+    "endMs": 569883,
+    "timestampMs": 567143,
+    "confidence": null,
+    "from": 17014,
+    "to": 17096,
+    "scene": "gan-code"
+  },
+  {
+    "text": "展示当时生成的真实样本",
+    "startMs": 570008,
+    "endMs": 571943,
+    "timestampMs": 570008,
+    "confidence": null,
+    "from": 17100,
+    "to": 17158,
+    "scene": "gan-code"
+  },
+  {
+    "text": "循环看起来短，稳定训练却不简单",
+    "startMs": 572703,
+    "endMs": 575683,
+    "timestampMs": 572703,
+    "confidence": null,
+    "from": 17181,
+    "to": 17270,
+    "scene": "gan-code"
+  },
+  {
+    "text": "网络结构、学习率和数据质量，都可能改变结果",
+    "startMs": 576583,
+    "endMs": 580583,
+    "timestampMs": 576583,
+    "confidence": null,
+    "from": 17298,
+    "to": 17418,
+    "scene": "gan-code"
+  },
+  {
+    "text": "随机向量还给了我们一种观察办法",
+    "startMs": 583417,
+    "endMs": 586257,
+    "timestampMs": 583417,
+    "confidence": null,
+    "from": 17502,
+    "to": 17588,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "固定两个起点，让输入沿着它们之间缓慢移动",
+    "startMs": 587137,
+    "endMs": 590717,
+    "timestampMs": 587137,
+    "confidence": null,
+    "from": 17614,
+    "to": 17722,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "如果网络学到了平滑的变化",
+    "startMs": 591417,
+    "endMs": 593557,
+    "timestampMs": 591417,
+    "confidence": null,
+    "from": 17742,
+    "to": 17807,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "输出也会跟着连续改变",
+    "startMs": 593862,
+    "endMs": 595857,
+    "timestampMs": 593862,
+    "confidence": null,
+    "from": 17816,
+    "to": 17876,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "但连续，不等于每个中间状态都正确",
+    "startMs": 596577,
+    "endMs": 599757,
+    "timestampMs": 596577,
+    "confidence": null,
+    "from": 17897,
+    "to": 17993,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "两团有效结果之间",
+    "startMs": 600537,
+    "endMs": 602257,
+    "timestampMs": 600537,
+    "confidence": null,
+    "from": 18016,
+    "to": 18068,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "也可能经过没有训练样本的地方",
+    "startMs": 602362,
+    "endMs": 604437,
+    "timestampMs": 602362,
+    "confidence": null,
+    "from": 18071,
+    "to": 18133,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "输入走的是直线",
+    "startMs": 605377,
+    "endMs": 607062,
+    "timestampMs": 605377,
+    "confidence": null,
+    "from": 18161,
+    "to": 18212,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "输出却可能经过数据稀少的地方",
+    "startMs": 607062,
+    "endMs": 609657,
+    "timestampMs": 607062,
+    "confidence": null,
+    "from": 18212,
+    "to": 18290,
+    "scene": "latent-walk"
+  },
+  {
+    "text": "我们的小实验用的是简单的全连接网络",
+    "startMs": 613483,
+    "endMs": 616763,
+    "timestampMs": 613483,
+    "confidence": null,
+    "from": 18404,
+    "to": 18503,
+    "scene": "dcgan"
+  },
+  {
+    "text": "面对更复杂的图像",
+    "startMs": 617523,
+    "endMs": 619303,
+    "timestampMs": 617523,
+    "confidence": null,
+    "from": 18526,
+    "to": 18579,
+    "scene": "dcgan"
+  },
+  {
+    "text": "像素之间的空间关系就越来越重要",
+    "startMs": 619548,
+    "endMs": 622063,
+    "timestampMs": 619548,
+    "confidence": null,
+    "from": 18586,
+    "to": 18662,
+    "scene": "dcgan"
+  },
+  {
+    "text": "这项研究把卷积结构用在生成器和判别器里",
+    "startMs": 623083,
+    "endMs": 626608,
+    "timestampMs": 623083,
+    "confidence": null,
+    "from": 18692,
+    "to": 18798,
+    "scene": "dcgan"
+  },
+  {
+    "text": "帮助网络处理图像中的空间关系",
+    "startMs": 626608,
+    "endMs": 629183,
+    "timestampMs": 626608,
+    "confidence": null,
+    "from": 18798,
+    "to": 18876,
+    "scene": "dcgan"
+  },
+  {
+    "text": "生成端逐步扩大空间表示",
+    "startMs": 630428,
+    "endMs": 632143,
+    "timestampMs": 630428,
+    "confidence": null,
+    "from": 18913,
+    "to": 18964,
+    "scene": "dcgan"
+  },
+  {
+    "text": "判别端逐步提取图像特征",
+    "startMs": 632588,
+    "endMs": 634683,
+    "timestampMs": 632588,
+    "confidence": null,
+    "from": 18978,
+    "to": 19040,
+    "scene": "dcgan"
+  },
+  {
+    "text": "这一步把图像的空间结构用起来",
+    "startMs": 635163,
+    "endMs": 638003,
+    "timestampMs": 635163,
+    "confidence": null,
+    "from": 19055,
+    "to": 19140,
+    "scene": "dcgan"
+  },
+  {
+    "text": "也为后来更复杂的生成网络提供了重要经验",
+    "startMs": 638028,
+    "endMs": 641243,
+    "timestampMs": 638028,
+    "confidence": null,
+    "from": 19141,
+    "to": 19237,
+    "scene": "dcgan"
+  },
+  {
+    "text": "现在再看踏雪",
+    "startMs": 643983,
+    "endMs": 645443,
+    "timestampMs": 643983,
+    "confidence": null,
+    "from": 19319,
+    "to": 19363,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "模型会画很多小狗，还得知道",
+    "startMs": 645943,
+    "endMs": 648428,
+    "timestampMs": 645943,
+    "confidence": null,
+    "from": 19378,
+    "to": 19453,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "踏雪具体长什么样",
+    "startMs": 648428,
+    "endMs": 650423,
+    "timestampMs": 648428,
+    "confidence": null,
+    "from": 19453,
+    "to": 19513,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "黑白毛色、棕色眼睛、鼻梁白纹和四只白爪",
+    "startMs": 652143,
+    "endMs": 656108,
+    "timestampMs": 652143,
+    "confidence": null,
+    "from": 19564,
+    "to": 19683,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "都是身份线索，要一起交给模型",
+    "startMs": 656108,
+    "endMs": 658983,
+    "timestampMs": 656108,
+    "confidence": null,
+    "from": 19683,
+    "to": 19770,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "只说画只漂亮的小狗，可能得到另一位主角",
+    "startMs": 661223,
+    "endMs": 664823,
+    "timestampMs": 661223,
+    "confidence": null,
+    "from": 19837,
+    "to": 19945,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "这个问题，后面会作为条件生成重新出现",
+    "startMs": 666063,
+    "endMs": 669583,
+    "timestampMs": 666063,
+    "confidence": null,
+    "from": 19982,
+    "to": 20088,
+    "scene": "gan-pearl"
+  },
+  {
+    "text": "另一条路线不一次画完",
+    "startMs": 672483,
+    "endMs": 674623,
+    "timestampMs": 672483,
+    "confidence": null,
+    "from": 20174,
+    "to": 20239,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "而是把问题拆成很多个小修正",
+    "startMs": 674748,
+    "endMs": 676883,
+    "timestampMs": 674748,
+    "confidence": null,
+    "from": 20242,
+    "to": 20306,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "每一步只改一点，下一步继续接着算",
+    "startMs": 677963,
+    "endMs": 680883,
+    "timestampMs": 677963,
+    "confidence": null,
+    "from": 20339,
+    "to": 20426,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "有点像透过一层薄雾看东西，先分出大致轮廓",
+    "startMs": 683523,
+    "endMs": 687383,
+    "timestampMs": 683523,
+    "confidence": null,
+    "from": 20506,
+    "to": 20622,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "再逐渐找回笔画",
+    "startMs": 687608,
+    "endMs": 688803,
+    "timestampMs": 687608,
+    "confidence": null,
+    "from": 20628,
+    "to": 20664,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "要把这个想法教给网络",
+    "startMs": 689483,
+    "endMs": 691643,
+    "timestampMs": 689483,
+    "confidence": null,
+    "from": 20684,
+    "to": 20749,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "我们得先准备一批有答案的练习题",
+    "startMs": 691868,
+    "endMs": 694163,
+    "timestampMs": 691868,
+    "confidence": null,
+    "from": 20756,
+    "to": 20825,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "出题很容易",
+    "startMs": 694723,
+    "endMs": 695963,
+    "timestampMs": 694723,
+    "confidence": null,
+    "from": 20842,
+    "to": 20879,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "拿一张清楚的图",
+    "startMs": 696603,
+    "endMs": 697883,
+    "timestampMs": 696603,
+    "confidence": null,
+    "from": 20898,
+    "to": 20937,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "再主动加上我们已经记录下来的噪声",
+    "startMs": 698208,
+    "endMs": 700523,
+    "timestampMs": 698208,
+    "confidence": null,
+    "from": 20946,
+    "to": 21016,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "踏雪先来当这道题的主角",
+    "startMs": 701123,
+    "endMs": 703163,
+    "timestampMs": 701123,
+    "confidence": null,
+    "from": 21034,
+    "to": 21095,
+    "scene": "bridge-noise"
+  },
+  {
+    "text": "先看前向加噪",
+    "startMs": 705950,
+    "endMs": 707370,
+    "timestampMs": 705950,
+    "confidence": null,
+    "from": 21178,
+    "to": 21221,
+    "scene": "forward"
+  },
+  {
+    "text": "时间步越大，原来的结构越淡",
+    "startMs": 709590,
+    "endMs": 712190,
+    "timestampMs": 709590,
+    "confidence": null,
+    "from": 21288,
+    "to": 21366,
+    "scene": "forward"
+  },
+  {
+    "text": "噪声占的比例越高",
+    "startMs": 712375,
+    "endMs": 713850,
+    "timestampMs": 712375,
+    "confidence": null,
+    "from": 21371,
+    "to": 21415,
+    "scene": "forward"
+  },
+  {
+    "text": "继续加下去，图像越来越像随机噪声",
+    "startMs": 715550,
+    "endMs": 719010,
+    "timestampMs": 715550,
+    "confidence": null,
+    "from": 21466,
+    "to": 21570,
+    "scene": "forward"
+  },
+  {
+    "text": "这一段直接按公式计算：在参考图上加多少噪声",
+    "startMs": 719510,
+    "endMs": 723450,
+    "timestampMs": 719510,
+    "confidence": null,
+    "from": 21585,
+    "to": 21704,
+    "scene": "forward"
+  },
+  {
+    "text": "就得到对应的带噪图",
+    "startMs": 723635,
+    "endMs": 725250,
+    "timestampMs": 723635,
+    "confidence": null,
+    "from": 21709,
+    "to": 21758,
+    "scene": "forward"
+  },
+  {
+    "text": "因为加噪过程由我们控制",
+    "startMs": 725630,
+    "endMs": 727930,
+    "timestampMs": 725630,
+    "confidence": null,
+    "from": 21769,
+    "to": 21838,
+    "scene": "forward"
+  },
+  {
+    "text": "每一步加了什么、噪声有多强，都可以记录下来",
+    "startMs": 728235,
+    "endMs": 732090,
+    "timestampMs": 728235,
+    "confidence": null,
+    "from": 21847,
+    "to": 21963,
+    "scene": "forward"
+  },
+  {
+    "text": "这里有两根持续变化的柱子",
+    "startMs": 734683,
+    "endMs": 736863,
+    "timestampMs": 734683,
+    "confidence": null,
+    "from": 22040,
+    "to": 22106,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "一根表示原图信号的系数",
+    "startMs": 737363,
+    "endMs": 739463,
+    "timestampMs": 737363,
+    "confidence": null,
+    "from": 22121,
+    "to": 22184,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "另一根表示噪声的系数",
+    "startMs": 739608,
+    "endMs": 741423,
+    "timestampMs": 739608,
+    "confidence": null,
+    "from": 22188,
+    "to": 22243,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "这里使用平方根系数来混合信号和噪声",
+    "startMs": 742203,
+    "endMs": 745423,
+    "timestampMs": 742203,
+    "confidence": null,
+    "from": 22266,
+    "to": 22363,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "两根柱子的平方加起来，等于一",
+    "startMs": 745848,
+    "endMs": 748503,
+    "timestampMs": 745848,
+    "confidence": null,
+    "from": 22375,
+    "to": 22455,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "时间步越往后，原图留下的线索通常越少",
+    "startMs": 749283,
+    "endMs": 752843,
+    "timestampMs": 749283,
+    "confidence": null,
+    "from": 22479,
+    "to": 22585,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "训练时必须告诉网络",
+    "startMs": 753323,
+    "endMs": 755203,
+    "timestampMs": 753323,
+    "confidence": null,
+    "from": 22600,
+    "to": 22656,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "眼前这张图大致处在哪个噪声阶段",
+    "startMs": 755468,
+    "endMs": 758043,
+    "timestampMs": 755468,
+    "confidence": null,
+    "from": 22664,
+    "to": 22741,
+    "scene": "noise-schedule"
+  },
+  {
+    "text": "当前这张图，是两部分合起来的：",
+    "startMs": 760550,
+    "endMs": 763270,
+    "timestampMs": 760550,
+    "confidence": null,
+    "from": 22816,
+    "to": 22898,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "一部分来自原图，另一部分来自随机噪声",
+    "startMs": 763555,
+    "endMs": 766870,
+    "timestampMs": 763555,
+    "confidence": null,
+    "from": 22907,
+    "to": 23006,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "横线阿尔法把前面许多小步的作用合在一起",
+    "startMs": 767550,
+    "endMs": 770850,
+    "timestampMs": 767550,
+    "confidence": null,
+    "from": 23026,
+    "to": 23125,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "就像直接选中相册的一页",
+    "startMs": 771510,
+    "endMs": 773670,
+    "timestampMs": 771510,
+    "confidence": null,
+    "from": 23145,
+    "to": 23210,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "训练时可以一步取到需要的噪声阶段",
+    "startMs": 773915,
+    "endMs": 776510,
+    "timestampMs": 773915,
+    "confidence": null,
+    "from": 23217,
+    "to": 23295,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "左边保留踏雪的参考图，右边随着两个系数",
+    "startMs": 776990,
+    "endMs": 780775,
+    "timestampMs": 776990,
+    "confidence": null,
+    "from": 23310,
+    "to": 23423,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "逐渐被噪声淹没",
+    "startMs": 780775,
+    "endMs": 782370,
+    "timestampMs": 780775,
+    "confidence": null,
+    "from": 23423,
+    "to": 23471,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "式子描述的是这些像素怎样被算出来",
+    "startMs": 783635,
+    "endMs": 786230,
+    "timestampMs": 783635,
+    "confidence": null,
+    "from": 23509,
+    "to": 23587,
+    "scene": "forward-equation"
+  },
+  {
+    "text": "如果把刚才的画面倒着播，踏雪当然又会出现",
+    "startMs": 788750,
+    "endMs": 792250,
+    "timestampMs": 788750,
+    "confidence": null,
+    "from": 23662,
+    "to": 23768,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "因为每一帧答案都已经存在硬盘里",
+    "startMs": 793510,
+    "endMs": 796010,
+    "timestampMs": 793510,
+    "confidence": null,
+    "from": 23805,
+    "to": 23880,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "真正要考模型，得给它一份全新的噪声",
+    "startMs": 796750,
+    "endMs": 799930,
+    "timestampMs": 796750,
+    "confidence": null,
+    "from": 23903,
+    "to": 23998,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "让它自己算出下一步",
+    "startMs": 800075,
+    "endMs": 801570,
+    "timestampMs": 800075,
+    "confidence": null,
+    "from": 24002,
+    "to": 24047,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "生成新画面时",
+    "startMs": 802150,
+    "endMs": 803510,
+    "timestampMs": 802150,
+    "confidence": null,
+    "from": 24065,
+    "to": 24105,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "手里只有随机起点和训练学到的规律",
+    "startMs": 803755,
+    "endMs": 806510,
+    "timestampMs": 803755,
+    "confidence": null,
+    "from": 24113,
+    "to": 24195,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "可以把它想成另一张从空白处开始的新画稿",
+    "startMs": 807310,
+    "endMs": 810510,
+    "timestampMs": 807310,
+    "confidence": null,
+    "from": 24219,
+    "to": 24315,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "模型要根据学到的数据规律",
+    "startMs": 810950,
+    "endMs": 813235,
+    "timestampMs": 810950,
+    "confidence": null,
+    "from": 24329,
+    "to": 24397,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "逐步形成一种合理结果",
+    "startMs": 813235,
+    "endMs": 815290,
+    "timestampMs": 813235,
+    "confidence": null,
+    "from": 24397,
+    "to": 24459,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "同一个模糊形状",
+    "startMs": 815870,
+    "endMs": 817195,
+    "timestampMs": 815870,
+    "confidence": null,
+    "from": 24476,
+    "to": 24516,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "可能对应不同的毛色、姿态和光线",
+    "startMs": 817195,
+    "endMs": 820150,
+    "timestampMs": 817195,
+    "confidence": null,
+    "from": 24516,
+    "to": 24605,
+    "scene": "reverse-not-undo"
+  },
+  {
+    "text": "沿着时间往前看，二零一五年",
+    "startMs": 822783,
+    "endMs": 825368,
+    "timestampMs": 822783,
+    "confidence": null,
+    "from": 24684,
+    "to": 24761,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "研究者已经在探索这条路线",
+    "startMs": 825368,
+    "endMs": 827843,
+    "timestampMs": 825368,
+    "confidence": null,
+    "from": 24761,
+    "to": 24835,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "先逐步扰动数据，再让网络学习怎样往回走",
+    "startMs": 828583,
+    "endMs": 832483,
+    "timestampMs": 828583,
+    "confidence": null,
+    "from": 24857,
+    "to": 24974,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "后来",
+    "startMs": 833263,
+    "endMs": 833843,
+    "timestampMs": 833263,
+    "confidence": null,
+    "from": 24998,
+    "to": 25015,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "去噪扩散概率模型把这一类方法整理成有效的图像",
+    "startMs": 834008,
+    "endMs": 837688,
+    "timestampMs": 834008,
+    "confidence": null,
+    "from": 25020,
+    "to": 25131,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "生成方案",
+    "startMs": 837688,
+    "endMs": 838483,
+    "timestampMs": 837688,
+    "confidence": null,
+    "from": 25131,
+    "to": 25154,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "从早期想法，到后来有效的训练方法",
+    "startMs": 839223,
+    "endMs": 842303,
+    "timestampMs": 839223,
+    "confidence": null,
+    "from": 25177,
+    "to": 25269,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "扩散模型也是一点一点发展起来的",
+    "startMs": 842488,
+    "endMs": 845003,
+    "timestampMs": 842488,
+    "confidence": null,
+    "from": 25275,
+    "to": 25350,
+    "scene": "diffusion-history"
+  },
+  {
+    "text": "给干净图加上已知噪声",
+    "startMs": 848050,
+    "endMs": 850070,
+    "timestampMs": 848050,
+    "confidence": null,
+    "from": 25442,
+    "to": 25502,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "再让网络把噪声预测回来",
+    "startMs": 850175,
+    "endMs": 852330,
+    "timestampMs": 850175,
+    "confidence": null,
+    "from": 25505,
+    "to": 25570,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "网络看到的是混合后的图和时间步",
+    "startMs": 855450,
+    "endMs": 858610,
+    "timestampMs": 855450,
+    "confidence": null,
+    "from": 25664,
+    "to": 25758,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "目标是预测这次加入的噪声",
+    "startMs": 859410,
+    "endMs": 862170,
+    "timestampMs": 859410,
+    "confidence": null,
+    "from": 25782,
+    "to": 25865,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "而我们手里恰好知道正确噪声是什么",
+    "startMs": 862275,
+    "endMs": 864730,
+    "timestampMs": 862275,
+    "confidence": null,
+    "from": 25868,
+    "to": 25942,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "把预测和答案比较，就能计算误差，再更新参数",
+    "startMs": 865690,
+    "endMs": 869490,
+    "timestampMs": 865690,
+    "confidence": null,
+    "from": 25971,
+    "to": 26085,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "这样",
+    "startMs": 870050,
+    "endMs": 870510,
+    "timestampMs": 870050,
+    "confidence": null,
+    "from": 26102,
+    "to": 26115,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "一张图片可以在许多不同的噪声难度下提供训练信号",
+    "startMs": 870735,
+    "endMs": 874570,
+    "timestampMs": 870735,
+    "confidence": null,
+    "from": 26122,
+    "to": 26237,
+    "scene": "noise-prediction"
+  },
+  {
+    "text": "这件事有点反直觉：练习时让网络画噪声",
+    "startMs": 877517,
+    "endMs": 881397,
+    "timestampMs": 877517,
+    "confidence": null,
+    "from": 26326,
+    "to": 26442,
+    "scene": "why-noise"
+  },
+  {
+    "text": "最后怎么反而画出了数字？",
+    "startMs": 881842,
+    "endMs": 883497,
+    "timestampMs": 881842,
+    "confidence": null,
+    "from": 26455,
+    "to": 26505,
+    "scene": "why-noise"
+  },
+  {
+    "text": "看看这一步计算",
+    "startMs": 884037,
+    "endMs": 885257,
+    "timestampMs": 884037,
+    "confidence": null,
+    "from": 26521,
+    "to": 26558,
+    "scene": "why-noise"
+  },
+  {
+    "text": "预测到的噪声，会参与下一步位置的修正",
+    "startMs": 885997,
+    "endMs": 889397,
+    "timestampMs": 885997,
+    "confidence": null,
+    "from": 26580,
+    "to": 26682,
+    "scene": "why-noise"
+  },
+  {
+    "text": "它告诉我们，当前样本沿哪个方向修正",
+    "startMs": 890197,
+    "endMs": 893457,
+    "timestampMs": 890197,
+    "confidence": null,
+    "from": 26706,
+    "to": 26804,
+    "scene": "why-noise"
+  },
+  {
+    "text": "更符合训练数据的结构",
+    "startMs": 893682,
+    "endMs": 895397,
+    "timestampMs": 893682,
+    "confidence": null,
+    "from": 26810,
+    "to": 26862,
+    "scene": "why-noise"
+  },
+  {
+    "text": "每次只负责这一步的修正",
+    "startMs": 896317,
+    "endMs": 898217,
+    "timestampMs": 896317,
+    "confidence": null,
+    "from": 26890,
+    "to": 26946,
+    "scene": "why-noise"
+  },
+  {
+    "text": "完整图像就在许多次小调整中慢慢形成",
+    "startMs": 898402,
+    "endMs": 901517,
+    "timestampMs": 898402,
+    "confidence": null,
+    "from": 26952,
+    "to": 27046,
+    "scene": "why-noise"
+  },
+  {
+    "text": "而且预测并不总是准确",
+    "startMs": 902117,
+    "endMs": 903937,
+    "timestampMs": 902117,
+    "confidence": null,
+    "from": 27064,
+    "to": 27118,
+    "scene": "why-noise"
+  },
+  {
+    "text": "每一步的小误差",
+    "startMs": 904397,
+    "endMs": 905797,
+    "timestampMs": 904397,
+    "confidence": null,
+    "from": 27132,
+    "to": 27174,
+    "scene": "why-noise"
+  },
+  {
+    "text": "仍然可能影响最后的笔画和细节",
+    "startMs": 906002,
+    "endMs": 908337,
+    "timestampMs": 906002,
+    "confidence": null,
+    "from": 27180,
+    "to": 27250,
+    "scene": "why-noise"
+  },
+  {
+    "text": "每个时间步，都是一道不同难度的题",
+    "startMs": 910983,
+    "endMs": 913743,
+    "timestampMs": 910983,
+    "confidence": null,
+    "from": 27329,
+    "to": 27412,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "学会反向修正，就能从噪声得到结构",
+    "startMs": 915103,
+    "endMs": 918223,
+    "timestampMs": 915103,
+    "confidence": null,
+    "from": 27453,
+    "to": 27547,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "网络预测扰动，误差通过梯度更新参数",
+    "startMs": 919783,
+    "endMs": 923363,
+    "timestampMs": 919783,
+    "confidence": null,
+    "from": 27593,
+    "to": 27701,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "时间步随机抽取",
+    "startMs": 923823,
+    "endMs": 925643,
+    "timestampMs": 923823,
+    "confidence": null,
+    "from": 27715,
+    "to": 27769,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "所以它既练习接近干净数据的情况",
+    "startMs": 925808,
+    "endMs": 928363,
+    "timestampMs": 925808,
+    "confidence": null,
+    "from": 27774,
+    "to": 27851,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "也练习几乎只剩噪声的情况",
+    "startMs": 928588,
+    "endMs": 930523,
+    "timestampMs": 928588,
+    "confidence": null,
+    "from": 27858,
+    "to": 27916,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "下方曲线来自真实训练",
+    "startMs": 931143,
+    "endMs": 933243,
+    "timestampMs": 931143,
+    "confidence": null,
+    "from": 27934,
+    "to": 27997,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "曲线有起伏很正常，每一批的样本和难度都不同",
+    "startMs": 934063,
+    "endMs": 937983,
+    "timestampMs": 934063,
+    "confidence": null,
+    "from": 28022,
+    "to": 28139,
+    "scene": "diffusion-train"
+  },
+  {
+    "text": "第一行抽时间步，第二行混合干净样本与噪声",
+    "startMs": 940717,
+    "endMs": 944557,
+    "timestampMs": 940717,
+    "confidence": null,
+    "from": 28221,
+    "to": 28337,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "第三行让网络作预测，最后计算均方误差",
+    "startMs": 944782,
+    "endMs": 948517,
+    "timestampMs": 944782,
+    "confidence": null,
+    "from": 28343,
+    "to": 28456,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "送进网络的是带噪样本和时间步",
+    "startMs": 949157,
+    "endMs": 951697,
+    "timestampMs": 949157,
+    "confidence": null,
+    "from": 28475,
+    "to": 28551,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "干净图片留在出题这一侧",
+    "startMs": 952182,
+    "endMs": 954177,
+    "timestampMs": 952182,
+    "confidence": null,
+    "from": 28565,
+    "to": 28625,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "我们用干净图片构造题目",
+    "startMs": 954957,
+    "endMs": 957277,
+    "timestampMs": 954957,
+    "confidence": null,
+    "from": 28649,
+    "to": 28718,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "再用已知噪声核对预测，计算这次误差",
+    "startMs": 957542,
+    "endMs": 960597,
+    "timestampMs": 957542,
+    "confidence": null,
+    "from": 28726,
+    "to": 28818,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "这几行代码的输出，是一次参数更新",
+    "startMs": 961557,
+    "endMs": 964737,
+    "timestampMs": 961557,
+    "confidence": null,
+    "from": 28847,
+    "to": 28942,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "真正生成新样本，还要在训练结束后",
+    "startMs": 965597,
+    "endMs": 968862,
+    "timestampMs": 965597,
+    "confidence": null,
+    "from": 28968,
+    "to": 29066,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "走另一段采样循环",
+    "startMs": 968862,
+    "endMs": 970817,
+    "timestampMs": 968862,
+    "confidence": null,
+    "from": 29066,
+    "to": 29124,
+    "scene": "diffusion-code"
+  },
+  {
+    "text": "训练结束，进入采样",
+    "startMs": 973717,
+    "endMs": 975657,
+    "timestampMs": 973717,
+    "confidence": null,
+    "from": 29211,
+    "to": 29270,
+    "scene": "sampling"
+  },
+  {
+    "text": "从一团噪声开始，每次预测一点",
+    "startMs": 976557,
+    "endMs": 979257,
+    "timestampMs": 976557,
+    "confidence": null,
+    "from": 29297,
+    "to": 29378,
+    "scene": "sampling"
+  },
+  {
+    "text": "再换成更干净的状态",
+    "startMs": 979562,
+    "endMs": 981197,
+    "timestampMs": 979562,
+    "confidence": null,
+    "from": 29387,
+    "to": 29436,
+    "scene": "sampling"
+  },
+  {
+    "text": "最后才得到图像",
+    "startMs": 981717,
+    "endMs": 983477,
+    "timestampMs": 981717,
+    "confidence": null,
+    "from": 29452,
+    "to": 29504,
+    "scene": "sampling"
+  },
+  {
+    "text": "每一步读取当前点和时间步，预测噪声",
+    "startMs": 984717,
+    "endMs": 988057,
+    "timestampMs": 984717,
+    "confidence": null,
+    "from": 29542,
+    "to": 29642,
+    "scene": "sampling"
+  },
+  {
+    "text": "再按采样公式修正位置",
+    "startMs": 988302,
+    "endMs": 990097,
+    "timestampMs": 988302,
+    "confidence": null,
+    "from": 29649,
+    "to": 29703,
+    "scene": "sampling"
+  },
+  {
+    "text": "金色点逐渐形成结构",
+    "startMs": 990597,
+    "endMs": 992837,
+    "timestampMs": 990597,
+    "confidence": null,
+    "from": 29718,
+    "to": 29785,
+    "scene": "sampling"
+  },
+  {
+    "text": "青色的目标区域只用来对照",
+    "startMs": 993222,
+    "endMs": 995157,
+    "timestampMs": 993222,
+    "confidence": null,
+    "from": 29797,
+    "to": 29855,
+    "scene": "sampling"
+  },
+  {
+    "text": "这里每一个位置",
+    "startMs": 995997,
+    "endMs": 997162,
+    "timestampMs": 995997,
+    "confidence": null,
+    "from": 29880,
+    "to": 29915,
+    "scene": "sampling"
+  },
+  {
+    "text": "都来自模型实际算出的采样记录",
+    "startMs": 997162,
+    "endMs": 1000037,
+    "timestampMs": 997162,
+    "confidence": null,
+    "from": 29915,
+    "to": 30001,
+    "scene": "sampling"
+  },
+  {
+    "text": "放慢其中一步",
+    "startMs": 1002917,
+    "endMs": 1004237,
+    "timestampMs": 1002917,
+    "confidence": null,
+    "from": 30088,
+    "to": 30127,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "先计算当前预测对应的更新均值",
+    "startMs": 1004797,
+    "endMs": 1007657,
+    "timestampMs": 1004797,
+    "confidence": null,
+    "from": 30144,
+    "to": 30230,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "再根据本次采样方法，加入规定强度的随机项",
+    "startMs": 1007802,
+    "endMs": 1011317,
+    "timestampMs": 1007802,
+    "confidence": null,
+    "from": 30234,
+    "to": 30340,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "所以每一步既有按预测计算的修正",
+    "startMs": 1012037,
+    "endMs": 1015137,
+    "timestampMs": 1012037,
+    "confidence": null,
+    "from": 30361,
+    "to": 30454,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "也可能加上一点规定强度的随机扰动",
+    "startMs": 1015402,
+    "endMs": 1017917,
+    "timestampMs": 1015402,
+    "confidence": null,
+    "from": 30462,
+    "to": 30538,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "随机性和噪声日程，也是算法的一部分",
+    "startMs": 1018717,
+    "endMs": 1021957,
+    "timestampMs": 1018717,
+    "confidence": null,
+    "from": 30562,
+    "to": 30659,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "到最后一步，我们不再加入新的噪声",
+    "startMs": 1022597,
+    "endMs": 1025217,
+    "timestampMs": 1022597,
+    "confidence": null,
+    "from": 30678,
+    "to": 30757,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "这里把保存的位置连成平滑路径",
+    "startMs": 1025997,
+    "endMs": 1028657,
+    "timestampMs": 1025997,
+    "confidence": null,
+    "from": 30780,
+    "to": 30860,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "方便追踪同一个点；实际计算",
+    "startMs": 1028982,
+    "endMs": 1031362,
+    "timestampMs": 1028982,
+    "confidence": null,
+    "from": 30869,
+    "to": 30941,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "发生在这些记录点上",
+    "startMs": 1031362,
+    "endMs": 1033257,
+    "timestampMs": 1031362,
+    "confidence": null,
+    "from": 30941,
+    "to": 30998,
+    "scene": "sampling-step"
+  },
+  {
+    "text": "仍然生成两千零四十八个点",
+    "startMs": 1036117,
+    "endMs": 1038797,
+    "timestampMs": 1036117,
+    "confidence": null,
+    "from": 31083,
+    "to": 31164,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "仍然用相同的距离阈值和覆盖规则",
+    "startMs": 1039042,
+    "endMs": 1041917,
+    "timestampMs": 1039042,
+    "confidence": null,
+    "from": 31171,
+    "to": 31257,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "检查扩散模型的结果",
+    "startMs": 1042242,
+    "endMs": 1043757,
+    "timestampMs": 1042242,
+    "confidence": null,
+    "from": 31267,
+    "to": 31313,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "目标相同、检查规则相同",
+    "startMs": 1044557,
+    "endMs": 1046997,
+    "timestampMs": 1044557,
+    "confidence": null,
+    "from": 31337,
+    "to": 31410,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "两个结果放在一起才有可比性",
+    "startMs": 1047322,
+    "endMs": 1049597,
+    "timestampMs": 1047322,
+    "confidence": null,
+    "from": 31420,
+    "to": 31488,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "这次扩散实验的平均近邻比例",
+    "startMs": 1050437,
+    "endMs": 1052922,
+    "timestampMs": 1050437,
+    "confidence": null,
+    "from": 31513,
+    "to": 31588,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "约为百分之九十四点一，三次都覆盖了八个区域",
+    "startMs": 1052922,
+    "endMs": 1056897,
+    "timestampMs": 1052922,
+    "confidence": null,
+    "from": 31588,
+    "to": 31707,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "在这组小任务和参数下，它的点落得更准",
+    "startMs": 1057517,
+    "endMs": 1060977,
+    "timestampMs": 1057517,
+    "confidence": null,
+    "from": 31726,
+    "to": 31829,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "换一个任务，我们仍然需要重新做实验",
+    "startMs": 1061262,
+    "endMs": 1064017,
+    "timestampMs": 1061262,
+    "confidence": null,
+    "from": 31838,
+    "to": 31921,
+    "scene": "ddpm-results"
+  },
+  {
+    "text": "再回到真正的像素",
+    "startMs": 1066650,
+    "endMs": 1068210,
+    "timestampMs": 1066650,
+    "confidence": null,
+    "from": 31999,
+    "to": 32046,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "这次同样从随机噪声开始",
+    "startMs": 1068610,
+    "endMs": 1070690,
+    "timestampMs": 1068610,
+    "confidence": null,
+    "from": 32058,
+    "to": 32121,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "网络的输出是一张与输入尺寸一致的噪声预测图",
+    "startMs": 1071075,
+    "endMs": 1074730,
+    "timestampMs": 1071075,
+    "confidence": null,
+    "from": 32132,
+    "to": 32242,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "屏幕上的数字逐步出现",
+    "startMs": 1075450,
+    "endMs": 1077550,
+    "timestampMs": 1075450,
+    "confidence": null,
+    "from": 32263,
+    "to": 32326,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "是我们训练的小模型保存下来的采样过程",
+    "startMs": 1077675,
+    "endMs": 1080530,
+    "timestampMs": 1077675,
+    "confidence": null,
+    "from": 32330,
+    "to": 32416,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "起点、每一步以及最终结果，都在配套文件里",
+    "startMs": 1081250,
+    "endMs": 1085370,
+    "timestampMs": 1081250,
+    "confidence": null,
+    "from": 32437,
+    "to": 32561,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "有些结果的笔画是歪的，形状也不完整",
+    "startMs": 1085930,
+    "endMs": 1089450,
+    "timestampMs": 1085930,
+    "confidence": null,
+    "from": 32578,
+    "to": 32683,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "不能都当成清楚的数字",
+    "startMs": 1089675,
+    "endMs": 1091490,
+    "timestampMs": 1089675,
+    "confidence": null,
+    "from": 32690,
+    "to": 32745,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "它说明方法开始形成结构，也提醒我们",
+    "startMs": 1092050,
+    "endMs": 1095330,
+    "timestampMs": 1092050,
+    "confidence": null,
+    "from": 32761,
+    "to": 32860,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "这个规模的训练仍有明显限制",
+    "startMs": 1095675,
+    "endMs": 1097910,
+    "timestampMs": 1095675,
+    "confidence": null,
+    "from": 32870,
+    "to": 32937,
+    "scene": "digits-diffusion"
+  },
+  {
+    "text": "看清一条短笔画，不一定看清它属于哪个数字",
+    "startMs": 1100550,
+    "endMs": 1104090,
+    "timestampMs": 1100550,
+    "confidence": null,
+    "from": 33016,
+    "to": 33123,
+    "scene": "unet"
+  },
+  {
+    "text": "只看整体轮廓，又容易漏掉小细节",
+    "startMs": 1104295,
+    "endMs": 1107110,
+    "timestampMs": 1104295,
+    "confidence": null,
+    "from": 33129,
+    "to": 33213,
+    "scene": "unet"
+  },
+  {
+    "text": "网络也需要把远近两种信息接起来",
+    "startMs": 1107550,
+    "endMs": 1110250,
+    "timestampMs": 1107550,
+    "confidence": null,
+    "from": 33226,
+    "to": 33308,
+    "scene": "unet"
+  },
+  {
+    "text": "我们的简化网络先把空间缩小，再把特征放大",
+    "startMs": 1110870,
+    "endMs": 1114490,
+    "timestampMs": 1110870,
+    "confidence": null,
+    "from": 33326,
+    "to": 33435,
+    "scene": "unet"
+  },
+  {
+    "text": "并把较早的高分辨率特征接回来",
+    "startMs": 1114615,
+    "endMs": 1117110,
+    "timestampMs": 1114615,
+    "confidence": null,
+    "from": 33438,
+    "to": 33513,
+    "scene": "unet"
+  },
+  {
+    "text": "连接线把前后对应的位置联系在一起",
+    "startMs": 1117630,
+    "endMs": 1120410,
+    "timestampMs": 1117630,
+    "confidence": null,
+    "from": 33529,
+    "to": 33612,
+    "scene": "unet"
+  },
+  {
+    "text": "这里用的是一个简化的 U 形网络",
+    "startMs": 1121030,
+    "endMs": 1123670,
+    "timestampMs": 1121030,
+    "confidence": null,
+    "from": 33631,
+    "to": 33710,
+    "scene": "unet"
+  },
+  {
+    "text": "这种把局部细节和整体结构接起来的办法很实用",
+    "startMs": 1124030,
+    "endMs": 1127770,
+    "timestampMs": 1124030,
+    "confidence": null,
+    "from": 33721,
+    "to": 33833,
+    "scene": "unet"
+  },
+  {
+    "text": "其他扩散系统也会选择适合任务的网络架构",
+    "startMs": 1128075,
+    "endMs": 1131290,
+    "timestampMs": 1128075,
+    "confidence": null,
+    "from": 33842,
+    "to": 33939,
+    "scene": "unet"
+  },
+  {
+    "text": "到这里，最容易混淆的两个过程可以分开了",
+    "startMs": 1134150,
+    "endMs": 1137430,
+    "timestampMs": 1134150,
+    "confidence": null,
+    "from": 34024,
+    "to": 34123,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "训练时有干净样本，我们造出带噪题目",
+    "startMs": 1138190,
+    "endMs": 1141570,
+    "timestampMs": 1138190,
+    "confidence": null,
+    "from": 34146,
+    "to": 34247,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "再检查预测",
+    "startMs": 1141815,
+    "endMs": 1142730,
+    "timestampMs": 1141815,
+    "confidence": null,
+    "from": 34254,
+    "to": 34282,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "生成时没有目标原图，只从新的随机数出发",
+    "startMs": 1143590,
+    "endMs": 1147770,
+    "timestampMs": 1143590,
+    "confidence": null,
+    "from": 34308,
+    "to": 34433,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "反复调用已经训练好的网络",
+    "startMs": 1148015,
+    "endMs": 1150050,
+    "timestampMs": 1148015,
+    "confidence": null,
+    "from": 34440,
+    "to": 34501,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "踏雪加噪的动画，帮我们看清题目怎样变难",
+    "startMs": 1150910,
+    "endMs": 1154570,
+    "timestampMs": 1150910,
+    "confidence": null,
+    "from": 34527,
+    "to": 34637,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "而刚才从新噪声出发的真实轨迹",
+    "startMs": 1155270,
+    "endMs": 1157955,
+    "timestampMs": 1155270,
+    "confidence": null,
+    "from": 34658,
+    "to": 34739,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "展示的是网络学完以后，怎样一步一步生成",
+    "startMs": 1157955,
+    "endMs": 1161650,
+    "timestampMs": 1157955,
+    "confidence": null,
+    "from": 34739,
+    "to": 34850,
+    "scene": "training-sampling"
+  },
+  {
+    "text": "随机种子像是一份抽签顺序的记录",
+    "startMs": 1164483,
+    "endMs": 1167603,
+    "timestampMs": 1164483,
+    "confidence": null,
+    "from": 34934,
+    "to": 35028,
+    "scene": "seed"
+  },
+  {
+    "text": "在相同程序和条件下",
+    "startMs": 1168203,
+    "endMs": 1170043,
+    "timestampMs": 1168203,
+    "confidence": null,
+    "from": 35046,
+    "to": 35101,
+    "scene": "seed"
+  },
+  {
+    "text": "我们可以再次得到同一批随机数",
+    "startMs": 1170348,
+    "endMs": 1172543,
+    "timestampMs": 1170348,
+    "confidence": null,
+    "from": 35110,
+    "to": 35176,
+    "scene": "seed"
+  },
+  {
+    "text": "它像给实验留下抽签记录",
+    "startMs": 1173363,
+    "endMs": 1175643,
+    "timestampMs": 1173363,
+    "confidence": null,
+    "from": 35201,
+    "to": 35269,
+    "scene": "seed"
+  },
+  {
+    "text": "方便我们把改变参数前后的结果放在一起比较",
+    "startMs": 1175868,
+    "endMs": 1178803,
+    "timestampMs": 1175868,
+    "confidence": null,
+    "from": 35276,
+    "to": 35364,
+    "scene": "seed"
+  },
+  {
+    "text": "如果换了模型、采样器或提示条件",
+    "startMs": 1179403,
+    "endMs": 1182503,
+    "timestampMs": 1179403,
+    "confidence": null,
+    "from": 35382,
+    "to": 35475,
+    "scene": "seed"
+  },
+  {
+    "text": "即使保留种子，结果也可能改变",
+    "startMs": 1182788,
+    "endMs": 1185163,
+    "timestampMs": 1182788,
+    "confidence": null,
+    "from": 35484,
+    "to": 35555,
+    "scene": "seed"
+  },
+  {
+    "text": "完整复现时",
+    "startMs": 1186243,
+    "endMs": 1187583,
+    "timestampMs": 1186243,
+    "confidence": null,
+    "from": 35587,
+    "to": 35627,
+    "scene": "seed"
+  },
+  {
+    "text": "还要一起留下模型、软件版本和采样参数",
+    "startMs": 1187728,
+    "endMs": 1191023,
+    "timestampMs": 1187728,
+    "confidence": null,
+    "from": 35632,
+    "to": 35731,
+    "scene": "seed"
+  },
+  {
+    "text": "生成器一次前向就能交出样本",
+    "startMs": 1193717,
+    "endMs": 1196437,
+    "timestampMs": 1193717,
+    "confidence": null,
+    "from": 35812,
+    "to": 35893,
+    "scene": "speed"
+  },
+  {
+    "text": "而逐步扩散通常要多次调用网络",
+    "startMs": 1196702,
+    "endMs": 1199397,
+    "timestampMs": 1196702,
+    "confidence": null,
+    "from": 35901,
+    "to": 35982,
+    "scene": "speed"
+  },
+  {
+    "text": "这是两条路线在使用时很直观的差别",
+    "startMs": 1200237,
+    "endMs": 1203177,
+    "timestampMs": 1200237,
+    "confidence": null,
+    "from": 36007,
+    "to": 36095,
+    "scene": "speed"
+  },
+  {
+    "text": "后来出现了很多更快的采样方法",
+    "startMs": 1203957,
+    "endMs": 1206477,
+    "timestampMs": 1203957,
+    "confidence": null,
+    "from": 36119,
+    "to": 36194,
+    "scene": "speed"
+  },
+  {
+    "text": "其中一种思路，是重新组织采样路径",
+    "startMs": 1207277,
+    "endMs": 1210477,
+    "timestampMs": 1207277,
+    "confidence": null,
+    "from": 36218,
+    "to": 36314,
+    "scene": "speed"
+  },
+  {
+    "text": "减少需要计算的步骤",
+    "startMs": 1210782,
+    "endMs": 1212337,
+    "timestampMs": 1210782,
+    "confidence": null,
+    "from": 36323,
+    "to": 36370,
+    "scene": "speed"
+  },
+  {
+    "text": "更少步骤能节省计算",
+    "startMs": 1212757,
+    "endMs": 1214577,
+    "timestampMs": 1212757,
+    "confidence": null,
+    "from": 36383,
+    "to": 36437,
+    "scene": "speed"
+  },
+  {
+    "text": "但质量、细节与速度之间的关系",
+    "startMs": 1214902,
+    "endMs": 1217362,
+    "timestampMs": 1214902,
+    "confidence": null,
+    "from": 36447,
+    "to": 36521,
+    "scene": "speed"
+  },
+  {
+    "text": "需要对具体模型实测",
+    "startMs": 1217362,
+    "endMs": 1219477,
+    "timestampMs": 1217362,
+    "confidence": null,
+    "from": 36521,
+    "to": 36584,
+    "scene": "speed"
+  },
+  {
+    "text": "减少步数需要配套的采样公式",
+    "startMs": 1219917,
+    "endMs": 1222397,
+    "timestampMs": 1219917,
+    "confidence": null,
+    "from": 36597,
+    "to": 36672,
+    "scene": "speed"
+  },
+  {
+    "text": "再用实际结果检查节省了多少计算、损失了哪些细节",
+    "startMs": 1222582,
+    "endMs": 1226537,
+    "timestampMs": 1222582,
+    "confidence": null,
+    "from": 36677,
+    "to": 36796,
+    "scene": "speed"
+  },
+  {
+    "text": "小数字只有二十八乘二十八个像素",
+    "startMs": 1229217,
+    "endMs": 1231797,
+    "timestampMs": 1229217,
+    "confidence": null,
+    "from": 36876,
+    "to": 36954,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "换成高清照片，每一步都处理整张大图",
+    "startMs": 1232617,
+    "endMs": 1236097,
+    "timestampMs": 1232617,
+    "confidence": null,
+    "from": 36978,
+    "to": 37083,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "计算量就明显增加了",
+    "startMs": 1236362,
+    "endMs": 1237977,
+    "timestampMs": 1236362,
+    "confidence": null,
+    "from": 37091,
+    "to": 37139,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "能不能先在一个更小的空间里工作？",
+    "startMs": 1238817,
+    "endMs": 1241097,
+    "timestampMs": 1238817,
+    "confidence": null,
+    "from": 37164,
+    "to": 37233,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "潜空间扩散先用编码器，把图像压成较小的表示",
+    "startMs": 1242262,
+    "endMs": 1245637,
+    "timestampMs": 1242262,
+    "confidence": null,
+    "from": 37268,
+    "to": 37369,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "扩散在这个表示中进行",
+    "startMs": 1246122,
+    "endMs": 1247677,
+    "timestampMs": 1246122,
+    "confidence": null,
+    "from": 37384,
+    "to": 37430,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "最后再由解码器还原成图像",
+    "startMs": 1247862,
+    "endMs": 1250037,
+    "timestampMs": 1247862,
+    "confidence": null,
+    "from": 37436,
+    "to": 37501,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "中间这块小表示，保留的是模型学到的图像信息",
+    "startMs": 1250577,
+    "endMs": 1254817,
+    "timestampMs": 1250577,
+    "confidence": null,
+    "from": 37517,
+    "to": 37644,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "尺寸比完整像素图小得多",
+    "startMs": 1255062,
+    "endMs": 1257237,
+    "timestampMs": 1255062,
+    "confidence": null,
+    "from": 37652,
+    "to": 37717,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "就像先画一张浓缩的草稿，再铺开成大图",
+    "startMs": 1257657,
+    "endMs": 1260977,
+    "timestampMs": 1257657,
+    "confidence": null,
+    "from": 37730,
+    "to": 37829,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "细节能还原到什么程度",
+    "startMs": 1261222,
+    "endMs": 1262857,
+    "timestampMs": 1261222,
+    "confidence": null,
+    "from": 37837,
+    "to": 37886,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "还要看压缩和解码的能力",
+    "startMs": 1262982,
+    "endMs": 1264837,
+    "timestampMs": 1262982,
+    "confidence": null,
+    "from": 37889,
+    "to": 37945,
+    "scene": "latent-diffusion"
+  },
+  {
+    "text": "结构有了，还要告诉模型画谁、画在什么场景里",
+    "startMs": 1267683,
+    "endMs": 1271643,
+    "timestampMs": 1267683,
+    "confidence": null,
+    "from": 38030,
+    "to": 38149,
+    "scene": "conditioning"
+  },
+  {
+    "text": "参考图锁住身份，文字决定方向",
+    "startMs": 1272523,
+    "endMs": 1275803,
+    "timestampMs": 1272523,
+    "confidence": null,
+    "from": 38176,
+    "to": 38274,
+    "scene": "conditioning"
+  },
+  {
+    "text": "如果我们想指定内容，就要把额外条件交进去",
+    "startMs": 1277123,
+    "endMs": 1280423,
+    "timestampMs": 1277123,
+    "confidence": null,
+    "from": 38314,
+    "to": 38413,
+    "scene": "conditioning"
+  },
+  {
+    "text": "条件可以是类别、文字、参考图",
+    "startMs": 1280763,
+    "endMs": 1283863,
+    "timestampMs": 1280763,
+    "confidence": null,
+    "from": 38423,
+    "to": 38516,
+    "scene": "conditioning"
+  },
+  {
+    "text": "或者边缘和姿态等结构信息",
+    "startMs": 1284208,
+    "endMs": 1286303,
+    "timestampMs": 1284208,
+    "confidence": null,
+    "from": 38526,
+    "to": 38589,
+    "scene": "conditioning"
+  },
+  {
+    "text": "条件相当于给画师一份任务单",
+    "startMs": 1286963,
+    "endMs": 1289343,
+    "timestampMs": 1286963,
+    "confidence": null,
+    "from": 38609,
+    "to": 38680,
+    "scene": "conditioning"
+  },
+  {
+    "text": "让生成过程朝指定的内容靠近",
+    "startMs": 1289628,
+    "endMs": 1292143,
+    "timestampMs": 1289628,
+    "confidence": null,
+    "from": 38689,
+    "to": 38764,
+    "scene": "conditioning"
+  },
+  {
+    "text": "踏雪这个名字，对没见过她的模型来说",
+    "startMs": 1295083,
+    "endMs": 1298063,
+    "timestampMs": 1295083,
+    "confidence": null,
+    "from": 38852,
+    "to": 38942,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "还缺少具体的外形",
+    "startMs": 1298208,
+    "endMs": 1299603,
+    "timestampMs": 1298208,
+    "confidence": null,
+    "from": 38946,
+    "to": 38988,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "有了参考图，模型才能看到她的具体外形",
+    "startMs": 1300803,
+    "endMs": 1304363,
+    "timestampMs": 1300803,
+    "confidence": null,
+    "from": 39024,
+    "to": 39131,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "我们看鼻梁白纹、棕色眼睛",
+    "startMs": 1306043,
+    "endMs": 1309003,
+    "timestampMs": 1306043,
+    "confidence": null,
+    "from": 39181,
+    "to": 39270,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "再看黑白毛色、四只白爪和蓬松尾巴",
+    "startMs": 1309328,
+    "endMs": 1312883,
+    "timestampMs": 1309328,
+    "confidence": null,
+    "from": 39280,
+    "to": 39386,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "把这些线索合在一起",
+    "startMs": 1313843,
+    "endMs": 1315508,
+    "timestampMs": 1313843,
+    "confidence": null,
+    "from": 39415,
+    "to": 39465,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "才更容易认出同一位小主角",
+    "startMs": 1315508,
+    "endMs": 1317923,
+    "timestampMs": 1315508,
+    "confidence": null,
+    "from": 39465,
+    "to": 39538,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "新的角度会遮住部分特征",
+    "startMs": 1318443,
+    "endMs": 1320983,
+    "timestampMs": 1318443,
+    "confidence": null,
+    "from": 39553,
+    "to": 39629,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "所以身份一致性要结合多个可见部位检查",
+    "startMs": 1321288,
+    "endMs": 1325043,
+    "timestampMs": 1321288,
+    "confidence": null,
+    "from": 39639,
+    "to": 39751,
+    "scene": "pearl-identity"
+  },
+  {
+    "text": "把踏雪的参考图交给大模型",
+    "startMs": 1328083,
+    "endMs": 1330643,
+    "timestampMs": 1328083,
+    "confidence": null,
+    "from": 39842,
+    "to": 39919,
+    "scene": "editing"
+  },
+  {
+    "text": "让她来到深色实验室",
+    "startMs": 1330868,
+    "endMs": 1332423,
+    "timestampMs": 1330868,
+    "confidence": null,
+    "from": 39926,
+    "to": 39973,
+    "scene": "editing"
+  },
+  {
+    "text": "环境和光线可以换，白纹、毛色和脸型",
+    "startMs": 1334363,
+    "endMs": 1338363,
+    "timestampMs": 1334363,
+    "confidence": null,
+    "from": 40031,
+    "to": 40151,
+    "scene": "editing"
+  },
+  {
+    "text": "这些认得出她的地方要留下来",
+    "startMs": 1338628,
+    "endMs": 1340863,
+    "timestampMs": 1338628,
+    "confidence": null,
+    "from": 40159,
+    "to": 40226,
+    "scene": "editing"
+  },
+  {
+    "text": "这就是图像编辑：拿已有画面做起点",
+    "startMs": 1341603,
+    "endMs": 1344803,
+    "timestampMs": 1341603,
+    "confidence": null,
+    "from": 40248,
+    "to": 40344,
+    "scene": "editing"
+  },
+  {
+    "text": "按要求改动其中的内容",
+    "startMs": 1344948,
+    "endMs": 1346683,
+    "timestampMs": 1344948,
+    "confidence": null,
+    "from": 40348,
+    "to": 40400,
+    "scene": "editing"
+  },
+  {
+    "text": "参考图提供已知结构",
+    "startMs": 1347483,
+    "endMs": 1349563,
+    "timestampMs": 1347483,
+    "confidence": null,
+    "from": 40424,
+    "to": 40487,
+    "scene": "editing"
+  },
+  {
+    "text": "修改指令提出希望改变的部分",
+    "startMs": 1349808,
+    "endMs": 1351843,
+    "timestampMs": 1349808,
+    "confidence": null,
+    "from": 40494,
+    "to": 40555,
+    "scene": "editing"
+  },
+  {
+    "text": "参考图锁住身份，文字提出新的场景",
+    "startMs": 1352643,
+    "endMs": 1355943,
+    "timestampMs": 1352643,
+    "confidence": null,
+    "from": 40579,
+    "to": 40678,
+    "scene": "editing"
+  },
+  {
+    "text": "两个条件一起引导生成，让毛色和脸型留下来",
+    "startMs": 1357083,
+    "endMs": 1361323,
+    "timestampMs": 1357083,
+    "confidence": null,
+    "from": 40712,
+    "to": 40840,
+    "scene": "editing"
+  },
+  {
+    "text": "让背景按要求改变",
+    "startMs": 1361428,
+    "endMs": 1362983,
+    "timestampMs": 1361428,
+    "confidence": null,
+    "from": 40843,
+    "to": 40889,
+    "scene": "editing"
+  },
+  {
+    "text": "先对照鼻梁白纹和棕色眼睛，再检查四爪和尾巴",
+    "startMs": 1363683,
+    "endMs": 1367863,
+    "timestampMs": 1363683,
+    "confidence": null,
+    "from": 40910,
+    "to": 41036,
+    "scene": "editing"
+  },
+  {
+    "text": "在一些图生图流程里",
+    "startMs": 1371717,
+    "endMs": 1373497,
+    "timestampMs": 1371717,
+    "confidence": null,
+    "from": 41152,
+    "to": 41205,
+    "scene": "strength"
+  },
+  {
+    "text": "会先把输入推到某个噪声阶段",
+    "startMs": 1373682,
+    "endMs": 1375977,
+    "timestampMs": 1373682,
+    "confidence": null,
+    "from": 41210,
+    "to": 41279,
+    "scene": "strength"
+  },
+  {
+    "text": "再根据条件进行生成",
+    "startMs": 1376222,
+    "endMs": 1377777,
+    "timestampMs": 1376222,
+    "confidence": null,
+    "from": 41287,
+    "to": 41333,
+    "scene": "strength"
+  },
+  {
+    "text": "扰动较轻时，原图通常留下更多约束",
+    "startMs": 1379062,
+    "endMs": 1382137,
+    "timestampMs": 1379062,
+    "confidence": null,
+    "from": 41372,
+    "to": 41464,
+    "scene": "strength"
+  },
+  {
+    "text": "扰动较重时，改变的空间更大",
+    "startMs": 1382542,
+    "endMs": 1385057,
+    "timestampMs": 1382542,
+    "confidence": null,
+    "from": 41476,
+    "to": 41552,
+    "scene": "strength"
+  },
+  {
+    "text": "也更容易偏离原来的结构和身份",
+    "startMs": 1385222,
+    "endMs": 1387597,
+    "timestampMs": 1385222,
+    "confidence": null,
+    "from": 41557,
+    "to": 41628,
+    "scene": "strength"
+  },
+  {
+    "text": "只换光线，就保住结构；大幅换场景",
+    "startMs": 1388357,
+    "endMs": 1391677,
+    "timestampMs": 1388357,
+    "confidence": null,
+    "from": 41651,
+    "to": 41750,
+    "scene": "strength"
+  },
+  {
+    "text": "就得留意脸型和毛色有没有变样",
+    "startMs": 1391822,
+    "endMs": 1394257,
+    "timestampMs": 1391822,
+    "confidence": null,
+    "from": 41755,
+    "to": 41828,
+    "scene": "strength"
+  },
+  {
+    "text": "不同工具对强度的定义可能不同",
+    "startMs": 1396397,
+    "endMs": 1398817,
+    "timestampMs": 1396397,
+    "confidence": null,
+    "from": 41892,
+    "to": 41964,
+    "scene": "strength"
+  },
+  {
+    "text": "实际使用时要先对照它的说明和输出",
+    "startMs": 1399322,
+    "endMs": 1402057,
+    "timestampMs": 1399322,
+    "confidence": null,
+    "from": 41980,
+    "to": 42062,
+    "scene": "strength"
+  },
+  {
+    "text": "还有一个常用办法",
+    "startMs": 1404583,
+    "endMs": 1405988,
+    "timestampMs": 1404583,
+    "confidence": null,
+    "from": 42138,
+    "to": 42180,
+    "scene": "guidance"
+  },
+  {
+    "text": "可以让模型更在意我们提出的要求",
+    "startMs": 1405988,
+    "endMs": 1408823,
+    "timestampMs": 1405988,
+    "confidence": null,
+    "from": 42180,
+    "to": 42265,
+    "scene": "guidance"
+  },
+  {
+    "text": "可以把带条件与不带条件的预测作组合",
+    "startMs": 1409503,
+    "endMs": 1413083,
+    "timestampMs": 1409503,
+    "confidence": null,
+    "from": 42285,
+    "to": 42392,
+    "scene": "guidance"
+  },
+  {
+    "text": "强化两者的差别",
+    "startMs": 1413268,
+    "endMs": 1414603,
+    "timestampMs": 1413268,
+    "confidence": null,
+    "from": 42398,
+    "to": 42438,
+    "scene": "guidance"
+  },
+  {
+    "text": "这个旋钮有点像调味：适量能突出要求",
+    "startMs": 1415383,
+    "endMs": 1418883,
+    "timestampMs": 1415383,
+    "confidence": null,
+    "from": 42461,
+    "to": 42566,
+    "scene": "guidance"
+  },
+  {
+    "text": "拧得太大，画面就可能失去自然感",
+    "startMs": 1419108,
+    "endMs": 1421643,
+    "timestampMs": 1419108,
+    "confidence": null,
+    "from": 42573,
+    "to": 42649,
+    "scene": "guidance"
+  },
+  {
+    "text": "过强时",
+    "startMs": 1422383,
+    "endMs": 1423348,
+    "timestampMs": 1422383,
+    "confidence": null,
+    "from": 42671,
+    "to": 42700,
+    "scene": "guidance"
+  },
+  {
+    "text": "可能出现不自然的颜色、细节或更少的变化",
+    "startMs": 1423348,
+    "endMs": 1427303,
+    "timestampMs": 1423348,
+    "confidence": null,
+    "from": 42700,
+    "to": 42819,
+    "scene": "guidance"
+  },
+  {
+    "text": "调完再看踏雪：她还像自己吗，动作顺吗",
+    "startMs": 1427943,
+    "endMs": 1431843,
+    "timestampMs": 1427943,
+    "confidence": null,
+    "from": 42838,
+    "to": 42955,
+    "scene": "guidance"
+  },
+  {
+    "text": "场景符合要求吗？",
+    "startMs": 1432168,
+    "endMs": 1433503,
+    "timestampMs": 1432168,
+    "confidence": null,
+    "from": 42965,
+    "to": 43005,
+    "scene": "guidance"
+  },
+  {
+    "text": "图像动起来，问题就变成接不接得上",
+    "startMs": 1436450,
+    "endMs": 1439470,
+    "timestampMs": 1436450,
+    "confidence": null,
+    "from": 43094,
+    "to": 43184,
+    "scene": "video"
+  },
+  {
+    "text": "踏雪收起舌头、轻轻坐下",
+    "startMs": 1440650,
+    "endMs": 1443170,
+    "timestampMs": 1440650,
+    "confidence": null,
+    "from": 43219,
+    "to": 43295,
+    "scene": "video"
+  },
+  {
+    "text": "身体和毛色都要连续变化",
+    "startMs": 1443455,
+    "endMs": 1445670,
+    "timestampMs": 1443455,
+    "confidence": null,
+    "from": 43304,
+    "to": 43370,
+    "scene": "video"
+  },
+  {
+    "text": "单张都像小狗，连起来耳朵却漂了",
+    "startMs": 1447170,
+    "endMs": 1450370,
+    "timestampMs": 1447170,
+    "confidence": null,
+    "from": 43415,
+    "to": 43511,
+    "scene": "video"
+  },
+  {
+    "text": "身体也可能变形",
+    "startMs": 1450555,
+    "endMs": 1451770,
+    "timestampMs": 1450555,
+    "confidence": null,
+    "from": 43517,
+    "to": 43553,
+    "scene": "video"
+  },
+  {
+    "text": "视频生成要同时处理画面内容和跨时间的关系",
+    "startMs": 1453130,
+    "endMs": 1456930,
+    "timestampMs": 1453130,
+    "confidence": null,
+    "from": 43594,
+    "to": 43708,
+    "scene": "video"
+  },
+  {
+    "text": "这里接入的是以参考场景生成的视频",
+    "startMs": 1457650,
+    "endMs": 1460550,
+    "timestampMs": 1457650,
+    "confidence": null,
+    "from": 43729,
+    "to": 43816,
+    "scene": "video"
+  },
+  {
+    "text": "看完整动作，再停下检查关键帧",
+    "startMs": 1461130,
+    "endMs": 1463870,
+    "timestampMs": 1461130,
+    "confidence": null,
+    "from": 43834,
+    "to": 43916,
+    "scene": "video"
+  },
+  {
+    "text": "才能发现只看一张漂亮截图时容易漏掉的问题",
+    "startMs": 1464215,
+    "endMs": 1467750,
+    "timestampMs": 1464215,
+    "confidence": null,
+    "from": 43926,
+    "to": 44032,
+    "scene": "video"
+  },
+  {
+    "text": "所以评价也要分层看",
+    "startMs": 1470750,
+    "endMs": 1472750,
+    "timestampMs": 1470750,
+    "confidence": null,
+    "from": 44122,
+    "to": 44182,
+    "scene": "evaluation"
+  },
+  {
+    "text": "先看场景，再看白纹、眼睛、四爪和尾巴",
+    "startMs": 1474070,
+    "endMs": 1478550,
+    "timestampMs": 1474070,
+    "confidence": null,
+    "from": 44222,
+    "to": 44356,
+    "scene": "evaluation"
+  },
+  {
+    "text": "最后逐帧检查动作",
+    "startMs": 1478875,
+    "endMs": 1480230,
+    "timestampMs": 1478875,
+    "confidence": null,
+    "from": 44366,
+    "to": 44407,
+    "scene": "evaluation"
+  },
+  {
+    "text": "先看是否符合任务，再看结构、身份和连续性",
+    "startMs": 1481710,
+    "endMs": 1486070,
+    "timestampMs": 1481710,
+    "confidence": null,
+    "from": 44451,
+    "to": 44582,
+    "scene": "evaluation"
+  },
+  {
+    "text": "批量生成时，还要检查结果是不是只剩一种样子",
+    "startMs": 1486790,
+    "endMs": 1490830,
+    "timestampMs": 1486790,
+    "confidence": null,
+    "from": 44604,
+    "to": 44725,
+    "scene": "evaluation"
+  },
+  {
+    "text": "自动指标能提供线索",
+    "startMs": 1491390,
+    "endMs": 1493330,
+    "timestampMs": 1491390,
+    "confidence": null,
+    "from": 44742,
+    "to": 44800,
+    "scene": "evaluation"
+  },
+  {
+    "text": "但一个数字很难覆盖所有问题",
+    "startMs": 1493535,
+    "endMs": 1495750,
+    "timestampMs": 1493535,
+    "confidence": null,
+    "from": 44806,
+    "to": 44873,
+    "scene": "evaluation"
+  },
+  {
+    "text": "保存失败结果",
+    "startMs": 1496630,
+    "endMs": 1498090,
+    "timestampMs": 1496630,
+    "confidence": null,
+    "from": 44899,
+    "to": 44943,
+    "scene": "evaluation"
+  },
+  {
+    "text": "往往比只展示最好的一张更有帮助",
+    "startMs": 1498315,
+    "endMs": 1500770,
+    "timestampMs": 1498315,
+    "confidence": null,
+    "from": 44949,
+    "to": 45023,
+    "scene": "evaluation"
+  },
+  {
+    "text": "模型能做什么，取决于它练过什么",
+    "startMs": 1503635,
+    "endMs": 1506030,
+    "timestampMs": 1503635,
+    "confidence": null,
+    "from": 45109,
+    "to": 45181,
+    "scene": "data"
+  },
+  {
+    "text": "常见姿势学得稳，少见姿势更容易画偏",
+    "startMs": 1506610,
+    "endMs": 1510230,
+    "timestampMs": 1506610,
+    "confidence": null,
+    "from": 45198,
+    "to": 45307,
+    "scene": "data"
+  },
+  {
+    "text": "数字模型练过的是笔画",
+    "startMs": 1511930,
+    "endMs": 1514190,
+    "timestampMs": 1511930,
+    "confidence": null,
+    "from": 45358,
+    "to": 45426,
+    "scene": "data"
+  },
+  {
+    "text": "踏雪的毛发、姿态和光影",
+    "startMs": 1514375,
+    "endMs": 1517050,
+    "timestampMs": 1514375,
+    "confidence": null,
+    "from": 45431,
+    "to": 45512,
+    "scene": "data"
+  },
+  {
+    "text": "得交给见过这类图像的模型",
+    "startMs": 1517335,
+    "endMs": 1519370,
+    "timestampMs": 1517335,
+    "confidence": null,
+    "from": 45520,
+    "to": 45581,
+    "scene": "data"
+  },
+  {
+    "text": "我们写下的话，可以给模型提出要求",
+    "startMs": 1520370,
+    "endMs": 1523175,
+    "timestampMs": 1520370,
+    "confidence": null,
+    "from": 45611,
+    "to": 45695,
+    "scene": "data"
+  },
+  {
+    "text": "能不能做到，还要看它已经学到了什么",
+    "startMs": 1523175,
+    "endMs": 1526070,
+    "timestampMs": 1523175,
+    "confidence": null,
+    "from": 45695,
+    "to": 45782,
+    "scene": "data"
+  },
+  {
+    "text": "常见的姿势，模型练习得多；少见的姿势",
+    "startMs": 1527050,
+    "endMs": 1531090,
+    "timestampMs": 1527050,
+    "confidence": null,
+    "from": 45812,
+    "to": 45933,
+    "scene": "data"
+  },
+  {
+    "text": "学习机会也少，生成时就容易画偏",
+    "startMs": 1531215,
+    "endMs": 1534210,
+    "timestampMs": 1531215,
+    "confidence": null,
+    "from": 45936,
+    "to": 46026,
+    "scene": "data"
+  },
+  {
+    "text": "这些规律存进参数，提示词再引导模型",
+    "startMs": 1535090,
+    "endMs": 1538830,
+    "timestampMs": 1535090,
+    "confidence": null,
+    "from": 46053,
+    "to": 46165,
+    "scene": "data"
+  },
+  {
+    "text": "调用学过的结构",
+    "startMs": 1538955,
+    "endMs": 1540170,
+    "timestampMs": 1538955,
+    "confidence": null,
+    "from": 46169,
+    "to": 46205,
+    "scene": "data"
+  },
+  {
+    "text": "想亲手复现，从二维实验开始",
+    "startMs": 1543583,
+    "endMs": 1546463,
+    "timestampMs": 1543583,
+    "confidence": null,
+    "from": 46308,
+    "to": 46394,
+    "scene": "reproduce"
+  },
+  {
+    "text": "固定环境和参数，保存结果，才能追到变化来源",
+    "startMs": 1547543,
+    "endMs": 1551843,
+    "timestampMs": 1547543,
+    "confidence": null,
+    "from": 46426,
+    "to": 46555,
+    "scene": "reproduce"
+  },
+  {
+    "text": "再运行数字实验",
+    "startMs": 1553028,
+    "endMs": 1554263,
+    "timestampMs": 1553028,
+    "confidence": null,
+    "from": 46591,
+    "to": 46628,
+    "scene": "reproduce"
+  },
+  {
+    "text": "对照训练样本、模型检查点和保存的去噪序列",
+    "startMs": 1554548,
+    "endMs": 1558223,
+    "timestampMs": 1554548,
+    "confidence": null,
+    "from": 46636,
+    "to": 46747,
+    "scene": "reproduce"
+  },
+  {
+    "text": "改变一个参数前，先留住原来的结果",
+    "startMs": 1559063,
+    "endMs": 1562223,
+    "timestampMs": 1559063,
+    "confidence": null,
+    "from": 46772,
+    "to": 46867,
+    "scene": "reproduce"
+  },
+  {
+    "text": "比较才有意义",
+    "startMs": 1562528,
+    "endMs": 1563583,
+    "timestampMs": 1562528,
+    "confidence": null,
+    "from": 46876,
+    "to": 46908,
+    "scene": "reproduce"
+  },
+  {
+    "text": "资料里会写清环境、命令和来源",
+    "startMs": 1564383,
+    "endMs": 1567663,
+    "timestampMs": 1564383,
+    "confidence": null,
+    "from": 46932,
+    "to": 47030,
+    "scene": "reproduce"
+  },
+  {
+    "text": "你可以先用小实验看懂步骤",
+    "startMs": 1568103,
+    "endMs": 1570303,
+    "timestampMs": 1568103,
+    "confidence": null,
+    "from": 47043,
+    "to": 47109,
+    "scene": "reproduce"
+  },
+  {
+    "text": "再根据自己的硬件和目标，慢慢把任务做大",
+    "startMs": 1570448,
+    "endMs": 1573603,
+    "timestampMs": 1570448,
+    "confidence": null,
+    "from": 47113,
+    "to": 47208,
+    "scene": "reproduce"
+  },
+  {
+    "text": "把两条路线并排放好，区别就清楚了",
+    "startMs": 1576117,
+    "endMs": 1579137,
+    "timestampMs": 1576117,
+    "confidence": null,
+    "from": 47284,
+    "to": 47374,
+    "scene": "comparison"
+  },
+  {
+    "text": "生成对抗网络，靠生成器和判别器的反馈练习",
+    "startMs": 1579677,
+    "endMs": 1583577,
+    "timestampMs": 1579677,
+    "confidence": null,
+    "from": 47390,
+    "to": 47507,
+    "scene": "comparison"
+  },
+  {
+    "text": "使用时，生成器可以一次前向给出结果",
+    "startMs": 1583842,
+    "endMs": 1586957,
+    "timestampMs": 1583842,
+    "confidence": null,
+    "from": 47515,
+    "to": 47609,
+    "scene": "comparison"
+  },
+  {
+    "text": "扩散模型，通过不同噪声阶段的训练",
+    "startMs": 1587877,
+    "endMs": 1591297,
+    "timestampMs": 1587877,
+    "confidence": null,
+    "from": 47636,
+    "to": 47739,
+    "scene": "comparison"
+  },
+  {
+    "text": "学习反向修正，再从随机起点一步步生成结果",
+    "startMs": 1591462,
+    "endMs": 1595217,
+    "timestampMs": 1591462,
+    "confidence": null,
+    "from": 47744,
+    "to": 47856,
+    "scene": "comparison"
+  },
+  {
+    "text": "它们都在学习数据规律，也都有失败方式",
+    "startMs": 1596157,
+    "endMs": 1599457,
+    "timestampMs": 1596157,
+    "confidence": null,
+    "from": 47885,
+    "to": 47984,
+    "scene": "comparison"
+  },
+  {
+    "text": "把生成速度、细节和任务要求放在一起",
+    "startMs": 1600037,
+    "endMs": 1603257,
+    "timestampMs": 1600037,
+    "confidence": null,
+    "from": 48001,
+    "to": 48098,
+    "scene": "comparison"
+  },
+  {
+    "text": "才能选出更合适的那条路",
+    "startMs": 1603642,
+    "endMs": 1605477,
+    "timestampMs": 1603642,
+    "confidence": null,
+    "from": 48109,
+    "to": 48164,
+    "scene": "comparison"
+  },
+  {
+    "text": "回到开头：电脑怎样替踏雪画一张新画面？",
+    "startMs": 1608317,
+    "endMs": 1611877,
+    "timestampMs": 1608317,
+    "confidence": null,
+    "from": 48250,
+    "to": 48356,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "先让模型学会生成合理结构",
+    "startMs": 1612757,
+    "endMs": 1615017,
+    "timestampMs": 1612757,
+    "confidence": null,
+    "from": 48383,
+    "to": 48450,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "再交给它踏雪的身份线索和场景要求",
+    "startMs": 1615182,
+    "endMs": 1618117,
+    "timestampMs": 1615182,
+    "confidence": null,
+    "from": 48455,
+    "to": 48543,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "最后检查画得怎么样",
+    "startMs": 1618322,
+    "endMs": 1619697,
+    "timestampMs": 1618322,
+    "confidence": null,
+    "from": 48550,
+    "to": 48591,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "白纹走样，是身份线索没保住；前后身体变形",
+    "startMs": 1620477,
+    "endMs": 1624557,
+    "timestampMs": 1620477,
+    "confidence": null,
+    "from": 48614,
+    "to": 48737,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "就要检查时间一致性",
+    "startMs": 1624762,
+    "endMs": 1626377,
+    "timestampMs": 1624762,
+    "confidence": null,
+    "from": 48743,
+    "to": 48791,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "现在再看这张新画面",
+    "startMs": 1628277,
+    "endMs": 1629962,
+    "timestampMs": 1628277,
+    "confidence": null,
+    "from": 48848,
+    "to": 48899,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "就能顺着它找到背后的几件事",
+    "startMs": 1629962,
+    "endMs": 1632437,
+    "timestampMs": 1629962,
+    "confidence": null,
+    "from": 48899,
+    "to": 48973,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "训练数据、生成方法、随机起点和条件",
+    "startMs": 1633197,
+    "endMs": 1637117,
+    "timestampMs": 1633197,
+    "confidence": null,
+    "from": 48996,
+    "to": 49113,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "各自在里面做着不同的事",
+    "startMs": 1637362,
+    "endMs": 1639057,
+    "timestampMs": 1637362,
+    "confidence": null,
+    "from": 49121,
+    "to": 49172,
+    "scene": "return-pearl"
+  },
+  {
+    "text": "还有一个问题没有展开：我们写下的一句话",
+    "startMs": 1641950,
+    "endMs": 1644815,
+    "timestampMs": 1641950,
+    "confidence": null,
+    "from": 49258,
+    "to": 49344,
+    "scene": "next"
+  },
+  {
+    "text": "究竟怎样变成模型可以使用的条件？",
+    "startMs": 1644815,
+    "endMs": 1647550,
+    "timestampMs": 1644815,
+    "confidence": null,
+    "from": 49344,
+    "to": 49426,
+    "scene": "next"
+  },
+  {
+    "text": "词语如何建立上下文",
+    "startMs": 1648470,
+    "endMs": 1650530,
+    "timestampMs": 1648470,
+    "confidence": null,
+    "from": 49454,
+    "to": 49516,
+    "scene": "next"
+  },
+  {
+    "text": "图像又怎样和语言联系起来，这是第三章的主线",
+    "startMs": 1650835,
+    "endMs": 1654470,
+    "timestampMs": 1650835,
+    "confidence": null,
+    "from": 49525,
+    "to": 49634,
+    "scene": "next"
+  },
+  {
+    "text": "从识别到创造",
+    "startMs": 1654910,
+    "endMs": 1656450,
+    "timestampMs": 1654910,
+    "confidence": null,
+    "from": 49647,
+    "to": 49694,
+    "scene": "next"
+  },
+  {
+    "text": "我们今天追踪了两条真正能运行的路径",
+    "startMs": 1656715,
+    "endMs": 1659370,
+    "timestampMs": 1656715,
+    "confidence": null,
+    "from": 49701,
+    "to": 49781,
+    "scene": "next"
+  },
+  {
+    "text": "下一次，让语言走进这条路径",
+    "startMs": 1660150,
+    "endMs": 1662570,
+    "timestampMs": 1660150,
+    "confidence": null,
+    "from": 49805,
+    "to": 49877,
+    "scene": "next"
+  },
+  {
+    "text": "先打开这篇论文，看看生成对抗网络的原始设计",
+    "startMs": 1665150,
+    "endMs": 1668910,
+    "timestampMs": 1665150,
+    "confidence": null,
+    "from": 49954,
+    "to": 50067,
+    "scene": "reference-gan"
+  },
+  {
+    "text": "图里把真实分布、生成分布和判别器放在一起",
+    "startMs": 1669670,
+    "endMs": 1673970,
+    "timestampMs": 1669670,
+    "confidence": null,
+    "from": 50090,
+    "to": 50219,
+    "scene": "reference-gan"
+  },
+  {
+    "text": "说明两边怎样交替变化",
+    "startMs": 1674355,
+    "endMs": 1676190,
+    "timestampMs": 1674355,
+    "confidence": null,
+    "from": 50231,
+    "to": 50286,
+    "scene": "reference-gan"
+  },
+  {
+    "text": "读这一页时，带着一个问题：",
+    "startMs": 1677150,
+    "endMs": 1679470,
+    "timestampMs": 1677150,
+    "confidence": null,
+    "from": 50314,
+    "to": 50384,
+    "scene": "reference-gan"
+  },
+  {
+    "text": "判断信号怎样变成生成器的训练方向？",
+    "startMs": 1679935,
+    "endMs": 1682590,
+    "timestampMs": 1679935,
+    "confidence": null,
+    "from": 50398,
+    "to": 50478,
+    "scene": "reference-gan"
+  },
+  {
+    "text": "这篇是深度卷积生成对抗网络",
+    "startMs": 1685483,
+    "endMs": 1688003,
+    "timestampMs": 1685483,
+    "confidence": null,
+    "from": 50564,
+    "to": 50640,
+    "scene": "reference-dcgan"
+  },
+  {
+    "text": "生成器的结构图从一个小表示出发",
+    "startMs": 1689043,
+    "endMs": 1692283,
+    "timestampMs": 1689043,
+    "confidence": null,
+    "from": 50671,
+    "to": 50768,
+    "scene": "reference-dcgan"
+  },
+  {
+    "text": "逐层扩大空间尺寸",
+    "startMs": 1692668,
+    "endMs": 1694143,
+    "timestampMs": 1692668,
+    "confidence": null,
+    "from": 50780,
+    "to": 50824,
+    "scene": "reference-dcgan"
+  },
+  {
+    "text": "它接上了上一章的卷积，也提醒我们：",
+    "startMs": 1694763,
+    "endMs": 1697743,
+    "timestampMs": 1694763,
+    "confidence": null,
+    "from": 50843,
+    "to": 50932,
+    "scene": "reference-dcgan"
+  },
+  {
+    "text": "网络结构会影响模型怎样组织图像",
+    "startMs": 1698008,
+    "endMs": 1700583,
+    "timestampMs": 1698008,
+    "confidence": null,
+    "from": 50940,
+    "to": 51017,
+    "scene": "reference-dcgan"
+  },
+  {
+    "text": "二零一五年的这篇论文",
+    "startMs": 1703517,
+    "endMs": 1705317,
+    "timestampMs": 1703517,
+    "confidence": null,
+    "from": 51106,
+    "to": 51160,
+    "scene": "reference-diffusion2015"
+  },
+  {
+    "text": "把前向扰动和学习到的反向过程画在同一页",
+    "startMs": 1705602,
+    "endMs": 1708797,
+    "timestampMs": 1705602,
+    "confidence": null,
+    "from": 51168,
+    "to": 51264,
+    "scene": "reference-diffusion2015"
+  },
+  {
+    "text": "上排逐渐打散结构，中间展示反向生成",
+    "startMs": 1709557,
+    "endMs": 1713237,
+    "timestampMs": 1709557,
+    "confidence": null,
+    "from": 51287,
+    "to": 51397,
+    "scene": "reference-diffusion2015"
+  },
+  {
+    "text": "扩散的路线，是在这类研究中逐步发展起来的",
+    "startMs": 1714077,
+    "endMs": 1717857,
+    "timestampMs": 1714077,
+    "confidence": null,
+    "from": 51422,
+    "to": 51536,
+    "scene": "reference-diffusion2015"
+  },
+  {
+    "text": "再看去噪扩散概率模型",
+    "startMs": 1720650,
+    "endMs": 1722810,
+    "timestampMs": 1720650,
+    "confidence": null,
+    "from": 51619,
+    "to": 51684,
+    "scene": "reference-ddpm"
+  },
+  {
+    "text": "左右两个算法，一个训练噪声预测器",
+    "startMs": 1723730,
+    "endMs": 1726770,
+    "timestampMs": 1723730,
+    "confidence": null,
+    "from": 51712,
+    "to": 51803,
+    "scene": "reference-ddpm"
+  },
+  {
+    "text": "一个从新噪声开始采样",
+    "startMs": 1727055,
+    "endMs": 1728790,
+    "timestampMs": 1727055,
+    "confidence": null,
+    "from": 51812,
+    "to": 51864,
+    "scene": "reference-ddpm"
+  },
+  {
+    "text": "把这一页和刚才的小实验对起来，最容易分清：",
+    "startMs": 1729530,
+    "endMs": 1733035,
+    "timestampMs": 1729530,
+    "confidence": null,
+    "from": 51886,
+    "to": 51991,
+    "scene": "reference-ddpm"
+  },
+  {
+    "text": "哪一步有答案，哪一步真的在生成",
+    "startMs": 1733035,
+    "endMs": 1736030,
+    "timestampMs": 1733035,
+    "confidence": null,
+    "from": 51991,
+    "to": 52081,
+    "scene": "reference-ddpm"
+  },
+  {
+    "text": "这篇隐式扩散模型论文，研究的是采样路径",
+    "startMs": 1738917,
+    "endMs": 1742597,
+    "timestampMs": 1738917,
+    "confidence": null,
+    "from": 52167,
+    "to": 52278,
+    "scene": "reference-ddim"
+  },
+  {
+    "text": "减少生成时的计算步骤，需要相应的方法",
+    "startMs": 1743277,
+    "endMs": 1746577,
+    "timestampMs": 1743277,
+    "confidence": null,
+    "from": 52298,
+    "to": 52397,
+    "scene": "reference-ddim"
+  },
+  {
+    "text": "不能直接删掉原算法的循环",
+    "startMs": 1746742,
+    "endMs": 1748837,
+    "timestampMs": 1746742,
+    "confidence": null,
+    "from": 52402,
+    "to": 52465,
+    "scene": "reference-ddim"
+  },
+  {
+    "text": "把随机项设为零，同一起点就能沿确定路径生成",
+    "startMs": 1749637,
+    "endMs": 1754017,
+    "timestampMs": 1749637,
+    "confidence": null,
+    "from": 52489,
+    "to": 52621,
+    "scene": "reference-ddim"
+  },
+  {
+    "text": "潜空间扩散这张结构图",
+    "startMs": 1758862,
+    "endMs": 1760597,
+    "timestampMs": 1758862,
+    "confidence": null,
+    "from": 52766,
+    "to": 52818,
+    "scene": "reference-ldm"
+  },
+  {
+    "text": "把像素空间和潜空间分开",
+    "startMs": 1760722,
+    "endMs": 1762737,
+    "timestampMs": 1760722,
+    "confidence": null,
+    "from": 52822,
+    "to": 52882,
+    "scene": "reference-ldm"
+  },
+  {
+    "text": "编码器先压缩，去噪网络在较小的表示里工作",
+    "startMs": 1763557,
+    "endMs": 1767657,
+    "timestampMs": 1763557,
+    "confidence": null,
+    "from": 52907,
+    "to": 53030,
+    "scene": "reference-ldm"
+  },
+  {
+    "text": "解码器最后还原图像",
+    "startMs": 1768022,
+    "endMs": 1769637,
+    "timestampMs": 1768022,
+    "confidence": null,
+    "from": 53041,
+    "to": 53089,
+    "scene": "reference-ldm"
+  },
+  {
+    "text": "文字等条件从旁边进入，连接起生成与控制",
+    "startMs": 1770317,
+    "endMs": 1774237,
+    "timestampMs": 1770317,
+    "confidence": null,
+    "from": 53109,
+    "to": 53227,
+    "scene": "reference-ldm"
+  },
+  {
+    "text": "最后这篇讨论无分类器引导",
+    "startMs": 1777783,
+    "endMs": 1779803,
+    "timestampMs": 1777783,
+    "confidence": null,
+    "from": 53334,
+    "to": 53394,
+    "scene": "reference-cfg"
+  },
+  {
+    "text": "带条件和不带条件的预测组合起来",
+    "startMs": 1780303,
+    "endMs": 1782943,
+    "timestampMs": 1780303,
+    "confidence": null,
+    "from": 53409,
+    "to": 53488,
+    "scene": "reference-cfg"
+  },
+  {
+    "text": "可以改变生成对条件的响应",
+    "startMs": 1783048,
+    "endMs": 1785063,
+    "timestampMs": 1783048,
+    "confidence": null,
+    "from": 53491,
+    "to": 53552,
+    "scene": "reference-cfg"
+  },
+  {
+    "text": "引导强度要在符合条件和画面自然之间",
+    "startMs": 1785623,
+    "endMs": 1788808,
+    "timestampMs": 1785623,
+    "confidence": null,
+    "from": 53569,
+    "to": 53664,
+    "scene": "reference-cfg"
+  },
+  {
+    "text": "找到合适的平衡",
+    "startMs": 1788808,
+    "endMs": 1790283,
+    "timestampMs": 1788808,
+    "confidence": null,
+    "from": 53664,
+    "to": 53708,
+    "scene": "reference-cfg"
+  },
+  {
+    "text": "论文和实验代码的入口，都放在配套资料里",
+    "startMs": 1791103,
+    "endMs": 1794583,
+    "timestampMs": 1791103,
+    "confidence": null,
+    "from": 53733,
+    "to": 53837,
+    "scene": "reference-cfg"
+  },
+  {
+    "text": "从八个点到踏雪的新场景",
+    "startMs": 1797383,
+    "endMs": 1799683,
+    "timestampMs": 1797383,
+    "confidence": null,
+    "from": 53922,
+    "to": 53990,
+    "scene": "farewell"
+  },
+  {
+    "text": "生成是一条可以跟着走的计算路径",
+    "startMs": 1799868,
+    "endMs": 1802363,
+    "timestampMs": 1799868,
+    "confidence": null,
+    "from": 53996,
+    "to": 54071,
+    "scene": "farewell"
+  },
+  {
+    "text": "下一章，我们把语言也接进这条路径",
+    "startMs": 1804863,
+    "endMs": 1808203,
+    "timestampMs": 1804863,
+    "confidence": null,
+    "from": 54146,
+    "to": 54246,
+    "scene": "farewell"
+  },
+  {
+    "text": "看看一句话怎样改变画面",
+    "startMs": 1808488,
+    "endMs": 1810523,
+    "timestampMs": 1808488,
+    "confidence": null,
+    "from": 54255,
+    "to": 54316,
+    "scene": "farewell"
+  },
+  {
+    "text": "我是 rainbow鱼，我们下一章见",
+    "startMs": 1811783,
+    "endMs": 1814123,
+    "timestampMs": 1811783,
+    "confidence": null,
+    "from": 54353,
+    "to": 54424,
+    "scene": "farewell"
+  }
+]

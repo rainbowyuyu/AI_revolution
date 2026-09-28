@@ -1,0 +1,176 @@
+[
+  {
+    "name": "input",
+    "shape": [
+      1,
+      1,
+      28,
+      28
+    ],
+    "maps": [
+      {
+        "file": "experiments/features-v2/input-0.png",
+        "min": -3.0000855922698975,
+        "max": 2.3164892196655273,
+        "channel": 0
+      }
+    ]
+  },
+  {
+    "name": "d1",
+    "shape": [
+      1,
+      24,
+      28,
+      28
+    ],
+    "maps": [
+      {
+        "file": "experiments/features-v2/d1-0.png",
+        "min": -0.07500670105218887,
+        "max": 1.6975817680358887,
+        "channel": 0
+      },
+      {
+        "file": "experiments/features-v2/d1-1.png",
+        "min": -0.2784603238105774,
+        "max": 1.4043556451797485,
+        "channel": 1
+      },
+      {
+        "file": "experiments/features-v2/d1-2.png",
+        "min": -0.27846401929855347,
+        "max": 0.04745437577366829,
+        "channel": 2
+      },
+      {
+        "file": "experiments/features-v2/d1-3.png",
+        "min": -0.27846086025238037,
+        "max": 3.0967304706573486,
+        "channel": 3
+      }
+    ]
+  },
+  {
+    "name": "d2",
+    "shape": [
+      1,
+      48,
+      14,
+      14
+    ],
+    "maps": [
+      {
+        "file": "experiments/features-v2/d2-0.png",
+        "min": -0.27839645743370056,
+        "max": 2.679746150970459,
+        "channel": 0
+      },
+      {
+        "file": "experiments/features-v2/d2-1.png",
+        "min": -0.2281600534915924,
+        "max": 1.7726978063583374,
+        "channel": 1
+      },
+      {
+        "file": "experiments/features-v2/d2-2.png",
+        "min": -0.2784607410430908,
+        "max": -0.028036700561642647,
+        "channel": 2
+      },
+      {
+        "file": "experiments/features-v2/d2-3.png",
+        "min": -0.2784603238105774,
+        "max": 2.833543062210083,
+        "channel": 3
+      }
+    ]
+  },
+  {
+    "name": "mid",
+    "shape": [
+      1,
+      48,
+      14,
+      14
+    ],
+    "maps": [
+      {
+        "file": "experiments/features-v2/mid-0.png",
+        "min": -0.125801682472229,
+        "max": 1.111412525177002,
+        "channel": 0
+      },
+      {
+        "file": "experiments/features-v2/mid-1.png",
+        "min": -0.21834047138690948,
+        "max": 0.9895603060722351,
+        "channel": 1
+      },
+      {
+        "file": "experiments/features-v2/mid-2.png",
+        "min": -0.2770374119281769,
+        "max": 0.2071017175912857,
+        "channel": 2
+      },
+      {
+        "file": "experiments/features-v2/mid-3.png",
+        "min": -0.15758545696735382,
+        "max": 1.407110571861267,
+        "channel": 3
+      }
+    ]
+  },
+  {
+    "name": "up",
+    "shape": [
+      1,
+      24,
+      28,
+      28
+    ],
+    "maps": [
+      {
+        "file": "experiments/features-v2/up-0.png",
+        "min": -0.27846449613571167,
+        "max": 3.2218027114868164,
+        "channel": 0
+      },
+      {
+        "file": "experiments/features-v2/up-1.png",
+        "min": -0.27845698595046997,
+        "max": 0.8693172931671143,
+        "channel": 1
+      },
+      {
+        "file": "experiments/features-v2/up-2.png",
+        "min": -0.278452068567276,
+        "max": 1.1533480882644653,
+        "channel": 2
+      },
+      {
+        "file": "experiments/features-v2/up-3.png",
+        "min": -0.2712538540363312,
+        "max": 3.4579527378082275,
+        "channel": 3
+      }
+    ]
+  },
+  {
+    "name": "out",
+    "shape": [
+      1,
+      1,
+      28,
+      28
+    ],
+    "maps": [
+      {
+        "file": "experiments/features-v2/out-0.png",
+        "min": -3.2599270343780518,
+        "max": 2.927483320236206,
+        "channel": 0
+      }
+    ]
+  }
+]

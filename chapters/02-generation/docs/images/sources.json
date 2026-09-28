@@ -1,0 +1,42 @@
+{
+  "updatedOn": "2026-09-29",
+  "images": [
+    {
+      "file": "ddpm-sampling.jpg",
+      "kind": "real_experiment_contact_sheet",
+      "source": "publication/taxue_ch02_2026-09-28/release/配图/02_DDPM实际采样.jpg",
+      "sha256": "111f7c85ccb69101f9e98ccc689d145a7ecd44cbee517128674e31e41c2e1117",
+      "sourceSha256": "111f7c85ccb69101f9e98ccc689d145a7ecd44cbee517128674e31e41c2e1117",
+      "description": "同一批32张MNIST DDPM样本，t=200/100/50/0，保持样本位置；实验图未生成式重绘。"
+    },
+    {
+      "file": "taxue-standing-sitting.jpg",
+      "kind": "reference_conditioned_generated_examples",
+      "sha256": "4c0283018a3e2e5b7e8870ebdaed5638a9db1d060f92b17fe38973048ee52517",
+      "sources": [
+        {
+          "source": "public/character/v15/studio.png",
+          "sourceSha256": "bb2c4d5fb76ba6fe735b00b251896c5ceac4e635ded3bd36399da2b290a01f67",
+          "crop": [
+            1230,
+            220,
+            2048,
+            1040
+          ]
+        },
+        {
+          "source": "public/character/v15/gallery.png",
+          "sourceSha256": "e2b34fdd62ede7d5504c1abf29a860ce525afad50dff6caddb97d96815d367d7",
+          "crop": [
+            1230,
+            220,
+            2048,
+            1040
+          ]
+        }
+      ],
+      "processing": "原已采用生成图做相同区域裁切、等比缩小、并排排版与JPEG压缩；无生成式修改。",
+      "description": "左为站姿工作室示例，右为坐姿示例，不属于本仓库小模型的训练结果。"
+    }
+  ]
+}

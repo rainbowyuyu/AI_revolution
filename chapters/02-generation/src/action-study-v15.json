@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "video": "character/v15/study-continuous-prime-r1.mp4",
+  "sourceFrames": 900,
+  "pauseAt": 757,
+  "inspectFrames": [
+    180,
+    285,
+    315
+  ],
+  "review": "Native 900 frames reviewed at 0.5s intervals: tongue withdrawn at5.5-6s, hips lower9.5s, stable seated10.5s; matches narration4.73-11.13s. See identity-review/study-action-dense.jpg"
+}

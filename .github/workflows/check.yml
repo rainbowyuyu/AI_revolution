@@ -10,11 +10,12 @@ jobs:
           python-version: '3.12'
       - run: python tools/check_repository.py
       - run: python tools/check_evidence.py
+      - run: python chapters/02-generation/experiments/check_evidence.py
   types:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [overview, chapters/01-vision-choice]
+        project: [overview, chapters/01-vision-choice, chapters/02-generation]
     defaults:
       run:
         working-directory: ${{ matrix.project }}

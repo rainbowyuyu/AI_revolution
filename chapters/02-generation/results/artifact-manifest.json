@@ -1,0 +1,384 @@
+{
+  "source_project": "ai_evolution_ch02_creation",
+  "description": "Byte-preserved historical artifacts; generated 2026-09-29. Paths are relative to the source project or this chapter.",
+  "files": [
+    {
+      "path": "experiments/original/train_digits.py",
+      "source_path": "experiments/train_digits.py",
+      "bytes": 6076,
+      "sha256": "82510bc66b3f6f6d4685da474a74a3ed0960c271320e1d186c96aa2f532adfeb"
+    },
+    {
+      "path": "experiments/original/train_distributions_v5.py",
+      "source_path": "experiments/train_distributions_v5.py",
+      "bytes": 7237,
+      "sha256": "6b1bd2482733b5f5d9e1f3f6b45f4811548f6598cb10f0da467f9a71dcb6f9ae"
+    },
+    {
+      "path": "checkpoints/ddpm-v5-12.pt",
+      "source_path": "checkpoints/ddpm-v5-12.pt",
+      "bytes": 81207,
+      "sha256": "7bcb82d3b1b829a93d82c744ef96a737a7430aab7db35412f1e5d2e2c72bdc7b"
+    },
+    {
+      "path": "checkpoints/ddpm-v5-2003.pt",
+      "source_path": "checkpoints/ddpm-v5-2003.pt",
+      "bytes": 81235,
+      "sha256": "f05f8f728a684df603fd84cc7009d13bc6761c6193e074433385ff2939dbf2fa"
+    },
+    {
+      "path": "checkpoints/ddpm-v5-25.pt",
+      "source_path": "checkpoints/ddpm-v5-25.pt",
+      "bytes": 81207,
+      "sha256": "edd01b40d1379066da8c4de3ddab388db30f9b95fb91894dd96f6368ed65e7e7"
+    },
+    {
+      "path": "checkpoints/digits-ddpm-42.pt",
+      "source_path": "checkpoints/digits-ddpm-42.pt",
+      "bytes": 413017,
+      "sha256": "411b0190daa615914fe13fbe090b7837a9bdf163261233f46efcbecf689fccef"
+    },
+    {
+      "path": "checkpoints/digits-gan-42.pt",
+      "source_path": "checkpoints/digits-gan-42.pt",
+      "bytes": 3142571,
+      "sha256": "7ca5d7a52058a9368dac86c9c7bb9468b304198bf614b245062528185e12e402"
+    },
+    {
+      "path": "checkpoints/gan-v5-12.pt",
+      "source_path": "checkpoints/gan-v5-12.pt",
+      "bytes": 141411,
+      "sha256": "578583a6bd0de4462032c2c3afefb1554a496271d7a61400c46fcb51753dc811"
+    },
+    {
+      "path": "checkpoints/gan-v5-2003.pt",
+      "source_path": "checkpoints/gan-v5-2003.pt",
+      "bytes": 141447,
+      "sha256": "8f7953c1de6d7a6fdb366340dd4191abc8cae1d04eb76e67b340c644a866db9a"
+    },
+    {
+      "path": "checkpoints/gan-v5-25.pt",
+      "source_path": "checkpoints/gan-v5-25.pt",
+      "bytes": 141411,
+      "sha256": "0b4099e81ab460ccc647bae17b34b2e722474f6f9a4e77b72cb0eb4df6364144"
+    },
+    {
+      "path": "results/digits/ddpm-t000.png",
+      "source_path": "public/experiments/digits/ddpm-t000.png",
+      "bytes": 33596,
+      "sha256": "aede7a4f9d8930619940f5871636a01afa29a8299f0f8e500011c6e74630f9d7"
+    },
+    {
+      "path": "results/digits/ddpm-t005.png",
+      "source_path": "public/experiments/digits/ddpm-t005.png",
+      "bytes": 53505,
+      "sha256": "4b959890ac1b1d7802765ae474efe21bbee0ce03abb920c56e8ccc126b182b37"
+    },
+    {
+      "path": "results/digits/ddpm-t010.png",
+      "source_path": "public/experiments/digits/ddpm-t010.png",
+      "bytes": 56327,
+      "sha256": "c71ffb6b234d22d658adc3df0151f823773a7caa6dbb85b7230ee0b80b4a7f7d"
+    },
+    {
+      "path": "results/digits/ddpm-t015.png",
+      "source_path": "public/experiments/digits/ddpm-t015.png",
+      "bytes": 58262,
+      "sha256": "5efe4576012dd856ad40385193dd08d2f8b0e1768413ce5d68f3fc76e52ff05d"
+    },
+    {
+      "path": "results/digits/ddpm-t020.png",
+      "source_path": "public/experiments/digits/ddpm-t020.png",
+      "bytes": 59400,
+      "sha256": "e6d18612337e45568aa94631b8522e9472e89a31457a7dfcffc84891822af5b0"
+    },
+    {
+      "path": "results/digits/ddpm-t025.png",
+      "source_path": "public/experiments/digits/ddpm-t025.png",
+      "bytes": 60823,
+      "sha256": "a479c972ecef7803ee5b87eb2ab534f07f060859dfa189d7bf2a7577c69d7411"
+    },
+    {
+      "path": "results/digits/ddpm-t030.png",
+      "source_path": "public/experiments/digits/ddpm-t030.png",
+      "bytes": 62194,
+      "sha256": "d2a2bf8997547d31c448032d4716488688951a50eaf12b01a3a276aae9999ddd"
+    },
+    {
+      "path": "results/digits/ddpm-t035.png",
+      "source_path": "public/experiments/digits/ddpm-t035.png",
+      "bytes": 63173,
+      "sha256": "d4bfb5f81967535547341ac8c25656c3ca8e28fa5cd3ed1a85c4eec3960c724c"
+    },
+    {
+      "path": "results/digits/ddpm-t040.png",
+      "source_path": "public/experiments/digits/ddpm-t040.png",
+      "bytes": 64046,
+      "sha256": "ae02070ce5d540e5bfd2f6d715c7b96943dd8272a084d6e2784e97457186b090"
+    },
+    {
+      "path": "results/digits/ddpm-t045.png",
+      "source_path": "public/experiments/digits/ddpm-t045.png",
+      "bytes": 64819,
+      "sha256": "f40f5d79503d12eeaf23292bf4dd9e6dee7d24b6cfd221adbf319755d8ac1532"
+    },
+    {
+      "path": "results/digits/ddpm-t050.png",
+      "source_path": "public/experiments/digits/ddpm-t050.png",
+      "bytes": 65462,
+      "sha256": "03f1ba8b15f14a22a22cb6e05e9654d6a1084277f73aef32081aced0dc940376"
+    },
+    {
+      "path": "results/digits/ddpm-t055.png",
+      "source_path": "public/experiments/digits/ddpm-t055.png",
+      "bytes": 65915,
+      "sha256": "dc5c312cc7217db1114e05b6d7bf6cb09d7419b2666d8fdb5a3032c2de30870f"
+    },
+    {
+      "path": "results/digits/ddpm-t060.png",
+      "source_path": "public/experiments/digits/ddpm-t060.png",
+      "bytes": 66471,
+      "sha256": "5a939b3308719395fd53e98b4e267bcd491c90a91ec9297947fbc002f82380d9"
+    },
+    {
+      "path": "results/digits/ddpm-t065.png",
+      "source_path": "public/experiments/digits/ddpm-t065.png",
+      "bytes": 66653,
+      "sha256": "a5921182b0963a556582dffa5af469ea1a63a8c7fe1b471f0d6ef004491ebcbd"
+    },
+    {
+      "path": "results/digits/ddpm-t070.png",
+      "source_path": "public/experiments/digits/ddpm-t070.png",
+      "bytes": 67053,
+      "sha256": "35302e541bf45e632427ef28c4341b3ec63bf0c566603b238c740256531a0069"
+    },
+    {
+      "path": "results/digits/ddpm-t075.png",
+      "source_path": "public/experiments/digits/ddpm-t075.png",
+      "bytes": 67325,
+      "sha256": "7a7cfcf4a67b6deeb3198e2c721f6fca16f06ff715afb48fe9ac7382e3e21105"
+    },
+    {
+      "path": "results/digits/ddpm-t080.png",
+      "source_path": "public/experiments/digits/ddpm-t080.png",
+      "bytes": 67359,
+      "sha256": "bb44ae7398c2f283ef9c112e55343c68bc551a7393c1249794b13f015e75fd1d"
+    },
+    {
+      "path": "results/digits/ddpm-t085.png",
+      "source_path": "public/experiments/digits/ddpm-t085.png",
+      "bytes": 67458,
+      "sha256": "020da04deee672cc75b93efe1956f77dbbe2323359714c2b352c9f698b01339c"
+    },
+    {
+      "path": "results/digits/ddpm-t090.png",
+      "source_path": "public/experiments/digits/ddpm-t090.png",
+      "bytes": 67645,
+      "sha256": "fc24f2b4d84bce0b1de593a158e35c63e5c36c385170a4f6fcbed0d964987be4"
+    },
+    {
+      "path": "results/digits/ddpm-t095.png",
+      "source_path": "public/experiments/digits/ddpm-t095.png",
+      "bytes": 67885,
+      "sha256": "0ad7484101e75cafa6e1ebd0df0eee7c70fc4fe495806e5a83533e8f6d9f3d43"
+    },
+    {
+      "path": "results/digits/ddpm-t100.png",
+      "source_path": "public/experiments/digits/ddpm-t100.png",
+      "bytes": 67636,
+      "sha256": "e640c667f9355bdcd9fbd5910a8e666065efa37f469d508a4744f236d8ae211b"
+    },
+    {
+      "path": "results/digits/ddpm-t105.png",
+      "source_path": "public/experiments/digits/ddpm-t105.png",
+      "bytes": 67967,
+      "sha256": "132f46c3e4e7a8767ae72f84b190f0b33e450ffabd67f59910f5502bbfa3f31b"
+    },
+    {
+      "path": "results/digits/ddpm-t110.png",
+      "source_path": "public/experiments/digits/ddpm-t110.png",
+      "bytes": 67636,
+      "sha256": "18b53684157afac1479573bf37c7b12132d9a583919ff3a8d922a1fa40bc2130"
+    },
+    {
+      "path": "results/digits/ddpm-t115.png",
+      "source_path": "public/experiments/digits/ddpm-t115.png",
+      "bytes": 68114,
+      "sha256": "0097b2e9bfe86427174fced2f05d9ec2bc73ecbff28fbeeccf47a2e8454ecdad"
+    },
+    {
+      "path": "results/digits/ddpm-t120.png",
+      "source_path": "public/experiments/digits/ddpm-t120.png",
+      "bytes": 67912,
+      "sha256": "b2e8a09e99eacfb5e8dea3b2f6bb91a101953e66d8902130f679a27ff479527c"
+    },
+    {
+      "path": "results/digits/ddpm-t125.png",
+      "source_path": "public/experiments/digits/ddpm-t125.png",
+      "bytes": 67977,
+      "sha256": "b367e1d88130f862516483e3a122467bf5835e2fbce0291f2262e52a21a3897e"
+    },
+    {
+      "path": "results/digits/ddpm-t130.png",
+      "source_path": "public/experiments/digits/ddpm-t130.png",
+      "bytes": 68020,
+      "sha256": "23439b983c10c6103bf6fd6390c67bd206070a947569971120b257014a943c57"
+    },
+    {
+      "path": "results/digits/ddpm-t135.png",
+      "source_path": "public/experiments/digits/ddpm-t135.png",
+      "bytes": 67710,
+      "sha256": "5bab282cbc18828ac6c0cb5a7a4e2205d5f99ac5505aacd587f5b5664962aa4d"
+    },
+    {
+      "path": "results/digits/ddpm-t140.png",
+      "source_path": "public/experiments/digits/ddpm-t140.png",
+      "bytes": 67950,
+      "sha256": "12991c8e283ebb29e654225bac3fea858b79cef110b614342a42397ce0fae52f"
+    },
+    {
+      "path": "results/digits/ddpm-t145.png",
+      "source_path": "public/experiments/digits/ddpm-t145.png",
+      "bytes": 67856,
+      "sha256": "c59b2276fdbbbd5ebbe30f8c8618596677ab547a444ee2c8235b19aea4a96e2d"
+    },
+    {
+      "path": "results/digits/ddpm-t150.png",
+      "source_path": "public/experiments/digits/ddpm-t150.png",
+      "bytes": 68004,
+      "sha256": "f2a5ba47263a9f227447979d92cfd1c12d63f7c54ae0836d932d7d37cc7a5c2a"
+    },
+    {
+      "path": "results/digits/ddpm-t155.png",
+      "source_path": "public/experiments/digits/ddpm-t155.png",
+      "bytes": 67879,
+      "sha256": "656d955da2b01b0efcaf6dbc6757b4da2ccf2b71a9b983befe8380d3e3117a00"
+    },
+    {
+      "path": "results/digits/ddpm-t160.png",
+      "source_path": "public/experiments/digits/ddpm-t160.png",
+      "bytes": 67778,
+      "sha256": "4362e14d98134333acf319f6c2a3001fc896625eb5180a070fb6052b41b8e333"
+    },
+    {
+      "path": "results/digits/ddpm-t165.png",
+      "source_path": "public/experiments/digits/ddpm-t165.png",
+      "bytes": 67722,
+      "sha256": "e0e123b5298e102e8952c94e877529dfd5caa52ad1419ad9bd3d3de9019069d0"
+    },
+    {
+      "path": "results/digits/ddpm-t170.png",
+      "source_path": "public/experiments/digits/ddpm-t170.png",
+      "bytes": 68012,
+      "sha256": "bdbd13faa2c42d5d1811c708e23d525ece7290c3fea05549c6af0eba53f9dc2b"
+    },
+    {
+      "path": "results/digits/ddpm-t175.png",
+      "source_path": "public/experiments/digits/ddpm-t175.png",
+      "bytes": 67677,
+      "sha256": "de58c50ae95e4dc4dd0b05eb412e4009140ea88ca8d19f3db5165b8c28822a24"
+    },
+    {
+      "path": "results/digits/ddpm-t180.png",
+      "source_path": "public/experiments/digits/ddpm-t180.png",
+      "bytes": 67812,
+      "sha256": "511ec51111b33e4524e704e322f7abea3b6bf85751be72f8f0116f48186ed688"
+    },
+    {
+      "path": "results/digits/ddpm-t185.png",
+      "source_path": "public/experiments/digits/ddpm-t185.png",
+      "bytes": 67792,
+      "sha256": "9834a8811ec7b042edd076d5b640b7d58730a13a9b317599812e6d1cd61169e2"
+    },
+    {
+      "path": "results/digits/ddpm-t190.png",
+      "source_path": "public/experiments/digits/ddpm-t190.png",
+      "bytes": 67772,
+      "sha256": "fc54fa72e91edfc0dda5fa60a7bb848c2832dd11915550c84034178f54a5c144"
+    },
+    {
+      "path": "results/digits/ddpm-t195.png",
+      "source_path": "public/experiments/digits/ddpm-t195.png",
+      "bytes": 67924,
+      "sha256": "49ccbba191a0a3d77c40610bdf87d10439777f584ee37a0741daf65725aa23a5"
+    },
+    {
+      "path": "results/digits/ddpm-t200.png",
+      "source_path": "public/experiments/digits/ddpm-t200.png",
+      "bytes": 67717,
+      "sha256": "de43ff1ddcc907472602036b19f3569df7c8cf8647beca71381d9e1214496f83"
+    },
+    {
+      "path": "results/digits/gan-0000.png",
+      "source_path": "public/experiments/digits/gan-0000.png",
+      "bytes": 53160,
+      "sha256": "a5d4889d102b27ec99e15e73423f7a1bac2d75ce3df7795191ee0b2b7534af61"
+    },
+    {
+      "path": "results/digits/gan-0100.png",
+      "source_path": "public/experiments/digits/gan-0100.png",
+      "bytes": 68499,
+      "sha256": "93b8216324e9307a1a265fcdfd010d71d073b15c378b70e2ed52f3482d2687d0"
+    },
+    {
+      "path": "results/digits/gan-0300.png",
+      "source_path": "public/experiments/digits/gan-0300.png",
+      "bytes": 65345,
+      "sha256": "da738afdf9a72fc86deee17c49bcb79e2b195d507aa8753a5f30feb852198fea"
+    },
+    {
+      "path": "results/digits/gan-0600.png",
+      "source_path": "public/experiments/digits/gan-0600.png",
+      "bytes": 63911,
+      "sha256": "ced964ff3158b8a1a8022cfe150842ae68152acc0f910d4a32db8a770c6454b5"
+    },
+    {
+      "path": "results/digits/gan-1000.png",
+      "source_path": "public/experiments/digits/gan-1000.png",
+      "bytes": 67036,
+      "sha256": "b8f68300f8fc1f69e8295f2fb04d823ba501cc259ecd8b8d5106b1b8dd375e47"
+    },
+    {
+      "path": "results/digits/gan-1500.png",
+      "source_path": "public/experiments/digits/gan-1500.png",
+      "bytes": 55646,
+      "sha256": "3ed18c1f927ece76e551e02636df26f05ea7e8306340c67facd77575ef1216bb"
+    },
+    {
+      "path": "results/digits/gan-2000.png",
+      "source_path": "public/experiments/digits/gan-2000.png",
+      "bytes": 52110,
+      "sha256": "2ba313b68d6e6ea8c5a8d75eaf5ba258d3077cec5ba9d1654c9c19bbc6444117"
+    },
+    {
+      "path": "results/digits/gan-3000.png",
+      "source_path": "public/experiments/digits/gan-3000.png",
+      "bytes": 51726,
+      "sha256": "9b237314e17bfac83881242e84f88fa1c6b52c23e559dcdb99d6e59a9860c737"
+    },
+    {
+      "path": "results/digits/training-examples.png",
+      "source_path": "public/experiments/digits/training-examples.png",
+      "bytes": 20741,
+      "sha256": "eeadadcc6cc18320ed6e5b2d28ae85dc050439b0dea7358656a23c41703035a3"
+    },
+    {
+      "path": "results/distributions-v5.json",
+      "source_path": "public/experiments/distributions-v5.json",
+      "bytes": 4980311,
+      "sha256": "e47a747410bf84e3cfaaac16b309f4bed5ca1c27c749054899ef3c884c672f59"
+    },
+    {
+      "path": "results/digits.json",
+      "source_path": "public/experiments/digits.json",
+      "bytes": 11730,
+      "sha256": "21cb36ba3dc850fe236ff2fe224340caa413e2898fa8656fbfdf3bb76a7c5336"
+    },
+    {
+      "path": "results/experiment-summary-v5.json",
+      "source_path": "research/experiment-summary-v5.json",
+      "bytes": 2834,
+      "sha256": "9b424f12d21e30ac5a7f77dab20dfeb94993a9659eb5c8adc005c4efa27def10"
+    }
+  ]
+}

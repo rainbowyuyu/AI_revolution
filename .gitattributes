@@ -13,3 +13,7 @@
 # Preserve pinned upstream bytes and font licenses.
 chapters/01-vision-choice/research/upstream/** -text
 **/public/fonts/*.txt -text
+# Chapter 02 evidence includes hashes of the original bytes.
+chapters/02-generation/experiments/original/** -text whitespace=cr-at-eol
+chapters/02-generation/results/** -text whitespace=cr-at-eol
+chapters/02-generation/supplements/中文字幕_V18.srt -text whitespace=cr-at-eol

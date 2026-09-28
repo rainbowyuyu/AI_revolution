@@ -1,0 +1,5 @@
+# Python 3.12; choose CPU/CUDA PyTorch wheels for your machine.
+# Versions below were used for the 2026-09-29 verification, not a full historical lock.
+torch==2.11.0
+numpy==2.5.3
+Pillow==12.3.0

@@ -35,4 +35,10 @@ clone-reference*
 *.parquet
 *.tar.gz
 *.zip
-# Model checkpoints in chapter 01 are deliberately tracked (< 2 MiB total).
+# Small teaching checkpoints in chapters 01 and 02 are deliberately tracked.
+# Chapter 02 external assets and derived copies.
+chapters/02-generation/public/character/
+chapters/02-generation/public/frames/
+chapters/02-generation/public/frame-cache/
+chapters/02-generation/public/visual-v15/
+chapters/02-generation/public/experiments/digits/

@@ -1,0 +1,39 @@
+{
+  "version": "V18",
+  "exportedOn": "2026-09-29",
+  "video": {
+    "fps": 30,
+    "durationFrames": 54724,
+    "durationSeconds": 1824.1333333333334
+  },
+  "subtitle": {
+    "file": "中文字幕_V18.srt",
+    "source": "output/V18/第二章_踏雪_V18_中文字幕.srt",
+    "sha256": "f2810a79502da1ad284be51ee338eb61c42a754e08e203ecc98ed17d15177775",
+    "cues": 524,
+    "firstCue": "00:00:00,550 --> 00:00:01,430",
+    "lastCue": "00:30:11,783 --> 00:30:14,123"
+  },
+  "narration": {
+    "file": "口播.md",
+    "source": "research/v16/voice-timeline-clean.json",
+    "sourceSha256": "62377e8f066327e7b774c840e747917fb47ca14292e82339b03d95e05235429c",
+    "sentences": 315,
+    "firstStart": 0.55,
+    "lastEnd": 1814.423333333333,
+    "field": "text",
+    "normalizedSubtitleTextMatch": true
+  },
+  "timeline": {
+    "file": "timeline.json",
+    "source": "src/timeline-v15.json",
+    "sourceSha256": "5cc61b5f9bd282006ae411c38f478342a7a6c36e02181fa7c4a50adbe05c5284",
+    "scenes": 59,
+    "narrationTextMatch": true
+  },
+  "notes": [
+    "V18沿用V16正式显示文案和字幕，场景帧时钟继承V15。",
+    "口播稿仅导出text，未导出用于发音消歧的spoken字段、声音参考、API参数或内部文件地址。",
+    "字幕末尾30:14.123、末句音频槽结束30:14.423、成片结尾30:24.133描述的是不同时间边界。"
+  ]
+}

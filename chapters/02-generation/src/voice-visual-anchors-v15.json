@@ -1,0 +1,819 @@
+[
+  {
+    "id": "pearl-intro-00",
+    "scene": "pearl-intro",
+    "text": "她叫踏雪。",
+    "fromFrame": 16,
+    "toFrame": 69,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 0.8500000000000001,
+        "end": 1.33,
+        "fromFrame": 26,
+        "toFrame": 40
+      }
+    ]
+  },
+  {
+    "id": "pearl-intro-01",
+    "scene": "pearl-intro",
+    "text": "黑白长毛，棕色眼睛，鼻梁一道白纹，还有四只白爪。",
+    "fromFrame": 73,
+    "toFrame": 241,
+    "markers": [
+      {
+        "term": "黑白长毛",
+        "start": 2.430041666666667,
+        "end": 3.3100416666666668,
+        "fromFrame": 73,
+        "toFrame": 99
+      },
+      {
+        "term": "棕色眼睛",
+        "start": 3.670041666666667,
+        "end": 4.470041666666667,
+        "fromFrame": 110,
+        "toFrame": 134
+      },
+      {
+        "term": "鼻梁",
+        "start": 4.790041666666667,
+        "end": 5.150041666666667,
+        "fromFrame": 144,
+        "toFrame": 155
+      },
+      {
+        "term": "白纹",
+        "start": 5.430041666666667,
+        "end": 5.870041666666667,
+        "fromFrame": 163,
+        "toFrame": 176
+      },
+      {
+        "term": "四只白爪",
+        "start": 6.370041666666667,
+        "end": 7.170041666666667,
+        "fromFrame": 191,
+        "toFrame": 215
+      },
+      {
+        "term": "白爪",
+        "start": 6.750041666666667,
+        "end": 7.170041666666667,
+        "fromFrame": 203,
+        "toFrame": 215
+      }
+    ]
+  },
+  {
+    "id": "pearl-intro-02",
+    "scene": "pearl-intro",
+    "text": "坐下也好，换个场景也好，电脑怎样让她仍然像踏雪？",
+    "fromFrame": 245,
+    "toFrame": 425,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 12.150041666666665,
+        "end": 12.530041666666666,
+        "fromFrame": 365,
+        "toFrame": 376
+      },
+      {
+        "term": "坐下",
+        "start": 8.150041666666665,
+        "end": 8.750041666666664,
+        "fromFrame": 245,
+        "toFrame": 263
+      }
+    ]
+  },
+  {
+    "id": "pearl-intro-04",
+    "scene": "pearl-intro",
+    "text": "这次，我们请电脑当画师：换环境、换动作，画的都得是踏雪。",
+    "fromFrame": 523,
+    "toFrame": 727,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 22.430083333333332,
+        "end": 22.85008333333333,
+        "fromFrame": 673,
+        "toFrame": 686
+      }
+    ]
+  },
+  {
+    "id": "goal-00",
+    "scene": "goal",
+    "text": "目标很具体：换场景，主角还要像踏雪。",
+    "fromFrame": 1194,
+    "toFrame": 1357,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 43.303333333333335,
+        "end": 43.74333333333333,
+        "fromFrame": 1299,
+        "toFrame": 1312
+      }
+    ]
+  },
+  {
+    "id": "goal-01",
+    "scene": "goal",
+    "text": "光线和角度会变，脸上的白纹和毛色要留下。",
+    "fromFrame": 1360,
+    "toFrame": 1490,
+    "markers": [
+      {
+        "term": "白纹",
+        "start": 47.50333333333333,
+        "end": 47.883333333333326,
+        "fromFrame": 1425,
+        "toFrame": 1436
+      },
+      {
+        "term": "毛色",
+        "start": 48.023333333333326,
+        "end": 48.44333333333333,
+        "fromFrame": 1441,
+        "toFrame": 1453
+      }
+    ]
+  },
+  {
+    "id": "goal-03",
+    "scene": "goal",
+    "text": "还有个更难的要求：一眼就能认出这是踏雪。",
+    "fromFrame": 1679,
+    "toFrame": 1821,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 58.88333333333332,
+        "end": 59.32333333333332,
+        "fromFrame": 1766,
+        "toFrame": 1780
+      }
+    ]
+  },
+  {
+    "id": "goal-04",
+    "scene": "goal",
+    "text": "假如白爪留下了，脸却换了，这张画就认错了主角。",
+    "fromFrame": 1825,
+    "toFrame": 2000,
+    "markers": [
+      {
+        "term": "白爪",
+        "start": 61.323333333333316,
+        "end": 61.70333333333332,
+        "fromFrame": 1840,
+        "toFrame": 1851
+      }
+    ]
+  },
+  {
+    "id": "experiments-04",
+    "scene": "experiments",
+    "text": "最后回到踏雪，用参考图编辑和视频生成，把身份、场景和连续动作接起来。",
+    "fromFrame": 2885,
+    "toFrame": 3120,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 97.15000000000002,
+        "end": 97.57000000000002,
+        "fromFrame": 2915,
+        "toFrame": 2927
+      }
+    ]
+  },
+  {
+    "id": "experiments-05",
+    "scene": "experiments",
+    "text": "给踏雪换场景，我们会用训练好的大模型，看看这些想法怎样用在实际创作中。",
+    "fromFrame": 3124,
+    "toFrame": 3345,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 104.57000000000002,
+        "end": 104.95000000000002,
+        "fromFrame": 3137,
+        "toFrame": 3149
+      }
+    ]
+  },
+  {
+    "id": "distribution-00",
+    "scene": "distribution",
+    "text": "翻开狗狗相册，有站姿、坐姿，还有耳朵放松的瞬间。",
+    "fromFrame": 3410,
+    "toFrame": 3578,
+    "markers": [
+      {
+        "term": "耳朵",
+        "start": 117.54333333333334,
+        "end": 117.86333333333334,
+        "fromFrame": 3526,
+        "toFrame": 3536
+      }
+    ]
+  },
+  {
+    "id": "distribution-03",
+    "scene": "distribution",
+    "text": "耳朵可以转，四条腿可以动，骨骼和身体比例得合理。",
+    "fromFrame": 3853,
+    "toFrame": 4024,
+    "markers": [
+      {
+        "term": "耳朵",
+        "start": 128.443375,
+        "end": 129.063375,
+        "fromFrame": 3853,
+        "toFrame": 3872
+      }
+    ]
+  },
+  {
+    "id": "randomness-02",
+    "scene": "randomness",
+    "text": "颜色全靠碰运气，像素缺少联系，完整的小狗拼不起来。",
+    "fromFrame": 4951,
+    "toFrame": 5127,
+    "markers": []
+  },
+  {
+    "id": "gan-pearl-00",
+    "scene": "gan-pearl",
+    "text": "现在再看踏雪。",
+    "fromFrame": 19319,
+    "toFrame": 19375,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 644.9433333333333,
+        "end": 645.3433333333332,
+        "fromFrame": 19348,
+        "toFrame": 19360
+      }
+    ]
+  },
+  {
+    "id": "gan-pearl-01",
+    "scene": "gan-pearl",
+    "text": "模型会画很多小狗，还得知道，踏雪具体长什么样。",
+    "fromFrame": 19378,
+    "toFrame": 19561,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 648.4633333333333,
+        "end": 649.3433333333332,
+        "fromFrame": 19454,
+        "toFrame": 19480
+      }
+    ]
+  },
+  {
+    "id": "gan-pearl-02",
+    "scene": "gan-pearl",
+    "text": "黑白毛色、棕色眼睛、鼻梁白纹和四只白爪，都是身份线索，要一起交给模型。",
+    "fromFrame": 19564,
+    "toFrame": 19833,
+    "markers": [
+      {
+        "term": "棕色眼睛",
+        "start": 653.3633333333333,
+        "end": 654.1233333333333,
+        "fromFrame": 19601,
+        "toFrame": 19624
+      },
+      {
+        "term": "鼻梁",
+        "start": 654.4033333333333,
+        "end": 654.7233333333334,
+        "fromFrame": 19632,
+        "toFrame": 19642
+      },
+      {
+        "term": "白纹",
+        "start": 654.7233333333334,
+        "end": 655.2033333333333,
+        "fromFrame": 19642,
+        "toFrame": 19656
+      },
+      {
+        "term": "四只白爪",
+        "start": 655.4633333333334,
+        "end": 656.1433333333333,
+        "fromFrame": 19664,
+        "toFrame": 19684
+      },
+      {
+        "term": "白爪",
+        "start": 655.7433333333333,
+        "end": 656.1433333333333,
+        "fromFrame": 19672,
+        "toFrame": 19684
+      },
+      {
+        "term": "毛色",
+        "start": 652.5433333333333,
+        "end": 653.0033333333333,
+        "fromFrame": 19576,
+        "toFrame": 19590
+      }
+    ]
+  },
+  {
+    "id": "gan-pearl-03",
+    "scene": "gan-pearl",
+    "text": "只说画只漂亮的小狗，可能得到另一位主角。",
+    "fromFrame": 19837,
+    "toFrame": 19978,
+    "markers": []
+  },
+  {
+    "id": "bridge-noise-06",
+    "scene": "bridge-noise",
+    "text": "踏雪先来当这道题的主角。",
+    "fromFrame": 21034,
+    "toFrame": 21113,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 701.123375,
+        "end": 701.603375,
+        "fromFrame": 21034,
+        "toFrame": 21048
+      }
+    ]
+  },
+  {
+    "id": "forward-equation-03",
+    "scene": "forward-equation",
+    "text": "左边保留踏雪的参考图，右边随着两个系数，逐渐被噪声淹没。",
+    "fromFrame": 23310,
+    "toFrame": 23494,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 777.85,
+        "end": 778.19,
+        "fromFrame": 23336,
+        "toFrame": 23346
+      }
+    ]
+  },
+  {
+    "id": "reverse-not-undo-00",
+    "scene": "reverse-not-undo",
+    "text": "如果把刚才的画面倒着播，踏雪当然又会出现。",
+    "fromFrame": 23662,
+    "toFrame": 23802,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 790.93,
+        "end": 791.19,
+        "fromFrame": 23728,
+        "toFrame": 23736
+      }
+    ]
+  },
+  {
+    "id": "reverse-not-undo-06",
+    "scene": "reverse-not-undo",
+    "text": "同一个模糊形状，可能对应不同的毛色、姿态和光线。",
+    "fromFrame": 24476,
+    "toFrame": 24618,
+    "markers": [
+      {
+        "term": "毛色",
+        "start": 818.2900416666665,
+        "end": 818.6900416666666,
+        "fromFrame": 24549,
+        "toFrame": 24561
+      }
+    ]
+  },
+  {
+    "id": "training-sampling-03",
+    "scene": "training-sampling",
+    "text": "踏雪加噪的动画，帮我们看清题目怎样变难。",
+    "fromFrame": 34527,
+    "toFrame": 34655,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1150.9099999999996,
+        "end": 1151.5699999999997,
+        "fromFrame": 34527,
+        "toFrame": 34547
+      }
+    ]
+  },
+  {
+    "id": "pearl-identity-00",
+    "scene": "pearl-identity",
+    "text": "踏雪这个名字，对没见过她的模型来说，还缺少具体的外形。",
+    "fromFrame": 38852,
+    "toFrame": 39020,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1295.0833333333333,
+        "end": 1295.5633333333333,
+        "fromFrame": 38852,
+        "toFrame": 38867
+      }
+    ]
+  },
+  {
+    "id": "pearl-identity-01",
+    "scene": "pearl-identity",
+    "text": "有了参考图，模型才能看到她的具体外形。",
+    "fromFrame": 39024,
+    "toFrame": 39178,
+    "markers": []
+  },
+  {
+    "id": "pearl-identity-02",
+    "scene": "pearl-identity",
+    "text": "我们看鼻梁白纹、棕色眼睛，再看黑白毛色、四只白爪和蓬松尾巴。",
+    "fromFrame": 39181,
+    "toFrame": 39412,
+    "markers": [
+      {
+        "term": "棕色眼睛",
+        "start": 1308.0233333333329,
+        "end": 1308.9033333333327,
+        "fromFrame": 39241,
+        "toFrame": 39267
+      },
+      {
+        "term": "鼻梁",
+        "start": 1306.7633333333329,
+        "end": 1307.2433333333329,
+        "fromFrame": 39203,
+        "toFrame": 39217
+      },
+      {
+        "term": "白纹",
+        "start": 1307.2433333333329,
+        "end": 1307.703333333333,
+        "fromFrame": 39217,
+        "toFrame": 39231
+      },
+      {
+        "term": "四只白爪",
+        "start": 1311.0433333333328,
+        "end": 1311.8833333333328,
+        "fromFrame": 39331,
+        "toFrame": 39356
+      },
+      {
+        "term": "白爪",
+        "start": 1311.3433333333328,
+        "end": 1311.8833333333328,
+        "fromFrame": 39340,
+        "toFrame": 39356
+      },
+      {
+        "term": "尾巴",
+        "start": 1312.3833333333328,
+        "end": 1312.7833333333328,
+        "fromFrame": 39371,
+        "toFrame": 39383
+      },
+      {
+        "term": "毛色",
+        "start": 1310.1433333333327,
+        "end": 1310.6033333333328,
+        "fromFrame": 39304,
+        "toFrame": 39318
+      }
+    ]
+  },
+  {
+    "id": "editing-00",
+    "scene": "editing",
+    "text": "把踏雪的参考图交给大模型，让她来到深色实验室。",
+    "fromFrame": 39842,
+    "toFrame": 40027,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1328.6633333333332,
+        "end": 1328.9833333333333,
+        "fromFrame": 39860,
+        "toFrame": 39870
+      }
+    ]
+  },
+  {
+    "id": "editing-01",
+    "scene": "editing",
+    "text": "环境和光线可以换，白纹、毛色和脸型，这些认得出她的地方要留下来。",
+    "fromFrame": 40031,
+    "toFrame": 40244,
+    "markers": [
+      {
+        "term": "白纹",
+        "start": 1336.0633333333333,
+        "end": 1336.8433333333332,
+        "fromFrame": 40082,
+        "toFrame": 40105
+      },
+      {
+        "term": "毛色",
+        "start": 1337.1433333333332,
+        "end": 1337.5633333333333,
+        "fromFrame": 40114,
+        "toFrame": 40127
+      },
+      {
+        "term": "脸型",
+        "start": 1337.8033333333333,
+        "end": 1338.2633333333333,
+        "fromFrame": 40134,
+        "toFrame": 40148
+      }
+    ]
+  },
+  {
+    "id": "editing-05",
+    "scene": "editing",
+    "text": "两个条件一起引导生成，让毛色和脸型留下来，让背景按要求改变。",
+    "fromFrame": 40712,
+    "toFrame": 40907,
+    "markers": [
+      {
+        "term": "毛色",
+        "start": 1359.6633333333325,
+        "end": 1360.1033333333326,
+        "fromFrame": 40790,
+        "toFrame": 40803
+      },
+      {
+        "term": "脸型",
+        "start": 1360.2433333333327,
+        "end": 1360.6233333333325,
+        "fromFrame": 40807,
+        "toFrame": 40819
+      }
+    ]
+  },
+  {
+    "id": "editing-06",
+    "scene": "editing",
+    "text": "先对照鼻梁白纹和棕色眼睛，再检查四爪和尾巴。",
+    "fromFrame": 40910,
+    "toFrame": 41086,
+    "markers": [
+      {
+        "term": "棕色眼睛",
+        "start": 1365.3233333333326,
+        "end": 1366.0633333333326,
+        "fromFrame": 40960,
+        "toFrame": 40982
+      },
+      {
+        "term": "鼻梁",
+        "start": 1364.2633333333324,
+        "end": 1364.6833333333325,
+        "fromFrame": 40928,
+        "toFrame": 40940
+      },
+      {
+        "term": "白纹",
+        "start": 1364.6833333333325,
+        "end": 1365.1233333333325,
+        "fromFrame": 40940,
+        "toFrame": 40954
+      },
+      {
+        "term": "四爪",
+        "start": 1366.8233333333326,
+        "end": 1367.1833333333325,
+        "fromFrame": 41005,
+        "toFrame": 41015
+      },
+      {
+        "term": "尾巴",
+        "start": 1367.4033333333325,
+        "end": 1367.7633333333324,
+        "fromFrame": 41022,
+        "toFrame": 41033
+      }
+    ]
+  },
+  {
+    "id": "strength-02",
+    "scene": "strength",
+    "text": "只换光线，就保住结构；大幅换场景，就得留意脸型和毛色有没有变样。",
+    "fromFrame": 41651,
+    "toFrame": 41888,
+    "markers": [
+      {
+        "term": "毛色",
+        "start": 1392.9166666666665,
+        "end": 1393.3166666666666,
+        "fromFrame": 41787,
+        "toFrame": 41800
+      },
+      {
+        "term": "脸型",
+        "start": 1392.3966666666665,
+        "end": 1392.7566666666667,
+        "fromFrame": 41772,
+        "toFrame": 41783
+      }
+    ]
+  },
+  {
+    "id": "guidance-04",
+    "scene": "guidance",
+    "text": "调完再看踏雪：她还像自己吗，动作顺吗，场景符合要求吗？",
+    "fromFrame": 42838,
+    "toFrame": 43028,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1428.863333333333,
+        "end": 1429.3033333333328,
+        "fromFrame": 42866,
+        "toFrame": 42879
+      }
+    ]
+  },
+  {
+    "id": "video-01",
+    "scene": "video",
+    "text": "踏雪收起舌头、轻轻坐下，身体和毛色都要连续变化。",
+    "fromFrame": 43219,
+    "toFrame": 43412,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1440.6499999999999,
+        "end": 1441.33,
+        "fromFrame": 43219,
+        "toFrame": 43240
+      },
+      {
+        "term": "毛色",
+        "start": 1444.09,
+        "end": 1444.4899999999998,
+        "fromFrame": 43323,
+        "toFrame": 43335
+      },
+      {
+        "term": "坐下",
+        "start": 1442.7099999999998,
+        "end": 1443.07,
+        "fromFrame": 43281,
+        "toFrame": 43292
+      },
+      {
+        "term": "收起舌头",
+        "start": 1441.33,
+        "end": 1442.09,
+        "fromFrame": 43240,
+        "toFrame": 43263
+      }
+    ]
+  },
+  {
+    "id": "video-02",
+    "scene": "video",
+    "text": "单张都像小狗，连起来耳朵却漂了，身体也可能变形。",
+    "fromFrame": 43415,
+    "toFrame": 43590,
+    "markers": [
+      {
+        "term": "耳朵",
+        "start": 1449.33,
+        "end": 1449.6899999999998,
+        "fromFrame": 43480,
+        "toFrame": 43491
+      }
+    ]
+  },
+  {
+    "id": "evaluation-01",
+    "scene": "evaluation",
+    "text": "先看场景，再看白纹、眼睛、四爪和尾巴，最后逐帧检查动作。",
+    "fromFrame": 44222,
+    "toFrame": 44448,
+    "markers": [
+      {
+        "term": "白纹",
+        "start": 1475.9299999999998,
+        "end": 1476.31,
+        "fromFrame": 44278,
+        "toFrame": 44289
+      },
+      {
+        "term": "四爪",
+        "start": 1477.55,
+        "end": 1477.87,
+        "fromFrame": 44326,
+        "toFrame": 44336
+      },
+      {
+        "term": "尾巴",
+        "start": 1478.07,
+        "end": 1478.45,
+        "fromFrame": 44342,
+        "toFrame": 44354
+      }
+    ]
+  },
+  {
+    "id": "data-02",
+    "scene": "data",
+    "text": "数字模型练过的是笔画，踏雪的毛发、姿态和光影，得交给见过这类图像的模型。",
+    "fromFrame": 45358,
+    "toFrame": 45608,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1514.4100416666665,
+        "end": 1514.8700416666666,
+        "fromFrame": 45432,
+        "toFrame": 45446
+      }
+    ]
+  },
+  {
+    "id": "return-pearl-00",
+    "scene": "return-pearl",
+    "text": "回到开头：电脑怎样替踏雪画一张新画面？",
+    "fromFrame": 48250,
+    "toFrame": 48379,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1610.4166666666665,
+        "end": 1610.7766666666666,
+        "fromFrame": 48312,
+        "toFrame": 48323
+      }
+    ]
+  },
+  {
+    "id": "return-pearl-01",
+    "scene": "return-pearl",
+    "text": "先让模型学会生成合理结构，再交给它踏雪的身份线索和场景要求，最后检查画得怎么样。",
+    "fromFrame": 48383,
+    "toFrame": 48611,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1615.6766666666665,
+        "end": 1616.0566666666664,
+        "fromFrame": 48470,
+        "toFrame": 48482
+      }
+    ]
+  },
+  {
+    "id": "return-pearl-02",
+    "scene": "return-pearl",
+    "text": "白纹走样，是身份线索没保住；前后身体变形，就要检查时间一致性。",
+    "fromFrame": 48614,
+    "toFrame": 48845,
+    "markers": [
+      {
+        "term": "白纹",
+        "start": 1620.4766666666662,
+        "end": 1620.9966666666662,
+        "fromFrame": 48614,
+        "toFrame": 48630
+      }
+    ]
+  },
+  {
+    "id": "farewell-00",
+    "scene": "farewell",
+    "text": "从八个点到踏雪的新场景，生成是一条可以跟着走的计算路径。",
+    "fromFrame": 53922,
+    "toFrame": 54142,
+    "markers": [
+      {
+        "term": "踏雪",
+        "start": 1798.503333333333,
+        "end": 1798.8433333333332,
+        "fromFrame": 53955,
+        "toFrame": 53965
+      }
+    ]
+  }
+]

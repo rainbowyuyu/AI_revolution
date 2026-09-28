@@ -1,0 +1,37 @@
+{
+  "updated": "2026-09-29",
+  "title": "AI 怎么画出真实图像",
+  "version": "V18",
+  "files": [
+    {
+      "path": "covers/第二章_踏雪_横版16x9_1920x1080.jpg",
+      "bytes": 460551,
+      "sha256": "7f5c33307797d345995efa8fd26574656ff83dda8d82c6e61b34aae8adb6d552"
+    },
+    {
+      "path": "covers/第二章_踏雪_横版4x3_1440x1080.jpg",
+      "bytes": 358634,
+      "sha256": "645ef29348c0670b49739e1810a589d3103046a83b0d1defcff49acf9ed892c7"
+    },
+    {
+      "path": "covers/第二章_踏雪_竖版3x4_1080x1440.jpg",
+      "bytes": 398479,
+      "sha256": "798e85839f4543089d606dcb92ce7ff8daedfeb6a82f041d8b501e87fdf0cca2"
+    },
+    {
+      "path": "covers/第二章_踏雪_竖版9x16_1080x1920.jpg",
+      "bytes": 555885,
+      "sha256": "03181907b9f07faac1e62a025e657b11eabf379ffaa543954ae464cba53369f7"
+    },
+    {
+      "path": "release/配图/01_本章路线.jpg",
+      "bytes": 240279,
+      "sha256": "e6eb715d3a772e79b57797c9fde37e859aa72be7d5b727b61ddbeccaffaee16f"
+    },
+    {
+      "path": "release/配图/02_DDPM实际采样.jpg",
+      "bytes": 680514,
+      "sha256": "111f7c85ccb69101f9e98ccc689d145a7ecd44cbee517128674e31e41c2e1117"
+    }
+  ]
+}

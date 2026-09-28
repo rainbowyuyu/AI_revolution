@@ -2,13 +2,42 @@
   "id": "02",
   "path": "chapters/02-generation",
   "title": "从识别到创造",
-  "status": "planned",
+  "status": "materials-ready",
   "topics": [
     "GAN",
-    "Diffusion"
+    "DCGAN",
+    "DDPM",
+    "DDIM",
+    "Latent Diffusion",
+    "CFG"
   ],
-  "goal": "把一团噪声逐步变成可以辨认的图像，理解模型为什么能创造新内容。",
-  "experimentsStatus": "not-started",
-  "results": null,
-  "preview": null
+  "version": "V18",
+  "publicationTitle": "AI 怎么画出真实图像",
+  "composition": "Chapter02-V18-1080",
+  "fps": 30,
+  "frames": 54724,
+  "goal": "从随机数生成有结构的样本，理解对抗训练、扩散去噪及条件控制。",
+  "experimentsStatus": "completed",
+  "results": "docs/实验结果.md",
+  "preview": {
+    "version": "V18",
+    "width": 1920,
+    "height": 1080,
+    "tracked": false,
+    "note": "成片在原制作工程及备份中；4K交付由1080p升采样。"
+  },
+  "character": {
+    "name": "踏雪",
+    "pronoun": "她"
+  },
+  "materials": {
+    "guide": "docs/图文讲义.md",
+    "reproduction": "docs/实验复现.md",
+    "papers": "docs/论文索引.md",
+    "narration": "supplements/口播.md",
+    "subtitles": "supplements/中文字幕_V18.srt",
+    "timeline": "supplements/timeline.json",
+    "videoAssets": "assets/video-manifest.json"
+  },
+  "updatedOn": "2026-09-29"
 }

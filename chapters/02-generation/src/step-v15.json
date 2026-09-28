@@ -1,0 +1,36 @@
+{
+  "t": 99,
+  "input": [
+    -1.8797999620437622,
+    -0.333840012550354
+  ],
+  "predictedNoise": [
+    -1.1895753145217896,
+    -0.22068260610103607
+  ],
+  "mean": [
+    -1.8682100772857666,
+    -0.3315008282661438
+  ],
+  "randomTerm": [
+    0.008844077587127686,
+    0.03758779168128967
+  ],
+  "output": [
+    -1.8593659400939941,
+    -0.2939130365848541
+  ],
+  "variance": 0.02467297948896885,
+  "seed": 92699,
+  "modelSeed": 12,
+  "trainingSteps": 6000,
+  "checkpoint": "checkpoints/ddpm-v5-12.pt",
+  "checkpointSha256": "7bcb82d3b1b829a93d82c744ef96a737a7430aab7db35412f1e5d2e2c72bdc7b",
+  "sourceData": "results/distributions-v5.json",
+  "sourceDataSha256": "e47a747410bf84e3cfaaac16b309f4bed5ca1c27c749054899ef3c884c672f59",
+  "sourcePointIndex": 14,
+  "sourceSavedStep": 100,
+  "calculationCodeSha256": "c649f2132ce51290444fe14b6afa5afc15a07891c6694bef0cf52144e78b1f74",
+  "device": "cpu",
+  "scope": "One independently calculated t=99 update from the authentic seed-12 saved checkpoint, starting at saved post-t=100 point 14. Random term uses a new fixed seed 92699; output is not claimed to be the original whole-trajectory next random draw."
+}
