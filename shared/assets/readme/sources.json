@@ -1,0 +1,216 @@
+{
+  "description": "Repository homepage derivatives; no new model generation.",
+  "experiment": "MNIST DDPM, trained seed 42, generation seed 10042; fixed 8 examples in grid rows 1–2 and columns 1–4; every saved t=200..0 frame in increments of 5, no interpolation.",
+  "sources": {
+    "hero-artwork": {
+      "path": "overview/publication/2026-09-23/artwork/overview-landscape.png",
+      "sha256": "30ccdf0d430878ef35000d017ed5dbb407cfe15a265bfe6b971455845710920f"
+    },
+    "brand": {
+      "path": "shared/publication/2026-09-23-history/rainbow-vector.svg",
+      "sha256": "1b42ec4d3797c3532dd2cde1d34d207c81dc925b97d10311c10fabe1753d6062"
+    },
+    "overview": {
+      "path": "overview/publication/2026-09-23/covers/总览_横版16x9_1920x1080.jpg",
+      "sha256": "bcf58cf4ba731a1fa9fd3675f7d4abf2dded7170657c823083feb55518e06a44"
+    },
+    "chapter-01": {
+      "path": "chapters/01-vision-choice/publication/2026-09-23/covers/第一章_横版16x9_1920x1080.jpg",
+      "sha256": "f741b8aa6f40f5bf27bd55971ac8d7933fae7832a22d49fdb2618958df10b8f8"
+    },
+    "chapter-02": {
+      "path": "chapters/02-generation/publication/2026-09-29/covers/第二章_踏雪_横版16x9_1920x1080.jpg",
+      "sha256": "7f5c33307797d345995efa8fd26574656ff83dda8d82c6e61b34aae8adb6d552"
+    },
+    "ddpm-t200": {
+      "path": "chapters/02-generation/results/digits/ddpm-t200.png",
+      "sha256": "de43ff1ddcc907472602036b19f3569df7c8cf8647beca71381d9e1214496f83"
+    },
+    "ddpm-t195": {
+      "path": "chapters/02-generation/results/digits/ddpm-t195.png",
+      "sha256": "49ccbba191a0a3d77c40610bdf87d10439777f584ee37a0741daf65725aa23a5"
+    },
+    "ddpm-t190": {
+      "path": "chapters/02-generation/results/digits/ddpm-t190.png",
+      "sha256": "fc54fa72e91edfc0dda5fa60a7bb848c2832dd11915550c84034178f54a5c144"
+    },
+    "ddpm-t185": {
+      "path": "chapters/02-generation/results/digits/ddpm-t185.png",
+      "sha256": "9834a8811ec7b042edd076d5b640b7d58730a13a9b317599812e6d1cd61169e2"
+    },
+    "ddpm-t180": {
+      "path": "chapters/02-generation/results/digits/ddpm-t180.png",
+      "sha256": "511ec51111b33e4524e704e322f7abea3b6bf85751be72f8f0116f48186ed688"
+    },
+    "ddpm-t175": {
+      "path": "chapters/02-generation/results/digits/ddpm-t175.png",
+      "sha256": "de58c50ae95e4dc4dd0b05eb412e4009140ea88ca8d19f3db5165b8c28822a24"
+    },
+    "ddpm-t170": {
+      "path": "chapters/02-generation/results/digits/ddpm-t170.png",
+      "sha256": "bdbd13faa2c42d5d1811c708e23d525ece7290c3fea05549c6af0eba53f9dc2b"
+    },
+    "ddpm-t165": {
+      "path": "chapters/02-generation/results/digits/ddpm-t165.png",
+      "sha256": "e0e123b5298e102e8952c94e877529dfd5caa52ad1419ad9bd3d3de9019069d0"
+    },
+    "ddpm-t160": {
+      "path": "chapters/02-generation/results/digits/ddpm-t160.png",
+      "sha256": "4362e14d98134333acf319f6c2a3001fc896625eb5180a070fb6052b41b8e333"
+    },
+    "ddpm-t155": {
+      "path": "chapters/02-generation/results/digits/ddpm-t155.png",
+      "sha256": "656d955da2b01b0efcaf6dbc6757b4da2ccf2b71a9b983befe8380d3e3117a00"
+    },
+    "ddpm-t150": {
+      "path": "chapters/02-generation/results/digits/ddpm-t150.png",
+      "sha256": "f2a5ba47263a9f227447979d92cfd1c12d63f7c54ae0836d932d7d37cc7a5c2a"
+    },
+    "ddpm-t145": {
+      "path": "chapters/02-generation/results/digits/ddpm-t145.png",
+      "sha256": "c59b2276fdbbbd5ebbe30f8c8618596677ab547a444ee2c8235b19aea4a96e2d"
+    },
+    "ddpm-t140": {
+      "path": "chapters/02-generation/results/digits/ddpm-t140.png",
+      "sha256": "12991c8e283ebb29e654225bac3fea858b79cef110b614342a42397ce0fae52f"
+    },
+    "ddpm-t135": {
+      "path": "chapters/02-generation/results/digits/ddpm-t135.png",
+      "sha256": "5bab282cbc18828ac6c0cb5a7a4e2205d5f99ac5505aacd587f5b5664962aa4d"
+    },
+    "ddpm-t130": {
+      "path": "chapters/02-generation/results/digits/ddpm-t130.png",
+      "sha256": "23439b983c10c6103bf6fd6390c67bd206070a947569971120b257014a943c57"
+    },
+    "ddpm-t125": {
+      "path": "chapters/02-generation/results/digits/ddpm-t125.png",
+      "sha256": "b367e1d88130f862516483e3a122467bf5835e2fbce0291f2262e52a21a3897e"
+    },
+    "ddpm-t120": {
+      "path": "chapters/02-generation/results/digits/ddpm-t120.png",
+      "sha256": "b2e8a09e99eacfb5e8dea3b2f6bb91a101953e66d8902130f679a27ff479527c"
+    },
+    "ddpm-t115": {
+      "path": "chapters/02-generation/results/digits/ddpm-t115.png",
+      "sha256": "0097b2e9bfe86427174fced2f05d9ec2bc73ecbff28fbeeccf47a2e8454ecdad"
+    },
+    "ddpm-t110": {
+      "path": "chapters/02-generation/results/digits/ddpm-t110.png",
+      "sha256": "18b53684157afac1479573bf37c7b12132d9a583919ff3a8d922a1fa40bc2130"
+    },
+    "ddpm-t105": {
+      "path": "chapters/02-generation/results/digits/ddpm-t105.png",
+      "sha256": "132f46c3e4e7a8767ae72f84b190f0b33e450ffabd67f59910f5502bbfa3f31b"
+    },
+    "ddpm-t100": {
+      "path": "chapters/02-generation/results/digits/ddpm-t100.png",
+      "sha256": "e640c667f9355bdcd9fbd5910a8e666065efa37f469d508a4744f236d8ae211b"
+    },
+    "ddpm-t095": {
+      "path": "chapters/02-generation/results/digits/ddpm-t095.png",
+      "sha256": "0ad7484101e75cafa6e1ebd0df0eee7c70fc4fe495806e5a83533e8f6d9f3d43"
+    },
+    "ddpm-t090": {
+      "path": "chapters/02-generation/results/digits/ddpm-t090.png",
+      "sha256": "fc24f2b4d84bce0b1de593a158e35c63e5c36c385170a4f6fcbed0d964987be4"
+    },
+    "ddpm-t085": {
+      "path": "chapters/02-generation/results/digits/ddpm-t085.png",
+      "sha256": "020da04deee672cc75b93efe1956f77dbbe2323359714c2b352c9f698b01339c"
+    },
+    "ddpm-t080": {
+      "path": "chapters/02-generation/results/digits/ddpm-t080.png",
+      "sha256": "bb44ae7398c2f283ef9c112e55343c68bc551a7393c1249794b13f015e75fd1d"
+    },
+    "ddpm-t075": {
+      "path": "chapters/02-generation/results/digits/ddpm-t075.png",
+      "sha256": "7a7cfcf4a67b6deeb3198e2c721f6fca16f06ff715afb48fe9ac7382e3e21105"
+    },
+    "ddpm-t070": {
+      "path": "chapters/02-generation/results/digits/ddpm-t070.png",
+      "sha256": "35302e541bf45e632427ef28c4341b3ec63bf0c566603b238c740256531a0069"
+    },
+    "ddpm-t065": {
+      "path": "chapters/02-generation/results/digits/ddpm-t065.png",
+      "sha256": "a5921182b0963a556582dffa5af469ea1a63a8c7fe1b471f0d6ef004491ebcbd"
+    },
+    "ddpm-t060": {
+      "path": "chapters/02-generation/results/digits/ddpm-t060.png",
+      "sha256": "5a939b3308719395fd53e98b4e267bcd491c90a91ec9297947fbc002f82380d9"
+    },
+    "ddpm-t055": {
+      "path": "chapters/02-generation/results/digits/ddpm-t055.png",
+      "sha256": "dc5c312cc7217db1114e05b6d7bf6cb09d7419b2666d8fdb5a3032c2de30870f"
+    },
+    "ddpm-t050": {
+      "path": "chapters/02-generation/results/digits/ddpm-t050.png",
+      "sha256": "03f1ba8b15f14a22a22cb6e05e9654d6a1084277f73aef32081aced0dc940376"
+    },
+    "ddpm-t045": {
+      "path": "chapters/02-generation/results/digits/ddpm-t045.png",
+      "sha256": "f40f5d79503d12eeaf23292bf4dd9e6dee7d24b6cfd221adbf319755d8ac1532"
+    },
+    "ddpm-t040": {
+      "path": "chapters/02-generation/results/digits/ddpm-t040.png",
+      "sha256": "ae02070ce5d540e5bfd2f6d715c7b96943dd8272a084d6e2784e97457186b090"
+    },
+    "ddpm-t035": {
+      "path": "chapters/02-generation/results/digits/ddpm-t035.png",
+      "sha256": "d4bfb5f81967535547341ac8c25656c3ca8e28fa5cd3ed1a85c4eec3960c724c"
+    },
+    "ddpm-t030": {
+      "path": "chapters/02-generation/results/digits/ddpm-t030.png",
+      "sha256": "d2a2bf8997547d31c448032d4716488688951a50eaf12b01a3a276aae9999ddd"
+    },
+    "ddpm-t025": {
+      "path": "chapters/02-generation/results/digits/ddpm-t025.png",
+      "sha256": "a479c972ecef7803ee5b87eb2ab534f07f060859dfa189d7bf2a7577c69d7411"
+    },
+    "ddpm-t020": {
+      "path": "chapters/02-generation/results/digits/ddpm-t020.png",
+      "sha256": "e6d18612337e45568aa94631b8522e9472e89a31457a7dfcffc84891822af5b0"
+    },
+    "ddpm-t015": {
+      "path": "chapters/02-generation/results/digits/ddpm-t015.png",
+      "sha256": "5efe4576012dd856ad40385193dd08d2f8b0e1768413ce5d68f3fc76e52ff05d"
+    },
+    "ddpm-t010": {
+      "path": "chapters/02-generation/results/digits/ddpm-t010.png",
+      "sha256": "c71ffb6b234d22d658adc3df0151f823773a7caa6dbb85b7230ee0b80b4a7f7d"
+    },
+    "ddpm-t005": {
+      "path": "chapters/02-generation/results/digits/ddpm-t005.png",
+      "sha256": "4b959890ac1b1d7802765ae474efe21bbee0ce03abb920c56e8ccc126b182b37"
+    },
+    "ddpm-t000": {
+      "path": "chapters/02-generation/results/digits/ddpm-t000.png",
+      "sha256": "aede7a4f9d8930619940f5871636a01afa29a8299f0f8e500011c6e74630f9d7"
+    }
+  },
+  "outputs": {
+    "hero.png": {
+      "bytes": 722641,
+      "sha256": "a0d57ca18489ca2c47cec51c437098986fc4494e5624aa76e1579ad64b8d1027"
+    },
+    "roadmap.png": {
+      "bytes": 69201,
+      "sha256": "61279a0f9e678a71bfaed9a30e0a34ab6807891b9cf029efbceffadfcbae6e67"
+    },
+    "overview.jpg": {
+      "bytes": 100366,
+      "sha256": "6a1ecbd0c6845d51165a71bc4f3bf915f83d8db017e496e3ef4477ce76ace6b3"
+    },
+    "chapter-01.jpg": {
+      "bytes": 127030,
+      "sha256": "974b0f82fcbe449bfb309b749f5740360028ba4fce4a62f3a17048275a74fb12"
+    },
+    "chapter-02.jpg": {
+      "bytes": 97150,
+      "sha256": "a501e34eeac46ba0f0ef349290599d8d7818307e9004fae0052503c093518f1d"
+    },
+    "mnist-denoising.gif": {
+      "bytes": 1394384,
+      "sha256": "ca903c3e26b5577e857c280a7ec2bb430aa8c3d55f51066113f6323405994e6b"
+    }
+  }
+}

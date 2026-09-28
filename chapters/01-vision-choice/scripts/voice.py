@@ -17,4 +17,4 @@ def chunks(text):
  return out
 
 if __name__ == '__main__':
- raise SystemExit('Use audio_v8.py voice for the opening; see repository docs/AUDIO.md for body regeneration.')
+ raise SystemExit('Use audio_v8.py voice for the opening; see chapter docs/声音与同步.md for body regeneration.')

@@ -6,6 +6,6 @@
 
 核心内容：Reasoning、Agent、Tools。
 
-[本章制作计划](docs/plan.md) · [共享维护流程](../../docs/MAINTENANCE.md) · [章节模板](../../shared/templates/chapter/README.md) · [系列登记表](../../series.json)
+[本章制作计划](docs/plan.md) · [共享维护流程](../../shared/docs/MAINTENANCE.md) · [章节模板](../../shared/templates/chapter/README.md) · [系列登记表](../../series.json)
 
 实施时在本目录新增独立的 src、scripts、research、public/experiments、supplements 和必要的 manim；复用风格，不复制第一章实验结果。当前这里只保存真实的规划文档。

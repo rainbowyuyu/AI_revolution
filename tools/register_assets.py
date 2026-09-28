@@ -13,7 +13,7 @@ def main():
  if not (project/'README.md').is_file():p.error('Project README not found')
  source=a.source_project or {'overview':'ai_evolution_trailer','chapters/01-vision-choice':'ai_evolution_ch01_vision_choice'}.get(a.project,project.name)
  if '/' in source or '\\' in source or source in ['.','..']:p.error('source-project must be a directory name')
- manifest=ROOT/'assets/manifest.json';doc=json.loads(manifest.read_text(encoding='utf8'))
+ manifest=ROOT/'shared/assets/manifest.json';doc=json.loads(manifest.read_text(encoding='utf8'))
  rows={r['path']:r for r in doc['assets']}
  for rel in a.files:
   f=within(project,rel)

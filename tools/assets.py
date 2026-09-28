@@ -20,7 +20,7 @@ def main():
  p.add_argument('--verify',action='store_true',help='Hash existing files instead of only checking presence and size')
  a=p.parse_args()
  if a.command=='restore' and not a.source_root:p.error('restore requires --source-root')
- rows=json.loads((ROOT/'assets/manifest.json').read_text(encoding='utf8'))['assets']
+ rows=json.loads((ROOT/'shared/assets/manifest.json').read_text(encoding='utf8'))['assets']
  if a.project and a.project not in {r['project'] for r in rows}:p.error('Unknown project in asset manifest')
  rows=[r for r in rows if (not a.project or r['project']==a.project) and (a.include_voice_clips or r['kind']!='voice-clips')]
  missing=[];bad=[];restored=0

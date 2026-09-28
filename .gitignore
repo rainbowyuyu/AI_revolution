@@ -19,7 +19,7 @@ runs/
 *.pem
 *.key
 clone-reference*
-# Rehydrate using assets/manifest.json; never commit bulk media
+# Rehydrate using shared/assets/manifest.json; never commit bulk media
 **/public/audio/**/*.wav
 **/public/audio/*.wav
 **/public/papers/

@@ -49,7 +49,7 @@ def main():
  search=json.loads((chapter/'public/experiments/search.json').read_text(encoding='utf8'))
  for r in search['runs']:
   if len(r['games'])!=60 or r['wins']+r['draws']+r['losses']!=60:errors.append('Search result count mismatch')
- for m in json.loads((ROOT/'assets/manifest.json').read_text(encoding='utf8'))['assets']:
+ for m in json.loads((ROOT/'shared/assets/manifest.json').read_text(encoding='utf8'))['assets']:
   if not (ROOT/m['path']).resolve().is_relative_to(ROOT):errors.append('Asset path escapes repository')
  print(json.dumps(dict(files=count,errors=errors,checks=['JSON/Python syntax','credential patterns (values suppressed)','chapter registry','CNN distributions','MCTS game counts','asset path bounds','Chapter 02 registry/materials/timeline']),ensure_ascii=False,indent=2))
  if errors:raise SystemExit(1)
