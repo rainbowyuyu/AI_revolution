@@ -10,8 +10,8 @@
     },
     {
       "path": "covers/第二章_踏雪_横版4x3_1440x1080.jpg",
-      "bytes": 364567,
-      "sha256": "b24f2c7c97634cbf2ed17838e7851a0c627efcd7c144ecf0cbd84e54985b16ff"
+      "bytes": 433479,
+      "sha256": "253519b37138c3b37518911a78a07534eaeac3dcc37eb26c103bf82a32439b67"
     },
     {
       "path": "covers/第二章_踏雪_竖版3x4_1080x1440.jpg",
@@ -34,6 +34,12 @@
       "sha256": "111f7c85ccb69101f9e98ccc689d145a7ecd44cbee517128674e31e41c2e1117"
     }
   ],
-  "coverRevision": "V6",
-  "coverUpdated": "2026-09-29"
+  "coverRevision": "V7-4x3",
+  "coverUpdated": "2026-09-29",
+  "coverRevisions": {
+    "16:9": "V6",
+    "4:3": "V7",
+    "9:16": "V6",
+    "3:4": "V6"
+  }
 }
