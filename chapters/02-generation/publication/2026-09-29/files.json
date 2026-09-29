@@ -5,23 +5,23 @@
   "files": [
     {
       "path": "covers/第二章_踏雪_横版16x9_1920x1080.jpg",
-      "bytes": 460551,
-      "sha256": "7f5c33307797d345995efa8fd26574656ff83dda8d82c6e61b34aae8adb6d552"
+      "bytes": 600968,
+      "sha256": "6a0b210f2b8a08554049cc071ef2962863ecec115242b5339e383fce599efc45"
     },
     {
       "path": "covers/第二章_踏雪_横版4x3_1440x1080.jpg",
-      "bytes": 358634,
-      "sha256": "645ef29348c0670b49739e1810a589d3103046a83b0d1defcff49acf9ed892c7"
+      "bytes": 364567,
+      "sha256": "b24f2c7c97634cbf2ed17838e7851a0c627efcd7c144ecf0cbd84e54985b16ff"
     },
     {
       "path": "covers/第二章_踏雪_竖版3x4_1080x1440.jpg",
-      "bytes": 398479,
-      "sha256": "798e85839f4543089d606dcb92ce7ff8daedfeb6a82f041d8b501e87fdf0cca2"
+      "bytes": 439126,
+      "sha256": "8abcfacbe66cc01eee85a3581de2da5ed06480d34b38e9c4deed3bdb29cc2833"
     },
     {
       "path": "covers/第二章_踏雪_竖版9x16_1080x1920.jpg",
-      "bytes": 555885,
-      "sha256": "03181907b9f07faac1e62a025e657b11eabf379ffaa543954ae464cba53369f7"
+      "bytes": 584043,
+      "sha256": "797a149d4eb90f9869b4f2cb4924f7bb102f823d88d317ab4651049716f67ae7"
     },
     {
       "path": "release/配图/01_本章路线.jpg",
@@ -33,5 +33,7 @@
       "bytes": 680514,
       "sha256": "111f7c85ccb69101f9e98ccc689d145a7ecd44cbee517128674e31e41c2e1117"
     }
-  ]
+  ],
+  "coverRevision": "V6",
+  "coverUpdated": "2026-09-29"
 }

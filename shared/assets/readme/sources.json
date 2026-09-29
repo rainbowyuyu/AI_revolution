@@ -20,7 +20,7 @@
     },
     "chapter-02": {
       "path": "chapters/02-generation/publication/2026-09-29/covers/第二章_踏雪_横版16x9_1920x1080.jpg",
-      "sha256": "7f5c33307797d345995efa8fd26574656ff83dda8d82c6e61b34aae8adb6d552"
+      "sha256": "6a0b210f2b8a08554049cc071ef2962863ecec115242b5339e383fce599efc45"
     },
     "ddpm-t200": {
       "path": "chapters/02-generation/results/digits/ddpm-t200.png",
@@ -205,8 +205,8 @@
       "sha256": "974b0f82fcbe449bfb309b749f5740360028ba4fce4a62f3a17048275a74fb12"
     },
     "chapter-02.jpg": {
-      "bytes": 97150,
-      "sha256": "a501e34eeac46ba0f0ef349290599d8d7818307e9004fae0052503c093518f1d"
+      "bytes": 119429,
+      "sha256": "79254328f7ce4de90a1e45a7031049aa9b19c02443f26f09529c0a8316fe6072"
     },
     "mnist-denoising.gif": {
       "bytes": 1394384,
