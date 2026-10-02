@@ -1,11 +1,33 @@
 {
   "description": "Repository homepage derivatives; no new model generation.",
+  "series": {
+    "path": "series.json",
+    "statuses": {
+      "01": "preview-ready",
+      "02": "materials-ready",
+      "03": "materials-ready",
+      "04": "planned",
+      "05": "planned",
+      "06": "planned"
+    }
+  },
   "experiment": "MNIST DDPM, trained seed 42, generation seed 10042; fixed 8 examples in grid rows 1–2 and columns 1–4; every saved t=200..0 frame in increments of 5, no interpolation.",
+  "attention": {
+    "source": "chapters/03-language-multimodal/results/causal_attention.json",
+    "source_sha256": "bf0a7dbc7367ec91a7752d2c9afd69884b9174bda1179ff94bacb548f6e00532",
+    "description": "Hand-set Q/K/V; exact recorded attention weights. Row-by-row teaching animation; no training or semantic claim. Transitions interpolate bar lengths for presentation only; numerical labels are hidden during transitions. Percentages are rounded for display.",
+    "fps": 10,
+    "duration_ms": 12000,
+    "encoded_frames": 40,
+    "output": "shared/assets/readme/attention-preview.gif",
+    "bytes": 120884,
+    "sha256": "77472aee1be99ce965fbae5a6750f39e673f5339f455384fec5ae33f91cb7fd6",
+    "size": [
+      960,
+      420
+    ]
+  },
   "sources": {
-    "hero-artwork": {
-      "path": "overview/publication/2026-09-23/artwork/overview-landscape.png",
-      "sha256": "30ccdf0d430878ef35000d017ed5dbb407cfe15a265bfe6b971455845710920f"
-    },
     "brand": {
       "path": "shared/publication/2026-09-23-history/rainbow-vector.svg",
       "sha256": "1b42ec4d3797c3532dd2cde1d34d207c81dc925b97d10311c10fabe1753d6062"
@@ -21,6 +43,14 @@
     "chapter-02": {
       "path": "chapters/02-generation/publication/2026-09-29/covers/第二章_踏雪_横版16x9_1920x1080.jpg",
       "sha256": "6a0b210f2b8a08554049cc071ef2962863ecec115242b5339e383fce599efc45"
+    },
+    "chapter-03": {
+      "path": "chapters/03-language-multimodal/publication/2026-10-02/covers/第三章_满幅词海_16x9_1920x1080.jpg",
+      "sha256": "d8d0b78793f8b3c9ce04222a6805b989a5dab10d298da46f4409a36fa02d108d"
+    },
+    "hero-cat": {
+      "path": "chapters/01-vision-choice/publication/2026-09-23/artwork/chapter01-landscape.png",
+      "sha256": "54d0f5876ed84cb0e2c73b6958ddc881cf3edf18382fe269d70b3397e1a0b2b2"
     },
     "ddpm-t200": {
       "path": "chapters/02-generation/results/digits/ddpm-t200.png",
@@ -185,16 +215,20 @@
     "ddpm-t000": {
       "path": "chapters/02-generation/results/digits/ddpm-t000.png",
       "sha256": "aede7a4f9d8930619940f5871636a01afa29a8299f0f8e500011c6e74630f9d7"
+    },
+    "attention-weights": {
+      "path": "chapters/03-language-multimodal/results/causal_attention.json",
+      "sha256": "bf0a7dbc7367ec91a7752d2c9afd69884b9174bda1179ff94bacb548f6e00532"
     }
   },
   "outputs": {
     "hero.png": {
-      "bytes": 722641,
-      "sha256": "a0d57ca18489ca2c47cec51c437098986fc4494e5624aa76e1579ad64b8d1027"
+      "bytes": 558667,
+      "sha256": "6f379fa39c141934565b29524d94fbfb6bcfc97c4f6c4023da763f79d17ccde8"
     },
     "roadmap.png": {
-      "bytes": 69201,
-      "sha256": "61279a0f9e678a71bfaed9a30e0a34ab6807891b9cf029efbceffadfcbae6e67"
+      "bytes": 126541,
+      "sha256": "95084e33a8c3226d192dc893ebe57b1fefe2c170ff71a0107576709ab98b6b58"
     },
     "overview.jpg": {
       "bytes": 100366,
@@ -208,9 +242,17 @@
       "bytes": 119429,
       "sha256": "79254328f7ce4de90a1e45a7031049aa9b19c02443f26f09529c0a8316fe6072"
     },
+    "chapter-03.jpg": {
+      "bytes": 92910,
+      "sha256": "c9df7a7debeb4f335a531bea1e0bf5fa333bbd2ef96431665de43824fbe66a35"
+    },
     "mnist-denoising.gif": {
       "bytes": 1394384,
       "sha256": "ca903c3e26b5577e857c280a7ec2bb430aa8c3d55f51066113f6323405994e6b"
+    },
+    "attention-preview.gif": {
+      "bytes": 120884,
+      "sha256": "77472aee1be99ce965fbae5a6750f39e673f5339f455384fec5ae33f91cb7fd6"
     }
   }
 }

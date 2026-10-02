@@ -32,6 +32,8 @@ chapters/某一章/
 6. 完整 1080p 预览检查后更新交付，确认后再制作对应 4K，标明实际原生分辨率。
 7. 同步本章 README、chapter.json、根 series.json、素材摘要、字幕和发布文案；首页只更新入口和状态。
 
+首页图片使用[可重建素材脚本](../assets/readme/README.md)。章节状态变更后，重新运行 `python shared/assets/readme/build_visuals.py`，让横幅与路线图读取 `series.json` 的进度；新封面需同步缩略图和来源哈希。首页动态示例只读取已核验数据，完整复现说明仍放在章内。
+
 按[视频制作 Skill](../skills/rainbow-cinematic-video/SKILL.md)处理视觉、口播和连续性；共用[声音规范](AUDIO.md)及[素材规则](ASSETS.md)。各章具体操作从[系列首页](../../README.md)进入。
 
 ## 仓库检查
