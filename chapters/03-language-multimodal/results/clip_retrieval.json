@@ -1,0 +1,372 @@
+{
+  "preprocessing": {
+    "default": "official shortest-edge resize to224, center crop224",
+    "originalInputs": [
+      "clip-inputs/center-crop-umbrella_blue_door.png",
+      "clip-inputs/center-crop-red_car.png",
+      "clip-inputs/center-crop-umbrella_grass.png"
+    ],
+    "control": "center original image on square CLIP-mean-colored canvas before identical official processor",
+    "controlFillRGB": [
+      123,
+      117,
+      104
+    ],
+    "controlInputs": [
+      "clip-inputs/letterbox-umbrella_blue_door.png",
+      "clip-inputs/letterbox-red_car.png",
+      "clip-inputs/letterbox-umbrella_grass.png"
+    ],
+    "processor": {
+      "_processor_class": null,
+      "do_resize": true,
+      "size": {
+        "shortest_edge": 224
+      },
+      "resample": 3,
+      "do_center_crop": true,
+      "crop_size": {
+        "height": 224,
+        "width": 224
+      },
+      "do_rescale": true,
+      "rescale_factor": 0.00392156862745098,
+      "do_normalize": true,
+      "image_mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "image_std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ],
+      "do_convert_rgb": true,
+      "image_processor_type": "CLIPImageProcessor"
+    }
+  },
+  "letterboxQueries": [
+    {
+      "id": "umbrella",
+      "query": "a photo of an umbrella",
+      "ranking": [
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.31922173500061035,
+          "logit": 31.922176361083984,
+          "candidateSoftmax": 0.6666975617408752
+        },
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.3122696876525879,
+          "logit": 31.226970672607422,
+          "candidateSoftmax": 0.33266326785087585
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.2497229129076004,
+          "logit": 24.972293853759766,
+          "candidateSoftmax": 0.000639194855466485
+        }
+      ]
+    },
+    {
+      "id": "red_umbrella_blue_door",
+      "query": "a red umbrella leaning against a blue door after rain",
+      "ranking": [
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.3493344783782959,
+          "logit": 34.933448791503906,
+          "candidateSoftmax": 0.9998120665550232
+        },
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.26183533668518066,
+          "logit": 26.183536529541016,
+          "candidateSoftmax": 0.00015844544395804405
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.24506042897701263,
+          "logit": 24.506044387817383,
+          "candidateSoftmax": 2.9604258088511415e-05
+        }
+      ]
+    },
+    {
+      "id": "red_car",
+      "query": "a red car on a street",
+      "ranking": [
+        {
+          "imageId": "red_car",
+          "cosine": 0.31858962774276733,
+          "logit": 31.858964920043945,
+          "candidateSoftmax": 0.9975135326385498
+        },
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.2586425542831421,
+          "logit": 25.8642578125,
+          "candidateSoftmax": 0.0024857106618583202
+        },
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.1778813600540161,
+          "logit": 17.788137435913086,
+          "candidateSoftmax": 7.727447268734977e-07
+        }
+      ]
+    },
+    {
+      "id": "umbrella_grass",
+      "query": "an open umbrella on green grass on a sunny day",
+      "ranking": [
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.29121363162994385,
+          "logit": 29.12136459350586,
+          "candidateSoftmax": 0.9980623126029968
+        },
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.2286965548992157,
+          "logit": 22.869657516479492,
+          "candidateSoftmax": 0.0019234272185713053
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.17962752282619476,
+          "logit": 17.962753295898438,
+          "candidateSoftmax": 1.4224412552721333e-05
+        }
+      ]
+    },
+    {
+      "id": "blue_umbrella_red_door",
+      "query": "a blue umbrella leaning against a red door",
+      "ranking": [
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.3341332674026489,
+          "logit": 33.413330078125,
+          "candidateSoftmax": 0.9984424710273743
+        },
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.26879164576530457,
+          "logit": 26.879167556762695,
+          "candidateSoftmax": 0.0014506822917610407
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.24271568655967712,
+          "logit": 24.271570205688477,
+          "candidateSoftmax": 0.00010693187505239621
+        }
+      ]
+    }
+  ],
+  "letterboxRawCosineMatrix": [
+    [
+      0.3122696876525879,
+      0.2497229129076004,
+      0.31922173500061035
+    ],
+    [
+      0.3493344783782959,
+      0.24506042897701263,
+      0.26183533668518066
+    ],
+    [
+      0.2586425542831421,
+      0.31858962774276733,
+      0.1778813600540161
+    ],
+    [
+      0.2286965548992157,
+      0.17962752282619476,
+      0.29121363162994385
+    ],
+    [
+      0.3341332674026489,
+      0.24271568655967712,
+      0.26879164576530457
+    ]
+  ],
+  "model": "openai/clip-vit-base-patch32",
+  "modelCommit": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "torchVersion": "2.11.0+cu128",
+  "queryLanguage": "English",
+  "images": [
+    {
+      "id": "umbrella_blue_door",
+      "file": "../assets/inputs/01-umbrella.png",
+      "sha256": "9aaedb5b3a6175fc98bb68d172b4ff0951e1aa242c13540613d8df222b261c09"
+    },
+    {
+      "id": "red_car",
+      "file": "../assets/inputs/candidate-red-car.png",
+      "sha256": "d29aefc10870b100babd0f073504d6c7897740112574497eaa0736f0f8db06da"
+    },
+    {
+      "id": "umbrella_grass",
+      "file": "../assets/inputs/candidate-umbrella-grass.png",
+      "sha256": "a54a30a73a704edf923d3c52ff67b4f33fc96027f278d833dc8f64824094e452"
+    }
+  ],
+  "queries": [
+    {
+      "id": "umbrella",
+      "query": "a photo of an umbrella",
+      "ranking": [
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.31266364455223083,
+          "logit": 31.266366958618164,
+          "candidateSoftmax": 0.9097297191619873
+        },
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.2895570695400238,
+          "logit": 28.95570945739746,
+          "candidateSoftmax": 0.09024155884981155
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.20903487503528595,
+          "logit": 20.903488159179688,
+          "candidateSoftmax": 2.873236189770978e-05
+        }
+      ]
+    },
+    {
+      "id": "red_umbrella_blue_door",
+      "query": "a red umbrella leaning against a blue door after rain",
+      "ranking": [
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.3376060128211975,
+          "logit": 33.76060485839844,
+          "candidateSoftmax": 0.992550253868103
+        },
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.28854548931121826,
+          "logit": 28.854551315307617,
+          "candidateSoftmax": 0.007346500642597675
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.24590031802654266,
+          "logit": 24.59003448486328,
+          "candidateSoftmax": 0.00010328193457098678
+        }
+      ]
+    },
+    {
+      "id": "red_car",
+      "query": "a red car on a street",
+      "ranking": [
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.23121343553066254,
+          "logit": 23.12134552001953,
+          "candidateSoftmax": 0.5547298192977905
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.22890181839466095,
+          "logit": 22.89018440246582,
+          "candidateSoftmax": 0.4402400255203247
+        },
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.1841832399368286,
+          "logit": 18.418325424194336,
+          "candidateSoftmax": 0.005030206870287657
+        }
+      ]
+    },
+    {
+      "id": "umbrella_grass",
+      "query": "an open umbrella on green grass on a sunny day",
+      "ranking": [
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.29882895946502686,
+          "logit": 29.882898330688477,
+          "candidateSoftmax": 0.9992596507072449
+        },
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.22674626111984253,
+          "logit": 22.67462730407715,
+          "candidateSoftmax": 0.0007398880552500486
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.152737095952034,
+          "logit": 15.273711204528809,
+          "candidateSoftmax": 4.518444995937898e-07
+        }
+      ]
+    },
+    {
+      "id": "blue_umbrella_red_door",
+      "query": "a blue umbrella leaning against a red door",
+      "ranking": [
+        {
+          "imageId": "umbrella_blue_door",
+          "cosine": 0.3095061779022217,
+          "logit": 30.950620651245117,
+          "candidateSoftmax": 0.9451291561126709
+        },
+        {
+          "imageId": "umbrella_grass",
+          "cosine": 0.2808825373649597,
+          "logit": 28.088254928588867,
+          "candidateSoftmax": 0.05399848148226738
+        },
+        {
+          "imageId": "red_car",
+          "cosine": 0.23962731659412384,
+          "logit": 23.96273422241211,
+          "candidateSoftmax": 0.0008723497157916427
+        }
+      ]
+    }
+  ],
+  "rawCosineMatrix": [
+    [
+      0.2895570695400238,
+      0.20903487503528595,
+      0.31266364455223083
+    ],
+    [
+      0.3376060128211975,
+      0.24590031802654266,
+      0.28854548931121826
+    ],
+    [
+      0.23121343553066254,
+      0.22890181839466095,
+      0.1841832399368286
+    ],
+    [
+      0.22674626111984253,
+      0.152737095952034,
+      0.29882895946502686
+    ],
+    [
+      0.3095061779022217,
+      0.23962731659412384,
+      0.2808825373649597
+    ]
+  ],
+  "logitScale": 100.00000762939453,
+  "note": "Real inference of pretrained CLIP on three generated candidate images. Scores are candidate similarities, not calibrated correctness probabilities or open-domain benchmark accuracy.",
+  "pathBase": "record_directory"
+}

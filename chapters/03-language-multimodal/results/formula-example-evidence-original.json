@@ -1,0 +1,35 @@
+{
+  "type": "computed teaching examples; attention uses existing recorded evidence",
+  "norm": {
+    "input": [
+      1.4,
+      2.2,
+      1.1,
+      2.9,
+      2.4,
+      1.7
+    ],
+    "mean": 1.95,
+    "variance": 0.3758333333333333,
+    "epsilon": 1e-05,
+    "normalized": [
+      -0.8971380236766141,
+      0.40779001076209764,
+      -1.3864860365911305,
+      1.5496020408959696,
+      0.734022019371775,
+      -0.4077900107620973
+    ]
+  },
+  "loss": [
+    {
+      "p": 0.1,
+      "loss": 2.3025850929940455
+    },
+    {
+      "p": 0.8,
+      "loss": 0.2231435513142097
+    }
+  ],
+  "attentionReference": "src/visualizations/v5/evidence.ts#attentionEvidence"
+}

@@ -28,3 +28,14 @@ MNIST 原始介绍：[The MNIST Database](http://yann.lecun.com/exdb/mnist/)；�
 原曲来源：[ISRC USUAN2000021](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2000021)；[官方许可说明](https://incompetech.com/music/royalty-free/licenses/)。V18 对原曲进行了选段、循环、音量及变奏编排，并与旁白混音；不得将改编后的配乐说成本项目原创作曲。媒体通过第二章独立素材清单恢复，其登记不改变原曲、角色素材、声音或论文的权利归属。
 
 未经核实的媒体许可不得以“重绘”规避；公开视频前按来源台账逐项确认使用范围。API 凭据、私人声音参考及服务器信息不属于补充材料。
+
+
+## 第三章 · 语言连接万物
+
+- [十篇论文及精确版本](../../chapters/03-language-multimodal/docs/论文索引.md)：保留作者、论文链接、图号/页码及来源SHA-256，仓库不分发原论文PDF或论文截图。
+- [OpenAI CLIP](https://github.com/openai/CLIP) 与[模型卡](https://huggingface.co/openai/clip-vit-base-patch32)：采用公开预训练权重，revision锁定为 `3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268`。模型文件从原来源取得，不纳入本仓库；代码、权重与依赖遵循各自许可证。
+- NumPy、Pillow、PyTorch、Transformers、Hugging Face Hub、Remotion、React及TypeScript为运行依赖，未将其库源码或二进制环境打包为原创内容。
+- 字符BPE、因果注意力、计数续写和计算导出为本项目教学实现；CLIP检索调用公开模型，候选图片由本项目生成。冻结结果中的图像SHA-256用于保证可复现，不把生成场景称为真实摄影或标准评测集。
+- 自制讲义图依据已保存数据绘制；Q/K/V矩阵、六词元投影和封面芯片为教学示例，不能视为某个商用模型的内部结构或真实解释性结论。
+- 第三章音乐为 **Dawn — Sappheiros**，音效为 **Rustling leaves — Gravity Sound**；具体来源、改编与署名见[音乐来源与署名](../../chapters/03-language-multimodal/docs/音乐来源与署名.md)。文件外部恢复，登记不授予额外分发权利。
+- 第三章外部音画、论文页和字体见[独立媒体清单](../../chapters/03-language-multimodal/assets/video-manifest.json)。原制作环境的私人声音参考、API凭据、生成服务地址与逐帧视频缓存未公开。

@@ -1,0 +1,43 @@
+{
+  "version": "V15",
+  "videoVersion": "V10",
+  "title": "AI 如何理解一句话",
+  "files": [
+    {
+      "path": "covers/第三章_满幅词海_16x9_1920x1080.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 406390,
+      "sha256": "d8d0b78793f8b3c9ce04222a6805b989a5dab10d298da46f4409a36fa02d108d"
+    },
+    {
+      "path": "covers/第三章_满幅词海_4x3_1440x1080.jpg",
+      "size": [
+        1440,
+        1080
+      ],
+      "bytes": 319256,
+      "sha256": "bdc4ed680d840ea68223c2abf048ae1843d94bea2a2a4f24b40524e7e553bc00"
+    },
+    {
+      "path": "covers/第三章_满幅词海_3x4_1080x1440.jpg",
+      "size": [
+        1080,
+        1440
+      ],
+      "bytes": 345611,
+      "sha256": "038cb49548b8a47e28629068526a4fac717cd2e0eb38f6283286fb6281c4fd28"
+    },
+    {
+      "path": "covers/第三章_满幅词海_9x16_1080x1920.jpg",
+      "size": [
+        1080,
+        1920
+      ],
+      "bytes": 427415,
+      "sha256": "543507c97decd717dc29798ddd930d83f8a535d94b5bf32a33ae22f3463c28a2"
+    }
+  ]
+}

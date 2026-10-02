@@ -42,9 +42,11 @@ chapters/某一章/
 python tools/check_repository.py
 python tools/check_evidence.py
 python chapters/02-generation/experiments/check_evidence.py
+python -m pip install -r chapters/03-language-multimodal/requirements-experiments.txt
+python chapters/03-language-multimodal/experiments/check_evidence.py
 ```
 
-修改哪个视频工程，就在相应目录运行 `npm run check`，再按影响范围复查代表帧、片段、接缝或音频。CI 同时检查总览、第一章与第二章类型。
+修改哪个视频工程，就在相应目录运行 `npm run check`，再按影响范围复查代表帧、片段、接缝或音频。CI 同时检查总览及前三章类型。
 
 重点看讲解对象是否及时可见，数值/图形是否保持身份并连续插值，接缝运动和曝光是否连贯，字幕及来源是否遮挡，论文焦点是否准确。自动检查不能代替这些观看与聆听。
 

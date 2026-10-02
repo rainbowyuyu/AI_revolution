@@ -1,0 +1,1732 @@
+{
+  "method": "character_trigram_with_backoff",
+  "maxContextCharacters": 2,
+  "smoothing": 0.1,
+  "train": [
+    "雨后的红伞靠在门边，空气十分清新。",
+    "雨后的红伞靠在门边，远处亮起灯光。",
+    "雨后的红伞靠在门边，微风轻轻吹过。",
+    "雨后的红伞靠在窗边，地面还有雨水。",
+    "雨后的红伞靠在窗边，远处亮起灯光。",
+    "雨后的红伞靠在窗边，微风轻轻吹过。",
+    "雨后的红伞靠在墙边，地面还有雨水。",
+    "雨后的红伞靠在墙边，空气十分清新。",
+    "雨后的红伞靠在墙边，微风轻轻吹过。",
+    "雨后的红伞靠在桌边，地面还有雨水。",
+    "雨后的红伞靠在桌边，空气十分清新。",
+    "雨后的红伞靠在桌边，远处亮起灯光。",
+    "雨后的蓝伞靠在门边，地面还有雨水。",
+    "雨后的蓝伞靠在门边，空气十分清新。",
+    "雨后的蓝伞靠在门边，远处亮起灯光。",
+    "雨后的蓝伞靠在门边，微风轻轻吹过。",
+    "雨后的蓝伞靠在窗边，空气十分清新。",
+    "雨后的蓝伞靠在窗边，远处亮起灯光。",
+    "雨后的蓝伞靠在窗边，微风轻轻吹过。",
+    "雨后的蓝伞靠在墙边，地面还有雨水。",
+    "雨后的蓝伞靠在墙边，远处亮起灯光。",
+    "雨后的蓝伞靠在墙边，微风轻轻吹过。",
+    "雨后的蓝伞靠在桌边，地面还有雨水。",
+    "雨后的蓝伞靠在桌边，空气十分清新。",
+    "雨后的蓝伞靠在桌边，微风轻轻吹过。",
+    "雨后的黄伞靠在门边，地面还有雨水。",
+    "雨后的黄伞靠在门边，空气十分清新。",
+    "雨后的黄伞靠在门边，远处亮起灯光。",
+    "雨后的黄伞靠在窗边，地面还有雨水。",
+    "雨后的黄伞靠在窗边，空气十分清新。",
+    "雨后的黄伞靠在窗边，远处亮起灯光。",
+    "雨后的黄伞靠在窗边，微风轻轻吹过。",
+    "雨后的黄伞靠在墙边，空气十分清新。",
+    "雨后的黄伞靠在墙边，远处亮起灯光。",
+    "雨后的黄伞靠在墙边，微风轻轻吹过。",
+    "雨后的黄伞靠在桌边，地面还有雨水。",
+    "雨后的黄伞靠在桌边，远处亮起灯光。",
+    "雨后的黄伞靠在桌边，微风轻轻吹过。",
+    "雨后的黑伞靠在门边，地面还有雨水。",
+    "雨后的黑伞靠在门边，空气十分清新。",
+    "雨后的黑伞靠在门边，微风轻轻吹过。",
+    "雨后的黑伞靠在窗边，地面还有雨水。",
+    "雨后的黑伞靠在窗边，空气十分清新。",
+    "雨后的黑伞靠在窗边，远处亮起灯光。",
+    "雨后的黑伞靠在墙边，地面还有雨水。",
+    "雨后的黑伞靠在墙边，空气十分清新。",
+    "雨后的黑伞靠在墙边，远处亮起灯光。",
+    "雨后的黑伞靠在墙边，微风轻轻吹过。",
+    "雨后的黑伞靠在桌边，空气十分清新。",
+    "雨后的黑伞靠在桌边，远处亮起灯光。",
+    "雨后的黑伞靠在桌边，微风轻轻吹过。"
+  ],
+  "test": [
+    "雨后的红伞靠在门边，地面还有雨水。",
+    "雨后的红伞靠在窗边，空气十分清新。",
+    "雨后的红伞靠在墙边，远处亮起灯光。",
+    "雨后的红伞靠在桌边，微风轻轻吹过。",
+    "雨后的蓝伞靠在窗边，地面还有雨水。",
+    "雨后的蓝伞靠在墙边，空气十分清新。",
+    "雨后的蓝伞靠在桌边，远处亮起灯光。",
+    "雨后的黄伞靠在门边，微风轻轻吹过。",
+    "雨后的黄伞靠在墙边，地面还有雨水。",
+    "雨后的黄伞靠在桌边，空气十分清新。",
+    "雨后的黑伞靠在门边，远处亮起灯光。",
+    "雨后的黑伞靠在窗边，微风轻轻吹过。",
+    "雨后的黑伞靠在桌边，地面还有雨水。"
+  ],
+  "vocabulary": [
+    "<EOS>",
+    "。",
+    "亮",
+    "伞",
+    "光",
+    "分",
+    "十",
+    "后",
+    "吹",
+    "在",
+    "地",
+    "墙",
+    "处",
+    "微",
+    "新",
+    "有",
+    "桌",
+    "气",
+    "水",
+    "清",
+    "灯",
+    "的",
+    "空",
+    "窗",
+    "红",
+    "蓝",
+    "起",
+    "轻",
+    "边",
+    "过",
+    "还",
+    "远",
+    "门",
+    "雨",
+    "靠",
+    "面",
+    "风",
+    "黄",
+    "黑",
+    "，"
+  ],
+  "trainCount": 51,
+  "testCount": 13,
+  "split": "enumerated combinations, index mod 5 == 0 held out",
+  "metrics": {
+    "unigram": {
+      "meanNLL": 3.4509605611277547,
+      "perplexity": 31.53066489811738,
+      "predictedTokens": 234
+    },
+    "trigram": {
+      "meanNLL": 0.5781930003906346,
+      "perplexity": 1.782813974176668,
+      "predictedTokens": 234
+    }
+  },
+  "contexts": [
+    {
+      "prefix": "雨后的红",
+      "context": "的红",
+      "orderUsed": 2,
+      "count": 12,
+      "distribution": [
+        {
+          "token": "伞",
+          "probability": 0.7562500000000001,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "在",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "地",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "墙",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "微",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "桌",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "空",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "窗",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "边",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "远",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "门",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "靠",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.006250000000000001,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.006250000000000001,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "prefix": "雨后的红伞",
+      "context": "红伞",
+      "orderUsed": 2,
+      "count": 12,
+      "distribution": [
+        {
+          "token": "靠",
+          "probability": 0.75625,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "在",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "地",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "墙",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "微",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "桌",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "空",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "窗",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "边",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "远",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "门",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.00625,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.00625,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "prefix": "雨后的红伞靠",
+      "context": "伞靠",
+      "orderUsed": 2,
+      "count": 51,
+      "distribution": [
+        {
+          "token": "在",
+          "probability": 0.9290909090909091,
+          "count": 51
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "地",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "墙",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "微",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "桌",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "空",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "窗",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "边",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "远",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "门",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "靠",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "prefix": "雨后的红伞靠在",
+      "context": "靠在",
+      "orderUsed": 2,
+      "count": 51,
+      "distribution": [
+        {
+          "token": "墙",
+          "probability": 0.2381818181818182,
+          "count": 13
+        },
+        {
+          "token": "窗",
+          "probability": 0.2381818181818182,
+          "count": 13
+        },
+        {
+          "token": "门",
+          "probability": 0.2381818181818182,
+          "count": 13
+        },
+        {
+          "token": "桌",
+          "probability": 0.22,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "在",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "地",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "微",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "空",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "边",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "远",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "靠",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "prefix": "雨后的红伞靠在门",
+      "context": "在门",
+      "orderUsed": 2,
+      "count": 13,
+      "distribution": [
+        {
+          "token": "边",
+          "probability": 0.7705882352941176,
+          "count": 13
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "在",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "地",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "墙",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "微",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "桌",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "空",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "窗",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "远",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "门",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "靠",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "prefix": "雨后的红伞靠在门边，",
+      "context": "边，",
+      "orderUsed": 2,
+      "count": 51,
+      "distribution": [
+        {
+          "token": "微",
+          "probability": 0.23818181818181813,
+          "count": 13
+        },
+        {
+          "token": "空",
+          "probability": 0.23818181818181813,
+          "count": 13
+        },
+        {
+          "token": "远",
+          "probability": 0.23818181818181813,
+          "count": 13
+        },
+        {
+          "token": "地",
+          "probability": 0.21999999999999995,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "在",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "墙",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "桌",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "窗",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "边",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "门",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "靠",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.0018181818181818177,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "prefix": "雨后的青色木门",
+      "context": "门",
+      "orderUsed": 1,
+      "count": 13,
+      "distribution": [
+        {
+          "token": "边",
+          "probability": 0.7705882352941176,
+          "count": 13
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "光",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "分",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "十",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "后",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "吹",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "在",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "地",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "墙",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "处",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "微",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "新",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "有",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "桌",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "气",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "水",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "清",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "灯",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "的",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "空",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "窗",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "红",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "蓝",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "起",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "轻",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "过",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "还",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "远",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "门",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "雨",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "靠",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "面",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "风",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "黄",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "黑",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        },
+        {
+          "token": "，",
+          "probability": 0.0058823529411764705,
+          "count": 0
+        }
+      ]
+    }
+  ],
+  "temperatureExamples": [
+    {
+      "temperature": 0.5,
+      "distribution": [
+        {
+          "token": "墙",
+          "probability": 0.2593863361547763,
+          "count": 13
+        },
+        {
+          "token": "窗",
+          "probability": 0.2593863361547763,
+          "count": 13
+        },
+        {
+          "token": "门",
+          "probability": 0.2593863361547763,
+          "count": 13
+        },
+        {
+          "token": "桌",
+          "probability": 0.2212968561064087,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 1.5114873035066504e-05,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 1.5114873035066504e-05,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 1.5114873035066504e-05,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 1.5114873035066504e-05,
+          "count": 0
+        }
+      ],
+      "seed": 12,
+      "text": "雨后的红伞靠在墙边，微风轻轻吹过。"
+    },
+    {
+      "temperature": 1,
+      "distribution": [
+        {
+          "token": "墙",
+          "probability": 0.2381818181818182,
+          "count": 13
+        },
+        {
+          "token": "窗",
+          "probability": 0.2381818181818182,
+          "count": 13
+        },
+        {
+          "token": "门",
+          "probability": 0.2381818181818182,
+          "count": 13
+        },
+        {
+          "token": "桌",
+          "probability": 0.22,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.0018181818181818182,
+          "count": 0
+        }
+      ],
+      "seed": 12,
+      "text": "雨后的红伞靠地面还有雨水。窗新。"
+    },
+    {
+      "temperature": 1.5,
+      "distribution": [
+        {
+          "token": "墙",
+          "probability": 0.18712130775843805,
+          "count": 13
+        },
+        {
+          "token": "窗",
+          "probability": 0.18712130775843805,
+          "count": 13
+        },
+        {
+          "token": "门",
+          "probability": 0.18712130775843805,
+          "count": 13
+        },
+        {
+          "token": "桌",
+          "probability": 0.17747313749227503,
+          "count": 12
+        },
+        {
+          "token": "<EOS>",
+          "probability": 0.007254526089789189,
+          "count": 0
+        },
+        {
+          "token": "。",
+          "probability": 0.007254526089789189,
+          "count": 0
+        },
+        {
+          "token": "亮",
+          "probability": 0.007254526089789189,
+          "count": 0
+        },
+        {
+          "token": "伞",
+          "probability": 0.007254526089789189,
+          "count": 0
+        }
+      ],
+      "seed": 12,
+      "text": "雨后的红伞靠靠在墙边，地面雨空气地面还。"
+    }
+  ],
+  "note": "Synthetic controlled corpus, count baseline; not a Transformer, not an open-world language benchmark."
+}

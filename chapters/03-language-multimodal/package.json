@@ -1,0 +1,22 @@
+{
+  "name": "rainbow-ai-evolution-ch03-language",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "studio": "node scripts/restore-video-assets.mjs --check && remotion studio src/index-v10.tsx",
+    "render": "node scripts/restore-video-assets.mjs --check && remotion render src/index-v10.tsx Chapter03-V10-1080 output/ch03-language-1080p.mp4 --codec=h264 --crf=18"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.526",
+    "remotion": "4.0.526",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "22.10.2"
+  }
+}

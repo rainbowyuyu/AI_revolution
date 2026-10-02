@@ -1,0 +1,56 @@
+{
+  "version": "5.0",
+  "additionalLayers": [
+    {
+      "id": "transformer",
+      "page": 4,
+      "box": [
+        194,
+        451,
+        428,
+        497
+      ],
+      "image": "papers/v5/transformer-4-equation.png",
+      "scale": 8,
+      "sha256": "c9cab3af862b97278cd204e0bed0bf83c74274e202b92902d0d9194adb5b0f77"
+    }
+  ],
+  "cameraBoxes": {
+    "transformerDiagram": [
+      143,
+      58,
+      491,
+      400
+    ],
+    "decoderMasked": [
+      297,
+      237,
+      461,
+      401
+    ],
+    "decoderCrossAttention": [
+      206,
+      135,
+      461,
+      293
+    ],
+    "attentionEquation": [
+      204,
+      453,
+      414,
+      498
+    ],
+    "multiheadDiagram": [
+      304,
+      50,
+      506,
+      269
+    ],
+    "instructgptProcess": [
+      100,
+      65,
+      514,
+      300
+    ]
+  }
+}

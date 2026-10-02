@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "sourceProject": "ai_evolution_ch03_language",
+  "migrationDate": "2026-10-02",
+  "notes": [
+    "All source paths are relative to the production project; all published paths are relative to this chapter.",
+    "Byte-identical files are stored once. The original CLIP JSON is archived because its paths were migrated.",
+    "Input scenes are original project-generated images used as fixed retrieval candidates, not external stock photography.",
+    "The original formula record has a production-source attentionReference; the portable formula_examples.json is a separately computed teaching export.",
+    "results/.gitattributes disables text normalization so original CRLF evidence bytes survive Git checkouts. New Python source uses LF."
+  ],
+  "originalEnvironments": {
+    "mechanisms": {
+      "python": "3.13.14",
+      "numpy": "2.4.4"
+    },
+    "clip": {
+      "python": "3.12.10",
+      "torch": "2.11.0+cu128",
+      "device": "cpu",
+      "transformers": "4.57.3",
+      "huggingface-hub": "0.35.3",
+      "numpy": "2.5.3",
+      "Pillow": "12.3.0"
+    }
+  },
+  "files": [
+    {
+      "source": "research/v2/experiments/tokenization.json",
+      "published": "results/tokenization.json",
+      "sourceSha256": "88868433baa821316933f6c57e7e7aba0de8fde50a6cf09fa28508e10d367fad",
+      "publishedSha256": "88868433baa821316933f6c57e7e7aba0de8fde50a6cf09fa28508e10d367fad",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/causal_attention.json",
+      "published": "results/causal_attention.json",
+      "sourceSha256": "bf0a7dbc7367ec91a7752d2c9afd69884b9174bda1179ff94bacb548f6e00532",
+      "publishedSha256": "bf0a7dbc7367ec91a7752d2c9afd69884b9174bda1179ff94bacb548f6e00532",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/next_token.json",
+      "published": "results/next_token.json",
+      "sourceSha256": "3ce2e4bce11cf2a2f0058352e759bcefa3aa2ebc1363b7e7d64c7bbd251b426d",
+      "publishedSha256": "3ce2e4bce11cf2a2f0058352e759bcefa3aa2ebc1363b7e7d64c7bbd251b426d",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/sampling_trace.json",
+      "published": "results/sampling_trace.json",
+      "sourceSha256": "82fbc7f8aa00627f14715e31d4b1223c1ad9c38fe611fa1a3d2d0fb9647ed246",
+      "publishedSha256": "82fbc7f8aa00627f14715e31d4b1223c1ad9c38fe611fa1a3d2d0fb9647ed246",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip-inputs/center-crop-red_car.png",
+      "published": "results/clip-inputs/center-crop-red_car.png",
+      "sourceSha256": "19b4c1b29ff3615843d7df5125c5974fb430ea04da44f6fcd66a102376155d6a",
+      "publishedSha256": "19b4c1b29ff3615843d7df5125c5974fb430ea04da44f6fcd66a102376155d6a",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip-inputs/center-crop-umbrella_blue_door.png",
+      "published": "results/clip-inputs/center-crop-umbrella_blue_door.png",
+      "sourceSha256": "453e7252ff267308883a60816be1e7645bc11f8b7f13b976e961446fdce351f5",
+      "publishedSha256": "453e7252ff267308883a60816be1e7645bc11f8b7f13b976e961446fdce351f5",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip-inputs/center-crop-umbrella_grass.png",
+      "published": "results/clip-inputs/center-crop-umbrella_grass.png",
+      "sourceSha256": "0aa2ee66c5c85f9f6c8adf412338f02c01145c49b482a9f10dd20d5e884c76b0",
+      "publishedSha256": "0aa2ee66c5c85f9f6c8adf412338f02c01145c49b482a9f10dd20d5e884c76b0",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip-inputs/letterbox-red_car.png",
+      "published": "results/clip-inputs/letterbox-red_car.png",
+      "sourceSha256": "157397674b3bad8135263da8ec7af4e2ef51d6cce6253300e4fbe7fd82734843",
+      "publishedSha256": "157397674b3bad8135263da8ec7af4e2ef51d6cce6253300e4fbe7fd82734843",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip-inputs/letterbox-umbrella_blue_door.png",
+      "published": "results/clip-inputs/letterbox-umbrella_blue_door.png",
+      "sourceSha256": "f472d0407eb09006b967d318f6f77d12a5658c4c42f574e28599d34cdb077062",
+      "publishedSha256": "f472d0407eb09006b967d318f6f77d12a5658c4c42f574e28599d34cdb077062",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip-inputs/letterbox-umbrella_grass.png",
+      "published": "results/clip-inputs/letterbox-umbrella_grass.png",
+      "sourceSha256": "966af67df92e40c481f4c1eb09eac835696adeb875d41924529c29ced0b444ae",
+      "publishedSha256": "966af67df92e40c481f4c1eb09eac835696adeb875d41924529c29ced0b444ae",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "public/media/v2/01-umbrella.png",
+      "published": "assets/inputs/01-umbrella.png",
+      "sourceSha256": "9aaedb5b3a6175fc98bb68d172b4ff0951e1aa242c13540613d8df222b261c09",
+      "publishedSha256": "9aaedb5b3a6175fc98bb68d172b4ff0951e1aa242c13540613d8df222b261c09",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "public/media/v2/candidate-red-car.png",
+      "published": "assets/inputs/candidate-red-car.png",
+      "sourceSha256": "d29aefc10870b100babd0f073504d6c7897740112574497eaa0736f0f8db06da",
+      "publishedSha256": "d29aefc10870b100babd0f073504d6c7897740112574497eaa0736f0f8db06da",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "public/media/v2/candidate-umbrella-grass.png",
+      "published": "assets/inputs/candidate-umbrella-grass.png",
+      "sourceSha256": "a54a30a73a704edf923d3c52ff67b4f33fc96027f278d833dc8f64824094e452",
+      "publishedSha256": "a54a30a73a704edf923d3c52ff67b4f33fc96027f278d833dc8f64824094e452",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "docs/v8/formula-example-evidence.json",
+      "published": "results/formula-example-evidence-original.json",
+      "sourceSha256": "790fa786bc25b562437b44071fd591274ebb4d52ea873da6a7627838581fb6e3",
+      "publishedSha256": "790fa786bc25b562437b44071fd591274ebb4d52ea873da6a7627838581fb6e3",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip_retrieval.json",
+      "published": "results/original/clip_retrieval.json",
+      "sourceSha256": "cc6e9123b30a9e2f8fa6fbabd3bfc1767c1528c5e0e5a2e290012a927d93dcd7",
+      "publishedSha256": "cc6e9123b30a9e2f8fa6fbabd3bfc1767c1528c5e0e5a2e290012a927d93dcd7",
+      "transformation": "exact byte copy"
+    },
+    {
+      "source": "research/v2/experiments/clip_retrieval.json",
+      "originalArchive": "results/original/clip_retrieval.json",
+      "published": "results/clip_retrieval.json",
+      "sourceSha256": "cc6e9123b30a9e2f8fa6fbabd3bfc1767c1528c5e0e5a2e290012a927d93dcd7",
+      "publishedSha256": "6ca3e9d87d2f3dfc0c11136aba8d304423be94b006ca454f9b8f8f5981691b07",
+      "transformation": "paths only; added pathBase=record_directory; all model outputs unchanged",
+      "pathChanges": [
+        {
+          "field": "images[0].file",
+          "original": "public/media/v2/01-umbrella.png",
+          "published": "../assets/inputs/01-umbrella.png"
+        },
+        {
+          "field": "images[1].file",
+          "original": "public/media/v2/candidate-red-car.png",
+          "published": "../assets/inputs/candidate-red-car.png"
+        },
+        {
+          "field": "images[2].file",
+          "original": "public/media/v2/candidate-umbrella-grass.png",
+          "published": "../assets/inputs/candidate-umbrella-grass.png"
+        },
+        {
+          "field": "preprocessing.originalInputs[0]",
+          "original": "research/v2/experiments/clip-inputs/center-crop-umbrella_blue_door.png",
+          "published": "clip-inputs/center-crop-umbrella_blue_door.png"
+        },
+        {
+          "field": "preprocessing.originalInputs[1]",
+          "original": "research/v2/experiments/clip-inputs/center-crop-red_car.png",
+          "published": "clip-inputs/center-crop-red_car.png"
+        },
+        {
+          "field": "preprocessing.originalInputs[2]",
+          "original": "research/v2/experiments/clip-inputs/center-crop-umbrella_grass.png",
+          "published": "clip-inputs/center-crop-umbrella_grass.png"
+        },
+        {
+          "field": "preprocessing.controlInputs[0]",
+          "original": "research/v2/experiments/clip-inputs/letterbox-umbrella_blue_door.png",
+          "published": "clip-inputs/letterbox-umbrella_blue_door.png"
+        },
+        {
+          "field": "preprocessing.controlInputs[1]",
+          "original": "research/v2/experiments/clip-inputs/letterbox-red_car.png",
+          "published": "clip-inputs/letterbox-red_car.png"
+        },
+        {
+          "field": "preprocessing.controlInputs[2]",
+          "original": "research/v2/experiments/clip-inputs/letterbox-umbrella_grass.png",
+          "published": "clip-inputs/letterbox-umbrella_grass.png"
+        }
+      ]
+    },
+    {
+      "source": "src/visualizations/v10/SpatialAttention.tsx + docs/v8/formula-example-evidence.json",
+      "published": "results/formula_examples.json",
+      "publishedSha256": "f664fac5d50242a83e2c2e85c54a4bac40a048b0a92042ec9feefbeb6f5bddea",
+      "transformation": "fresh numerical export from documented teaching inputs and the exact 6 x 2 projection construction; normalization/loss checked against original record"
+    }
+  ],
+  "codeProvenance": [
+    {
+      "source": "experiments/v2/run_mechanisms.py",
+      "sourceSha256": "30e248f818dc8e5874b8ba052ed81c280e4e68848078a40212bbc2243d660c04",
+      "published": "experiments/run_mechanisms.py",
+      "publishedSha256": "c23a72be343504fcaf1cdb6a701e664e5ac751411a5049be2ac0a58a0eeb74a1",
+      "transformation": "Exact math preserved; wrapped as callable computation; added portable CLI and sampling trace; formula export included."
+    },
+    {
+      "source": "experiments/v2/run_clip.py",
+      "sourceSha256": "2abed1d3465ec28bde3d7aa27c319df36de16dbef8234cb2b817e165ac866a76",
+      "published": "experiments/run_clip.py",
+      "publishedSha256": "4ed8f47312b7750764489a667ff5b89e4e802653a4918af803d0bb60366e68e3",
+      "transformation": "Same model revision, input order, preprocessing and arithmetic; portable input/output paths, local-cache option, no temporary sys.path dependency."
+    },
+    {
+      "source": "src/visualizations/v10/SpatialAttention.tsx",
+      "sourceSha256": "5caada98735eeaf59e4e11d105401c275135e8782973aac35ef9cc6c0d461043",
+      "published": "experiments/run_formula_examples.py",
+      "publishedSha256": "62a9894c83f97a44766db84f26d4c15c791c20e43e4e9184d8d0ee0e30d2e4e2",
+      "transformation": "Exports constructed 6 x 2 projection; additionally computes normalization and negative log likelihood from original V8 examples."
+    }
+  ],
+  "additionalOriginalSources": [
+    {
+      "source": "research/v2/opus/build-sampling-trace.py",
+      "sha256": "dc0030b3fe0fa85cf496af925edeebad6781fc3093016fc4736f4c620cef9c30"
+    },
+    {
+      "source": "docs/v8/formula-example-evidence.json",
+      "sha256": "790fa786bc25b562437b44071fd591274ebb4d52ea873da6a7627838581fb6e3"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve the released subtitle file byte-for-byte.
+*.srt -text whitespace=cr-at-eol

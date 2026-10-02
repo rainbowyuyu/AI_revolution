@@ -11,11 +11,13 @@ jobs:
       - run: python tools/check_repository.py
       - run: python tools/check_evidence.py
       - run: python chapters/02-generation/experiments/check_evidence.py
+      - run: python -m pip install -r chapters/03-language-multimodal/requirements-experiments.txt
+      - run: python chapters/03-language-multimodal/experiments/check_evidence.py
   types:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [overview, chapters/01-vision-choice, chapters/02-generation]
+        project: [overview, chapters/01-vision-choice, chapters/02-generation, chapters/03-language-multimodal]
     defaults:
       run:
         working-directory: ${{ matrix.project }}

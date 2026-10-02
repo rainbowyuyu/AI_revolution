@@ -2,17 +2,42 @@
   "id": "03",
   "path": "chapters/03-language-multimodal",
   "title": "语言连接万物",
-  "status": "planned",
+  "status": "materials-ready",
   "topics": [
+    "Tokenization",
     "Transformer",
     "LLM",
     "CLIP",
     "SFT",
     "RLHF",
+    "DPO",
     "Multimodal"
   ],
-  "goal": "让模型根据一句话找到对应图片，再理解语言与其他模态如何建立联系。",
-  "experimentsStatus": "not-started",
-  "results": null,
-  "preview": null
+  "goal": "从红伞与蓝门的任务出发，理解分词、注意力、下一词预测、图文检索与多模态连接。",
+  "experimentsStatus": "completed",
+  "results": "docs/实验结果.md",
+  "preview": {
+    "version": "V10",
+    "width": 1920,
+    "height": 1080,
+    "tracked": false,
+    "note": "完整1080p成片保留在原制作工程及备份，当前未新增4K。"
+  },
+  "version": "V10",
+  "publicationTitle": "AI 如何理解一句话",
+  "composition": "Chapter03-V10-1080",
+  "fps": 30,
+  "frames": 71820,
+  "updatedOn": "2026-10-02",
+  "materials": {
+    "guide": "docs/图文讲义.md",
+    "reproduction": "docs/实验复现.md",
+    "results": "docs/实验结果.md",
+    "papers": "docs/论文索引.md",
+    "narration": "supplements/口播.md",
+    "subtitles": "supplements/中文字幕_V10.srt",
+    "timeline": "supplements/timeline.json",
+    "videoAssets": "assets/video-manifest.json",
+    "publication": "publication/2026-10-02/README.md"
+  }
 }

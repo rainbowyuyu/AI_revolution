@@ -1,5 +1,6 @@
 """Offline checks of repository metadata, evidence, paths and publication hygiene."""
 import ast,json,math,re,subprocess
+from urllib.parse import unquote
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def main():
@@ -37,6 +38,38 @@ def main():
   if scene['startFrame']!=end or scene['durationFrames']<=0:errors.append('Chapter 02 timeline gap or overlap')
   end=scene['startFrame']+scene['durationFrames']
  if end!=meta['frames']:errors.append('Chapter 02 timeline does not cover declared duration')
+ ch03=ROOT/'chapters/03-language-multimodal'
+ registered03=next(c for c in series['chapters'] if c['id']=='03')
+ meta03=json.loads((ch03/'chapter.json').read_text(encoding='utf8'))
+ timeline03=json.loads((ch03/'supplements/timeline.json').read_text(encoding='utf8'))
+ for key in ('status','version','composition','fps','frames'):
+  if meta03.get(key)!=registered03.get(key):errors.append('Chapter 03 registry mismatch: '+key)
+ if meta03['fps']!=timeline03['fps'] or meta03['frames']!=timeline03['durationFrames']:errors.append('Chapter 03 timeline metadata mismatch')
+ for rel in meta03.get('materials',{}).values():
+  if not (ch03/rel).resolve().is_relative_to(ch03) or not (ch03/rel).is_file():errors.append('Chapter 03 material path invalid: '+rel)
+ end03=0
+ for section in timeline03['sections']:
+  if section['from']!=end03 or section['to']<=section['from']:errors.append('Chapter 03 section gap or overlap')
+  end03=section['to']
+ if end03!=meta03['frames']:errors.append('Chapter 03 sections do not cover duration')
+ unit_ids={u['id'] for u in timeline03['units']}
+ if len(unit_ids)!=len(timeline03['units']):errors.append('Chapter 03 duplicate unit ID')
+ section_ids={s['id'] for s in timeline03['sections']}
+ for unit in timeline03['units']:
+  if unit['section'] not in section_ids or not 0<=unit['from']<unit['to']<=meta03['frames']:errors.append('Chapter 03 invalid unit bounds')
+ caption_end=0
+ for caption in timeline03['captions']:
+  if not caption_end<=caption['from']<caption['to']<=meta03['frames']:errors.append('Chapter 03 subtitle overlap/bounds')
+  caption_end=caption['to']
+ # Check only the newly maintained chapter and root entry, not third-party URLs.
+ for doc in [ROOT/'README.md',*ch03.rglob('*.md')]:
+  if any(part in ('node_modules','runs') for part in doc.parts):continue
+  content=doc.read_text(encoding='utf-8-sig')
+  links=re.findall(r'!?\[[^\]]*\]\(([^\s)]+)',content)+re.findall(r'(?:src|href)="([^"]+)"',content)
+  for link in links:
+   if link.startswith(('https:','http:','mailto:','#','data:')):continue
+   local=unquote(link.split('#',1)[0])
+   if local and not (doc.parent/local).exists():errors.append(str(doc.relative_to(ROOT))+': broken local link '+local)
  public=(ch02/'public').resolve()
  for asset in json.loads((ch02/'assets/video-manifest.json').read_text(encoding='utf8'))['assets']:
   if not (public/asset['path']).resolve().is_relative_to(public):errors.append('Chapter 02 asset escapes public directory')
@@ -51,6 +84,6 @@ def main():
   if len(r['games'])!=60 or r['wins']+r['draws']+r['losses']!=60:errors.append('Search result count mismatch')
  for m in json.loads((ROOT/'shared/assets/manifest.json').read_text(encoding='utf8'))['assets']:
   if not (ROOT/m['path']).resolve().is_relative_to(ROOT):errors.append('Asset path escapes repository')
- print(json.dumps(dict(files=count,errors=errors,checks=['JSON/Python syntax','credential patterns (values suppressed)','chapter registry','CNN distributions','MCTS game counts','asset path bounds','Chapter 02 registry/materials/timeline']),ensure_ascii=False,indent=2))
+ print(json.dumps(dict(files=count,errors=errors,checks=['JSON/Python syntax','credential patterns (values suppressed)','chapter registry','CNN distributions','MCTS game counts','asset path bounds','Chapter 02 registry/materials/timeline','Chapter 03 registry/materials/timeline/subtitles/local links']),ensure_ascii=False,indent=2))
  if errors:raise SystemExit(1)
 if __name__=='__main__':main()

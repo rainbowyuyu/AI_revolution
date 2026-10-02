@@ -1,0 +1,4 @@
+# Python 3.13 was used for the frozen mechanism evidence.
+# Pillow only checks the saved image input dimensions; no model is loaded.
+numpy==2.4.4
+Pillow>=12.2.0,<13

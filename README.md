@@ -16,30 +16,38 @@
 
 <p align="center">
   <a href="https://github.com/rainbowyuyu/AI_revolution/actions/workflows/check.yml"><img src="https://github.com/rainbowyuyu/AI_revolution/actions/workflows/check.yml/badge.svg?branch=main" alt="源码与实验检查"></a><br>
-  <sub>6 章计划 · 总览 + 2 章资料已整理 · rainbow鱼 持续创作</sub>
+  <sub>6 章计划 · 总览 + 3 章资料已整理 · rainbow鱼 持续创作</sub>
 </p>
 
 ## 从一个问题出发
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="overview/README.md"><img src="shared/assets/readme/overview.jpg" alt="系列总览：AI是怎样走到今天的？" width="100%"></a>
       <h3>先把整张地图展开</h3>
       <p>从看见，到创造，再到走进物理世界。先用三分钟认识这条路线。</p>
       <a href="overview/README.md"><strong>进入系列总览 →</strong></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="chapters/01-vision-choice/README.md"><img src="shared/assets/readme/chapter-01.jpg" alt="第一章：电脑怎样认出这只猫？" width="100%"></a>
       <h3>电脑怎样认出一只猫？</h3>
       <p>让它认图、扶稳一根杆、下一步棋。三个实验串起看见与选择。</p>
       <a href="chapters/01-vision-choice/README.md"><strong>第一章 · 开始探索 →</strong></a>
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="chapters/02-generation/README.md"><img src="shared/assets/readme/chapter-02.jpg" alt="第二章：AI怎么画出真实图像？小狗踏雪" width="100%"></a>
       <h3>一团噪声怎样变成图像？</h3>
       <p>从八团点到手写数字，再到踏雪的新场景，拆开生成的计算过程。</p>
       <a href="chapters/02-generation/README.md"><strong>第二章 · 开始探索 →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="chapters/03-language-multimodal/README.md"><img src="chapters/03-language-multimodal/publication/2026-10-02/covers/第三章_满幅词海_16x9_1920x1080.jpg" alt="第三章：AI如何理解一句话？红伞、词海与注意力" width="100%"></a>
+      <h3>AI 如何理解一句话？</h3>
+      <p>从红伞找图出发，看词语怎样联系上下文，再亲手算一次注意力。</p>
+      <a href="chapters/03-language-multimodal/README.md"><strong>第三章 · 开始探索 →</strong></a>
     </td>
   </tr>
 </table>
@@ -54,7 +62,7 @@
 |---|---|---|
 | **[01 · 看见与选择](chapters/01-vision-choice/README.md)** | 像素怎样成为判断？反馈怎样改变行动？ | 资料已整理 |
 | **[02 · 从识别到创造](chapters/02-generation/README.md)** | 随机数怎样生成图像？怎样让图像符合条件？ | 资料已整理 |
-| **[03 · 语言连接万物](chapters/03-language-multimodal/README.md)** | 文字、图像和声音怎样建立联系？ | 规划中 |
+| **[03 · 语言连接万物](chapters/03-language-multimodal/README.md)** | 文字、图像和声音怎样建立联系？ | 资料已整理 |
 | **[04 · 走进三维世界](chapters/04-space-time/README.md)** | 几张照片，怎样变成可以绕行的空间？ | 规划中 |
 | **[05 · 从回答到完成](chapters/05-reasoning-agents/README.md)** | 怎样让 AI 查资料、运行代码、完成任务？ | 规划中 |
 | **[06 · 预测，然后行动](chapters/06-world-action/README.md)** | 怎样预测变化，并把语言连接到真实动作？ | 规划中 |
@@ -67,10 +75,10 @@
 
 **从噪声里，慢慢出现一个数字。** 上面的动图回放第二章保存的真实 DDPM 采样帧；公式、代码与每一步的结果，都可以在章内对照查看。
 
-| 想试一次“看见与选择” | 想试一次“从识别到创造” |
-|---|---|
-| [认图片 → 控制平衡杆 → 四子棋搜索](chapters/01-vision-choice/docs/复现实验.md) | [生成八团点 → 生成手写数字](chapters/02-generation/docs/实验复现.md) |
-| [查看实际结果与失败案例](chapters/01-vision-choice/docs/实验结果.md) | [查看训练结果与采样过程](chapters/02-generation/docs/实验结果.md) |
+| 看见与选择 | 从识别到创造 | 语言连接万物 |
+|---|---|---|
+| [认图片 → 控制平衡杆 → 四子棋搜索](chapters/01-vision-choice/docs/复现实验.md) | [生成八团点 → 生成手写数字](chapters/02-generation/docs/实验复现.md) | [分词 → 注意力 → 续写 → 图文检索](chapters/03-language-multimodal/docs/实验复现.md) |
+| [实际结果与失败案例](chapters/01-vision-choice/docs/实验结果.md) | [训练结果与采样过程](chapters/02-generation/docs/实验结果.md) | [检索为什么会选错](chapters/03-language-multimodal/docs/实验结果.md) |
 
 <details>
 <summary><strong>第一次来，怎么选择阅读方式？</strong></summary>

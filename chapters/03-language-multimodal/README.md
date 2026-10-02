@@ -1,11 +1,82 @@
-# 第03章 · 语言连接万物
+# 第三章 · 语言连接万物
 
-**状态：规划，尚未实跑实验、制作成片或产生本章指标。**
+![AI 如何理解一句话](publication/2026-10-02/covers/第三章_满幅词海_16x9_1920x1080.jpg)
 
-让模型根据一句话找到对应图片，再理解语言与其他模态如何建立联系。
+**AI 如何理解一句话？** 从“找一张红伞靠在蓝色门边的照片，再接着说一句话”出发，沿着分词、向量、注意力、下一词预测、图文检索和指令学习，拆开语言模型的计算过程。
 
-核心内容：Transformer、LLM、CLIP、SFT、RLHF、Multimodal。
+当前资料对应 **V10，1920×1080，30 fps，71,820 帧，39 分 54 秒**。配套讲义与实验已整理；GitHub 保存学习材料、冻结结果和当前动画源码，完整成片、配乐、旁白和大型媒体保留在原制作工程及备份中。当前版本没有新增4K成片。
 
-[本章制作计划](docs/plan.md) · [共享维护流程](../../shared/docs/MAINTENANCE.md) · [章节模板](../../shared/templates/chapter/README.md) · [系列登记表](../../series.json)
+[返回系列](../../README.md) · [上一章：从识别到创造](../02-generation/README.md) · [下一章：走进三维世界（规划）](../04-space-time/README.md)
 
-实施时在本目录新增独立的 src、scripts、research、public/experiments、supplements 和必要的 manim；复用风格，不复制第一章实验结果。当前这里只保存真实的规划文档。
+## 选择你的入口
+
+| 你想做什么 | 从这里开始 |
+|---|---|
+| 先看懂文字怎样变成计算 | [图文讲义](docs/图文讲义.md) |
+| 跟着视频找某个概念 | [24节时间导航](supplements/章节时间索引.md)、[完整口播](supplements/口播.md) |
+| 下载字幕 | [V10中文字幕：775条](supplements/中文字幕_V10.srt) |
+| 自己运行分词、注意力与续写 | [实验复现](docs/实验复现.md)、[实验结果](docs/实验结果.md) |
+| 试试一句话找图片 | [CLIP检索与预处理对照](docs/实验复现.md#实验二clip图文检索) |
+| 查论文、继续深入 | [10篇论文索引](docs/论文索引.md) |
+| 修改动画、恢复视频工程 | [视频工程](docs/视频工程.md) |
+| 查看封面、发布文案与署名 | [四比例封面及发布资料](publication/2026-10-02/README.md)、[音乐署名](docs/音乐来源与署名.md) |
+
+## 这一章讲什么
+
+1. 从红伞、蓝门和它们的位置关系进入：计算机需要怎样表示这个任务。
+2. 文字如何被切成词元、映射为向量，位置信息为什么不能丢。
+3. Q/K/V、缩放点积、softmax与因果遮罩怎样工作；再组合成多头注意力和Transformer层。
+4. 下一词元预测怎样训练，采样和温度怎样改变生成结果；运行一个易于检查的统计续写基线。
+5. CLIP怎样连接图像和文字；真实实验中，中心裁剪如何裁掉红车并影响排序。
+6. 指令微调、RLHF、DPO与图像/声音输入分别解决什么问题，最后回到原始论文。
+
+## 可以亲手复现的实验
+
+| 实验 | 设置 | 随仓库保留的结果 |
+|---|---|---|
+| 小型字符BPE | 五种短句重复三次，14轮合并 | 每一步的频次、切分、词表、编号与还原检查 |
+| 因果注意力 | 手设4×2的Q/K/V，得到4×4权重 | 点积分数、因果遮罩、softmax权重和加权输出；另附六维输入投影与六词元注意力示例 |
+| 下一字符统计基线 | 两字符上下文、平滑0.1；51句训练、13句留出 | 234个预测位置的NLL、完整候选分布、种子12的温度采样轨迹 |
+| CLIP图文检索 | 锁定公开模型版本，CPU推理；5条英文查询、3张生成候选图 | 原始相似度、排序、6张实际模型输入，以及中心裁剪/全图填边对照 |
+
+统计基线在固定留出集上的平均NLL为：单字符基线 **3.45096056**，三元模型 **0.57819300**。红车查询中，默认中心裁剪把车裁出模型输入；保留全图后，车图的余弦分数从 **0.228902** 变为 **0.318590**，排序也随之改变。完整定义与适用范围见[实验结果](docs/实验结果.md)。
+
+从仓库根目录开始，无需GPU或付费API：
+
+```sh
+python -m pip install -r chapters/03-language-multimodal/requirements-experiments.txt
+python chapters/03-language-multimodal/experiments/check_evidence.py
+python chapters/03-language-multimodal/experiments/run_mechanisms.py --out-dir runs/ch03-mechanisms
+```
+
+建议使用独立Python 3.12环境。新实验写入新空目录，冻结结果保留在 `results/`。CLIP重跑需要额外安装依赖并下载锁定版本的公开权重，详见[实验复现](docs/实验复现.md)。快速检查会重算机制结果并核对检索证据，不下载或运行CLIP模型。
+
+本章的小型统计模型帮助观察采样，注意力矩阵帮助计算公式，CLIP实验使用预训练模型。SFT、RLHF、DPO与多模态段落依据论文讲解机制；这些部分没有另外训练对应的大模型，也没有将独立实验称为一个已训练的端到端助手。
+
+## 目录与维护
+
+```text
+03-language-multimodal/
+├─ chapter.json                   # 版本、时长、主题与资料入口
+├─ experiments/                   # 可移植实验与证据检查
+├─ results/                       # 冻结数值、真实模型输入和核验记录
+├─ assets/inputs/                 # 三张原始检索候选图
+├─ assets/video-manifest.json     # 外部视频/声音/字体等相对路径与SHA-256
+├─ src/                           # V10实际依赖的Remotion场景
+├─ public/                        # 公开的小型图像、公式与实验数据
+├─ scripts/                       # 素材恢复与维护工具
+├─ supplements/                   # 讲稿、字幕、24节导航及精确时间线
+├─ docs/                          # 讲义、实验、论文、工程与来源说明
+├─ publication/2026-10-02/        # 四比例封面与平台文案
+├─ requirements-experiments.txt   # 机制实验最小依赖
+├─ requirements-clip.txt          # 可选的CLIP推理依赖
+└─ package.json / package-lock.json
+```
+
+当前合成入口为 `src/index-v10.tsx`，合成ID为 `Chapter03-V10-1080`。进入本章目录，运行 `npm ci`、`npm run check` 检查源码；完整预览前按[视频工程](docs/视频工程.md)恢复外部素材。学习和运行机制实验不需要恢复视频工程。
+
+公开工程优先直接解码视频，不携带原制作环境的逐帧JPEG缓存；不承诺与缓存版成片逐像素相同。保留仍被当前场景引用的旧版组件，按依赖维护，不按版本号删除。
+
+[本次资料同步与核验范围](docs/maintenance/第三章资料同步-2026-10-02.md) · [章节制作记录](docs/plan.md)
+
+原创内容与第三方材料的使用范围见 [LICENSE.md](../../LICENSE.md) 和 [THIRD_PARTY_NOTICES.md](../../shared/docs/THIRD_PARTY_NOTICES.md)。

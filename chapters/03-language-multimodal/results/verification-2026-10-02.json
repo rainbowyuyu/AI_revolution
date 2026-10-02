@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "verifiedAt": "2026-10-02T05:44:49.207044+00:00",
+  "environment": {
+    "python": "3.13.14",
+    "numpy": "2.4.4",
+    "Pillow": "12.2.0"
+  },
+  "mechanismsRecomputed": [
+    "tokenization",
+    "causal_attention",
+    "next_token",
+    "sampling_trace"
+  ],
+  "absoluteTolerance": 1e-12,
+  "independentSavedRunCompared": true,
+  "formulas": {
+    "normalization": "pass",
+    "crossEntropy": "pass",
+    "constructed6x2QKV": "pass"
+  },
+  "hashedEvidenceFiles": 17,
+  "clip": {
+    "modelInferenceRerun": false,
+    "modelDownloaded": false,
+    "pathOnlyMigrationVerified": true,
+    "candidateCount": 3,
+    "conditions": [
+      "center-crop",
+      "letterbox"
+    ],
+    "maxCosineToLogitAbsoluteError": 1.711536242510192e-06,
+    "maxCandidateSoftmaxAbsoluteError": 1.1623720097553303e-07,
+    "redCarTop1": {
+      "centerCrop": "umbrella_blue_door",
+      "letterbox": "red_car"
+    },
+    "scope": "Frozen record, hashes, rankings and arithmetic verified; not a fresh CLIP inference."
+  },
+  "metrics": {
+    "unigram": {
+      "meanNLL": 3.4509605611277547,
+      "perplexity": 31.53066489811738,
+      "predictedTokens": 234
+    },
+    "trigram": {
+      "meanNLL": 0.5781930003906346,
+      "perplexity": 1.782813974176668,
+      "predictedTokens": 234
+    }
+  },
+  "limitations": [
+    "Teaching corpora and matrices are deliberately small and constructed.",
+    "The 6 x 2 projection is not a learned network weight.",
+    "CLIP inference was not rerun during migration; only its frozen evidence was checked.",
+    "File hashes support provenance, not an independent reproduction of the original inference."
+  ],
+  "outputDirectoryProtection": {
+    "frozenResultsRejected": true,
+    "frozenResultsChildRejected": true,
+    "nonEmptyOutputRejected": true
+  },
+  "gitPreservesOriginalEvidenceBytes": true,
+  "commandsRunFromRepositoryRoot": [
+    "python chapters/03-language-multimodal/experiments/run_mechanisms.py --out-dir runs/ch03-migration-mechanisms-20261002",
+    "python chapters/03-language-multimodal/experiments/check_evidence.py --run-dir runs/ch03-migration-mechanisms-20261002 --out-dir runs/ch03-migration-final-check-20261002",
+    "python chapters/03-language-multimodal/experiments/run_clip.py --help"
+  ]
+}

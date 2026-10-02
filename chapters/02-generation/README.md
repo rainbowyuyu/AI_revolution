@@ -6,7 +6,7 @@
 
 当前资料对应 **V18，1920×1080，30 fps，54,724 帧，30 分 24 秒**。配套资料与真实实验已完成整理；4K 交付版由 1080p 升采样。GitHub 保存可编辑源码与学习材料，成片和大型媒体保留在原制作工程及备份中。
 
-[返回系列](../../README.md) · [上一章：看见与选择](../01-vision-choice/README.md) · [下一章：语言连接万物（规划）](../03-language-multimodal/README.md)
+[返回系列](../../README.md) · [上一章：看见与选择](../01-vision-choice/README.md) · [下一章：语言连接万物](../03-language-multimodal/README.md)
 
 ## 选择你的入口
 

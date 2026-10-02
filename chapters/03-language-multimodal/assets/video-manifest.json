@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "chapter": "03-language-multimodal",
+  "composition": {
+    "entry": "src/index-v10.tsx",
+    "id": "Chapter03-V10-1080",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationFrames": 71820
+  },
+  "assetRoot": "public",
+  "recovery": "Offline copy from a user-supplied original public directory; no downloads or credential access.",
+  "sourceDependencies": [
+    "src/index-v10.tsx",
+    "src/v10/CameraPass.tsx",
+    "src/v10/Film.tsx",
+    "src/v10/media.json",
+    "src/v10/paper-overrides.json",
+    "src/v10/papers.json",
+    "src/v10/PaperStage.tsx",
+    "src/v10/rainbow-mark.json",
+    "src/v10/Reproduce.tsx",
+    "src/v10/timeline.json",
+    "src/visualizations/v10/AlignmentMultimodal.tsx",
+    "src/visualizations/v10/AppliedObjects.tsx",
+    "src/visualizations/v10/AppliedSpatial.tsx",
+    "src/visualizations/v10/AssistantWalkthrough.tsx",
+    "src/visualizations/v10/AttentionFormulaLessonV8.tsx",
+    "src/visualizations/v10/AttentionTransformer.tsx",
+    "src/visualizations/v10/clipEvidence.ts",
+    "src/visualizations/v10/ClipEvidenceMechanism.tsx",
+    "src/visualizations/v10/CoreAttention.tsx",
+    "src/visualizations/v10/CoreGeometry.tsx",
+    "src/visualizations/v10/CoreTransformer.tsx",
+    "src/visualizations/v10/evidence.ts",
+    "src/visualizations/v10/InputWindow.tsx",
+    "src/visualizations/v10/latex-assets-v8.json",
+    "src/visualizations/v10/LatexFormula.tsx",
+    "src/visualizations/v10/layoutKey.ts",
+    "src/visualizations/v10/OpusAttentionMatrixV8.tsx",
+    "src/visualizations/v10/OpusFormulaWalkthrough.tsx",
+    "src/visualizations/v10/OpusSampling.tsx",
+    "src/visualizations/v10/OpusWeightedValues.tsx",
+    "src/visualizations/v10/OverviewScene.tsx",
+    "src/visualizations/v10/PredictionChoices.tsx",
+    "src/visualizations/v10/primitives.tsx",
+    "src/visualizations/v10/ProbabilityClip.tsx",
+    "src/visualizations/v10/samplingEvidence.ts",
+    "src/visualizations/v10/SpatialAttention.tsx",
+    "src/visualizations/v10/SpatialEmbedding.tsx",
+    "src/visualizations/v10/SpatialMultimodal.tsx",
+    "src/visualizations/v10/SpatialTransformer.tsx",
+    "src/visualizations/v10/TeachingVisual.tsx",
+    "src/visualizations/v10/TokenEmbedding.tsx"
+  ],
+  "productionDifferences": [
+    "Production JPEG frame caches are omitted. Film.VideoFrame and OverviewScene.Photo decode the same selected MP4 files using the original integer frame clocks.",
+    "Timing, captions, measured evidence, paper camera positions and the final mixed audio reference are retained. Video decoding may be slower and is not promised pixel-identical to JPEG caches.",
+    "Only renderer metadata is published. Per-utterance TTS files, raw audio paths, service task IDs, QA report paths and obsolete production revisions are omitted."
+  ],
+  "assets": [
+    {
+      "path": "audio/v10/master.flac",
+      "sourceKind": "final-narration-and-music-mix",
+      "distribution": "external",
+      "bytes": 340276210,
+      "sha256": "4da959af3b32531f86bd2a1612bcc5db814f0cf2f117f50bb69a7f78e2c5f036"
+    },
+    {
+      "path": "evidence/v2/clip/center-crop-red_car.png",
+      "sourceKind": "clip-preprocessed-input",
+      "distribution": "bundled",
+      "bytes": 86215,
+      "sha256": "19b4c1b29ff3615843d7df5125c5974fb430ea04da44f6fcd66a102376155d6a"
+    },
+    {
+      "path": "evidence/v2/clip/center-crop-umbrella_blue_door.png",
+      "sourceKind": "clip-preprocessed-input",
+      "distribution": "bundled",
+      "bytes": 74279,
+      "sha256": "453e7252ff267308883a60816be1e7645bc11f8b7f13b976e961446fdce351f5"
+    },
+    {
+      "path": "evidence/v2/clip/center-crop-umbrella_grass.png",
+      "sourceKind": "clip-preprocessed-input",
+      "distribution": "bundled",
+      "bytes": 76561,
+      "sha256": "0aa2ee66c5c85f9f6c8adf412338f02c01145c49b482a9f10dd20d5e884c76b0"
+    },
+    {
+      "path": "evidence/v2/clip/letterbox-red_car.png",
+      "sourceKind": "clip-preprocessed-input",
+      "distribution": "bundled",
+      "bytes": 51858,
+      "sha256": "157397674b3bad8135263da8ec7af4e2ef51d6cce6253300e4fbe7fd82734843"
+    },
+    {
+      "path": "evidence/v2/clip/letterbox-umbrella_blue_door.png",
+      "sourceKind": "clip-preprocessed-input",
+      "distribution": "bundled",
+      "bytes": 45299,
+      "sha256": "f472d0407eb09006b967d318f6f77d12a5658c4c42f574e28599d34cdb077062"
+    },
+    {
+      "path": "evidence/v2/clip/letterbox-umbrella_grass.png",
+      "sourceKind": "clip-preprocessed-input",
+      "distribution": "bundled",
+      "bytes": 44529,
+      "sha256": "966af67df92e40c481f4c1eb09eac835696adeb875d41924529c29ced0b444ae"
+    },
+    {
+      "path": "fonts/NotoSansSC.ttf",
+      "sourceKind": "font",
+      "distribution": "external",
+      "sourceUrl": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1; obtain the original license with the font",
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "fonts/NotoSerifSC.ttf",
+      "sourceKind": "font",
+      "distribution": "external",
+      "sourceUrl": "https://github.com/notofonts/noto-cjk",
+      "license": "SIL Open Font License 1.1; obtain the original license with the font",
+      "bytes": 25125512,
+      "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9"
+    },
+    {
+      "path": "media/v2/01-umbrella-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 1442776,
+      "sha256": "d2be8c9189c9a3a815e0fd83a3b2ecefd7913a4ea45e0336711ac0e451ac4287"
+    },
+    {
+      "path": "media/v2/01-umbrella-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 18039308,
+      "sha256": "522101d02b1a0882c448b3750bfdad3c33063c21d8fca10ee1e9a5d6a46cc051"
+    },
+    {
+      "path": "media/v2/01-umbrella.png",
+      "sourceKind": "generated-experiment-candidate",
+      "distribution": "bundled",
+      "bytes": 2647220,
+      "sha256": "9aaedb5b3a6175fc98bb68d172b4ff0951e1aa242c13540613d8df222b261c09"
+    },
+    {
+      "path": "media/v2/02-language-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 707113,
+      "sha256": "b642d9cca6a2b347a6dc31c8925cfde04ee1af597e40f4713fed2068f993d3fc"
+    },
+    {
+      "path": "media/v2/02-language-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 13760194,
+      "sha256": "97363a3d6b652ba02d1bb1b6a00950e98fa0b150adbcc3f2a0407077d872a25a"
+    },
+    {
+      "path": "media/v2/03-attention-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 549621,
+      "sha256": "60d79e9fbf3acd78ea7c1a33c506239540ce44c70b6b0c743e21ab63c94d62d5"
+    },
+    {
+      "path": "media/v2/03-attention-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 11233881,
+      "sha256": "27915b9f65bc7de483ac66a7b027309088bd89ad749b39390049d3be5a8b9492"
+    },
+    {
+      "path": "media/v2/04-transformer-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 497861,
+      "sha256": "8c0a1f3b622a2ba97567da9ff78e3163b0b966472d076f696bfd04ef8a8074b8"
+    },
+    {
+      "path": "media/v2/04-transformer-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 9637146,
+      "sha256": "2159bd011b206d32cfa5be9bc03f47a538ec68ecf43bf70c1d26d493aa7f271e"
+    },
+    {
+      "path": "media/v2/05-prediction-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 1279234,
+      "sha256": "92012305abe45603536e6588237775fc63f1b0a1d2398fe78ebe5dbeb21dfe35"
+    },
+    {
+      "path": "media/v2/05-prediction-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 12188114,
+      "sha256": "614b1a10cb06867d123aaf958db94f26634f08ed1151a6ce8d464d53dcf310a5"
+    },
+    {
+      "path": "media/v2/06-alignment-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 888592,
+      "sha256": "51f21892e66f346925456907c60b0fb3210ae6542c5c5404ed06f39b13611e3a"
+    },
+    {
+      "path": "media/v2/06-alignment-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 16074917,
+      "sha256": "f027df0408bbe8d63c6006e2ff1f379c15ffcc8968512a7e8f4aa8f60a830d92"
+    },
+    {
+      "path": "media/v2/07-dialogue-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 388747,
+      "sha256": "4fc96c01f1fab062bbc4d87b56ab6993242b4ac033b9c68aaf4cae7dbbb83359"
+    },
+    {
+      "path": "media/v2/07-dialogue-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 6459131,
+      "sha256": "1ae0d1e733229791934e3bdbd5962637ec7b093bf84a813795a94f41906ed4a0"
+    },
+    {
+      "path": "media/v2/08-world-first.png",
+      "sourceKind": "generated-environment-first-frame",
+      "distribution": "bundled",
+      "bytes": 871334,
+      "sha256": "565eeaf079176d6cdbde6b384609d5f740fb4a13c945eb6999960ef2b5382c9c"
+    },
+    {
+      "path": "media/v2/08-world-loop.mp4",
+      "sourceKind": "generated-environment-video",
+      "distribution": "external",
+      "bytes": 11502636,
+      "sha256": "b8e05a45798f7da634ca4bb5a247e82a52847ce650b7155ae52ce7f746c2fdee"
+    },
+    {
+      "path": "media/v2/bridge-01-fdeaab31-r2-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Regenerated endpoint bridge with physical foreground doorway",
+      "bytes": 3769540,
+      "sha256": "2738ca494b4e74ba18594ac9b9d5f39c7b23794210cbb871c168c315203c7c44"
+    },
+    {
+      "path": "media/v2/bridge-04-3fda33cd-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 3400332,
+      "sha256": "76b3bcc35ef10457696a518679536edf7992b1bfa59c48ec0ef74aae1a0c2347"
+    },
+    {
+      "path": "media/v2/bridge-05-accf2f8c-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 3591023,
+      "sha256": "40e478b5747ea716e36f0b1d2d8d1bebd0b9e47fdf06938c5fd3c52a554fcc88"
+    },
+    {
+      "path": "media/v2/bridge-06-58e9dade-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 3116805,
+      "sha256": "35356207b2f1bb63b5e7dcfe041024865d10e15c4c95da6f7875dbd07276f6aa"
+    },
+    {
+      "path": "media/v2/bridge-07-07c30977-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated continuous foreground camera passage",
+      "bytes": 2862615,
+      "sha256": "a870fe69269ab156b0385d74221d3c8a5b0167cce00a3b391fbe7c6049af5a0a"
+    },
+    {
+      "path": "media/v2/bridge-08-a75c8a51-r2-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Regenerated endpoint bridge with physical foreground doorway",
+      "bytes": 2663792,
+      "sha256": "757ed20dbd56e43755f4fd620c37ff65fdcf7bdf83a8dedcf1bcbc097e60449f"
+    },
+    {
+      "path": "media/v2/bridge-09-d26e5a5d-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 3799050,
+      "sha256": "9417df29938a9485f53c332701b140a2a3d1e69f6407c08318902a395217b8fc"
+    },
+    {
+      "path": "media/v2/bridge-10-1d27dcb9-30.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 2897735,
+      "sha256": "9aee8dad920e15765d2a91cf6b6727cc6cbf29b4bd0d13be741057d53840c4a5"
+    },
+    {
+      "path": "media/v2/candidate-red-car.png",
+      "sourceKind": "generated-experiment-candidate",
+      "distribution": "bundled",
+      "bytes": 3202234,
+      "sha256": "d29aefc10870b100babd0f073504d6c7897740112574497eaa0736f0f8db06da"
+    },
+    {
+      "path": "media/v2/candidate-umbrella-grass.png",
+      "sourceKind": "generated-experiment-candidate",
+      "distribution": "bundled",
+      "bytes": 2692604,
+      "sha256": "a54a30a73a704edf923d3c52ff67b4f33fc96027f278d833dc8f64824094e452"
+    },
+    {
+      "path": "media/v8/bridge-02-d9ea97c6-v8-camera-match.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 5430547,
+      "sha256": "fca06801cea9fce70119c3c7d23ec6e1db368c76e61974eebb2cdaa41e00d5d5"
+    },
+    {
+      "path": "media/v8/bridge-03-fb7c26f5-v8-r1.mp4",
+      "sourceKind": "generated-transition-video",
+      "distribution": "external",
+      "productionNote": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "bytes": 3850434,
+      "sha256": "b10727b18078bff72839e15f2b935ae15141bcf6a4cf121c6cb9d04c550d4383"
+    },
+    {
+      "path": "papers/v2/bpe-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1508.07909",
+      "paperId": "bpe",
+      "page": 1,
+      "bytes": 355182,
+      "sha256": "da5a0d3f42e88ddf60f07edbcc703b6d18683e5792050742ea4fd9a18cb23b45"
+    },
+    {
+      "path": "papers/v2/bpe-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1508.07909",
+      "paperId": "bpe",
+      "page": 1,
+      "bytes": 1100322,
+      "sha256": "0a3472657c241a6c2998aed20b631a7ece14a6b2b2aae3fa800d7c0fe79beb03"
+    },
+    {
+      "path": "papers/v2/bpe-4-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1508.07909",
+      "paperId": "bpe",
+      "page": 4,
+      "bytes": 119205,
+      "sha256": "e5bf1efdababa5a733ab5e77f71633deb9f5e656a2d34a6462e88cad9782becb"
+    },
+    {
+      "path": "papers/v2/bpe-4.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1508.07909",
+      "paperId": "bpe",
+      "page": 4,
+      "bytes": 1111867,
+      "sha256": "026a11f1ff2692badbb742b7a170284213151b2e591f30fefb8e9a27f7830d29"
+    },
+    {
+      "path": "papers/v2/clip-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2103.00020",
+      "paperId": "clip",
+      "page": 1,
+      "bytes": 429648,
+      "sha256": "57de48787ed743bc3f6d25a647c11c069fea235f08f4b82331f582e89bae67ed"
+    },
+    {
+      "path": "papers/v2/clip-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2103.00020",
+      "paperId": "clip",
+      "page": 1,
+      "bytes": 1210785,
+      "sha256": "3b0ba35a8121f438e9e70f79d9b7f79dbbe7e4b6ea5b207ad2a394348840d432"
+    },
+    {
+      "path": "papers/v2/clip-2-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2103.00020",
+      "paperId": "clip",
+      "page": 2,
+      "bytes": 186486,
+      "sha256": "e63fc854a3bbb8283daadd1373aeddd323f5788ea280cc69147eb085011a76cc"
+    },
+    {
+      "path": "papers/v2/clip-2.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2103.00020",
+      "paperId": "clip",
+      "page": 2,
+      "bytes": 1174365,
+      "sha256": "202b8faa4ff3b58da76b0bb859c700b382488ca2d1f1b6c25326938f6814923a"
+    },
+    {
+      "path": "papers/v2/dpo-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2305.18290",
+      "paperId": "dpo",
+      "page": 1,
+      "bytes": 224759,
+      "sha256": "0173bed9ca531dcefabd46ab5b5c20cdd31c5f05f2469c924d1db2e1e5b56ae2"
+    },
+    {
+      "path": "papers/v2/dpo-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2305.18290",
+      "paperId": "dpo",
+      "page": 1,
+      "bytes": 870237,
+      "sha256": "84e2bc22bc663fb95fa657cb60a552cbdfc81fea8b679db18d3f08a703b24738"
+    },
+    {
+      "path": "papers/v2/dpo-2-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2305.18290",
+      "paperId": "dpo",
+      "page": 2,
+      "bytes": 149068,
+      "sha256": "bb8ea08ea6ddf37868b17cf52c6247aed382ebe643f112074357555972614c99"
+    },
+    {
+      "path": "papers/v2/dpo-2.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2305.18290",
+      "paperId": "dpo",
+      "page": 2,
+      "bytes": 1210822,
+      "sha256": "ed175af79330b932ec585d4d252d9a2c6a62dab55fd867cd5735e3c7c2095e94"
+    },
+    {
+      "path": "papers/v2/gpt3-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2005.14165",
+      "paperId": "gpt3",
+      "page": 1,
+      "bytes": 133630,
+      "sha256": "f07f6dfa33fa5528599a78c142535bbbb1699cd2f6f76e4316c3e53bc444cc2f"
+    },
+    {
+      "path": "papers/v2/gpt3-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2005.14165",
+      "paperId": "gpt3",
+      "page": 1,
+      "bytes": 702456,
+      "sha256": "7e89780714d95aa425fc30fca4d2bbdbc801511953dc5eda95b89e6053f5b359"
+    },
+    {
+      "path": "papers/v2/gpt3-3-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2005.14165",
+      "paperId": "gpt3",
+      "page": 3,
+      "bytes": 275794,
+      "sha256": "5425232286a00bef03d53504016e4bfbf09f8fc38ff902020eda95341ce80944"
+    },
+    {
+      "path": "papers/v2/gpt3-3.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2005.14165",
+      "paperId": "gpt3",
+      "page": 3,
+      "bytes": 1043233,
+      "sha256": "4abb1d95ce3a59870bc84d05d835a9672b5dc985c7d3a90242d8ae5e59029a72"
+    },
+    {
+      "path": "papers/v2/gpt3-4-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2005.14165",
+      "paperId": "gpt3",
+      "page": 4,
+      "bytes": 175497,
+      "sha256": "11051211e62aa6aabad1ba571d2f5c83c4ecba4f09e933d557d60ade0c6509af"
+    },
+    {
+      "path": "papers/v2/gpt3-4.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2005.14165",
+      "paperId": "gpt3",
+      "page": 4,
+      "bytes": 1026852,
+      "sha256": "0e75dbb8a3c16ab03178532ae91a3b1402be2c60d9eb192da62558ad61a7c20f"
+    },
+    {
+      "path": "papers/v2/instructgpt-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2203.02155",
+      "paperId": "instructgpt",
+      "page": 1,
+      "bytes": 149070,
+      "sha256": "040ab2f573604b2df91cf73d51e6483e9f1112e7309dbd74f4ddeff8a149134e"
+    },
+    {
+      "path": "papers/v2/instructgpt-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2203.02155",
+      "paperId": "instructgpt",
+      "page": 1,
+      "bytes": 732063,
+      "sha256": "644303b8545c779ab94cf41299ccfe4c87954cae83317a4f664d4bf6cda2c50c"
+    },
+    {
+      "path": "papers/v2/instructgpt-3-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2203.02155",
+      "paperId": "instructgpt",
+      "page": 3,
+      "bytes": 195449,
+      "sha256": "8fc56891c37d9a2ae3926235e02f7b03ea07f8dabe6542d97b227f20cd209599"
+    },
+    {
+      "path": "papers/v2/instructgpt-3.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2203.02155",
+      "paperId": "instructgpt",
+      "page": 3,
+      "bytes": 895563,
+      "sha256": "288ac83f6ca2bd057f51df11cf2e1c6d7aa68810e0674d2dbcacfe4045f26e22"
+    },
+    {
+      "path": "papers/v2/llava-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2304.08485",
+      "paperId": "llava",
+      "page": 1,
+      "bytes": 273737,
+      "sha256": "97148844f38a9dee818bd51e442a274dfca52b5b4aec7d73a859392cc80fb45c"
+    },
+    {
+      "path": "papers/v2/llava-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2304.08485",
+      "paperId": "llava",
+      "page": 1,
+      "bytes": 990694,
+      "sha256": "6d541ee3a8ae5d55ac751c9f8bbd5236ce1955f4e47ac422d411315f2e2425d7"
+    },
+    {
+      "path": "papers/v2/llava-4-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2304.08485",
+      "paperId": "llava",
+      "page": 4,
+      "bytes": 70545,
+      "sha256": "594fa449db73ceb32e7ee71fb52b852b103b58b0f7ea11ceca6a91634f38985d"
+    },
+    {
+      "path": "papers/v2/llava-4.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/2304.08485",
+      "paperId": "llava",
+      "page": 4,
+      "bytes": 798962,
+      "sha256": "0a4738b2598aa8bedcf8c6b3ed2012ecdc5ab8385efc502e1496da1030fc6357"
+    },
+    {
+      "path": "papers/v2/transformer-1-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 1,
+      "bytes": 154081,
+      "sha256": "7e8af6eed8d3b681ff7debe1eb08c65cd7721fc900495b73cb240fbd671aa7e1"
+    },
+    {
+      "path": "papers/v2/transformer-1.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 1,
+      "bytes": 774810,
+      "sha256": "f98bd7488110c5b712a52fd8b18489c428ed849f71fea8a150a24eb9334430ad"
+    },
+    {
+      "path": "papers/v2/transformer-3-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 3,
+      "bytes": 163347,
+      "sha256": "69550b80c30370678066f434951630790960753e4d84d3d1955f84300acfb637"
+    },
+    {
+      "path": "papers/v2/transformer-3.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 3,
+      "bytes": 593682,
+      "sha256": "9ec42d05c6f917cb63ff92d1980f36072f69f6792aeb55ddac3f11fd475f630a"
+    },
+    {
+      "path": "papers/v2/transformer-4-focus.png",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 4,
+      "bytes": 109459,
+      "sha256": "d90efb6c1a0f6cb8705b87d0b12ccd611bed11ad790f5b364ff857a9996d02ac"
+    },
+    {
+      "path": "papers/v2/transformer-4.jpg",
+      "sourceKind": "paper-page-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 4,
+      "bytes": 698945,
+      "sha256": "04b1639143b1b3a731fdcc7e663d40a07b3226a67906e4997e5be3e4b3edd013"
+    },
+    {
+      "path": "papers/v5/transformer-4-equation.png",
+      "sourceKind": "paper-equation-render",
+      "distribution": "external",
+      "sourceUrl": "https://arxiv.org/pdf/1706.03762",
+      "paperId": "transformer",
+      "page": 4,
+      "bytes": 31186,
+      "sha256": "c9cab3af862b97278cd204e0bed0bf83c74274e202b92902d0d9194adb5b0f77"
+    }
+  ]
+}

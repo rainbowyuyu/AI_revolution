@@ -50,15 +50,22 @@
       "id": "03",
       "path": "chapters/03-language-multimodal",
       "title": "语言连接万物",
-      "status": "planned",
+      "status": "materials-ready",
       "topics": [
+        "Tokenization",
         "Transformer",
         "LLM",
         "CLIP",
         "SFT",
         "RLHF",
+        "DPO",
         "Multimodal"
-      ]
+      ],
+      "version": "V10",
+      "publicationTitle": "AI 如何理解一句话",
+      "composition": "Chapter03-V10-1080",
+      "fps": 30,
+      "frames": 71820
     },
     {
       "id": "04",

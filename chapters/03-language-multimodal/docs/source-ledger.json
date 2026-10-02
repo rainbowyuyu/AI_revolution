@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "chapter": "03-language-multimodal",
+  "sourceCheckedAtUTC": "2026-09-30T03:12:09.233013+00:00",
+  "publicIndexCheckedDate": "2026-10-02",
+  "pageConvention": "PDF physical pages, one-based; use the exact version and SHA-256 below.",
+  "distribution": "This repository links to source PDFs and does not redistribute whole PDFs. Original teaching diagrams are in docs/assets. Paper figures retain their original rights.",
+  "papers": [
+    {
+      "id": "transformer",
+      "title": "Attention Is All You Need",
+      "authors": "Ashish Vaswani et al.",
+      "year": 2017,
+      "version": "1706.03762v7",
+      "pdfURL": "https://arxiv.org/pdf/1706.03762v7",
+      "abstractURL": "https://arxiv.org/abs/1706.03762v7",
+      "pdfPages": 15,
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "verifiedLocations": [
+        {
+          "page": 3,
+          "location": "Figure 1"
+        },
+        {
+          "page": 4,
+          "location": "Figure 2"
+        }
+      ],
+      "supports": "缩放点积注意力、因果遮罩、多头、残差连接、位置前馈网络与层归一化。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "gpt3",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": "Tom B. Brown et al.",
+      "year": 2020,
+      "version": "2005.14165v4",
+      "pdfURL": "https://arxiv.org/pdf/2005.14165v4",
+      "abstractURL": "https://arxiv.org/abs/2005.14165v4",
+      "pdfPages": 75,
+      "sha256": "97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83",
+      "verifiedLocations": [
+        {
+          "page": 4,
+          "location": "Figure 1.2"
+        },
+        {
+          "page": 3,
+          "location": "Figure 1.1"
+        }
+      ],
+      "supports": "自回归语言建模与上下文示例；输入提示中的示例不等同于当场更新参数。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "clip",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "authors": "Alec Radford et al.",
+      "year": 2021,
+      "version": "2103.00020v1",
+      "pdfURL": "https://arxiv.org/pdf/2103.00020v1",
+      "abstractURL": "https://arxiv.org/abs/2103.00020v1",
+      "pdfPages": 48,
+      "sha256": "6478b6e571a7d6fcd846d8ef77bfd60c285f1986abb8f475eedc43de403074f5",
+      "verifiedLocations": [
+        {
+          "page": 2,
+          "location": "Figure 1"
+        }
+      ],
+      "supports": "图像/文本双编码器与对比学习；候选余弦排序不等同于校准的正确概率。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "instructgpt",
+      "title": "Training language models to follow instructions with human feedback",
+      "authors": "Long Ouyang et al.",
+      "year": 2022,
+      "version": "2203.02155v1",
+      "pdfURL": "https://arxiv.org/pdf/2203.02155v1",
+      "abstractURL": "https://arxiv.org/abs/2203.02155v1",
+      "pdfPages": 68,
+      "sha256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98",
+      "verifiedLocations": [
+        {
+          "page": 3,
+          "location": "Figure 2"
+        }
+      ],
+      "supports": "监督微调、偏好数据奖励模型、带参考策略约束的策略优化。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "dpo",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "authors": "Rafael Rafailov et al.",
+      "year": 2023,
+      "version": "2305.18290v3",
+      "pdfURL": "https://arxiv.org/pdf/2305.18290v3",
+      "abstractURL": "https://arxiv.org/abs/2305.18290v3",
+      "pdfPages": 27,
+      "sha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a",
+      "verifiedLocations": [
+        {
+          "page": 2,
+          "location": "Figure 1"
+        },
+        {
+          "page": 4,
+          "location": "Direct Preference Optimization"
+        }
+      ],
+      "supports": "用偏好对直接优化策略；本文方法无需训练独立奖励模型再在线运行强化学习环路。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "llava",
+      "title": "Visual Instruction Tuning",
+      "authors": "Haotian Liu et al.",
+      "year": 2023,
+      "version": "2304.08485v2",
+      "pdfURL": "https://arxiv.org/pdf/2304.08485v2",
+      "abstractURL": "https://arxiv.org/abs/2304.08485v2",
+      "pdfPages": 25,
+      "sha256": "dc8bace378a282ea78caa9b5959306202fbfa3b8cedaf8a66541a9af18f4d3bf",
+      "verifiedLocations": [
+        {
+          "page": 4,
+          "location": "Figure 1"
+        }
+      ],
+      "supports": "视觉编码器、可训练投影与语言模型结合；视觉指令微调。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "bpe",
+      "title": "Neural Machine Translation of Rare Words with Subword Units",
+      "authors": "Rico Sennrich, Barry Haddow, Alexandra Birch",
+      "year": 2016,
+      "version": "1508.07909v5",
+      "pdfURL": "https://arxiv.org/pdf/1508.07909v5",
+      "abstractURL": "https://arxiv.org/abs/1508.07909v5",
+      "pdfPages": 11,
+      "sha256": "f4e5a6bbbe0d87459997fffe892f8be485e33903cc71f923c2884639fbf96401",
+      "verifiedLocations": [
+        {
+          "page": 4,
+          "location": "Algorithm 1"
+        }
+      ],
+      "supports": "相邻字符片段按语料统计逐轮合并；词元编号只是索引。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "rope",
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "authors": "Jianlin Su et al.",
+      "year": 2021,
+      "version": "2104.09864v5",
+      "pdfURL": "https://arxiv.org/pdf/2104.09864v5",
+      "abstractURL": "https://arxiv.org/abs/2104.09864v5",
+      "pdfPages": 14,
+      "sha256": "e9a481fbe1c8a20b7b1fa566b13102a1896c7829fa9a8b4c80528452a5ddaf79",
+      "verifiedLocations": [
+        {
+          "page": 4,
+          "location": "Sections 3.1–3.2",
+          "supports": "Rotary position derivation."
+        },
+        {
+          "page": 5,
+          "location": "Section 3.2.2 and Figure 1",
+          "supports": "Higher-dimensional rotary embedding and implementation."
+        }
+      ],
+      "supports": "把位置编码为旋转，注意力点积中的相对位置关系。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "whisper",
+      "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "authors": "Alec Radford et al.",
+      "year": 2022,
+      "version": "2212.04356v1",
+      "pdfURL": "https://arxiv.org/pdf/2212.04356v1",
+      "abstractURL": "https://arxiv.org/abs/2212.04356v1",
+      "pdfPages": 28,
+      "sha256": "6337bde031b2f237547a977b022f831169a7e05b4d9047f29501166d83594566",
+      "verifiedLocations": [
+        {
+          "page": 3,
+          "location": "Section 2.3 Multitask Format",
+          "supports": "Task tokens and audio-to-text interface."
+        },
+        {
+          "page": 4,
+          "location": "Figure 1",
+          "supports": "Log-Mel input, encoder-decoder and multitask format."
+        }
+      ],
+      "supports": "声音波形到时频表示，再由语音编码与语言解码完成任务。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    },
+    {
+      "id": "flamingo",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "authors": "Jean-Baptiste Alayrac et al.",
+      "year": 2022,
+      "version": "2204.14198v2",
+      "pdfURL": "https://arxiv.org/pdf/2204.14198v2",
+      "abstractURL": "https://arxiv.org/abs/2204.14198v2",
+      "pdfPages": 54,
+      "sha256": "27af622bf50987fd98a03451a27a670adfaeefd5218a3e990b37abc326ba63f0",
+      "verifiedLocations": [
+        {
+          "page": 4,
+          "location": "Figure 3",
+          "supports": "Vision encoder, Perceiver Resampler and language model architecture."
+        },
+        {
+          "page": 5,
+          "location": "Figure 4 and Sections 2.1–2.2",
+          "supports": "Gated cross-attention: language queries, visual keys/values."
+        }
+      ],
+      "supports": "视觉输入与语言模型可通过架构接口连接；不同多模态方法的接口不同。",
+      "verification": "Source PDF text inspected at the listed pages; figure and section labels checked.",
+      "reuse": "Link and paraphrase; no whole-PDF redistribution."
+    }
+  ],
+  "dateNotes": {
+    "bpe": "ACL 2016 paper; arXiv first submission 2015. This work applies subword units to neural machine translation, not the original invention of BPE.",
+    "rope": "2021 refers to first arXiv preprint; PDF is locked to v5.",
+    "whisper": "2022 refers to the preprint; later publication year may differ."
+  },
+  "experimentalEvidence": [
+    {
+      "id": "bpe",
+      "path": "results/tokenization.json",
+      "kind": "Executed character BPE teaching implementation; 14 merges."
+    },
+    {
+      "id": "attention",
+      "path": "results/causal_attention.json",
+      "kind": "Executed hand-set 4×2 Q/K/V mechanism, not trained semantic heads."
+    },
+    {
+      "id": "language-model",
+      "path": "results/next_token.json",
+      "kind": "Character trigram counts with backoff; not Transformer training."
+    },
+    {
+      "id": "sampling",
+      "path": "results/sampling_trace.json",
+      "kind": "Saved seeded sampling trajectories."
+    },
+    {
+      "id": "clip",
+      "path": "results/clip_retrieval.json",
+      "kind": "Real pretrained-model inference on three generated input images.",
+      "model": "openai/clip-vit-base-patch32",
+      "modelAndProcessorRevision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "inputDirectory": "assets/inputs/",
+      "processedInputDirectory": "results/clip-inputs/"
+    }
+  ],
+  "teachingFigures": [
+    {
+      "path": "docs/assets/01-task-map.svg",
+      "type": "Original explanatory diagram"
+    },
+    {
+      "path": "docs/assets/02-causal-attention.svg",
+      "type": "Original chart drawn from results/causal_attention.json"
+    },
+    {
+      "path": "docs/assets/03-temperature.svg",
+      "type": "Original chart drawn from results/next_token.json; aggregate all remaining 36 outcomes"
+    },
+    {
+      "path": "docs/assets/04-clip-crop.png",
+      "type": "Actual saved 224×224 model inputs, enlarged for display, with original result annotations; no replacement scene generation"
+    }
+  ]
+}

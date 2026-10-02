@@ -1,0 +1,288 @@
+{
+  "groups": [
+    {
+      "env": "01-umbrella",
+      "from": 0,
+      "to": 2980,
+      "sections": [
+        "s01"
+      ],
+      "image": "media/v2/01-umbrella-first.png",
+      "video": "media/v2/01-umbrella-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 1.0487632508833922
+    },
+    {
+      "env": "02-language",
+      "from": 2980,
+      "to": 8893,
+      "sections": [
+        "s02",
+        "s03"
+      ],
+      "image": "media/v2/02-language-first.png",
+      "video": "media/v2/02-language-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.9951414193996182
+    },
+    {
+      "env": "03-attention",
+      "from": 8893,
+      "to": 25719,
+      "sections": [
+        "s04",
+        "s05",
+        "s06",
+        "s07"
+      ],
+      "image": "media/v2/03-attention-first.png",
+      "video": "media/v2/03-attention-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.9874070520508516
+    },
+    {
+      "env": "04-transformer",
+      "from": 25719,
+      "to": 32650,
+      "sections": [
+        "s08",
+        "s09"
+      ],
+      "image": "media/v2/04-transformer-first.png",
+      "video": "media/v2/04-transformer-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 1.0426190827311606
+    },
+    {
+      "env": "05-prediction",
+      "from": 32650,
+      "to": 42854,
+      "sections": [
+        "s10",
+        "s11",
+        "s12"
+      ],
+      "image": "media/v2/05-prediction-first.png",
+      "video": "media/v2/05-prediction-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.9793117167296599
+    },
+    {
+      "env": "06-alignment",
+      "from": 42854,
+      "to": 49798,
+      "sections": [
+        "s13",
+        "s14"
+      ],
+      "image": "media/v2/06-alignment-first.png",
+      "video": "media/v2/06-alignment-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.9680600529879305
+    },
+    {
+      "env": "07-dialogue",
+      "from": 49798,
+      "to": 58153,
+      "sections": [
+        "s15",
+        "s16",
+        "s17"
+      ],
+      "image": "media/v2/07-dialogue-first.png",
+      "video": "media/v2/07-dialogue-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 1.0124314442413163
+    },
+    {
+      "env": "08-world",
+      "from": 58153,
+      "to": 62544,
+      "sections": [
+        "s18",
+        "s19"
+      ],
+      "image": "media/v2/08-world-first.png",
+      "video": "media/v2/08-world-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.9761848620608347
+    },
+    {
+      "env": "01-umbrella",
+      "from": 62544,
+      "to": 64484,
+      "sections": [
+        "s20"
+      ],
+      "image": "media/v2/01-umbrella-first.png",
+      "video": "media/v2/01-umbrella-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.8670391061452514
+    },
+    {
+      "env": "04-transformer",
+      "from": 64484,
+      "to": 69811,
+      "sections": [
+        "s21",
+        "s22",
+        "s23"
+      ],
+      "image": "media/v2/04-transformer-first.png",
+      "video": "media/v2/04-transformer-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 0.9945914622368167
+    },
+    {
+      "env": "08-world",
+      "from": 69811,
+      "to": 71820,
+      "sections": [
+        "s24"
+      ],
+      "image": "media/v2/08-world-first.png",
+      "video": "media/v2/08-world-loop.mp4",
+      "frames": 600,
+      "ready": true,
+      "playbackRate": 1.0
+    }
+  ],
+  "bridges": [
+    {
+      "id": "bridge-01-fdeaab31",
+      "from": 2830,
+      "to": 2980,
+      "video": "media/v2/bridge-01-fdeaab31-r2-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "01-umbrella",
+      "targetEnv": "02-language",
+      "repairMethod": "Regenerated endpoint bridge with physical foreground doorway"
+    },
+    {
+      "id": "bridge-02-d9ea97c6",
+      "from": 8743,
+      "to": 8893,
+      "video": "media/v8/bridge-02-d9ea97c6-v8-camera-match.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "02-language",
+      "targetEnv": "03-attention",
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion",
+      "sourceKind": "Qwen generated selected shots plus programmatic matched camera edit"
+    },
+    {
+      "id": "bridge-03-fb7c26f5",
+      "from": 25569,
+      "to": 25719,
+      "video": "media/v8/bridge-03-fb7c26f5-v8-r1.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "03-attention",
+      "targetEnv": "04-transformer",
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion"
+    },
+    {
+      "id": "bridge-04-3fda33cd",
+      "from": 32500,
+      "to": 32650,
+      "video": "media/v2/bridge-04-3fda33cd-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "04-transformer",
+      "targetEnv": "05-prediction",
+      "occlusionCenter": 70,
+      "occlusionDuration": 42,
+      "occlusionWidth": 5200,
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion"
+    },
+    {
+      "id": "bridge-05-accf2f8c",
+      "from": 42704,
+      "to": 42854,
+      "video": "media/v2/bridge-05-accf2f8c-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "05-prediction",
+      "targetEnv": "06-alignment",
+      "occlusionCenter": 70,
+      "occlusionDuration": 42,
+      "occlusionWidth": 5200,
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion"
+    },
+    {
+      "id": "bridge-06-58e9dade",
+      "from": 49648,
+      "to": 49798,
+      "video": "media/v2/bridge-06-58e9dade-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "06-alignment",
+      "targetEnv": "07-dialogue",
+      "occlusionCenter": 104,
+      "occlusionDuration": 42,
+      "occlusionWidth": 5200,
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion"
+    },
+    {
+      "id": "bridge-07-07c30977",
+      "from": 58003,
+      "to": 58153,
+      "video": "media/v2/bridge-07-07c30977-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "07-dialogue",
+      "targetEnv": "08-world",
+      "repairMethod": "Generated continuous foreground camera passage"
+    },
+    {
+      "id": "bridge-08-a75c8a51",
+      "from": 62394,
+      "to": 62544,
+      "video": "media/v2/bridge-08-a75c8a51-r2-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "08-world",
+      "targetEnv": "01-umbrella",
+      "repairMethod": "Regenerated endpoint bridge with physical foreground doorway"
+    },
+    {
+      "id": "bridge-09-d26e5a5d",
+      "from": 64334,
+      "to": 64484,
+      "video": "media/v2/bridge-09-d26e5a5d-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "01-umbrella",
+      "targetEnv": "04-transformer",
+      "occlusionCenter": 89,
+      "occlusionDuration": 42,
+      "occlusionWidth": 5200,
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion"
+    },
+    {
+      "id": "bridge-10-1d27dcb9",
+      "from": 69661,
+      "to": 69811,
+      "video": "media/v2/bridge-10-1d27dcb9-30.mp4",
+      "frames": 150,
+      "ready": true,
+      "sourceEnv": "04-transformer",
+      "targetEnv": "08-world",
+      "occlusionCenter": 111,
+      "occlusionDuration": 42,
+      "occlusionWidth": 5200,
+      "repairMethod": "Generated endpoint bridge plus foreground architectural camera occlusion"
+    }
+  ]
+}

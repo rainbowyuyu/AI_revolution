@@ -1,0 +1,2 @@
+# Preserve frozen evidence byte-for-byte so the recorded SHA-256 stays valid.
+* -text whitespace=cr-at-eol

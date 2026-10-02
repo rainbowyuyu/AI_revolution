@@ -1,0 +1,306 @@
+[
+  {
+    "id": "transformer",
+    "page": 1,
+    "title": "Attention Is All You Need",
+    "authors": "Vaswani 等",
+    "year": 2017,
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "image": "papers/v2/transformer-1.jpg",
+    "focusImage": "papers/v2/transformer-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+  },
+  {
+    "id": "transformer",
+    "page": 3,
+    "title": "Attention Is All You Need",
+    "authors": "Vaswani 等",
+    "year": 2017,
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "image": "papers/v2/transformer-3.jpg",
+    "focusImage": "papers/v2/transformer-3-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      143,
+      58,
+      491,
+      400
+    ],
+    "pdfSHA256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+  },
+  {
+    "id": "transformer",
+    "page": 4,
+    "title": "Attention Is All You Need",
+    "authors": "Vaswani 等",
+    "year": 2017,
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "image": "papers/v2/transformer-4.jpg",
+    "focusImage": "papers/v2/transformer-4-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      113,
+      50,
+      506,
+      269
+    ],
+    "pdfSHA256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+  },
+  {
+    "id": "gpt3",
+    "page": 1,
+    "title": "Language Models are Few-Shot Learners",
+    "authors": "Brown 等",
+    "year": 2020,
+    "url": "https://arxiv.org/pdf/2005.14165",
+    "image": "papers/v2/gpt3-1.jpg",
+    "focusImage": "papers/v2/gpt3-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83"
+  },
+  {
+    "id": "gpt3",
+    "page": 3,
+    "title": "Language Models are Few-Shot Learners",
+    "authors": "Brown 等",
+    "year": 2020,
+    "url": "https://arxiv.org/pdf/2005.14165",
+    "image": "papers/v2/gpt3-3.jpg",
+    "focusImage": "papers/v2/gpt3-3-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      72,
+      310,
+      540,
+      654
+    ],
+    "pdfSHA256": "97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83"
+  },
+  {
+    "id": "gpt3",
+    "page": 4,
+    "title": "Language Models are Few-Shot Learners",
+    "authors": "Brown 等",
+    "year": 2020,
+    "url": "https://arxiv.org/pdf/2005.14165",
+    "image": "papers/v2/gpt3-4.jpg",
+    "focusImage": "papers/v2/gpt3-4-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      72,
+      65,
+      540,
+      285
+    ],
+    "pdfSHA256": "97fd272f1fdfc18677462d0292f5fbf26ca86b4d1b485c2dba03269b643a0e83"
+  },
+  {
+    "id": "clip",
+    "page": 1,
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "authors": "Radford 等",
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2103.00020",
+    "image": "papers/v2/clip-1.jpg",
+    "focusImage": "papers/v2/clip-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "6478b6e571a7d6fcd846d8ef77bfd60c285f1986abb8f475eedc43de403074f5"
+  },
+  {
+    "id": "clip",
+    "page": 2,
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "authors": "Radford 等",
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2103.00020",
+    "image": "papers/v2/clip-2.jpg",
+    "focusImage": "papers/v2/clip-2-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      45,
+      48,
+      568,
+      252
+    ],
+    "pdfSHA256": "6478b6e571a7d6fcd846d8ef77bfd60c285f1986abb8f475eedc43de403074f5"
+  },
+  {
+    "id": "instructgpt",
+    "page": 1,
+    "title": "Training language models to follow instructions with human feedback",
+    "authors": "Ouyang 等",
+    "year": 2022,
+    "url": "https://arxiv.org/pdf/2203.02155",
+    "image": "papers/v2/instructgpt-1.jpg",
+    "focusImage": "papers/v2/instructgpt-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98"
+  },
+  {
+    "id": "instructgpt",
+    "page": 3,
+    "title": "Training language models to follow instructions with human feedback",
+    "authors": "Ouyang 等",
+    "year": 2022,
+    "url": "https://arxiv.org/pdf/2203.02155",
+    "image": "papers/v2/instructgpt-3.jpg",
+    "focusImage": "papers/v2/instructgpt-3-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      100,
+      65,
+      514,
+      300
+    ],
+    "pdfSHA256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98"
+  },
+  {
+    "id": "dpo",
+    "page": 1,
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "authors": "Rafailov 等",
+    "year": 2023,
+    "url": "https://arxiv.org/pdf/2305.18290",
+    "image": "papers/v2/dpo-1.jpg",
+    "focusImage": "papers/v2/dpo-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a"
+  },
+  {
+    "id": "dpo",
+    "page": 2,
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "authors": "Rafailov 等",
+    "year": 2023,
+    "url": "https://arxiv.org/pdf/2305.18290",
+    "image": "papers/v2/dpo-2.jpg",
+    "focusImage": "papers/v2/dpo-2-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      104,
+      62,
+      506,
+      159
+    ],
+    "pdfSHA256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a"
+  },
+  {
+    "id": "llava",
+    "page": 1,
+    "title": "Visual Instruction Tuning",
+    "authors": "Liu 等",
+    "year": 2023,
+    "url": "https://arxiv.org/pdf/2304.08485",
+    "image": "papers/v2/llava-1.jpg",
+    "focusImage": "papers/v2/llava-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "dc8bace378a282ea78caa9b5959306202fbfa3b8cedaf8a66541a9af18f4d3bf"
+  },
+  {
+    "id": "llava",
+    "page": 4,
+    "title": "Visual Instruction Tuning",
+    "authors": "Liu 等",
+    "year": 2023,
+    "url": "https://arxiv.org/pdf/2304.08485",
+    "image": "papers/v2/llava-4.jpg",
+    "focusImage": "papers/v2/llava-4-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      149,
+      270,
+      466,
+      383
+    ],
+    "pdfSHA256": "dc8bace378a282ea78caa9b5959306202fbfa3b8cedaf8a66541a9af18f4d3bf"
+  },
+  {
+    "id": "bpe",
+    "page": 1,
+    "title": "Neural Machine Translation of Rare Words with Subword Units",
+    "authors": "Sennrich 等",
+    "year": 2016,
+    "url": "https://arxiv.org/pdf/1508.07909",
+    "image": "papers/v2/bpe-1.jpg",
+    "focusImage": "papers/v2/bpe-1-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      40,
+      35,
+      570,
+      420
+    ],
+    "pdfSHA256": "f4e5a6bbbe0d87459997fffe892f8be485e33903cc71f923c2884639fbf96401"
+  },
+  {
+    "id": "bpe",
+    "page": 4,
+    "title": "Neural Machine Translation of Rare Words with Subword Units",
+    "authors": "Sennrich 等",
+    "year": 2016,
+    "url": "https://arxiv.org/pdf/1508.07909",
+    "image": "papers/v2/bpe-4.jpg",
+    "focusImage": "papers/v2/bpe-4-focus.png",
+    "width": 612.0,
+    "height": 792.0,
+    "focus": [
+      70,
+      58,
+      294,
+      330
+    ],
+    "pdfSHA256": "f4e5a6bbbe0d87459997fffe892f8be485e33903cc71f923c2884639fbf96401"
+  }
+]
